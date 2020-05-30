@@ -64,6 +64,7 @@ class HomeView extends StatelessWidget {
                                     onPressed: () async {
                                       model.searchKeyword = _searchController.text.trim();
                                       await model.runFuture();
+                                      _ErrorMessage();
                                       _searchController.clear();
                                     },
                                     child: Text('Search'),
@@ -92,5 +93,22 @@ class HomeView extends StatelessWidget {
       ),
       viewModelBuilder: () => HomeViewModel(),
     );
+  }
+}
+
+class _ErrorMessage extends ViewModelWidget<HomeViewModel> {
+  const _ErrorMessage({Key key}) : super(key: key);
+
+  @override
+  Widget build(
+    BuildContext context,
+    HomeViewModel model,
+  ) {
+    return model.hasError
+        ? Text(
+            model.error.message,
+            style: TextStyle(color: Colors.red),
+          )
+        : Container();
   }
 }

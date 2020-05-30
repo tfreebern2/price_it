@@ -14,6 +14,11 @@ class HomeViewModel extends FutureViewModel<List<Item>> {
   }
 
   @override
+  void onError(error) {
+    // TODO: Revisit this
+  }
+
+  @override
   Future<List<Item>> futureToRun() {
     return apiService.searchForItems(conditionValue, searchKeyword);
   }

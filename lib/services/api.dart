@@ -13,13 +13,13 @@ class Api {
   var client = new http.Client();
 
   Future<List<Item>> searchForItems(String selectorValue, String searchKeyword) async {
-    String requestBody = _buildSearchRequest(selectorValue, searchKeyword);
+    String requestBody = buildSearchRequest(selectorValue, searchKeyword);
     http.Response response = await _findingServiceApiCall(requestBody);
     List decodedItemList = _decodeResponse(response);
     return _getItemList(decodedItemList);
   }
 
-  String _buildSearchRequest(String selectorValue, String searchKeyword) {
+  String buildSearchRequest(String selectorValue, String searchKeyword) {
     String intValue = '3000';
     intValue = _setConditionIntValue(selectorValue, intValue);
 
@@ -27,7 +27,8 @@ class Api {
       keywords: searchKeyword,
       itemFilter: [
         {nameKey: condition, valueKey: intValue}
-      ]
+      ],
+      sortOrder: bestMatch
     });
 
     return requestBody;

@@ -54,6 +54,8 @@ const String itemFilter = 'itemFilter';
 const String nameKey = 'name';
 const String condition = 'Condition';
 const String valueKey = 'value';
+const String sortOrder = 'sortOrder';
+const String bestMatch = 'BestMatch';
 
 // Json Response Constants
 const String findItemsByKeywordsResponse = 'findItemsByKeywordsResponse';
