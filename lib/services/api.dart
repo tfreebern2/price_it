@@ -1,12 +1,10 @@
-import 'dart:io';
 import 'dart:convert';
+import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:injectable/injectable.dart';
 import 'package:http/http.dart' as http;
-import 'dart:async';
 
 import 'package:priceit/util/constants.dart';
 
@@ -14,32 +12,48 @@ import 'package:priceit/util/constants.dart';
 class Api {
   var client = new http.Client();
 
-  Map<String, String> headers = {
-    HttpHeaders.contentTypeHeader: 'application/json',
-    appNameHeader: DotEnv().env['APP_ID'],
-    operationNameHeader: operationHeaderValue,
-    serviceVersionHeader: serviceVersionHeaderValue,
-    globalIdHeader: globalIdHeaderValue,
-    serviceNameHeader: serviceNameHeaderValue,
-    requestDataFormatHeader: requestDataFormatHeaderValue,
-    responseDataFormatHeader: responseDataFormatHeaderValue
-  };
-
-
-  Future<List<Item>> searchForItems(String searchText) async {
-    Map data = {'keywords': searchText};
-    http.Response response = await _findingServiceApiCall(data);
-    var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
-    var decodedItemList = decodedResponse['findItemsByKeywordsResponse'][0]
-        ['searchResult'][0]['item'] as List;
+  Future<List<Item>> searchForItems(String selectorValue, String searchKeyword) async {
+    String requestBody = buildSearchRequest(selectorValue, searchKeyword);
+    http.Response response = await _findingServiceApiCall(requestBody);
+    List decodedItemList = _decodeResponse(response);
     return _getItemList(decodedItemList);
   }
 
-  Future<http.Response> _findingServiceApiCall(Map data) async {
-    final response = await client.post(findingServiceUrl,
-        headers: headers, body: json.encode(data));
+  String buildSearchRequest(String selectorValue, String searchKeyword) {
+    String intValue = '3000';
+    intValue = _setConditionIntValue(selectorValue, intValue);
+
+    var requestBody = jsonEncode({
+      keywords: searchKeyword,
+      itemFilter: [
+        {nameKey: condition, valueKey: intValue}
+      ],
+      sortOrder: bestMatch
+    });
+
+    return requestBody;
+  }
+
+  String _setConditionIntValue(String selectorValue, String intValue) {
+    conditionsMap.forEach((key, value) {
+      if (key == selectorValue) {
+        intValue = value;
+      }
+    });
+    return intValue;
+  }
+
+  Future<http.Response> _findingServiceApiCall(var body) async {
+    final response =
+        await client.post(findingServiceUrl, headers: headers, body: body);
     debugPrint("Search - Response Code: " + response.statusCode.toString());
     return response;
+  }
+
+  List _decodeResponse(http.Response response) {
+    var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
+    var decodedItemList = decodedResponse[findItemsByKeywordsResponse][0][searchResult][0][item] as List;
+    return decodedItemList;
   }
 
   List<Item> _getItemList(List decodedItemList) {
