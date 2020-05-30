@@ -16,12 +16,12 @@ class Item {
       this.country);
 
   Item.fromMap(Map<String, dynamic> data) {
-    id = data["itemId"][0] ?? "";
-    title = data["title"][0] ?? "";
-    globalId = data["globalId"][0] ?? "";
-    galleryUrl = data["galleryURL"][0] ?? "";
-    viewItemUrl = data["viewItemURL"][0] ?? "";
-    location = data["location"][0] ?? "";
-    country = data["country"][0] ?? "";
+    id = data.containsKey("itemId") ? data["itemId"][0] : "";
+    title = data.containsKey("title") ? data["title"][0] : "";
+    globalId = data.containsKey("globalId") ? data["globalId"][0] : "";
+    galleryUrl = data.containsKey("galleryUrl") ? data["galleryURL"][0] : "";
+    viewItemUrl = data.containsKey("viewItemUrl") ? data["viewItemURL"][0] : "";
+    location = data.containsKey("location") ? data["location"][0] : "";
+    country = data.containsKey("country") ? data["country"][0] : "";
   }
 }

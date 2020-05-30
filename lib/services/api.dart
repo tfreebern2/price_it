@@ -26,8 +26,8 @@ class Api {
   };
 
 
-  Future<List<Item>> searchForItems() async {
-    Map data = {'keywords': 'iphone 6'};
+  Future<List<Item>> searchForItems(String searchText) async {
+    Map data = {'keywords': searchText};
     http.Response response = await _findingServiceApiCall(data);
     var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
     var decodedItemList = decodedResponse['findItemsByKeywordsResponse'][0]
@@ -38,15 +38,15 @@ class Api {
   Future<http.Response> _findingServiceApiCall(Map data) async {
     final response = await client.post(findingServiceUrl,
         headers: headers, body: json.encode(data));
-    debugPrint("Response Code: " + response.statusCode.toString());
+    debugPrint("Search - Response Code: " + response.statusCode.toString());
     return response;
   }
 
   List<Item> _getItemList(List decodedItemList) {
     List<Item> itemList = List<Item>();
     decodedItemList.forEach((json) {
-      Item item2 = Item.fromMap(json);
-      itemList.add(item2);
+      Item item = Item.fromMap(json);
+      itemList.add(item);
     });
 
     return itemList;
