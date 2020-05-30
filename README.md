@@ -1,4 +1,4 @@
-# resalechecker
+# priceit
 
 An application to check for sales-through rate on Ebay
 
