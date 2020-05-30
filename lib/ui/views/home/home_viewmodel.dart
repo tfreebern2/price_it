@@ -4,18 +4,17 @@ import 'package:priceit/services/api.dart';
 import 'package:stacked/stacked.dart';
 
 class HomeViewModel extends FutureViewModel<List<Item>> {
-  String selectorValue = 'Used';
-  String searchText = 'iphone 6';
+  String conditionValue = 'Used';
+  String searchKeyword = 'iphone 6';
   final apiService = locator<Api>();
-  Future<List<Item>> itemList;
 
   void updateSelectorValue(String newValue) {
-    selectorValue = newValue;
+    conditionValue = newValue;
     notifyListeners();
   }
 
   @override
   Future<List<Item>> futureToRun() {
-    return apiService.searchForItems(searchText);
+    return apiService.searchForItems(conditionValue, searchKeyword);
   }
 }

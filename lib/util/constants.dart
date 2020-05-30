@@ -1,3 +1,7 @@
+import 'dart:io';
+
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 // Prod Url
 const String findingServiceUrl = 'https://svcs.ebay.com/services/search/FindingService/v1';
 
@@ -17,3 +21,41 @@ const String globalIdHeaderValue = 'EBAY-US';
 const String serviceNameHeaderValue = 'FindingService';
 const String requestDataFormatHeaderValue = 'JSON';
 const String responseDataFormatHeaderValue = 'JSON';
+
+// Request Headers
+Map<String, String> headers = {
+  HttpHeaders.contentTypeHeader: 'application/json',
+  appNameHeader: DotEnv().env['APP_ID'],
+  operationNameHeader: operationHeaderValue,
+  serviceVersionHeader: serviceVersionHeaderValue,
+  globalIdHeader: globalIdHeaderValue,
+  serviceNameHeader: serviceNameHeaderValue,
+  requestDataFormatHeader: requestDataFormatHeaderValue,
+  responseDataFormatHeader: responseDataFormatHeaderValue
+};
+
+// Ebay Item Conditions
+const Map<String, String> conditionsMap = {
+  'New': '1000',
+  'New or other': '1500',
+  'New with defects': '1750',
+  'Manufacturer refurbished': '2000',
+  'Seller refurbished': '2500',
+  'Used' : '3000',
+  'Very Good' : '4000',
+  'Good' : '5000',
+  'Acceptable' : '6000',
+  'For parts or not working': '7000'
+};
+
+// Json Request Constants
+const String keywords = 'keywords';
+const String itemFilter = 'itemFilter';
+const String nameKey = 'name';
+const String condition = 'Condition';
+const String valueKey = 'value';
+
+// Json Response Constants
+const String findItemsByKeywordsResponse = 'findItemsByKeywordsResponse';
+const String searchResult = 'searchResult';
+const String item = 'item';

@@ -37,7 +37,7 @@ class HomeView extends StatelessWidget {
                                 Padding(
                                   padding: const EdgeInsets.all(10.0),
                                   child: DropdownButton<String>(
-                                    value: model.selectorValue,
+                                    value: model.conditionValue,
                                     onChanged: (String newValue) {
                                       model.updateSelectorValue(newValue);
                                     },
@@ -62,7 +62,7 @@ class HomeView extends StatelessWidget {
                                   padding: const EdgeInsets.all(10.0),
                                   child: MaterialButton(
                                     onPressed: () async {
-                                      model.searchText = _searchController.text.trim();
+                                      model.searchKeyword = _searchController.text.trim();
                                       await model.runFuture();
                                       _searchController.clear();
                                     },

@@ -5,7 +5,7 @@ import 'package:priceit/services/api.dart';
 void main() {
   test('validate json response', () {
     final api = Api();
-    Future<List<Item>> items = api.searchForItems('iphone 6');
+    Future<List<Item>> items = api.searchForItems('Used', 'iphone 6');
     items.then((value) => expect(items.asStream().length, 100));
   });
 }
