@@ -26,8 +26,8 @@ class Api {
   };
 
 
-  Future<List<Item>> searchForItems() async {
-    Map data = {'keywords': 'iphone 6'};
+  Future<List<Item>> searchForItems(String searchText) async {
+    Map data = {'keywords': searchText};
     http.Response response = await _findingServiceApiCall(data);
     var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
     var decodedItemList = decodedResponse['findItemsByKeywordsResponse'][0]

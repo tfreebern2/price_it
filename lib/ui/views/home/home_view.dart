@@ -8,6 +8,7 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final _searchController = TextEditingController();
     return ViewModelBuilder<HomeViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
         appBar: AppBar(
@@ -19,8 +20,8 @@ class HomeView extends StatelessWidget {
                 alignment: Alignment.center,
                 child: Text('An error has occurred',
                     style: TextStyle(color: Colors.white)))
-            : Center(
-                child: SafeArea(
+            : SafeArea(
+                child: Center(
                   child: model.isBusy
                       ? CircularProgressIndicator()
                       : Column(
@@ -51,8 +52,8 @@ class HomeView extends StatelessWidget {
                                   ),
                                 ),
                                 Expanded(
-                                  child: TextFormField(
-                                    controller: null,
+                                  child: TextField(
+                                    controller: _searchController,
                                     decoration: InputDecoration(
                                         hintText: "Search items"),
                                   ),
@@ -60,7 +61,11 @@ class HomeView extends StatelessWidget {
                                 Padding(
                                   padding: const EdgeInsets.all(10.0),
                                   child: MaterialButton(
-                                    onPressed: () => model.futureToRun(),
+                                    onPressed: () async {
+                                      model.searchText = _searchController.text;
+                                      await model.runFuture();
+                                      _searchController.clear();
+                                    },
                                     child: Text('Search'),
                                     color: Theme.of(context).accentColor,
                                   ),
@@ -80,11 +85,6 @@ class HomeView extends StatelessWidget {
                                     ));
                                   }),
                             ),
-//                            Card(
-//                              child: ListTile(
-//                                  leading: Icon(Icons.ac_unit),
-//                                  title: Text("Item 1")),
-//                            ),
                           ],
                         ),
                 ),
