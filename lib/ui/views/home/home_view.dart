@@ -62,7 +62,7 @@ class HomeView extends StatelessWidget {
                                   padding: const EdgeInsets.all(10.0),
                                   child: MaterialButton(
                                     onPressed: () async {
-                                      model.searchText = _searchController.text;
+                                      model.searchText = _searchController.text.trim();
                                       await model.runFuture();
                                       _searchController.clear();
                                     },

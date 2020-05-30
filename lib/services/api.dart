@@ -38,15 +38,15 @@ class Api {
   Future<http.Response> _findingServiceApiCall(Map data) async {
     final response = await client.post(findingServiceUrl,
         headers: headers, body: json.encode(data));
-    debugPrint("Response Code: " + response.statusCode.toString());
+    debugPrint("Search - Response Code: " + response.statusCode.toString());
     return response;
   }
 
   List<Item> _getItemList(List decodedItemList) {
     List<Item> itemList = List<Item>();
     decodedItemList.forEach((json) {
-      Item item2 = Item.fromMap(json);
-      itemList.add(item2);
+      Item item = Item.fromMap(json);
+      itemList.add(item);
     });
 
     return itemList;
