@@ -80,12 +80,26 @@ class HomeView extends StatelessWidget {
                                   shrinkWrap: true,
                                   itemBuilder: (context, index) {
                                     Item item = model.data[index];
-                                    return Card(
+                                    return Padding(
+                                      padding: const EdgeInsets.all(2.0),
+                                      child: Card(
+                                        elevation: 3.00,
+                                        shadowColor:
+                                            Theme.of(context).accentColor,
                                         child: ListTile(
-                                      leading: Image.network(item.galleryUrl),
-                                      title: Text(item.title),
-                                          trailing: Text(item.currentPrice),
-                                    ));
+                                          contentPadding: EdgeInsets.all(12.0),
+                                          leading:
+                                              Image.network(item.galleryUrl),
+                                          title: Text(item.title),
+                                          trailing: Text(
+                                            item.currentPrice,
+                                            style: TextStyle(
+                                                color: Colors.green,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                        ),
+                                      ),
+                                    );
                                   }),
                             ),
                           ],
