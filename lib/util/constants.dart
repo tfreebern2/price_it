@@ -74,3 +74,7 @@ const String sellingStatusKey = "sellingStatus";
 const String currentPriceKey = "currentPrice";
 const String underscoreValueKey = "__value__";
 const String notAvailable = "N/A";
+
+// Selector Constants
+const String usedValue = "Used";
+const String newValue = "New";
