@@ -82,10 +82,9 @@ class HomeView extends StatelessWidget {
                                     Item item = model.data[index];
                                     return Card(
                                         child: ListTile(
-                                      leading: item.galleryUrl.isNotEmpty
-                                          ? Image.network(item.galleryUrl)
-                                          : Text('N/A'),
+                                      leading: Image.network(item.galleryUrl),
                                       title: Text(item.title),
+                                          trailing: Text(item.currentPrice),
                                     ));
                                   }),
                             ),

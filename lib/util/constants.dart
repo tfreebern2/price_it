@@ -61,3 +61,16 @@ const String bestMatch = 'BestMatch';
 const String findItemsByKeywordsResponse = 'findItemsByKeywordsResponse';
 const String searchResult = 'searchResult';
 const String item = 'item';
+
+// Item Class - Constants
+const String itemId = "itemId";
+const String titleKey = "title";
+const String globalIdKey = "globalId";
+const String galleryUrlKey = "galleryURL";
+const String viewItemUrlKey = "viewItemURL";
+const String locationKey = "location";
+const String countryKey = "country";
+const String sellingStatusKey = "sellingStatus";
+const String currentPriceKey = "currentPrice";
+const String underscoreValueKey = "__value__";
+const String notAvailable = "N/A";
