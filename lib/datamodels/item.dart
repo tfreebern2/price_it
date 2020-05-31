@@ -29,9 +29,22 @@ class Item {
       if (key == sellingStatusKey) {
         var sellingStatusMap = value[0] as Map<String, dynamic>;
         currentPrice = sellingStatusMap.containsKey(currentPriceKey)
-            ? data[sellingStatusKey][0][currentPriceKey][0][underscoreValueKey]
+            ? "\$" + data[sellingStatusKey][0][currentPriceKey][0][underscoreValueKey]
             : notAvailable;
       }
     });
+    addDoubleDigitsAfterDecimal();
+  }
+
+  void addDoubleDigitsAfterDecimal() {
+    String zero = "0";
+    String decimal = ".";
+    List<String> splitPrice = currentPrice.split(decimal);
+    var afterDecimal = splitPrice[1];
+    if (afterDecimal == zero) {
+      currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
+    } else if (afterDecimal.length == 1 && afterDecimal != zero) {
+      currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
+    }
   }
 }
