@@ -62,9 +62,9 @@ class HomeView extends StatelessWidget {
                                   padding: const EdgeInsets.all(10.0),
                                   child: MaterialButton(
                                     onPressed: () async {
-                                      model.searchKeyword = _searchController.text.trim();
+                                      model.searchKeyword =
+                                          _searchController.text.trim();
                                       await model.runFuture();
-                                      _ErrorMessage();
                                       _searchController.clear();
                                     },
                                     child: Text('Search'),
@@ -82,6 +82,9 @@ class HomeView extends StatelessWidget {
                                     Item item = model.data[index];
                                     return Card(
                                         child: ListTile(
+                                      leading: item.galleryUrl.isNotEmpty
+                                          ? Image.network(item.galleryUrl)
+                                          : Text('N/A'),
                                       title: Text(item.title),
                                     ));
                                   }),
@@ -93,22 +96,5 @@ class HomeView extends StatelessWidget {
       ),
       viewModelBuilder: () => HomeViewModel(),
     );
-  }
-}
-
-class _ErrorMessage extends ViewModelWidget<HomeViewModel> {
-  const _ErrorMessage({Key key}) : super(key: key);
-
-  @override
-  Widget build(
-    BuildContext context,
-    HomeViewModel model,
-  ) {
-    return model.hasError
-        ? Text(
-            model.error.message,
-            style: TextStyle(color: Colors.red),
-          )
-        : Container();
   }
 }
