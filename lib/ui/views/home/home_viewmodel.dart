@@ -2,6 +2,7 @@ import 'package:priceit/app/locator.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
 import 'package:stacked/stacked.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HomeViewModel extends FutureViewModel<List<Item>> {
   String conditionValue = 'Used';
@@ -11,6 +12,14 @@ class HomeViewModel extends FutureViewModel<List<Item>> {
   void updateSelectorValue(String newValue) {
     conditionValue = newValue;
     notifyListeners();
+  }
+
+  void launchUrl(String viewItemURL) async {
+    if (await canLaunch(viewItemURL)) {
+      await launch(viewItemURL);
+    } else {
+      throw 'Could not launch $viewItemURL';
+    }
   }
 
   @override

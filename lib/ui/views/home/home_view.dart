@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/home/home_viewmodel.dart';
 import 'package:stacked/stacked.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'package:priceit/util/constants.dart';
 
@@ -128,9 +129,18 @@ Widget _itemListViewBuilder(model) {
                   style: TextStyle(
                       color: Colors.green, fontWeight: FontWeight.bold),
                 ),
+                onTap: () => model.launchUrl(item.viewItemUrl),
               ),
             ),
           );
         }),
   );
 }
+
+//void _launchUrl(String viewItemURL) async {
+//  if (await canLaunch(viewItemURL)) {
+//    await launch(viewItemURL);
+//  } else {
+//    throw 'Could not launch $viewItemURL';
+//  }
+//}
