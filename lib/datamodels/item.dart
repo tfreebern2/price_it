@@ -9,9 +9,11 @@ class Item {
   String location;
   String country;
   String currentPrice;
+  String sellingState;
+  String totalEntries;
 
-  Item(this.id, this.title, this.globalId, this.galleryUrl, this.viewItemUrl,
-      this.location, this.country, this.currentPrice);
+  Item(this.id, this.title, this.globalId, this.galleryUrl, this.viewItemUrl, this.location,
+      this.country, this.currentPrice, this.sellingState);
 
   Item.fromMap(Map<String, dynamic> data) {
     id = data.containsKey(itemId) ? data[itemId][0] : notAvailable;
@@ -21,10 +23,11 @@ class Item {
     viewItemUrl = data.containsKey(viewItemUrlKey) ? data[viewItemUrlKey][0] : notAvailable;
     location = data.containsKey(locationKey) ? data[locationKey][0] : notAvailable;
     country = data.containsKey(countryKey) ? data[countryKey][0] : notAvailable;
-    setCurrentPrice(data);
+    _setCurrentPrice(data);
+    _setSellingState(data);
   }
 
-  void setCurrentPrice(Map<String, dynamic> data) {
+  void _setCurrentPrice(Map<String, dynamic> data) {
     data.forEach((key, value) {
       if (key == sellingStatusKey) {
         var sellingStatusMap = value[0] as Map<String, dynamic>;
@@ -33,10 +36,10 @@ class Item {
             : notAvailable;
       }
     });
-    addDoubleDigitsAfterDecimal();
+    _addDoubleDigitsAfterDecimal();
   }
 
-  void addDoubleDigitsAfterDecimal() {
+  void _addDoubleDigitsAfterDecimal() {
     String zero = "0";
     String decimal = ".";
     List<String> splitPrice = currentPrice.split(decimal);
@@ -46,5 +49,16 @@ class Item {
     } else if (afterDecimal.length == 1 && afterDecimal != zero) {
       currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
     }
+  }
+
+  void _setSellingState(Map<String, dynamic> data) {
+    data.forEach((key, value) {
+      if (key == sellingStatusKey) {
+        var sellingStatusMap = value[0] as Map<String, dynamic>;
+        sellingState = sellingStatusMap.containsKey(sellingStateKey)
+            ? data[sellingStatusKey][0][sellingStateKey][0]
+            : notAvailable;
+      }
+    });
   }
 }

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/home/home_viewmodel.dart';
 import 'package:stacked/stacked.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import 'package:priceit/util/constants.dart';
 
@@ -136,11 +135,3 @@ Widget _itemListViewBuilder(model) {
         }),
   );
 }
-
-//void _launchUrl(String viewItemURL) async {
-//  if (await canLaunch(viewItemURL)) {
-//    await launch(viewItemURL);
-//  } else {
-//    throw 'Could not launch $viewItemURL';
-//  }
-//}

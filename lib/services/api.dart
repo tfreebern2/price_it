@@ -12,23 +12,49 @@ import 'package:priceit/util/constants.dart';
 class Api {
   var client = new http.Client();
 
-  Future<List<Item>> searchForItems(String selectorValue, String searchKeyword) async {
-    String requestBody = buildSearchRequest(selectorValue, searchKeyword);
-    http.Response response = await _findingServiceApiCall(requestBody);
+  Future<List<Item>> searchForCompletedItems(String selectorValue, String searchKeyword) async {
+    String requestBody = buildCompletedItemSearchRequest(selectorValue, searchKeyword);
+    http.Response response = await _findingCompletedItemApiCall(requestBody);
     List decodedItemList = _decodeResponse(response);
-    return _getItemList(decodedItemList);
+    return _getItemList(decodedItemList, response);
   }
 
-  String buildSearchRequest(String selectorValue, String searchKeyword) {
+  Future<List<Item>> searchForActiveItems(String selectorValue, String searchKeyword) async {
+    String requestBody = buildActiveItemSearchRequest(selectorValue, searchKeyword);
+    http.Response response = await _findingActiveItemApiCall(requestBody);
+    List decodedItemList = _decodeResponse(response);
+    return _getItemList(decodedItemList, response);
+  }
+
+  String buildCompletedItemSearchRequest(String selectorValue, String searchKeyword) {
     String intValue = '3000';
     intValue = _setConditionIntValue(selectorValue, intValue);
 
     var requestBody = jsonEncode({
       keywords: searchKeyword,
       itemFilter: [
-        {nameKey: condition, valueKey: intValue}
+        {nameKey: condition, valueKey: intValue},
+        {nameKey: soldItemsOnly, valueKey: trueString}
       ],
-      sortOrder: bestMatch
+      sortOrder: bestMatch,
+      paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
+    });
+
+    return requestBody;
+  }
+
+  String buildActiveItemSearchRequest(String selectorValue, String searchKeyword) {
+    String intValue = '3000';
+    intValue = _setConditionIntValue(selectorValue, intValue);
+
+    var requestBody = jsonEncode({
+      keywords: searchKeyword,
+      itemFilter: [
+        {nameKey: condition, valueKey: intValue},
+        {nameKey: "HideDuplicateItems", valueKey: trueString}
+      ],
+      sortOrder: bestMatch,
+      paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
     });
 
     return requestBody;
@@ -43,26 +69,51 @@ class Api {
     return intValue;
   }
 
-  Future<http.Response> _findingServiceApiCall(var body) async {
-    final response =
-        await client.post(findingServiceUrl, headers: headers, body: body);
+  Future<http.Response> _findingCompletedItemApiCall(var body) async {
+    final response = await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
+    debugPrint("Search - Response Code: " + response.statusCode.toString());
+    return response;
+  }
+
+  Future<http.Response> _findingActiveItemApiCall(var body) async {
+    final response = await client.post(findingServiceUrl, headers: activeItemsHeaders, body: body);
     debugPrint("Search - Response Code: " + response.statusCode.toString());
     return response;
   }
 
   List _decodeResponse(http.Response response) {
     var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
-    var decodedItemList = decodedResponse[findItemsByKeywordsResponse][0][searchResult][0][item] as List;
-    return decodedItemList;
+    if (decodedResponse.containsKey(findCompletedItemsResponse)) {
+      return decodedResponse[findCompletedItemsResponse][0][searchResult][0][item] as List;
+    } else {
+      return decodedResponse[findItemsByKeywordsResponse][0][searchResult][0][item] as List;
+    }
   }
 
-  List<Item> _getItemList(List decodedItemList) {
+  List<Item> _getItemList(List decodedItemList, http.Response response) {
     List<Item> itemList = List<Item>();
     decodedItemList.forEach((json) {
-      Item item = Item.fromMap(json);
-      itemList.add(item);
+      if (itemList.isEmpty) {
+        Item item = Item.fromMap(json);
+        List totalEntries =  findTotalEntries(response);
+        item.totalEntries = totalEntries[0];
+        print(item.totalEntries);
+        itemList.add(item);
+      } else {
+        Item item = Item.fromMap(json);
+        itemList.add(item);
+      }
     });
 
     return itemList;
+  }
+
+  List findTotalEntries(http.Response response) {
+    var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
+    if (decodedResponse.containsKey(findCompletedItemsResponse)) {
+      return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries] as List;
+    } else {
+      return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries] as List;
+    }
   }
 }
