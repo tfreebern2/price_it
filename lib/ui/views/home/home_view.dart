@@ -128,6 +128,7 @@ Widget _itemListViewBuilder(model) {
                   style: TextStyle(
                       color: Colors.green, fontWeight: FontWeight.bold),
                 ),
+                onTap: () => model.launchUrl(item.viewItemUrl),
               ),
             ),
           );
