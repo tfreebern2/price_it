@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/home/home_viewmodel.dart';
-import 'package:stacked/stacked.dart';
-
 import 'package:priceit/util/constants.dart';
+import 'package:stacked/stacked.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key key}) : super(key: key);
@@ -12,48 +10,32 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     final _searchController = TextEditingController();
     return ViewModelBuilder<HomeViewModel>.reactive(
-      builder: (context, model, child) => Scaffold(
-        appBar: AppBar(
-          title: Text("PriceIt"),
-        ),
-        body: model.hasError
-            ? _errorContainer()
-            : SafeArea(
-                child: Center(
-                  child: model.isBusy
-                      ? CircularProgressIndicator()
-                      : Column(
-                          children: <Widget>[
-                            SizedBox(
-                              height: 80.0,
-                              child: Center(child: Text('Ad Space')),
-                            ),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: <Widget>[
-                                _dropDownSelector(context, model),
-                                _searchBar(_searchController),
-                                _searchButton(context, model, _searchController)
-                              ],
-                            ),
-                            _itemListViewBuilder(model),
-                          ],
-                        ),
-                ),
-              ),
-      ),
-      viewModelBuilder: () => HomeViewModel(),
-    );
+        builder: (context, model, child) => Scaffold(
+            appBar: AppBar(
+              title: Text('PriceIt'),
+            ),
+            body: SafeArea(
+              child: Center(
+                  child: Column(
+                children: <Widget>[
+                  SizedBox(
+                    height: 120.0,
+                    child: Center(child: Text('Ad Space')),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      _dropDownSelector(context, model),
+                      _searchBar(_searchController),
+                    ],
+                  ),
+                  _searchButton(context, model, _searchController)
+                ],
+              )),
+            )),
+        viewModelBuilder: () => HomeViewModel());
   }
-}
-
-Widget _errorContainer() {
-  return Container(
-      color: Colors.red,
-      alignment: Alignment.center,
-      child: Text('An error has occurred',
-          style: TextStyle(color: Colors.white)));
 }
 
 Widget _dropDownSelector(context, model) {
@@ -64,12 +46,11 @@ Widget _dropDownSelector(context, model) {
         color: Theme.of(context).accentColor,
         height: 1.0,
       ),
-      value: model.conditionValue,
+      value: model.condition,
       onChanged: (String newValue) {
-        model.updateSelectorValue(newValue);
+        model.updateCondition(newValue);
       },
-      items:
-          <String>[usedValue, newValue].map<DropdownMenuItem<String>>((String value) {
+      items: <String>[usedValue, newValue].map<DropdownMenuItem<String>>((String value) {
         return DropdownMenuItem<String>(
           value: value,
           child: Text(value),
@@ -96,42 +77,15 @@ Widget _searchButton(context, model, _searchController) {
     padding: const EdgeInsets.all(10.0),
     child: MaterialButton(
       onPressed: () async {
-        model.searchKeyword = _searchController.text.trim();
-        await model.runFuture();
+        model.updateSearchKeyword(_searchController.text.trim());
         _searchController.clear();
+        model.navigateToCompleted();
       },
-      child: Text('Search'),
+      child: Text(
+        'Search',
+        style: TextStyle(color: Colors.white),
+      ),
       color: Theme.of(context).accentColor,
     ),
-  );
-}
-
-Widget _itemListViewBuilder(model) {
-  return Expanded(
-    child: ListView.builder(
-        itemCount: model.data.length,
-        scrollDirection: Axis.vertical,
-        shrinkWrap: true,
-        itemBuilder: (context, index) {
-          Item item = model.data[index];
-          return Padding(
-            padding: const EdgeInsets.all(2.0),
-            child: Card(
-              elevation: 6.00,
-              shadowColor: Theme.of(context).accentColor,
-              child: ListTile(
-                contentPadding: EdgeInsets.all(12.0),
-                leading: Image.network(item.galleryUrl),
-                title: Text(item.title),
-                trailing: Text(
-                  item.currentPrice,
-                  style: TextStyle(
-                      color: Colors.green, fontWeight: FontWeight.bold),
-                ),
-                onTap: () => model.launchUrl(item.viewItemUrl),
-              ),
-            ),
-          );
-        }),
   );
 }

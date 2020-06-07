@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:priceit/ui/views/home/home_view.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import 'app/locator.dart';
 import 'app/router.gr.dart';
-import 'ui/views/home/home_view.dart';
 
 void main() async {
   await DotEnv().load('.env');
