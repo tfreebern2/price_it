@@ -12,6 +12,7 @@ class HomeView extends StatelessWidget {
     return ViewModelBuilder<HomeViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
             appBar: AppBar(
+              leading: Container(),
               title: Text('PriceIt'),
             ),
             body: SafeArea(

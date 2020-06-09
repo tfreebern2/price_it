@@ -9,11 +9,11 @@ import 'package:url_launcher/url_launcher.dart';
 
 class ActiveViewModel extends FutureViewModel<List<Item>> {
   final _apiService = locator<Api>();
-  final _searchService = locator<SearchService>();
+  final searchService = locator<SearchService>();
   final _navigationService = locator<NavigationService>();
 
-  String get conditionValue => _searchService.condition;
-  String get searchKeyword => _searchService.searchKeyword;
+  String get conditionValue => searchService.condition;
+  String get searchKeyword => searchService.searchKeyword;
 
   int activeTotalEntries = 0;
   double activeSoldAmount = 0.00;
@@ -42,6 +42,8 @@ class ActiveViewModel extends FutureViewModel<List<Item>> {
   }
 
   void navigateToHome() {
+    searchService.setCompletedListingToEmpty();
+    searchService.setActiveListingToEmpty();
     _navigationService.navigateTo(Routes.homeViewRoute);
   }
 
@@ -49,10 +51,22 @@ class ActiveViewModel extends FutureViewModel<List<Item>> {
     _navigationService.navigateTo(Routes.completedView);
   }
 
+  bool checkIfApiCall() {
+    if (searchService.activeListing.isNotEmpty) {
+      return true;
+    }
+    return false;
+  }
+
   @override
   Future<List<Item>> futureToRun() {
-    Future<List<Item>> activeItemResponse = _apiService.searchForActiveItems(conditionValue, searchKeyword);
-    calculateAveragePrice(activeItemResponse);
-    return activeItemResponse;
+    if (checkIfApiCall()) {
+      return null;
+    } else {
+      Future<List<Item>> activeItemResponse = _apiService.searchForActiveItems(conditionValue, searchKeyword);
+      searchService.updateActiveListing(activeItemResponse);
+      calculateAveragePrice(activeItemResponse);
+      return activeItemResponse;
+    }
   }
 }

@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/completed/completed_viewmodel.dart';
@@ -13,6 +11,7 @@ class CompletedView extends StatelessWidget {
     return ViewModelBuilder<CompletedViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
         appBar: AppBar(
+          leading: Container(),
           title: Text("PriceIt"),
         ),
         body: SafeArea(
@@ -106,30 +105,59 @@ Widget _buttonBar(model, context) {
 }
 
 Widget _itemListViewBuilder(model) {
-  return Expanded(
-    child: ListView.builder(
-        itemCount: model.data.length,
-        scrollDirection: Axis.vertical,
-        shrinkWrap: true,
-        itemBuilder: (context, index) {
-          Item item = model.data[index];
-          return Padding(
-            padding: const EdgeInsets.all(2.0),
-            child: Card(
-              elevation: 6.00,
-              shadowColor: Theme.of(context).accentColor,
-              child: ListTile(
-                contentPadding: EdgeInsets.all(12.0),
-                leading: Image.network(item.galleryUrl),
-                title: Text(item.title),
-                trailing: Text(
-                  item.currentPrice,
-                  style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+  if (model.data != null) {
+    return Expanded(
+      child: ListView.builder(
+          itemCount: model.data.length,
+          scrollDirection: Axis.vertical,
+          shrinkWrap: true,
+          itemBuilder: (context, index) {
+            Item item = model.data[index];
+            return Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Card(
+                elevation: 6.00,
+                shadowColor: Theme.of(context).accentColor,
+                child: ListTile(
+                  contentPadding: EdgeInsets.all(12.0),
+                  leading: Image.network(item.galleryUrl),
+                  title: Text(item.title),
+                  trailing: Text(
+                    item.currentPrice,
+                    style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                  ),
+                  onTap: () => model.launchUrl(item.viewItemUrl),
                 ),
-                onTap: () => model.launchUrl(item.viewItemUrl),
               ),
-            ),
-          );
-        }),
-  );
+            );
+          }),
+    );
+  } else {
+    return Expanded(
+      child: ListView.builder(
+          itemCount: model.searchService.completedListing.length,
+          scrollDirection: Axis.vertical,
+          shrinkWrap: true,
+          itemBuilder: (context, index) {
+            Item item = model.searchService.completedListing[index];
+            return Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Card(
+                elevation: 6.00,
+                shadowColor: Theme.of(context).accentColor,
+                child: ListTile(
+                  contentPadding: EdgeInsets.all(12.0),
+                  leading: Image.network(item.galleryUrl),
+                  title: Text(item.title),
+                  trailing: Text(
+                    item.currentPrice,
+                    style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                  ),
+                  onTap: () => model.launchUrl(item.viewItemUrl),
+                ),
+              ),
+            );
+          }),
+    );
+  }
 }

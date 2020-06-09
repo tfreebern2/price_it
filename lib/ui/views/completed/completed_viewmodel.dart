@@ -9,11 +9,11 @@ import 'package:url_launcher/url_launcher.dart';
 
 class CompletedViewModel extends FutureViewModel<List<Item>> {
   final _apiService = locator<Api>();
-  final _searchService = locator<SearchService>();
+  final searchService = locator<SearchService>();
   final _navigationService = locator<NavigationService>();
 
-  String get conditionValue => _searchService.condition;
-  String get searchKeyword => _searchService.searchKeyword;
+  String get conditionValue => searchService.condition;
+  String get searchKeyword => searchService.searchKeyword;
 
   int completedTotalEntries = 0;
   int activeTotalEntries = 0;
@@ -54,16 +54,25 @@ class CompletedViewModel extends FutureViewModel<List<Item>> {
     });
     completedListingAveragePrice = completedSoldAmount / completedListLength;
     int totalEntries = completedTotalEntries + activeTotalEntries;
-    completedListingPercentageSold = ( completedTotalEntries / totalEntries) * 100;
+    completedListingPercentageSold = (completedTotalEntries / totalEntries) * 100;
     activeListingAveragePrice = activeSoldAmount / activeListLength;
   }
 
   void navigateToHome() {
+    searchService.setCompletedListingToEmpty();
+    searchService.setActiveListingToEmpty();
     _navigationService.navigateTo(Routes.homeViewRoute);
   }
 
   void navigateToActive() {
     _navigationService.navigateTo(Routes.activeView);
+  }
+
+  bool checkIfApiCall() {
+    if (searchService.completedListing.isNotEmpty) {
+      return true;
+    }
+    return false;
   }
 
   @override
@@ -73,10 +82,17 @@ class CompletedViewModel extends FutureViewModel<List<Item>> {
 
   @override
   Future<List<Item>> futureToRun() {
-    Future<List<Item>> completedItemsResponse =
-        _apiService.searchForCompletedItems(conditionValue, searchKeyword);
-    Future<List<Item>> activeItemsResponse = _apiService.searchForActiveItems(conditionValue, searchKeyword);
-    calculateSaleThroughRate(completedItemsResponse, activeItemsResponse);
-    return completedItemsResponse;
+    if (checkIfApiCall()) {
+      return null;
+    } else {
+      Future<List<Item>> completedItemsResponse =
+      _apiService.searchForCompletedItems(conditionValue, searchKeyword);
+      Future<List<Item>> activeItemsResponse =
+      _apiService.searchForActiveItems(conditionValue, searchKeyword);
+      searchService.updateCompletedListing(completedItemsResponse);
+      searchService.updateActiveListing(activeItemsResponse);
+      calculateSaleThroughRate(completedItemsResponse, activeItemsResponse);
+      return completedItemsResponse;
+    }
   }
 }
