@@ -77,7 +77,8 @@ Widget _searchButton(context, model, _searchController) {
   return Padding(
     padding: const EdgeInsets.all(10.0),
     child: MaterialButton(
-      onPressed: () async {
+      onPressed: () {
+        // TODO: Check for empty searchBarValue
         model.updateSearchKeyword(_searchController.text.trim());
         _searchController.clear();
         model.navigateToCompleted();

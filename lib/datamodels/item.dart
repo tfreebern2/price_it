@@ -24,7 +24,6 @@ class Item {
     location = data.containsKey(locationKey) ? data[locationKey][0] : notAvailable;
     country = data.containsKey(countryKey) ? data[countryKey][0] : notAvailable;
     _setCurrentPrice(data);
-    _setSellingState(data);
   }
 
   void _setCurrentPrice(Map<String, dynamic> data) {
@@ -49,16 +48,5 @@ class Item {
     } else if (afterDecimal.length == 1 && afterDecimal != zero) {
       currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
     }
-  }
-
-  void _setSellingState(Map<String, dynamic> data) {
-    data.forEach((key, value) {
-      if (key == sellingStatusKey) {
-        var sellingStatusMap = value[0] as Map<String, dynamic>;
-        sellingState = sellingStatusMap.containsKey(sellingStateKey)
-            ? data[sellingStatusKey][0][sellingStateKey][0]
-            : notAvailable;
-      }
-    });
   }
 }

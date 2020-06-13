@@ -56,28 +56,61 @@ Widget _titleText(context) {
 }
 
 Widget _pricingText(model, context) {
-  return Padding(
-    padding: const EdgeInsets.all(10.0),
-    child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: <Widget>[
-        Text(
-          '\$ ' + model.completedListingAveragePrice.toStringAsFixed(2),
-          style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-        ),
-        Text(
-          ' avg (sold only) ',
-          style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
-        ),
-        Text(
-          model.completedListingPercentageSold.toStringAsFixed(2),
-          style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-        ),
-        Text(' % sold', style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
-      ],
-    ),
-  );
+  if (model.data != null) {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            '\$ ' + model.completedListingAveragePrice.toStringAsFixed(2),
+            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
+          Text(
+            ' avg (sold only) ',
+            style: TextStyle(color: Theme
+                .of(context)
+                .accentColor, fontSize: 18.0),
+          ),
+          Text(
+            model.completedListingPercentageSold.toStringAsFixed(2),
+            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
+          Text(' % sold', style: TextStyle(color: Theme
+              .of(context)
+              .accentColor, fontSize: 18.0)),
+        ],
+      ),
+    );
+  } else {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            '\$ ' + model.searchService.completedListingAveragePrice.toStringAsFixed(2),
+            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
+          Text(
+            ' avg (sold only) ',
+            style: TextStyle(color: Theme
+                .of(context)
+                .accentColor, fontSize: 18.0),
+          ),
+          Text(
+            model.searchService.completedListingPercentageSold.toStringAsFixed(2),
+            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
+          Text(' % sold', style: TextStyle(color: Theme
+              .of(context)
+              .accentColor, fontSize: 18.0)),
+        ],
+      ),
+    );
+  }
 }
 
 Widget _buttonBar(model, context) {

@@ -8,7 +8,7 @@ class ActiveView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<ActiveViewModel>.reactive(
+    return ViewModelBuilder<ActiveViewModel>.nonReactive(
         builder: (context, model, child) => Scaffold(
               appBar: AppBar(
                 leading: Container(),
@@ -16,9 +16,7 @@ class ActiveView extends StatelessWidget {
               ),
               body: SafeArea(
                 child: Center(
-                  child: model.isBusy
-                      ? CircularProgressIndicator()
-                      : Column(
+                  child: Column(
                           children: <Widget>[
                             SizedBox(
                               height: 80.0,
@@ -76,7 +74,7 @@ Widget _pricingText(model, context) {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         Text(
-          '\$ ' + model.activeListingAveragePrice.toStringAsFixed(2),
+          '\$ ' + model.searchService.activeListingAveragePrice.toStringAsFixed(2),
           style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
         ),
         Text(
@@ -89,59 +87,30 @@ Widget _pricingText(model, context) {
 }
 
 Widget _itemListViewBuilder(model) {
-  if (model.data != null) {
-    return Expanded(
-      child: ListView.builder(
-          itemCount: model.data.length,
-          scrollDirection: Axis.vertical,
-          shrinkWrap: true,
-          itemBuilder: (context, index) {
-            Item item = model.data[index];
-            return Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: Card(
-                elevation: 6.00,
-                shadowColor: Theme.of(context).accentColor,
-                child: ListTile(
-                  contentPadding: EdgeInsets.all(12.0),
-                  leading: Image.network(item.galleryUrl),
-                  title: Text(item.title),
-                  trailing: Text(
-                    item.currentPrice,
-                    style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
-                  ),
-                  onTap: () => model.launchUrl(item.viewItemUrl),
+  return Expanded(
+    child: ListView.builder(
+        itemCount: model.searchService.activeListing.length,
+        scrollDirection: Axis.vertical,
+        shrinkWrap: true,
+        itemBuilder: (context, index) {
+          Item item = model.searchService.activeListing[index];
+          return Padding(
+            padding: const EdgeInsets.all(2.0),
+            child: Card(
+              elevation: 6.00,
+              shadowColor: Theme.of(context).accentColor,
+              child: ListTile(
+                contentPadding: EdgeInsets.all(12.0),
+                leading: Image.network(item.galleryUrl),
+                title: Text(item.title),
+                trailing: Text(
+                  item.currentPrice,
+                  style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
                 ),
+                onTap: () => model.launchUrl(item.viewItemUrl),
               ),
-            );
-          }),
-    );
-  } else {
-    return Expanded(
-      child: ListView.builder(
-          itemCount: model.searchService.activeListing.length,
-          scrollDirection: Axis.vertical,
-          shrinkWrap: true,
-          itemBuilder: (context, index) {
-            Item item = model.searchService.activeListing[index];
-            return Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: Card(
-                elevation: 6.00,
-                shadowColor: Theme.of(context).accentColor,
-                child: ListTile(
-                  contentPadding: EdgeInsets.all(12.0),
-                  leading: Image.network(item.galleryUrl),
-                  title: Text(item.title),
-                  trailing: Text(
-                    item.currentPrice,
-                    style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
-                  ),
-                  onTap: () => model.launchUrl(item.viewItemUrl),
-                ),
-              ),
-            );
-          }),
-    );
-  }
+            ),
+          );
+        }),
+  );
 }

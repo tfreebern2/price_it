@@ -66,6 +66,7 @@ const String itemFilter = 'itemFilter';
 const String nameKey = 'name';
 const String condition = 'Condition';
 const String soldItemsOnly = 'SoldItemsOnly';
+const String hideDuplicateItems = 'HideDuplicateItems';
 const String valueKey = 'value';
 const String sortOrder = 'sortOrder';
 const String bestMatch = 'BestMatch';
