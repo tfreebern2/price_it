@@ -97,14 +97,15 @@ class Api {
         Item item = Item.fromMap(json);
         List totalEntries =  findTotalEntries(response);
         item.totalEntries = totalEntries[0];
-        print(item.totalEntries);
         itemList.add(item);
       } else {
+        if (itemList.length >= 25) {
+          return;
+        }
         Item item = Item.fromMap(json);
         itemList.add(item);
       }
     });
-
     return itemList;
   }
 
