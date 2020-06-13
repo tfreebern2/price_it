@@ -51,7 +51,7 @@ class Api {
       keywords: searchKeyword,
       itemFilter: [
         {nameKey: condition, valueKey: intValue},
-        {nameKey: "HideDuplicateItems", valueKey: trueString}
+        {nameKey: hideDuplicateItems, valueKey: trueString}
       ],
       sortOrder: bestMatch,
       paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
@@ -71,13 +71,13 @@ class Api {
 
   Future<http.Response> _findingCompletedItemApiCall(var body) async {
     final response = await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
-    debugPrint("Search - Response Code: " + response.statusCode.toString());
+    debugPrint("Search Completed Listings - Response Code: " + response.statusCode.toString());
     return response;
   }
 
   Future<http.Response> _findingActiveItemApiCall(var body) async {
     final response = await client.post(findingServiceUrl, headers: activeItemsHeaders, body: body);
-    debugPrint("Search - Response Code: " + response.statusCode.toString());
+    debugPrint("Search Active Listings - Response Code: " + response.statusCode.toString());
     return response;
   }
 
@@ -97,14 +97,15 @@ class Api {
         Item item = Item.fromMap(json);
         List totalEntries =  findTotalEntries(response);
         item.totalEntries = totalEntries[0];
-        print(item.totalEntries);
         itemList.add(item);
       } else {
+        if (itemList.length >= 25) {
+          return;
+        }
         Item item = Item.fromMap(json);
         itemList.add(item);
       }
     });
-
     return itemList;
   }
 
