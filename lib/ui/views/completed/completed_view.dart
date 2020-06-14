@@ -10,32 +10,36 @@ class CompletedView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<CompletedViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
-        appBar: AppBar(
-          leading: Container(),
-          title: Text("PriceIt"),
-        ),
-        body: SafeArea(
-          child: Center(
-            child: model.isBusy
-                ? CircularProgressIndicator()
-                : Column(
-                    children: <Widget>[
-                      SizedBox(
-                        height: 80.0,
-                        child: Center(child: Text('Ad Space')),
-                      ),
-                      _buttonBar(model, context),
-                      _titleText(context),
-                      _pricingText(model, context),
-                      _itemListViewBuilder(model),
-                    ],
-                  ),
+        body: WillPopScope(
+          onWillPop: () => onBack(model),
+          child: SafeArea(
+            child: Center(
+              child: model.isBusy
+                  ? CircularProgressIndicator()
+                  : Column(
+                      children: <Widget>[
+                        SizedBox(
+                          height: 80.0,
+                          child: Center(child: Text('Ad Space')),
+                        ),
+                        _buttonBar(model, context),
+                        _titleText(context),
+                        _pricingText(model, context),
+                        _itemListViewBuilder(model),
+                      ],
+                    ),
+            ),
           ),
         ),
       ),
       viewModelBuilder: () => CompletedViewModel(),
     );
   }
+}
+
+Future<bool> onBack(model) async {
+  model.searchService.resetSearchResultState();
+  return true;
 }
 
 Widget _errorContainer() {
@@ -69,17 +73,13 @@ Widget _pricingText(model, context) {
           ),
           Text(
             ' avg (sold only) ',
-            style: TextStyle(color: Theme
-                .of(context)
-                .accentColor, fontSize: 18.0),
+            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
           ),
           Text(
             model.completedListingPercentageSold.toStringAsFixed(2),
             style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
           ),
-          Text(' % sold', style: TextStyle(color: Theme
-              .of(context)
-              .accentColor, fontSize: 18.0)),
+          Text(' % sold', style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
         ],
       ),
     );
@@ -96,17 +96,13 @@ Widget _pricingText(model, context) {
           ),
           Text(
             ' avg (sold only) ',
-            style: TextStyle(color: Theme
-                .of(context)
-                .accentColor, fontSize: 18.0),
+            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
           ),
           Text(
             model.searchService.completedListingPercentageSold.toStringAsFixed(2),
             style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
           ),
-          Text(' % sold', style: TextStyle(color: Theme
-              .of(context)
-              .accentColor, fontSize: 18.0)),
+          Text(' % sold', style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
         ],
       ),
     );
@@ -120,19 +116,29 @@ Widget _buttonBar(model, context) {
     buttonTextTheme: ButtonTextTheme.accent,
     children: <Widget>[
       MaterialButton(
-          child: Text(
-            'Search',
-            style: TextStyle(color: Colors.white),
-          ),
-          color: Theme.of(context).accentColor,
-          onPressed: () => model.navigateToHome()),
+        child: Text(
+          'Search',
+          style: TextStyle(color: Colors.white),
+        ),
+        color: Theme.of(context).buttonColor,
+        onPressed: () => model.navigateToHome(),
+        highlightElevation: 2,
+        height: 40,
+        minWidth: 150,
+        shape: StadiumBorder(),
+      ),
       MaterialButton(
-          child: Text(
-            'Current Listing',
-            style: TextStyle(color: Colors.white),
-          ),
-          color: Theme.of(context).accentColor,
-          onPressed: () => model.navigateToActive()),
+        child: Text(
+          'aActive Listings',
+          style: TextStyle(color: Colors.white),
+        ),
+        color: Theme.of(context).accentColor,
+        onPressed: () => model.navigateToActive(),
+        highlightElevation: 2,
+        height: 40,
+        minWidth: 150,
+        shape: UnderlineInputBorder(),
+      ),
     ],
   );
 }
