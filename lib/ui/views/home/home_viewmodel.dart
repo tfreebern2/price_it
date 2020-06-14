@@ -9,7 +9,6 @@ class HomeViewModel extends ReactiveViewModel {
   final _navigationService = locator<NavigationService>();
 
   String get condition => _searchService.condition;
-
   String get searchKeyword => _searchService.searchKeyword;
 
   void updateCondition(String newValue) {

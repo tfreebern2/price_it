@@ -10,24 +10,20 @@ class ActiveView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<ActiveViewModel>.nonReactive(
         builder: (context, model, child) => Scaffold(
-              appBar: AppBar(
-                leading: Container(),
-                title: Text("PriceIt"),
-              ),
               body: SafeArea(
                 child: Center(
                   child: Column(
-                          children: <Widget>[
-                            SizedBox(
-                              height: 80.0,
-                              child: Center(child: Text('Ad Space')),
-                            ),
-                            _buttonBar(model, context),
-                            _titleText(context),
-                            _pricingText(model, context),
-                            _itemListViewBuilder(model),
-                          ],
-                        ),
+                    children: <Widget>[
+                      SizedBox(
+                        height: 80.0,
+                        child: Center(child: Text('Ad Space')),
+                      ),
+                      _buttonBar(model, context),
+                      _titleText(context),
+                      _pricingText(model, context),
+                      _itemListViewBuilder(model),
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -42,16 +38,26 @@ Widget _buttonBar(model, context) {
     buttonTextTheme: ButtonTextTheme.accent,
     children: <Widget>[
       MaterialButton(
-          child: Text(
-            'Search',
-            style: TextStyle(color: Colors.white),
-          ),
-          color: Theme.of(context).accentColor,
-          onPressed: () => model.navigateToHome()),
+        child: Text(
+          'Search',
+          style: TextStyle(color: Colors.white),
+        ),
+        color: Theme.of(context).buttonColor,
+        onPressed: () => model.navigateToHome(),
+        highlightElevation: 2,
+        height: 40,
+        minWidth: 150,
+        shape: StadiumBorder(),
+      ),
       MaterialButton(
-          child: Text('Completed Listing', style: TextStyle(color: Colors.white)),
-          color: Theme.of(context).accentColor,
-          onPressed: () => model.navigateToComplete()),
+        child: Text('Completed Listings', style: TextStyle(color: Colors.white)),
+        color: Theme.of(context).accentColor,
+        onPressed: () => model.navigateToComplete(),
+        highlightElevation: 2,
+        height: 40,
+        minWidth: 150,
+        shape: UnderlineInputBorder(),
+      ),
     ],
   );
 }
@@ -60,7 +66,7 @@ Widget _titleText(context) {
   return Padding(
     padding: const EdgeInsets.all(10.0),
     child: Text(
-      'Current Listings',
+      'Active Listings',
       style: TextStyle(fontSize: 24.0, color: Theme.of(context).accentColor),
     ),
   );

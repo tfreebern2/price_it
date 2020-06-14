@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:priceit/app/locator.dart';
 import 'package:priceit/app/router.gr.dart';
 import 'package:priceit/datamodels/ebay_response.dart';
