@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       title: 'Price It',
       theme: ThemeData(
         fontFamily: 'Oswald',
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.lightGreen,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeView(),

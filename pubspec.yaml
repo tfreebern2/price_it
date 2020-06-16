@@ -71,6 +71,13 @@ flutter:
     - family: DancingScript
       fonts:
         - asset: fonts/DancingScript-Regular.ttf
+    - family: Oswald
+      fonts:
+        - asset: fonts/Oswald-Regular.ttf
+        - asset: fonts/Oswald-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Oswald-Bold.ttf
+          weight: 700
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

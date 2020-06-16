@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/completed/completed_viewmodel.dart';
+import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:stacked/stacked.dart';
 
 class CompletedView extends StatelessWidget {
@@ -10,6 +11,7 @@ class CompletedView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<CompletedViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
+        appBar: customAppbar(),
         body: WillPopScope(
           onWillPop: () => onBack(model),
           child: SafeArea(
@@ -22,10 +24,11 @@ class CompletedView extends StatelessWidget {
                           height: 80.0,
                           child: Center(child: Text('Ad Space')),
                         ),
-                        _buttonBar(model, context),
+                        listingSearchButton(context, model),
+                        _buttonBar(context, model),
                         _titleText(context),
-                        _pricingText(model, context),
-                        _itemListViewBuilder(model),
+                        _pricingText(context, model),
+                        _itemListViewBuilder(context, model),
                       ],
                     ),
             ),
@@ -42,24 +45,51 @@ Future<bool> onBack(model) async {
   return true;
 }
 
-Widget _errorContainer() {
-  return Container(
-      color: Colors.red,
-      alignment: Alignment.center,
-      child: Text('An error has occurred', style: TextStyle(color: Colors.white)));
+Widget _buttonBar(context, model) {
+  return ButtonBar(
+    mainAxisSize: MainAxisSize.max,
+    alignment: MainAxisAlignment.center,
+    buttonTextTheme: ButtonTextTheme.accent,
+    children: <Widget>[
+      MaterialButton(
+        child: Text(
+          'Completed Listings',
+          style: TextStyle(color: Colors.white),
+        ),
+        color: Theme.of(context).buttonColor,
+        onPressed: () => null,
+        highlightElevation: 2,
+        height: 40,
+        minWidth: 150,
+        shape: UnderlineInputBorder(),
+      ),
+      MaterialButton(
+        child: Text(
+          'Active Listings',
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+        ),
+        color: Theme.of(context).accentColor,
+        onPressed: () => model.navigateToActive(),
+        highlightElevation: 2,
+        height: 40,
+        minWidth: 150,
+        shape: UnderlineInputBorder(),
+      ),
+    ],
+  );
 }
 
 Widget _titleText(context) {
   return Padding(
     padding: const EdgeInsets.all(10.0),
     child: Text(
-      'Completed Sales',
-      style: TextStyle(fontSize: 24.0, color: Theme.of(context).accentColor),
+      'Completed Listings',
+      style: TextStyle(fontSize: 24.0, color: Theme.of(context).accentColor, fontWeight: FontWeight.w600),
     ),
   );
 }
 
-Widget _pricingText(model, context) {
+Widget _pricingText(context, model) {
   if (model.data != null) {
     return Padding(
       padding: const EdgeInsets.all(10.0),
@@ -109,41 +139,7 @@ Widget _pricingText(model, context) {
   }
 }
 
-Widget _buttonBar(model, context) {
-  return ButtonBar(
-    mainAxisSize: MainAxisSize.max,
-    alignment: MainAxisAlignment.center,
-    buttonTextTheme: ButtonTextTheme.accent,
-    children: <Widget>[
-      MaterialButton(
-        child: Text(
-          'Search',
-          style: TextStyle(color: Colors.white),
-        ),
-        color: Theme.of(context).buttonColor,
-        onPressed: () => model.navigateToHome(),
-        highlightElevation: 2,
-        height: 40,
-        minWidth: 150,
-        shape: StadiumBorder(),
-      ),
-      MaterialButton(
-        child: Text(
-          'aActive Listings',
-          style: TextStyle(color: Colors.white),
-        ),
-        color: Theme.of(context).accentColor,
-        onPressed: () => model.navigateToActive(),
-        highlightElevation: 2,
-        height: 40,
-        minWidth: 150,
-        shape: UnderlineInputBorder(),
-      ),
-    ],
-  );
-}
-
-Widget _itemListViewBuilder(model) {
+Widget _itemListViewBuilder(context, model) {
   if (model.data != null) {
     return Expanded(
       child: ListView.builder(
@@ -163,7 +159,7 @@ Widget _itemListViewBuilder(model) {
                   title: Text(item.title),
                   trailing: Text(
                     item.currentPrice,
-                    style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                    style: TextStyle(color: Colors.lightGreen, fontWeight: FontWeight.bold),
                   ),
                   onTap: () => model.launchUrl(item.viewItemUrl),
                 ),
@@ -190,7 +186,7 @@ Widget _itemListViewBuilder(model) {
                   title: Text(item.title),
                   trailing: Text(
                     item.currentPrice,
-                    style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                    style: TextStyle(color: Theme.of(context).accentColor, fontWeight: FontWeight.bold),
                   ),
                   onTap: () => model.launchUrl(item.viewItemUrl),
                 ),

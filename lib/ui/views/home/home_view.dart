@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:priceit/ui/views/home/home_viewmodel.dart';
+import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 
@@ -9,12 +10,10 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final _searchController = TextEditingController();
+    final _formKey = GlobalKey<FormState>();
     return ViewModelBuilder<HomeViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
-            appBar: AppBar(
-                automaticallyImplyLeading: false,
-                title: Text('PriceIt', style: TextStyle(fontFamily: 'DancingScript', fontSize: 26.0),),
-              ),
+            appBar: customAppbar(),
             body: SafeArea(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -25,8 +24,8 @@ class HomeView extends StatelessWidget {
                     child: Center(child: Text('Ad Space')),
                   ),
                   _radioButtons(context, model),
-                  _searchBar(context, _searchController),
-                  _searchButton(context, model, _searchController)
+                  _searchBar(context, _searchController, _formKey),
+                  _searchButton(context, model, _searchController, _formKey)
                 ],
               ),
             )),
@@ -62,39 +61,46 @@ Widget _radioButtons(context, model) {
   );
 }
 
-Widget _searchBar(context, _searchController) {
+Widget _searchBar(context, _searchController, formKey) {
   return Padding(
     padding: const EdgeInsets.only(top: 10.0, bottom: 10.0, left: 14.0, right: 14.0),
-    child: TextField(
-      controller: _searchController,
-      decoration: InputDecoration(
-          border: InputBorder.none,
-          enabledBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.all(Radius.circular(10.0)),
-              borderSide: BorderSide(color: Theme.of(context).accentColor)),
-          focusedBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.all(Radius.circular(10.0)),
-              borderSide: BorderSide(color: Theme.of(context).accentColor)),
-          hintText: "Search By Keyword",
-          filled: true,
-          fillColor: Theme.of(context).backgroundColor),
+    child: Form(
+      key: formKey,
+      child: TextFormField(
+        validator: (String value) {
+          return value.isEmpty ? 'Please enter a keyword' : null;
+        },
+        controller: _searchController,
+        decoration: InputDecoration(
+            border: InputBorder.none,
+            enabledBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                borderSide: BorderSide(color: Theme.of(context).accentColor)),
+            focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                borderSide: BorderSide(color: Theme.of(context).accentColor)),
+            hintText: "Search By Keyword",
+            filled: true,
+            fillColor: Theme.of(context).backgroundColor),
+      ),
     ),
   );
 }
 
-Widget _searchButton(context, model, _searchController) {
+Widget _searchButton(context, model, _searchController, _formKey) {
   return Padding(
     padding: const EdgeInsets.all(10.0),
     child: MaterialButton(
       onPressed: () {
-        // TODO: Check for empty searchBarValue
-        model.updateSearchKeyword(_searchController.text.trim());
-        _searchController.clear();
-        model.navigateToCompleted();
+        if (_formKey.currentState.validate()) {
+          model.updateSearchKeyword(_searchController.text.trim());
+          _searchController.clear();
+          model.navigateToCompleted();
+        }
       },
       child: Text(
         'Search',
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
       ),
       color: Theme.of(context).accentColor,
       highlightElevation: 2,

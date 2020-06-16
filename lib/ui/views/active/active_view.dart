@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/active/active_viewmodel.dart';
+import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:stacked/stacked.dart';
 
 class ActiveView extends StatelessWidget {
@@ -10,6 +11,7 @@ class ActiveView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<ActiveViewModel>.nonReactive(
         builder: (context, model, child) => Scaffold(
+              appBar: customAppbar(),
               body: SafeArea(
                 child: Center(
                   child: Column(
@@ -18,10 +20,11 @@ class ActiveView extends StatelessWidget {
                         height: 80.0,
                         child: Center(child: Text('Ad Space')),
                       ),
-                      _buttonBar(model, context),
+                      listingSearchButton(context, model),
+                      _buttonBar(context, model),
                       _titleText(context),
-                      _pricingText(model, context),
-                      _itemListViewBuilder(model),
+                      _pricingText(context, model),
+                      _itemListViewBuilder(context, model),
                     ],
                   ),
                 ),
@@ -31,28 +34,27 @@ class ActiveView extends StatelessWidget {
   }
 }
 
-Widget _buttonBar(model, context) {
+Widget _buttonBar(context, model) {
   return ButtonBar(
     mainAxisSize: MainAxisSize.max,
     alignment: MainAxisAlignment.center,
     buttonTextTheme: ButtonTextTheme.accent,
     children: <Widget>[
       MaterialButton(
-        child: Text(
-          'Search',
-          style: TextStyle(color: Colors.white),
-        ),
-        color: Theme.of(context).buttonColor,
-        onPressed: () => model.navigateToHome(),
+        child: Text('Completed Listings',
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
+        color: Theme.of(context).accentColor,
+        onPressed: () => model.navigateToComplete(),
         highlightElevation: 2,
         height: 40,
         minWidth: 150,
-        shape: StadiumBorder(),
+        shape: UnderlineInputBorder(),
       ),
       MaterialButton(
-        child: Text('Completed Listings', style: TextStyle(color: Colors.white)),
-        color: Theme.of(context).accentColor,
-        onPressed: () => model.navigateToComplete(),
+        child: Text('Active Listings',
+            style: TextStyle(color: Colors.white)),
+        color: Theme.of(context).buttonColor,
+        onPressed: () => null,
         highlightElevation: 2,
         height: 40,
         minWidth: 150,
@@ -67,12 +69,12 @@ Widget _titleText(context) {
     padding: const EdgeInsets.all(10.0),
     child: Text(
       'Active Listings',
-      style: TextStyle(fontSize: 24.0, color: Theme.of(context).accentColor),
+      style: TextStyle(fontSize: 24.0, color: Theme.of(context).accentColor, fontWeight: FontWeight.w600),
     ),
   );
 }
 
-Widget _pricingText(model, context) {
+Widget _pricingText(context, model) {
   return Padding(
     padding: const EdgeInsets.all(10.0),
     child: Row(
@@ -92,7 +94,7 @@ Widget _pricingText(model, context) {
   );
 }
 
-Widget _itemListViewBuilder(model) {
+Widget _itemListViewBuilder(context, model) {
   return Expanded(
     child: ListView.builder(
         itemCount: model.searchService.activeListing.length,
@@ -111,7 +113,7 @@ Widget _itemListViewBuilder(model) {
                 title: Text(item.title),
                 trailing: Text(
                   item.currentPrice,
-                  style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Theme.of(context).accentColor, fontWeight: FontWeight.bold),
                 ),
                 onTap: () => model.launchUrl(item.viewItemUrl),
               ),
