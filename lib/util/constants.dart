@@ -17,11 +17,13 @@ const String responseDataFormatHeader = 'X-EBAY-SOA-RESPONSE-DATA-FORMAT';
 // Header Values
 const String findCompletedItems = 'findCompletedItems';
 const String findItemsByKeywords = 'findItemsByKeywords';
+const String findItemsByProduct = 'findItemsByProduct';
 const String serviceVersionHeaderValue = '1.0.0';
 const String globalIdHeaderValue = 'EBAY-US';
 const String serviceNameHeaderValue = 'FindingService';
 const String requestDataFormatHeaderValue = 'JSON';
 const String responseDataFormatHeaderValue = 'JSON';
+const String responseDataFormatHeaderValueXML = 'XML';
 
 // Request Headers
 Map<String, String> completedItemsHeaders = {
@@ -44,6 +46,17 @@ Map<String, String> activeItemsHeaders = {
   serviceNameHeader: serviceNameHeaderValue,
   requestDataFormatHeader: requestDataFormatHeaderValue,
   responseDataFormatHeader: responseDataFormatHeaderValue
+};
+
+Map<String, String> productItemsHeaders = {
+  HttpHeaders.contentTypeHeader: 'text/xml',
+  appNameHeader: DotEnv().env['APP_ID'],
+  operationNameHeader: findItemsByKeywords,
+  serviceVersionHeader: serviceVersionHeaderValue,
+  globalIdHeader: globalIdHeaderValue,
+  serviceNameHeader: serviceNameHeaderValue,
+  requestDataFormatHeader: requestDataFormatHeaderValue,
+  responseDataFormatHeader: responseDataFormatHeaderValueXML
 };
 
 // Ebay Item Conditions

@@ -1,16 +1,23 @@
 import 'dart:convert';
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
 import 'package:priceit/util/constants.dart';
 
-void main() {
+void main() async {
   final api = Api();
+//  await DotEnv().load('../../.env');
 
   test('validate item list length', () {
     Future<List<Item>> items = api.searchForCompletedItems('Used', 'iphone 6');
     items.then((value) => expect(items.asStream().length, 100));
+  });
+
+  test('validate item list length', () {
+    Future<List<Item>> items = api.searchForItemsByProduct('UPC', '732913342280');
+    items.then((value) => expect(items.asStream().length, 25));
   });
 
   test('validate keyword in post request body', () {

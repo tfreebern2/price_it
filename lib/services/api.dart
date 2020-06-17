@@ -26,6 +26,13 @@ class Api {
     return _getItemList(decodedItemList, response);
   }
 
+  Future<List<Item>> searchForItemsByProduct(String productType, String productId) async {
+    String requestBody = buildProductItemSearchRequest(productType, productId);
+    http.Response response = await _findingProduct(requestBody);
+    List decodedItemList = _decodeResponse(response);
+    return _getItemList(decodedItemList, response);
+  }
+
   String buildCompletedItemSearchRequest(String selectorValue, String searchKeyword) {
     String intValue = '3000';
     intValue = _setConditionIntValue(selectorValue, intValue);
@@ -40,6 +47,14 @@ class Api {
       paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
     });
 
+    return requestBody;
+  }
+
+  String buildProductItemSearchRequest(String productType, String productId) {
+    var requestBody = '<?xml version="1.0" encoding="UTF-8"?>'
+            '<findItemsByProductRequest xmlns="http://www.ebay.com/marketplace/search/v1/services">' +
+        '<productId type=' + '"' + productType + '"' + '>' + productId + '</productId>' +
+        '<paginationInput><entriesPerPage>25</entriesPerPage></paginationInput></findItemsByProductRequest>';
     return requestBody;
   }
 
@@ -70,7 +85,8 @@ class Api {
   }
 
   Future<http.Response> _findingCompletedItemApiCall(var body) async {
-    final response = await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
+    final response =
+        await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
     debugPrint("Search Completed Listings - Response Code: " + response.statusCode.toString());
     return response;
   }
@@ -78,6 +94,13 @@ class Api {
   Future<http.Response> _findingActiveItemApiCall(var body) async {
     final response = await client.post(findingServiceUrl, headers: activeItemsHeaders, body: body);
     debugPrint("Search Active Listings - Response Code: " + response.statusCode.toString());
+    return response;
+  }
+
+  Future<http.Response> _findingProduct(var body) async {
+    final response =
+        await client.post(findingServiceUrl, headers: productItemsHeaders, body: body);
+    debugPrint("Search Product - Response Code: " + response.statusCode.toString());
     return response;
   }
 
@@ -95,7 +118,7 @@ class Api {
     decodedItemList.forEach((json) {
       if (itemList.isEmpty) {
         Item item = Item.fromMap(json);
-        List totalEntries =  findTotalEntries(response);
+        List totalEntries = findTotalEntries(response);
         item.totalEntries = totalEntries[0];
         itemList.add(item);
       } else {
@@ -112,9 +135,11 @@ class Api {
   List findTotalEntries(http.Response response) {
     var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
-      return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries] as List;
+      return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries]
+          as List;
     } else {
-      return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries] as List;
+      return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries]
+          as List;
     }
   }
 }
