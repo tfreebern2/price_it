@@ -4,7 +4,7 @@ import 'package:priceit/services/search_service.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 
-class HomeViewModel extends ReactiveViewModel {
+class KeywordSearchHomeViewModel extends ReactiveViewModel {
   final _searchService = locator<SearchService>();
   final _navigationService = locator<NavigationService>();
 
@@ -20,7 +20,11 @@ class HomeViewModel extends ReactiveViewModel {
   }
 
   void navigateToCompleted() {
-    _navigationService.navigateTo(Routes.completedView);
+    _navigationService.navigateTo(Routes.keywordSearchCompletedView);
+  }
+
+  void navigateToSelectionView() {
+    _navigationService.navigateTo(Routes.selectionView);
   }
 
   @override

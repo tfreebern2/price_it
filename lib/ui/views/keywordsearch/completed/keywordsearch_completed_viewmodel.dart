@@ -8,7 +8,7 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class CompletedViewModel extends FutureViewModel<EbayResponse> {
+class KeywordSearchCompletedViewModel extends FutureViewModel<EbayResponse> {
   final _navigationService = locator<NavigationService>();
   final _apiService = locator<Api>();
   final searchService = locator<SearchService>();
@@ -19,11 +19,11 @@ class CompletedViewModel extends FutureViewModel<EbayResponse> {
 
   void navigateToHome() {
     searchService.resetSearchResultState();
-    _navigationService.navigateTo(Routes.homeViewRoute);
+    _navigationService.navigateTo(Routes.keywordSearchHomeView);
   }
 
   void navigateToActive() {
-    _navigationService.navigateTo(Routes.activeView);
+    _navigationService.navigateTo(Routes.keywordSearchActiveView);
   }
 
   void launchUrl(String viewItemURL) async {

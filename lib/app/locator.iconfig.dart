@@ -5,8 +5,8 @@
 // **************************************************************************
 
 import 'package:priceit/services/api.dart';
-import 'package:stacked_services/stacked_services.dart';
 import 'package:priceit/services/third_party_services_module.dart';
+import 'package:stacked_services/stacked_services.dart';
 import 'package:priceit/services/search_service.dart';
 import 'package:get_it/get_it.dart';
 

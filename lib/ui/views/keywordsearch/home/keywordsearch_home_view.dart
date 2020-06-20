@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:priceit/ui/views/home/home_viewmodel.dart';
+import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_home_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 
-class HomeView extends StatelessWidget {
-  const HomeView({Key key}) : super(key: key);
+class KeywordSearchHomeView extends StatelessWidget {
+  const KeywordSearchHomeView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final _searchController = TextEditingController();
     final _formKey = GlobalKey<FormState>();
-    return ViewModelBuilder<HomeViewModel>.reactive(
+    return ViewModelBuilder<KeywordSearchHomeViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
             appBar: customAppbar(),
             body: SafeArea(
@@ -25,11 +25,12 @@ class HomeView extends StatelessWidget {
                   ),
                   _radioButtons(context, model),
                   _searchBar(context, _searchController, _formKey),
-                  _searchButton(context, model, _searchController, _formKey)
+                  _searchButton(context, model, _searchController, _formKey),
+                  _backButton(context, model)
                 ],
               ),
             )),
-        viewModelBuilder: () => HomeViewModel());
+        viewModelBuilder: () => KeywordSearchHomeViewModel());
   }
 }
 
@@ -107,6 +108,28 @@ Widget _searchButton(context, model, _searchController, _formKey) {
       height: 40,
       minWidth: 150,
       shape: StadiumBorder(),
+    ),
+  );
+}
+
+Widget _backButton(context, model) {
+  return Material(
+    child: InkWell(
+      borderRadius: BorderRadius.circular(20),
+      onTap: () => model.navigateToSelectionView(),
+      splashColor: Theme.of(context).accentColor,
+      highlightColor: Theme.of(context).accentColor,
+      child: Container(
+        height: 36,
+        width: 120,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: Colors.black),
+        ),
+        child: Center(
+          child: Text("Back"),
+        ),
+      ),
     ),
   );
 }
