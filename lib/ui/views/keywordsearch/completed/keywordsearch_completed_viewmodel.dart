@@ -19,7 +19,7 @@ class KeywordSearchCompletedViewModel extends FutureViewModel<EbayResponse> {
 
   void navigateToHome() {
     searchService.resetSearchResultState();
-    _navigationService.navigateTo(Routes.keywordSearchHomeView);
+    _navigationService.clearStackAndShow(Routes.keywordSearchHomeView);
   }
 
   void navigateToActive() {

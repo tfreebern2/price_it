@@ -12,19 +12,18 @@ class SelectionView extends StatelessWidget {
         builder: (context, model, child) => Scaffold(
               appBar: customAppbar(),
               body: SafeArea(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    SizedBox(
-                      height: 180.0,
-                      child: Center(child: Text('Ad Space')),
-                    ),
-                    searchByKeywordButton(context, model),
-                    SizedBox(
-                      height: 100.0,
-                    ),
-                    searchByProductButton(context, model),
-                  ],
+                child: Center(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      searchByKeywordButton(context, model),
+                      SizedBox(
+                        height: 100.0,
+                      ),
+                      searchByProductButton(context, model),
+                    ],
+                  ),
                 ),
               ),
             ),

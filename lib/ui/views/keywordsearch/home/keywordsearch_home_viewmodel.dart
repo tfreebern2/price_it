@@ -24,7 +24,7 @@ class KeywordSearchHomeViewModel extends ReactiveViewModel {
   }
 
   void navigateToSelectionView() {
-    _navigationService.navigateTo(Routes.selectionView);
+    _navigationService.clearStackAndShow(Routes.selectionView);
   }
 
   @override

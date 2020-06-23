@@ -20,8 +20,7 @@ class KeywordSearchHomeView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   SizedBox(
-                    height: 120.0,
-                    child: Center(child: Text('Ad Space')),
+                    height: 120.0
                   ),
                   _radioButtons(context, model),
                   _searchBar(context, _searchController, _formKey),

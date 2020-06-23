@@ -1,10 +1,31 @@
+import 'package:camera/camera.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:priceit/app/locator.dart';
-import 'package:priceit/services/search_service.dart';
+import 'package:priceit/app/router.gr.dart';
+import 'package:priceit/datamodels/camera.dart';
 import 'package:stacked/stacked.dart';
+import 'package:stacked_services/stacked_services.dart';
 
-class ProductSearchHomeViewModel extends ReactiveViewModel {
-  final _searchService = locator<SearchService>();
+class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
+  List<CameraDescription> cameras = [];
+  Camera camera;
+  final _navigationService = locator<NavigationService>();
+
+  void navigateToHome() {
+    camera.cameraController.dispose();
+    _navigationService.clearStackAndShow(Routes.selectionView);
+  }
 
   @override
-  List<ReactiveServiceMixin> get reactiveServices => [_searchService];
+  Future<Camera> futureToRun() async {
+    try {
+      WidgetsFlutterBinding.ensureInitialized();
+      cameras = await availableCameras();
+    } on CameraException catch (e) {
+      print(e);
+    }
+    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.medium));
+    await camera.cameraController.initialize();
+    return camera;
+  }
 }

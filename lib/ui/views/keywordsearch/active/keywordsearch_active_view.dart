@@ -17,8 +17,7 @@ class KeywordSearchActiveView extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       SizedBox(
-                        height: 80.0,
-                        child: Center(child: Text('Ad Space')),
+                        height: 20.0,
                       ),
                       listingSearchButton(context, model),
                       _buttonBar(context, model),

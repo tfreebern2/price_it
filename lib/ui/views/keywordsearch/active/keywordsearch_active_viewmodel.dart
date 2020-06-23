@@ -19,7 +19,7 @@ class KeywordSearchActiveViewModel extends BaseViewModel {
 
   void navigateToHome() {
     searchService.resetSearchResultState();
-    _navigationService.navigateTo(Routes.keywordSearchHomeView);
+    _navigationService.clearStackAndShow(Routes.keywordSearchHomeView);
   }
 
   void navigateToComplete() {
