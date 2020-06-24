@@ -26,8 +26,8 @@ class Api {
     return _getItemList(decodedItemList, response);
   }
 
-  Future<List<Item>> searchForItemsByProduct(String productType, String productId) async {
-    String requestBody = buildProductItemSearchRequest(productType, productId);
+  Future<List<Item>> searchForItemsByProduct(String productType, String productId, String condition) async {
+    String requestBody = buildProductItemSearchRequest(productType, productId, condition);
     http.Response response = await _findingProduct(requestBody);
     List decodedItemList = _decodeResponse(response);
     return _getItemList(decodedItemList, response);
@@ -50,11 +50,19 @@ class Api {
     return requestBody;
   }
 
-  String buildProductItemSearchRequest(String productType, String productId) {
+  String buildProductItemSearchRequest(String productType, String productId, String condition) {
+    String conditionValue = '3000';
     var requestBody = '<?xml version="1.0" encoding="UTF-8"?>'
             '<findItemsByProductRequest xmlns="http://www.ebay.com/marketplace/search/v1/services">' +
-        '<productId type=' + '"' + productType + '"' + '>' + productId + '</productId>' +
-        '<paginationInput><entriesPerPage>25</entriesPerPage></paginationInput></findItemsByProductRequest>';
+        '<productId type=' + '"' + productType + '"' + '>' + productId + '<\/productId>' +
+        '<itemFilter>' +
+        '<name>' + condition + '<\/name>' +
+        '<value>' + conditionValue + '<\/value>' +
+        '<\/itemFilter>' +
+        '<paginationInput>'
+            '<entriesPerPage>' + '25' + '<\/entriesPerPage>'
+        '</paginationInput>'
+        '</findItemsByProductRequest>';
     return requestBody;
   }
 

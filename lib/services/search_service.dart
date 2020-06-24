@@ -13,9 +13,20 @@ class SearchService with ReactiveServiceMixin {
   RxValue<double> _completedListingAveragePrice = RxValue<double>(initial: 0.00);
   RxValue<double> _completedListingPercentageSold = RxValue<double>(initial: 0.00);
   RxValue<double> _activeListingAveragePrice = RxValue<double>(initial: 0.00);
+  RxValue<String> _productType = RxValue<String>(initial: 'UPC');
+  RxValue<String> _productId = RxValue<String>(initial: '0');
+  RxValue<String> _imagePath = RxValue<String>(initial: null);
 
   SearchService() {
-    listenToReactiveValues([_condition, _searchKeyword, _completedListing, _activeListing]);
+    listenToReactiveValues([
+      _condition,
+      _searchKeyword,
+      _completedListing,
+      _activeListing,
+      _productType,
+      _productId,
+      _imagePath
+    ]);
   }
 
   String get condition => _condition.value;
@@ -25,6 +36,9 @@ class SearchService with ReactiveServiceMixin {
   double get completedListingAveragePrice => _completedListingAveragePrice.value;
   double get completedListingPercentageSold => _completedListingPercentageSold.value;
   double get activeListingAveragePrice => _activeListingAveragePrice.value;
+  String get productType => _productType.value;
+  String get productId => _productId.value;
+  String get imagePath => _imagePath.value;
 
   void updateCondition(String newValue) {
     _condition.value = newValue;
@@ -60,9 +74,22 @@ class SearchService with ReactiveServiceMixin {
     });
   }
 
+  void setProductType(String newValue) {
+    _productType.value = newValue;
+  }
+
+  void setProductId(String newValue) {
+    _productId.value = newValue;
+  }
+
+  void updateImagePath(String newValue) {
+    _imagePath.value = newValue;
+  }
+
   void resetSearchResultState() {
     _completedListing.value = new List<Item>();
     _activeListing.value = new List<Item>();
+    _condition.value = 'Used';
     _completedListingAveragePrice.value = 0.0;
     _completedListingPercentageSold.value = 0.0;
     _activeListingAveragePrice.value = 0.0;

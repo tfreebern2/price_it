@@ -16,7 +16,7 @@ void main() async {
   });
 
   test('validate item list length', () {
-    Future<List<Item>> items = api.searchForItemsByProduct('UPC', '732913342280');
+    Future<List<Item>> items = api.searchForItemsByProduct('UPC', '732913342280', 'Used');
     items.then((value) => expect(items.asStream().length, 25));
   });
 
