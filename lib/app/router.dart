@@ -4,6 +4,7 @@ import 'package:priceit/ui/views/keywordsearch/active/keywordsearch_active_view.
 import 'package:priceit/ui/views/keywordsearch/completed/keywordsearch_completed_view.dart';
 import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_home_view.dart';
 import 'package:priceit/ui/views/productsearch/home/productsearch_home_view.dart';
+import 'package:priceit/ui/views/productsearch/photodetail/productsearch_photodetail_view.dart';
 
 @MaterialAutoRouter()
 class $Router {
@@ -13,4 +14,5 @@ class $Router {
   KeywordSearchCompletedView keywordSearchCompletedView;
   KeywordSearchActiveView keywordSearchActiveView;
   ProductSearchHomeView productSearchHomeView;
+  ProductSearchPhotoDetailView productSearchPhotoDetailView;
 }

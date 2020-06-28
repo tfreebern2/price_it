@@ -1,4 +1,3 @@
-import 'package:camera/camera.dart';
 import 'package:injectable/injectable.dart';
 import 'package:observable_ish/observable_ish.dart';
 import 'package:priceit/datamodels/item.dart';

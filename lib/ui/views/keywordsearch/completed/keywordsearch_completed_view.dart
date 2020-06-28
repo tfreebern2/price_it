@@ -12,6 +12,7 @@ class KeywordSearchCompletedView extends StatelessWidget {
     return ViewModelBuilder<KeywordSearchCompletedViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
         appBar: customAppbar(),
+        // TODO: Revisit this WillPopScope
         body: WillPopScope(
           onWillPop: () => onBack(model),
           child: SafeArea(

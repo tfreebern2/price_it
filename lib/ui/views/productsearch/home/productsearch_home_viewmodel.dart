@@ -26,6 +26,11 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
     notifyListeners();
   }
 
+  void navigateToPhotoDetail() {
+    camera.cameraController.dispose();
+    _navigationService.navigateTo(Routes.productSearchPhotoDetailView);
+  }
+
   void navigateToHome() {
     camera.cameraController.dispose();
     _searchService.resetSearchResultState();
@@ -40,7 +45,7 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
     } on CameraException catch (e) {
       print(e);
     }
-    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.medium));
+    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.high));
     await camera.cameraController.initialize();
     // check if you need to mount camera
     return camera;

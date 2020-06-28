@@ -1,13 +1,15 @@
 import 'dart:io';
 
 import 'package:camera/camera.dart';
+import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:path_provider/path_provider.dart';
 
 class Camera {
   CameraController _cameraController;
+  SystemChrome systemChrome;
 
-  Camera(this._cameraController);
+  Camera(this._cameraController, this.systemChrome);
 
   CameraController get cameraController => _cameraController;
 

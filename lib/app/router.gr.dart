@@ -12,6 +12,7 @@ import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_home_view.dart
 import 'package:priceit/ui/views/keywordsearch/completed/keywordsearch_completed_view.dart';
 import 'package:priceit/ui/views/keywordsearch/active/keywordsearch_active_view.dart';
 import 'package:priceit/ui/views/productsearch/home/productsearch_home_view.dart';
+import 'package:priceit/ui/views/productsearch/photodetail/productsearch_photodetail_view.dart';
 
 abstract class Routes {
   static const selectionView = '/';
@@ -19,12 +20,15 @@ abstract class Routes {
   static const keywordSearchCompletedView = '/keyword-search-completed-view';
   static const keywordSearchActiveView = '/keyword-search-active-view';
   static const productSearchHomeView = '/product-search-home-view';
+  static const productSearchPhotoDetailView =
+      '/product-search-photo-detail-view';
   static const all = {
     selectionView,
     keywordSearchHomeView,
     keywordSearchCompletedView,
     keywordSearchActiveView,
     productSearchHomeView,
+    productSearchPhotoDetailView,
   };
 }
 
@@ -81,8 +85,18 @@ class Router extends RouterBase {
           settings: settings,
         );
       case Routes.productSearchHomeView:
+        if (hasInvalidArgs<ProductSearchHomeViewArguments>(args)) {
+          return misTypedArgsRoute<ProductSearchHomeViewArguments>(args);
+        }
+        final typedArgs = args as ProductSearchHomeViewArguments ??
+            ProductSearchHomeViewArguments();
         return MaterialPageRoute<dynamic>(
-          builder: (context) => ProductSearchHomeView(),
+          builder: (context) => ProductSearchHomeView(key: typedArgs.key),
+          settings: settings,
+        );
+      case Routes.productSearchPhotoDetailView:
+        return MaterialPageRoute<dynamic>(
+          builder: (context) => ProductSearchPhotoDetailView(),
           settings: settings,
         );
       default:
@@ -117,4 +131,10 @@ class KeywordSearchCompletedViewArguments {
 class KeywordSearchActiveViewArguments {
   final Key key;
   KeywordSearchActiveViewArguments({this.key});
+}
+
+//ProductSearchHomeView arguments holder class
+class ProductSearchHomeViewArguments {
+  final Key key;
+  ProductSearchHomeViewArguments({this.key});
 }

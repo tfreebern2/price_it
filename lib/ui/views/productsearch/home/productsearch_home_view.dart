@@ -24,16 +24,16 @@ class ProductSearchHomeView extends StatelessWidget {
                         child: Container(
                           alignment: Alignment.bottomCenter,
                           child: RaisedButton.icon(
-                              onPressed: () async {
-                                await model.data.takePicture().then((path) => {
-                                      if (path != null) {
-                                        model.updateImagePath(path)
-                                      }
-                                });
-                                model.navigateToHome();
-                              },
-                              icon: Icon(Icons.camera_alt),
-                              label: Text("Scan")),
+                            onPressed: () async {
+                              await model.data.takePicture().then((path) => {
+                                    if (path != null) {model.updateImagePath(path)}
+                                  });
+                              model.navigateToPhotoDetail();
+                            },
+                            icon: Icon(Icons.camera_alt),
+                            label: Text("Scan"),
+                            color: Theme.of(context).accentColor,
+                          ),
                         ),
                       )
                     ],
