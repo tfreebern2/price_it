@@ -6,14 +6,13 @@ import 'package:stacked/stacked.dart';
 @lazySingleton
 class SearchService with ReactiveServiceMixin {
   RxValue<String> _condition = RxValue<String>(initial: 'Used');
-  RxValue<String> _searchKeyword = RxValue<String>(initial: 'iPhone 6');
+  RxValue<String> _searchKeyword = RxValue<String>(initial: '');
   RxValue<List<Item>> _completedListing = RxValue<List<Item>>(initial: List<Item>());
   RxValue<List<Item>> _activeListing = RxValue<List<Item>>(initial: List<Item>());
   RxValue<double> _completedListingAveragePrice = RxValue<double>(initial: 0.00);
   RxValue<double> _completedListingPercentageSold = RxValue<double>(initial: 0.00);
   RxValue<double> _activeListingAveragePrice = RxValue<double>(initial: 0.00);
-  RxValue<String> _productType = RxValue<String>(initial: 'UPC');
-  RxValue<String> _productId = RxValue<String>(initial: '0');
+  RxValue<String> _productType = RxValue<String>(initial: '');
   RxValue<String> _imagePath = RxValue<String>(initial: null);
 
   SearchService() {
@@ -23,7 +22,6 @@ class SearchService with ReactiveServiceMixin {
       _completedListing,
       _activeListing,
       _productType,
-      _productId,
       _imagePath
     ]);
   }
@@ -36,14 +34,13 @@ class SearchService with ReactiveServiceMixin {
   double get completedListingPercentageSold => _completedListingPercentageSold.value;
   double get activeListingAveragePrice => _activeListingAveragePrice.value;
   String get productType => _productType.value;
-  String get productId => _productId.value;
   String get imagePath => _imagePath.value;
 
-  void updateCondition(String newValue) {
+  void setCondition(String newValue) {
     _condition.value = newValue;
   }
 
-  void updateSearchKeyword(String newValue) {
+  void setSearchKeyword(String newValue) {
     _searchKeyword.value = newValue;
   }
 
@@ -59,6 +56,14 @@ class SearchService with ReactiveServiceMixin {
     _activeListingAveragePrice.value = newValue;
   }
 
+  void setProductType(String newValue) {
+    _productType.value = newValue;
+  }
+
+  void setImagePath(String newValue) {
+    _imagePath.value = newValue;
+  }
+
   void updateCompletedAndActiveListings(Future<List<Item>> completedListings, Future<List<Item>> activeListings) async {
     await completedListings.asStream().forEach((futureList) {
       futureList.forEach((futureItem) {
@@ -71,18 +76,6 @@ class SearchService with ReactiveServiceMixin {
         _activeListing.value.add(futureItem);
       });
     });
-  }
-
-  void setProductType(String newValue) {
-    _productType.value = newValue;
-  }
-
-  void setProductId(String newValue) {
-    _productId.value = newValue;
-  }
-
-  void updateImagePath(String newValue) {
-    _imagePath.value = newValue;
   }
 
   void resetSearchResultState() {

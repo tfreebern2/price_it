@@ -26,13 +26,6 @@ class Api {
     return _getItemList(decodedItemList, response);
   }
 
-  Future<List<Item>> searchForItemsByProduct(String productType, String productId, String condition) async {
-    String requestBody = buildProductItemSearchRequest(productType, productId, condition);
-    http.Response response = await _findingProduct(requestBody);
-    List decodedItemList = _decodeResponse(response);
-    return _getItemList(decodedItemList, response);
-  }
-
   String buildCompletedItemSearchRequest(String selectorValue, String searchKeyword) {
     String intValue = '3000';
     intValue = _setConditionIntValue(selectorValue, intValue);
@@ -47,22 +40,6 @@ class Api {
       paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
     });
 
-    return requestBody;
-  }
-
-  String buildProductItemSearchRequest(String productType, String productId, String condition) {
-    String conditionValue = '3000';
-    var requestBody = '<?xml version="1.0" encoding="UTF-8"?>'
-            '<findItemsByProductRequest xmlns="http://www.ebay.com/marketplace/search/v1/services">' +
-        '<productId type=' + '"' + productType + '"' + '>' + productId + '<\/productId>' +
-        '<itemFilter>' +
-        '<name>' + condition + '<\/name>' +
-        '<value>' + conditionValue + '<\/value>' +
-        '<\/itemFilter>' +
-        '<paginationInput>'
-            '<entriesPerPage>' + '25' + '<\/entriesPerPage>'
-        '</paginationInput>'
-        '</findItemsByProductRequest>';
     return requestBody;
   }
 
@@ -102,13 +79,6 @@ class Api {
   Future<http.Response> _findingActiveItemApiCall(var body) async {
     final response = await client.post(findingServiceUrl, headers: activeItemsHeaders, body: body);
     debugPrint("Search Active Listings - Response Code: " + response.statusCode.toString());
-    return response;
-  }
-
-  Future<http.Response> _findingProduct(var body) async {
-    final response =
-        await client.post(findingServiceUrl, headers: productItemsHeaders, body: body);
-    debugPrint("Search Product - Response Code: " + response.statusCode.toString());
     return response;
   }
 

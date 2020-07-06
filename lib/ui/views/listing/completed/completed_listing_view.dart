@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
-import 'package:priceit/ui/views/keywordsearch/completed/keywordsearch_completed_viewmodel.dart';
+import 'package:priceit/ui/views/listing/completed/completed_listing_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:stacked/stacked.dart';
 
-class KeywordSearchCompletedView extends StatelessWidget {
-  const KeywordSearchCompletedView({Key key}) : super(key: key);
+class CompletedListingView extends StatelessWidget {
+  const CompletedListingView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<KeywordSearchCompletedViewModel>.reactive(
+    return ViewModelBuilder<CompletedListingViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
         appBar: customAppbar(),
         // TODO: Revisit this WillPopScope
@@ -35,7 +35,7 @@ class KeywordSearchCompletedView extends StatelessWidget {
           ),
         ),
       ),
-      viewModelBuilder: () => KeywordSearchCompletedViewModel(),
+      viewModelBuilder: () => CompletedListingViewModel(),
     );
   }
 }

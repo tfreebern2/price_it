@@ -63,7 +63,7 @@ class _RadioButtons extends HookViewModelWidget<ProductSearchHomeViewModel> {
               model.updateCondition(newValue);
             },
           ),
-          Text(usedValue, style: TextStyle(color: Colors.white)),
+          Text(usedValue, style: TextStyle(color: Colors.lightGreen, fontSize: 22.0)),
           Radio(
             value: newValue,
             groupValue: model.condition.toString(),
@@ -71,17 +71,9 @@ class _RadioButtons extends HookViewModelWidget<ProductSearchHomeViewModel> {
               model.updateCondition(newValue);
             },
           ),
-          Text(newValue, style: TextStyle(color: Colors.white))
+          Text(newValue, style: TextStyle(color: Colors.lightGreen, fontSize: 22.0))
         ],
       ),
     );
-  }
-}
-
-class _CaptureButton extends HookViewModelWidget<ProductSearchHomeViewModel> {
-  @override
-  Widget buildViewModelWidget(BuildContext context, ProductSearchHomeViewModel viewModel) {
-    // TODO: implement buildViewModelWidget
-    throw UnimplementedError();
   }
 }

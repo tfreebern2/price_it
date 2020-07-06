@@ -12,15 +12,15 @@ class KeywordSearchHomeViewModel extends ReactiveViewModel {
   String get searchKeyword => _searchService.searchKeyword;
 
   void updateCondition(String newValue) {
-    _searchService.updateCondition(newValue);
+    _searchService.setCondition(newValue);
   }
 
   void updateSearchKeyword(String newValue) {
-    _searchService.updateSearchKeyword(newValue);
+    _searchService.setSearchKeyword(newValue);
   }
 
   void navigateToCompleted() {
-    _navigationService.navigateTo(Routes.keywordSearchCompletedView);
+    _navigationService.navigateTo(Routes.completedListingView);
   }
 
   void navigateToSelectionView() {

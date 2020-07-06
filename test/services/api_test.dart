@@ -15,11 +15,6 @@ void main() async {
     items.then((value) => expect(items.asStream().length, 100));
   });
 
-  test('validate item list length', () {
-    Future<List<Item>> items = api.searchForItemsByProduct('UPC', '732913342280', 'Used');
-    items.then((value) => expect(items.asStream().length, 25));
-  });
-
   test('validate keyword in post request body', () {
     String requestBody = api.buildCompletedItemSearchRequest('Used', 'iphone 6');
     var decodedRequestBody = jsonDecode(requestBody);

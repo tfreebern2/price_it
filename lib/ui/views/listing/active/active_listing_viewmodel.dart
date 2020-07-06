@@ -5,7 +5,7 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class KeywordSearchActiveViewModel extends BaseViewModel {
+class ActiveListingViewModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
   final searchService = locator<SearchService>();
 
@@ -19,10 +19,10 @@ class KeywordSearchActiveViewModel extends BaseViewModel {
 
   void navigateToHome() {
     searchService.resetSearchResultState();
-    _navigationService.clearStackAndShow(Routes.keywordSearchHomeView);
+    _navigationService.clearStackAndShow(Routes.selectionView);
   }
 
   void navigateToComplete() {
-    _navigationService.navigateTo(Routes.keywordSearchCompletedView);
+    _navigationService.navigateTo(Routes.completedListingView);
   }
 }

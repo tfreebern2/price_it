@@ -47,8 +47,8 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                                     height: 60,
                                     child: SingleChildScrollView(
                                       child: Text(
-                                        model.data.productId,
-                                        style: TextStyle(fontSize: 28.0),
+                                        model.data.searchKeyword,
+                                        style: TextStyle(fontSize: 26.0),
                                       ),
                                     ),
                                   )
@@ -58,13 +58,29 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                           ),
                         ),
                         Align(
-                          alignment: Alignment.bottomCenter,
-                          child: RaisedButton.icon(
-                            onPressed: () => print('yo'),
-                            icon: Icon(Icons.arrow_forward),
-                            label: Text('Search'),
-                            color: Theme.of(context).accentColor,
-                            shape: OutlineInputBorder(),
+                          alignment: Alignment.bottomLeft,
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: RaisedButton.icon(
+                              onPressed: () => onBack(model),
+                              icon: Icon(Icons.arrow_back),
+                              label: Text('Back'),
+                              color: Theme.of(context).accentColor,
+                              shape: OutlineInputBorder(),
+                            ),
+                          ),
+                        ),
+                        Align(
+                          alignment: Alignment.bottomRight,
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: RaisedButton.icon(
+                              onPressed: () => model.navigateToCompleted(),
+                              icon: Icon(Icons.arrow_forward),
+                              label: Text('Search'),
+                              color: Theme.of(context).accentColor,
+                              shape: OutlineInputBorder(),
+                            ),
                           ),
                         )
                       ],

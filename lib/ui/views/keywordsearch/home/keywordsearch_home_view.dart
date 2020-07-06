@@ -25,7 +25,6 @@ class KeywordSearchHomeView extends StatelessWidget {
                   _radioButtons(context, model),
                   _searchBar(context, _searchController, _formKey),
                   _searchButton(context, model, _searchController, _formKey),
-                  _backButton(context, model)
                 ],
               ),
             )),
@@ -44,7 +43,7 @@ Widget _radioButtons(context, model) {
           value: usedValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
-            model.updateCondition(newValue);
+            model.setCondition(newValue);
           },
         ),
         Text(usedValue),
@@ -52,7 +51,7 @@ Widget _radioButtons(context, model) {
           value: newValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
-            model.updateCondition(newValue);
+            model.setCondition(newValue);
           },
         ),
         Text(newValue)
@@ -93,7 +92,7 @@ Widget _searchButton(context, model, _searchController, _formKey) {
     child: MaterialButton(
       onPressed: () {
         if (_formKey.currentState.validate()) {
-          model.updateSearchKeyword(_searchController.text.trim());
+          model.setSearchKeyword(_searchController.text.trim());
           _searchController.clear();
           model.navigateToCompleted();
         }
@@ -107,28 +106,6 @@ Widget _searchButton(context, model, _searchController, _formKey) {
       height: 40,
       minWidth: 150,
       shape: StadiumBorder(),
-    ),
-  );
-}
-
-Widget _backButton(context, model) {
-  return Material(
-    child: InkWell(
-      borderRadius: BorderRadius.circular(20),
-      onTap: () => model.navigateToSelectionView(),
-      splashColor: Theme.of(context).accentColor,
-      highlightColor: Theme.of(context).accentColor,
-      child: Container(
-        height: 36,
-        width: 120,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: Colors.black),
-        ),
-        child: Center(
-          child: Text("Back"),
-        ),
-      ),
     ),
   );
 }

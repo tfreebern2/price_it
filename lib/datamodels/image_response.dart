@@ -5,14 +5,14 @@ import 'package:flutter/material.dart';
 class ImageResponse {
   File _imageFile;
   Size _imageSize;
-  String _productId;
+  String _searchKeyword;
   String _productType;
 
-  ImageResponse(this._imageFile, this._imageSize, this._productId, this._productType);
+  ImageResponse(this._imageFile, this._imageSize, this._searchKeyword, this._productType);
 
   File get imageFile => _imageFile;
   Size get imageSize => _imageSize;
-  String get productId => _productId;
+  String get searchKeyword => _searchKeyword;
   String get productType => _productType;
 
   void setImageFile(File imageFile) {
@@ -23,8 +23,8 @@ class ImageResponse {
     _imageSize = newValue;
   }
 
-  void setProductId(String newValue) {
-    _productId = newValue;
+  void setSearchKeyword(String newValue) {
+    _searchKeyword = newValue;
   }
 
   void setProductType(String newValue) {
@@ -34,7 +34,7 @@ class ImageResponse {
   ImageResponse.build(File imageFile, Size size, String productId, String productType) {
     setImageFile(imageFile);
     setImageSize(size);
-    setProductId(productId);
+    setSearchKeyword(productId);
     setProductType(productType);
   }
 }

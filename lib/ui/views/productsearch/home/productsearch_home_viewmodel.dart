@@ -17,12 +17,12 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
   String get searchKeyword => _searchService.searchKeyword;
 
   void updateCondition(String newValue) {
-    _searchService.updateCondition(newValue);
+    _searchService.setCondition(newValue);
     notifyListeners();
   }
 
   void updateImagePath(String newValue) {
-    _searchService.updateImagePath(newValue);
+    _searchService.setImagePath(newValue);
     notifyListeners();
   }
 
@@ -45,7 +45,7 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
     } on CameraException catch (e) {
       print(e);
     }
-    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.high));
+    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.ultraHigh));
     await camera.cameraController.initialize();
     // check if you need to mount camera
     return camera;

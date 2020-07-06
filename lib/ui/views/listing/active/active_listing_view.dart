@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
-import 'package:priceit/ui/views/keywordsearch/active/keywordsearch_active_viewmodel.dart';
+import 'package:priceit/ui/views/listing/active/active_listing_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:stacked/stacked.dart';
 
-class KeywordSearchActiveView extends StatelessWidget {
-  const KeywordSearchActiveView({Key key}) : super(key: key);
+class ActiveListingView extends StatelessWidget {
+  const ActiveListingView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<KeywordSearchActiveViewModel>.nonReactive(
+    return ViewModelBuilder<ActiveListingViewModel>.nonReactive(
         builder: (context, model, child) => Scaffold(
               appBar: customAppbar(),
               body: SafeArea(
@@ -29,7 +29,7 @@ class KeywordSearchActiveView extends StatelessWidget {
                 ),
               ),
             ),
-        viewModelBuilder: () => KeywordSearchActiveViewModel());
+        viewModelBuilder: () => ActiveListingViewModel());
   }
 }
 
