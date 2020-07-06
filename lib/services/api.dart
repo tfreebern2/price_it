@@ -70,7 +70,8 @@ class Api {
   }
 
   Future<http.Response> _findingCompletedItemApiCall(var body) async {
-    final response = await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
+    final response =
+        await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
     debugPrint("Search Completed Listings - Response Code: " + response.statusCode.toString());
     return response;
   }
@@ -95,7 +96,7 @@ class Api {
     decodedItemList.forEach((json) {
       if (itemList.isEmpty) {
         Item item = Item.fromMap(json);
-        List totalEntries =  findTotalEntries(response);
+        List totalEntries = findTotalEntries(response);
         item.totalEntries = totalEntries[0];
         itemList.add(item);
       } else {
@@ -112,9 +113,11 @@ class Api {
   List findTotalEntries(http.Response response) {
     var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
-      return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries] as List;
+      return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries]
+          as List;
     } else {
-      return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries] as List;
+      return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries]
+          as List;
     }
   }
 }

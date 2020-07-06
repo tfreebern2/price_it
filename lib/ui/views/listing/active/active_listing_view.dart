@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
-import 'package:priceit/ui/views/active/active_viewmodel.dart';
+import 'package:priceit/ui/views/listing/active/active_listing_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:stacked/stacked.dart';
 
-class ActiveView extends StatelessWidget {
-  const ActiveView({Key key}) : super(key: key);
+class ActiveListingView extends StatelessWidget {
+  const ActiveListingView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<ActiveViewModel>.nonReactive(
+    return ViewModelBuilder<ActiveListingViewModel>.nonReactive(
         builder: (context, model, child) => Scaffold(
               appBar: customAppbar(),
               body: SafeArea(
@@ -17,8 +17,7 @@ class ActiveView extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       SizedBox(
-                        height: 80.0,
-                        child: Center(child: Text('Ad Space')),
+                        height: 20.0,
                       ),
                       listingSearchButton(context, model),
                       _buttonBar(context, model),
@@ -30,7 +29,7 @@ class ActiveView extends StatelessWidget {
                 ),
               ),
             ),
-        viewModelBuilder: () => ActiveViewModel());
+        viewModelBuilder: () => ActiveListingViewModel());
   }
 }
 

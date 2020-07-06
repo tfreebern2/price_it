@@ -7,18 +7,28 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:auto_route/auto_route.dart';
-import 'package:priceit/ui/views/home/home_view.dart';
-import 'package:priceit/ui/views/completed/completed_view.dart';
-import 'package:priceit/ui/views/active/active_view.dart';
+import 'package:priceit/ui/views/home/selection_view.dart';
+import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_home_view.dart';
+import 'package:priceit/ui/views/productsearch/home/productsearch_home_view.dart';
+import 'package:priceit/ui/views/productsearch/photodetail/productsearch_photodetail_view.dart';
+import 'package:priceit/ui/views/listing/completed/completed_listing_view.dart';
+import 'package:priceit/ui/views/listing/active/active_listing_view.dart';
 
 abstract class Routes {
-  static const homeViewRoute = '/';
-  static const completedView = '/completed-view';
-  static const activeView = '/active-view';
+  static const selectionView = '/';
+  static const keywordSearchHomeView = '/keyword-search-home-view';
+  static const productSearchHomeView = '/product-search-home-view';
+  static const productSearchPhotoDetailView =
+      '/product-search-photo-detail-view';
+  static const completedListingView = '/completed-listing-view';
+  static const activeListingView = '/active-listing-view';
   static const all = {
-    homeViewRoute,
-    completedView,
-    activeView,
+    selectionView,
+    keywordSearchHomeView,
+    productSearchHomeView,
+    productSearchPhotoDetailView,
+    completedListingView,
+    activeListingView,
   };
 }
 
@@ -34,32 +44,59 @@ class Router extends RouterBase {
   Route<dynamic> onGenerateRoute(RouteSettings settings) {
     final args = settings.arguments;
     switch (settings.name) {
-      case Routes.homeViewRoute:
-        if (hasInvalidArgs<HomeViewArguments>(args)) {
-          return misTypedArgsRoute<HomeViewArguments>(args);
-        }
-        final typedArgs = args as HomeViewArguments ?? HomeViewArguments();
-        return MaterialPageRoute<dynamic>(
-          builder: (context) => HomeView(key: typedArgs.key),
-          settings: settings,
-        );
-      case Routes.completedView:
-        if (hasInvalidArgs<CompletedViewArguments>(args)) {
-          return misTypedArgsRoute<CompletedViewArguments>(args);
+      case Routes.selectionView:
+        if (hasInvalidArgs<SelectionViewArguments>(args)) {
+          return misTypedArgsRoute<SelectionViewArguments>(args);
         }
         final typedArgs =
-            args as CompletedViewArguments ?? CompletedViewArguments();
+            args as SelectionViewArguments ?? SelectionViewArguments();
         return MaterialPageRoute<dynamic>(
-          builder: (context) => CompletedView(key: typedArgs.key),
+          builder: (context) => SelectionView(key: typedArgs.key),
           settings: settings,
         );
-      case Routes.activeView:
-        if (hasInvalidArgs<ActiveViewArguments>(args)) {
-          return misTypedArgsRoute<ActiveViewArguments>(args);
+      case Routes.keywordSearchHomeView:
+        if (hasInvalidArgs<KeywordSearchHomeViewArguments>(args)) {
+          return misTypedArgsRoute<KeywordSearchHomeViewArguments>(args);
         }
-        final typedArgs = args as ActiveViewArguments ?? ActiveViewArguments();
+        final typedArgs = args as KeywordSearchHomeViewArguments ??
+            KeywordSearchHomeViewArguments();
         return MaterialPageRoute<dynamic>(
-          builder: (context) => ActiveView(key: typedArgs.key),
+          builder: (context) => KeywordSearchHomeView(key: typedArgs.key),
+          settings: settings,
+        );
+      case Routes.productSearchHomeView:
+        if (hasInvalidArgs<ProductSearchHomeViewArguments>(args)) {
+          return misTypedArgsRoute<ProductSearchHomeViewArguments>(args);
+        }
+        final typedArgs = args as ProductSearchHomeViewArguments ??
+            ProductSearchHomeViewArguments();
+        return MaterialPageRoute<dynamic>(
+          builder: (context) => ProductSearchHomeView(key: typedArgs.key),
+          settings: settings,
+        );
+      case Routes.productSearchPhotoDetailView:
+        return MaterialPageRoute<dynamic>(
+          builder: (context) => ProductSearchPhotoDetailView(),
+          settings: settings,
+        );
+      case Routes.completedListingView:
+        if (hasInvalidArgs<CompletedListingViewArguments>(args)) {
+          return misTypedArgsRoute<CompletedListingViewArguments>(args);
+        }
+        final typedArgs = args as CompletedListingViewArguments ??
+            CompletedListingViewArguments();
+        return MaterialPageRoute<dynamic>(
+          builder: (context) => CompletedListingView(key: typedArgs.key),
+          settings: settings,
+        );
+      case Routes.activeListingView:
+        if (hasInvalidArgs<ActiveListingViewArguments>(args)) {
+          return misTypedArgsRoute<ActiveListingViewArguments>(args);
+        }
+        final typedArgs =
+            args as ActiveListingViewArguments ?? ActiveListingViewArguments();
+        return MaterialPageRoute<dynamic>(
+          builder: (context) => ActiveListingView(key: typedArgs.key),
           settings: settings,
         );
       default:
@@ -72,20 +109,32 @@ class Router extends RouterBase {
 // Arguments holder classes
 // **************************************************************************
 
-//HomeView arguments holder class
-class HomeViewArguments {
+//SelectionView arguments holder class
+class SelectionViewArguments {
   final Key key;
-  HomeViewArguments({this.key});
+  SelectionViewArguments({this.key});
 }
 
-//CompletedView arguments holder class
-class CompletedViewArguments {
+//KeywordSearchHomeView arguments holder class
+class KeywordSearchHomeViewArguments {
   final Key key;
-  CompletedViewArguments({this.key});
+  KeywordSearchHomeViewArguments({this.key});
 }
 
-//ActiveView arguments holder class
-class ActiveViewArguments {
+//ProductSearchHomeView arguments holder class
+class ProductSearchHomeViewArguments {
   final Key key;
-  ActiveViewArguments({this.key});
+  ProductSearchHomeViewArguments({this.key});
+}
+
+//CompletedListingView arguments holder class
+class CompletedListingViewArguments {
+  final Key key;
+  CompletedListingViewArguments({this.key});
+}
+
+//ActiveListingView arguments holder class
+class ActiveListingViewArguments {
+  final Key key;
+  ActiveListingViewArguments({this.key});
 }

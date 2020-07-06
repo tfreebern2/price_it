@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:priceit/ui/views/home/home_view.dart';
+import 'package:priceit/ui/views/home/selection_view.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import 'app/locator.dart';
@@ -9,6 +10,11 @@ import 'app/router.gr.dart';
 void main() async {
   await DotEnv().load('.env');
   setupLocator();
+  // TODO: Resolve orientation in camera preview
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
   runApp(MyApp());
 }
 
@@ -23,7 +29,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lightGreen,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeView(),
+      home: SelectionView(),
       onGenerateRoute: Router().onGenerateRoute,
       navigatorKey: locator<NavigationService>().navigatorKey,
     );

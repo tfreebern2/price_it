@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
-import 'package:priceit/ui/views/completed/completed_viewmodel.dart';
+import 'package:priceit/ui/views/listing/completed/completed_listing_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:stacked/stacked.dart';
 
-class CompletedView extends StatelessWidget {
-  const CompletedView({Key key}) : super(key: key);
+class CompletedListingView extends StatelessWidget {
+  const CompletedListingView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<CompletedViewModel>.reactive(
+    return ViewModelBuilder<CompletedListingViewModel>.reactive(
       builder: (context, model, child) => Scaffold(
         appBar: customAppbar(),
+        // TODO: Revisit this WillPopScope
         body: WillPopScope(
           onWillPop: () => onBack(model),
           child: SafeArea(
@@ -21,8 +22,7 @@ class CompletedView extends StatelessWidget {
                   : Column(
                       children: <Widget>[
                         SizedBox(
-                          height: 80.0,
-                          child: Center(child: Text('Ad Space')),
+                          height: 20.0,
                         ),
                         listingSearchButton(context, model),
                         _buttonBar(context, model),
@@ -35,7 +35,7 @@ class CompletedView extends StatelessWidget {
           ),
         ),
       ),
-      viewModelBuilder: () => CompletedViewModel(),
+      viewModelBuilder: () => CompletedListingViewModel(),
     );
   }
 }

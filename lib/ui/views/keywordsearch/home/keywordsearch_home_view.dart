@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:priceit/ui/views/home/home_viewmodel.dart';
+import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_home_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 
-class HomeView extends StatelessWidget {
-  const HomeView({Key key}) : super(key: key);
+class KeywordSearchHomeView extends StatelessWidget {
+  const KeywordSearchHomeView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final _searchController = TextEditingController();
     final _formKey = GlobalKey<FormState>();
-    return ViewModelBuilder<HomeViewModel>.reactive(
+    return ViewModelBuilder<KeywordSearchHomeViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
             appBar: customAppbar(),
             body: SafeArea(
@@ -20,16 +20,15 @@ class HomeView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   SizedBox(
-                    height: 120.0,
-                    child: Center(child: Text('Ad Space')),
+                    height: 120.0
                   ),
                   _radioButtons(context, model),
                   _searchBar(context, _searchController, _formKey),
-                  _searchButton(context, model, _searchController, _formKey)
+                  _searchButton(context, model, _searchController, _formKey),
                 ],
               ),
             )),
-        viewModelBuilder: () => HomeViewModel());
+        viewModelBuilder: () => KeywordSearchHomeViewModel());
   }
 }
 
@@ -44,7 +43,7 @@ Widget _radioButtons(context, model) {
           value: usedValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
-            model.updateCondition(newValue);
+            model.setCondition(newValue);
           },
         ),
         Text(usedValue),
@@ -52,7 +51,7 @@ Widget _radioButtons(context, model) {
           value: newValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
-            model.updateCondition(newValue);
+            model.setCondition(newValue);
           },
         ),
         Text(newValue)
@@ -93,7 +92,7 @@ Widget _searchButton(context, model, _searchController, _formKey) {
     child: MaterialButton(
       onPressed: () {
         if (_formKey.currentState.validate()) {
-          model.updateSearchKeyword(_searchController.text.trim());
+          model.setSearchKeyword(_searchController.text.trim());
           _searchController.clear();
           model.navigateToCompleted();
         }
