@@ -48,7 +48,6 @@ dependencies:
   intl: 0.16.1
   firebase_ml_vision: ^0.9.4
   flutter_dotenv: ^2.1.0
-  native_device_orientation: ^0.3.0
 
 dev_dependencies:
   flutter_test:
