@@ -13,7 +13,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
             body: WillPopScope(
               onWillPop: () => onBack(model),
               child: model.isBusy
-                  ? CircularProgressIndicator()
+                  ? Container(child: Center(child: CircularProgressIndicator()))
                   : Stack(
                       children: <Widget>[
                         Center(
@@ -51,7 +51,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                                         style: TextStyle(fontSize: 26.0),
                                       ),
                                     ),
-                                  )
+                                  ),
                                 ],
                               ),
                             ),

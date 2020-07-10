@@ -15,16 +15,18 @@ class KeywordSearchHomeView extends StatelessWidget {
         builder: (context, model, child) => Scaffold(
             appBar: customAppbar(),
             body: SafeArea(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.center,
+              child: ListView(
                 children: <Widget>[
-                  SizedBox(
-                    height: 120.0
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      SizedBox(height: 80.0),
+                      _radioButtons(context, model),
+                      _searchBar(context, _searchController, _formKey),
+                      _searchButton(context, model, _searchController, _formKey),
+                    ],
                   ),
-                  _radioButtons(context, model),
-                  _searchBar(context, _searchController, _formKey),
-                  _searchButton(context, model, _searchController, _formKey),
                 ],
               ),
             )),
@@ -43,7 +45,7 @@ Widget _radioButtons(context, model) {
           value: usedValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
-            model.setCondition(newValue);
+            model.updateCondition(newValue);
           },
         ),
         Text(usedValue),
@@ -51,7 +53,7 @@ Widget _radioButtons(context, model) {
           value: newValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
-            model.setCondition(newValue);
+            model.updateCondition(newValue);
           },
         ),
         Text(newValue)
@@ -92,7 +94,7 @@ Widget _searchButton(context, model, _searchController, _formKey) {
     child: MaterialButton(
       onPressed: () {
         if (_formKey.currentState.validate()) {
-          model.setSearchKeyword(_searchController.text.trim());
+          model.updateSearchKeyword(_searchController.text.trim());
           _searchController.clear();
           model.navigateToCompleted();
         }

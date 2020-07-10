@@ -8,10 +8,11 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
-  List<CameraDescription> cameras = [];
-  Camera camera;
   final _navigationService = locator<NavigationService>();
   final _searchService = locator<SearchService>();
+
+  List<CameraDescription> cameras = [];
+  Camera camera;
 
   String get condition => _searchService.condition;
   String get searchKeyword => _searchService.searchKeyword;

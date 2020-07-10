@@ -13,6 +13,7 @@ class KeywordSearchHomeViewModel extends ReactiveViewModel {
 
   void updateCondition(String newValue) {
     _searchService.setCondition(newValue);
+    notifyListeners();
   }
 
   void updateSearchKeyword(String newValue) {
