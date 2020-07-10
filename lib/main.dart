@@ -10,7 +10,6 @@ import 'app/router.gr.dart';
 void main() async {
   await DotEnv().load('.env');
   setupLocator();
-  // TODO: Resolve orientation in camera preview
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,

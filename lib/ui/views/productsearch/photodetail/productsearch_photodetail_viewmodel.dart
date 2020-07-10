@@ -28,6 +28,11 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
     imageSize = newSize;
   }
 
+  void resetSearchService() {
+    searchService.setSearchKeyword(notAvailable);
+    searchService.setProductType(notAvailable);
+  }
+
   void navigateBack() {
     _navigationService.clearTillFirstAndShow(Routes.productSearchHomeView);
   }
@@ -37,6 +42,7 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
   }
 
   Future<void> _initializeVision() async {
+    resetSearchService();
     setImageFile(searchService.imagePath);
 
     if (imageFile != null) {
@@ -47,19 +53,7 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
     BarcodeDetector barcodeDetector = FirebaseVision.instance.barcodeDetector();
     List barCodes = await barcodeDetector.detectInImage(visionImage);
 
-    if (barCodes.length == 0) {
-      searchService.setSearchKeyword(notAvailable);
-      searchService.setProductType(notAvailable);
-    }
-
     for (Barcode readableCode in barCodes) {
-      if (readableCode.format.value == -1) {
-        searchService.setSearchKeyword(notAvailable);
-        searchService.setProductType(notAvailable);
-        barcodeDetector.close();
-        return null;
-      }
-
       switch (readableCode.valueType) {
         case BarcodeValueType.product:
           searchService.setSearchKeyword(readableCode.displayValue);
