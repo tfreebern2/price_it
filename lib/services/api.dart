@@ -14,21 +14,25 @@ class Api {
 
   Future<List<Item>> searchForCompletedItems(String selectorValue, String searchKeyword) async {
     String requestBody = buildCompletedItemSearchRequest(selectorValue, searchKeyword);
-    http.Response response = await _findingCompletedItemApiCall(requestBody);
-    List decodedItemList = _decodeResponse(response);
-    return _getItemList(decodedItemList, response);
+    http.Response response = await findingCompletedItemApiCall(requestBody);
+    List decodedItemList = decodeResponse(response);
+    return getItemList(decodedItemList, response);
   }
 
   Future<List<Item>> searchForActiveItems(String selectorValue, String searchKeyword) async {
     String requestBody = buildActiveItemSearchRequest(selectorValue, searchKeyword);
     http.Response response = await _findingActiveItemApiCall(requestBody);
-    List decodedItemList = _decodeResponse(response);
-    return _getItemList(decodedItemList, response);
+    List decodedItemList = decodeResponse(response);
+    return getItemList(decodedItemList, response);
+  }
+
+  void test() {
+    print('jlajk');
   }
 
   String buildCompletedItemSearchRequest(String selectorValue, String searchKeyword) {
     String intValue = '3000';
-    intValue = _setConditionIntValue(selectorValue, intValue);
+    intValue = setConditionIntValue(selectorValue, intValue);
 
     var requestBody = jsonEncode({
       keywords: searchKeyword,
@@ -45,7 +49,7 @@ class Api {
 
   String buildActiveItemSearchRequest(String selectorValue, String searchKeyword) {
     String intValue = '3000';
-    intValue = _setConditionIntValue(selectorValue, intValue);
+    intValue = setConditionIntValue(selectorValue, intValue);
 
     var requestBody = jsonEncode({
       keywords: searchKeyword,
@@ -60,7 +64,7 @@ class Api {
     return requestBody;
   }
 
-  String _setConditionIntValue(String selectorValue, String intValue) {
+  String setConditionIntValue(String selectorValue, String intValue) {
     conditionsMap.forEach((key, value) {
       if (key == selectorValue) {
         intValue = value;
@@ -69,7 +73,7 @@ class Api {
     return intValue;
   }
 
-  Future<http.Response> _findingCompletedItemApiCall(var body) async {
+  Future<http.Response> findingCompletedItemApiCall(var body) async {
     final response =
         await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
     debugPrint("Search Completed Listings - Response Code: " + response.statusCode.toString());
@@ -82,7 +86,7 @@ class Api {
     return response;
   }
 
-  List _decodeResponse(http.Response response) {
+  List decodeResponse(http.Response response) {
     var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
       return decodedResponse[findCompletedItemsResponse][0][searchResult][0][item] as List;
@@ -91,7 +95,8 @@ class Api {
     }
   }
 
-  List<Item> _getItemList(List decodedItemList, http.Response response) {
+  List<Item> getItemList(List decodedItemList, http.Response response) {
+    // TODO: Check if JSON is empty
     List<Item> itemList = List<Item>();
     decodedItemList.forEach((json) {
       if (itemList.isEmpty) {

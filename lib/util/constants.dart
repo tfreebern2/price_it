@@ -106,7 +106,12 @@ const String endedWithSales = "EndedWithSales";
 
 // Selector Constants
 const String usedValue = "Used";
+const String veryGoodValue = "Very Good";
+const String goodValue = "Good";
+const String acceptableValue = "Acceptable";
+
 const String newValue = "New";
+const String newOrOtherValue = "New or other";
 
 // Product Type
 const String upc = "UPC";

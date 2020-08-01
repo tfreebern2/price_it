@@ -1,21 +1,21 @@
 import 'item.dart';
 
 class EbayResponse {
-  List<Item> _completedList;
-  List<Item> _activeList;
-  double _completedListingAveragePrice;
-  double _completedListingPercentageSold;
-  double _activeListingAveragePrice;
+  List<Item> _completedListing = List();
+  List<Item> _activeListing = List();
+  double _completedListingAveragePrice = 0.00;
+  double _completedListingPercentageSold = 0.00;
+  double _activeListingAveragePrice = 0.00;
 
-  EbayResponse(this._completedList, this._activeList, this._completedListingAveragePrice,
+  EbayResponse(this._completedListing, this._activeListing, this._completedListingAveragePrice,
       this._completedListingPercentageSold, this._activeListingAveragePrice);
 
   double get activeListingAveragePrice => _activeListingAveragePrice;
   double get completedListingPercentageSold => _completedListingPercentageSold;
   double get completedListingAveragePrice => _completedListingAveragePrice;
 
-  List<Item> get activeList => _activeList;
-  List<Item> get completedList => _completedList;
+  List<Item> get activeListing => _activeListing;
+  List<Item> get completedListing => _completedListing;
 
   void setCompletedListingAveragePrice(double newValue) {
     _completedListingAveragePrice = newValue;
@@ -32,7 +32,7 @@ class EbayResponse {
   void setCompletedListing(Future<List<Item>> completedListings, EbayResponse ebayResponse) {
     completedListings.asStream().forEach((element) {
       element.forEach((innerElement) {
-        ebayResponse.completedList.add(innerElement);
+        ebayResponse.completedListing.add(innerElement);
       });
     });
   }
@@ -40,7 +40,7 @@ class EbayResponse {
   void setActiveListing(Future<List<Item>> activeListing, EbayResponse ebayResponse) {
     activeListing.asStream().forEach((element) {
       element.forEach((innerElement) {
-        ebayResponse.activeList.add(innerElement);
+        ebayResponse.activeListing.add(innerElement);
       });
     });
   }
@@ -49,11 +49,11 @@ class EbayResponse {
       double completedListingPercentageSold, double activeListingAveragePrice) {
 
     completedListings.forEach((element) {
-      completedList.add(element);
+      completedListing.add(element);
     });
 
     activeListings.forEach((element) {
-      activeList.add(element);
+      activeListing.add(element);
     });
 
     setCompletedListingAveragePrice(completedListingAveragePrice);

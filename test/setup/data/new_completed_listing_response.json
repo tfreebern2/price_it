@@ -1,0 +1,3288 @@
+{
+  "findCompletedItemsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-07-13T23:08:44.262Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/04040_0.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=0"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "1.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "1.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "414"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000001_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746552"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000001_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746553"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000001_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746554"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "13"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000001_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746555"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "8"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000001_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746556"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000001_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746557"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "18"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000001_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746558"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000002_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746559"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "12"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000002_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746560"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000002_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746561"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "6"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000002_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746562"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "13"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000002_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746563"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000002_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746564"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "14"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000002_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746565"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "10"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000003_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746566"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "8"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000003_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746567"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000003_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746568"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000003_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746569"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "6"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000003_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746570"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000003_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746571"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000003_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746572"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "3"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000004_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746573"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000004_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746574"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192623364441"
+              ],
+              "title": [
+                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/192623364441404000000004_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var=492762746575"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "******"
+              ],
+              "location": [
+                "China"
+              ],
+              "country": [
+                "CN"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "2.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "10"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.69"
+                    }
+                  ],
+                  "sellingState": [
+                    "Ended"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-08-10T18:01:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-07-13T22:53:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "4551"
+          ],
+          "totalEntries": [
+            "113751"
+          ]
+        }
+      ]
+    }
+  ]
+}

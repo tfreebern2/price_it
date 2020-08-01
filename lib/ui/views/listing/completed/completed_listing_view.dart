@@ -84,115 +84,62 @@ Widget _titleText(context) {
     padding: const EdgeInsets.all(10.0),
     child: Text(
       'Completed Listings',
-      style: TextStyle(fontSize: 24.0, color: Theme.of(context).accentColor, fontWeight: FontWeight.w600),
+      style: TextStyle(
+          fontSize: 24.0, color: Theme.of(context).accentColor, fontWeight: FontWeight.w600),
     ),
   );
 }
 
 Widget _pricingText(context, model) {
-  if (model.data != null) {
-    return Padding(
-      padding: const EdgeInsets.all(10.0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Text(
-            '\$ ' + model.completedListingAveragePrice.toStringAsFixed(2),
-            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-          ),
-          Text(
-            ' avg (sold only) ',
-            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
-          ),
-          Text(
-            model.completedListingPercentageSold.toStringAsFixed(2),
-            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-          ),
-          Text(' % sold', style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
-        ],
-      ),
-    );
-  } else {
-    return Padding(
-      padding: const EdgeInsets.all(10.0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Text(
-            '\$ ' + model.searchService.completedListingAveragePrice.toStringAsFixed(2),
-            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-          ),
-          Text(
-            ' avg (sold only) ',
-            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
-          ),
-          Text(
-            model.searchService.completedListingPercentageSold.toStringAsFixed(2),
-            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-          ),
-          Text(' % sold', style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
-        ],
-      ),
-    );
-  }
+  return Padding(
+    padding: const EdgeInsets.all(10.0),
+    child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: <Widget>[
+        Text(
+          '\$ ' + model.data.completedListingAveragePrice.toStringAsFixed(2),
+          style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+        ),
+        Text(
+          ' avg (sold only) ',
+          style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
+        ),
+        Text(
+          model.data.completedListingPercentageSold.toStringAsFixed(2),
+          style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+        ),
+        Text(' % sold', style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
+      ],
+    ),
+  );
 }
 
 Widget _itemListViewBuilder(context, model) {
-  if (model.data != null) {
-    return Expanded(
-      child: ListView.builder(
-          itemCount: model.data.length,
-          scrollDirection: Axis.vertical,
-          shrinkWrap: true,
-          itemBuilder: (context, index) {
-            Item item = model.data[index];
-            return Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: Card(
-                elevation: 6.00,
-                shadowColor: Theme.of(context).accentColor,
-                child: ListTile(
-                  contentPadding: EdgeInsets.all(12.0),
-                  leading: Image.network(item.galleryUrl),
-                  title: Text(item.title),
-                  trailing: Text(
-                    item.currentPrice,
-                    style: TextStyle(color: Colors.lightGreen, fontWeight: FontWeight.bold),
-                  ),
-                  onTap: () => model.launchUrl(item.viewItemUrl),
+  return Expanded(
+    child: ListView.builder(
+        itemCount: model.data.completedListing.length,
+        scrollDirection: Axis.vertical,
+        shrinkWrap: true,
+        itemBuilder: (context, index) {
+          Item item = model.data.completedListing[index];
+          return Padding(
+            padding: const EdgeInsets.all(2.0),
+            child: Card(
+              elevation: 6.00,
+              shadowColor: Theme.of(context).accentColor,
+              child: ListTile(
+                contentPadding: EdgeInsets.all(12.0),
+                leading: Image.network(item.galleryUrl),
+                title: Text(item.title),
+                trailing: Text(
+                  item.currentPrice,
+                  style: TextStyle(color: Colors.lightGreen, fontWeight: FontWeight.bold),
                 ),
+                onTap: () => model.launchUrl(item.viewItemUrl),
               ),
-            );
-          }),
-    );
-  } else {
-    return Expanded(
-      child: ListView.builder(
-          itemCount: model.searchService.completedListing.length,
-          scrollDirection: Axis.vertical,
-          shrinkWrap: true,
-          itemBuilder: (context, index) {
-            Item item = model.searchService.completedListing[index];
-            return Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: Card(
-                elevation: 6.00,
-                shadowColor: Theme.of(context).accentColor,
-                child: ListTile(
-                  contentPadding: EdgeInsets.all(12.0),
-                  leading: Image.network(item.galleryUrl),
-                  title: Text(item.title),
-                  trailing: Text(
-                    item.currentPrice,
-                    style: TextStyle(color: Theme.of(context).accentColor, fontWeight: FontWeight.bold),
-                  ),
-                  onTap: () => model.launchUrl(item.viewItemUrl),
-                ),
-              ),
-            );
-          }),
-    );
-  }
+            ),
+          );
+        }),
+  );
 }

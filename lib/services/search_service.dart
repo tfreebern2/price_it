@@ -16,24 +16,26 @@ class SearchService with ReactiveServiceMixin {
   RxValue<String> _imagePath = RxValue<String>(initial: null);
 
   SearchService() {
-    listenToReactiveValues([
-      _condition,
-      _searchKeyword,
-      _completedListing,
-      _activeListing,
-      _productType,
-      _imagePath
-    ]);
+    listenToReactiveValues(
+        [_condition, _searchKeyword, _completedListing, _activeListing, _productType, _imagePath]);
   }
 
   String get condition => _condition.value;
+
   String get searchKeyword => _searchKeyword.value;
+
   List<Item> get completedListing => _completedListing.value;
+
   List<Item> get activeListing => _activeListing.value;
+
   double get completedListingAveragePrice => _completedListingAveragePrice.value;
+
   double get completedListingPercentageSold => _completedListingPercentageSold.value;
+
   double get activeListingAveragePrice => _activeListingAveragePrice.value;
+
   String get productType => _productType.value;
+
   String get imagePath => _imagePath.value;
 
   void setCondition(String newValue) {
@@ -64,17 +66,26 @@ class SearchService with ReactiveServiceMixin {
     _imagePath.value = newValue;
   }
 
-  void updateCompletedAndActiveListings(Future<List<Item>> completedListings, Future<List<Item>> activeListings) async {
-    await completedListings.asStream().forEach((futureList) {
-      futureList.forEach((futureItem) {
-        _completedListing.value.add(futureItem);
-      });
+  void setCompletedListing(List<Item> completedListing) {
+    completedListing.forEach((element) {
+      _completedListing.value.add(element);
+    });
+  }
+
+  void setActiveListing(List<Item> activeListing) {
+    activeListing.forEach((element) {
+      _activeListing.value.add(element);
+    });
+  }
+
+  void setCompletedAndActiveListings(
+      List<Item> completedListings, List<Item> activeListings) async {
+    completedListings.forEach((element) {
+      _completedListing.value.add(element);
     });
 
-    await activeListings.asStream().forEach((futureList) {
-      futureList.forEach((futureItem) {
-        _activeListing.value.add(futureItem);
-      });
+    activeListings.forEach((element) {
+      _activeListing.value.add(element);
     });
   }
 
