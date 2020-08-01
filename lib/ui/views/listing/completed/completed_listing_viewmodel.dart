@@ -16,6 +16,7 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
   double completedListingAveragePrice = 0.00;
   double completedListingPercentageSold = 0.00;
   double activeListingAveragePrice = 0.00;
+  int totalEntries = 0;
 
   void navigateToHome() {
     searchService.resetSearchResultState();
@@ -41,7 +42,15 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
     return false;
   }
 
-  void calculateSaleThroughRateAndAveragePrice(Future<List<Item>> completedItemList, Future<List<Item>> activeItemList) async {
+  void setSearchServiceValues(double completedListingAveragePrice,
+      double completedListingPercentageSold, double activeListingAveragePrice) {
+    searchService.setCompletedListingAveragePrice(completedListingAveragePrice);
+    searchService.setCompletedListingPercentageSold(completedListingPercentageSold);
+    searchService.setActiveListingAveragePrice(activeListingAveragePrice);
+  }
+
+  void calculateSaleThroughRateAndAveragePrice(
+      List<Item> completedListings, List<Item> activeListings) {
     int completedListLength = 0;
     int activeListLength = 0;
     double completedSoldAmount = 0.00;
@@ -49,45 +58,44 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
     int activeTotalEntries = 0;
     double activeSoldAmount = 0.00;
 
-    await completedItemList.asStream().forEach((completedItem) {
-      completedTotalEntries = int.parse(completedItem.first.totalEntries);
-      completedItem.forEach((item) {
+    if (completedListings.length > 0) {
+      completedTotalEntries = int.parse(completedListings.first.totalEntries);
+      completedListings.forEach((item) {
         completedSoldAmount += double.parse(item.currentPrice.replaceAll("\$", ""));
         completedListLength += 1;
       });
-    });
+    }
 
-    await activeItemList.asStream().forEach((activeItem) {
-      activeTotalEntries = int.parse(activeItem.first.totalEntries);
-      activeItem.forEach((item) {
+    if (activeListings.length > 0) {
+      activeTotalEntries = int.parse(activeListings.first.totalEntries);
+      activeListings.forEach((item) {
         activeSoldAmount += double.parse(item.currentPrice.replaceAll("\$", ""));
         activeListLength += 1;
       });
-    });
+    }
 
     completedListingAveragePrice = completedSoldAmount / completedListLength;
-    int totalEntries = completedTotalEntries + activeTotalEntries;
+    totalEntries = completedTotalEntries + activeTotalEntries;
     completedListingPercentageSold = (completedTotalEntries / totalEntries) * 100;
     activeListingAveragePrice = activeSoldAmount / activeListLength;
-    setSearchServiceValues(completedListingAveragePrice, completedListingPercentageSold, activeListingAveragePrice);
+    setSearchServiceValues(
+        completedListingAveragePrice, completedListingPercentageSold, activeListingAveragePrice);
   }
 
-  void setSearchServiceValues(double completedListingAveragePrice, double completedListingPercentageSold, double activeListingAveragePrice) {
-    searchService.setCompletedListingAveragePrice(completedListingAveragePrice);
-    searchService.setCompletedListingPercentageSold(completedListingPercentageSold);
-    searchService.setActiveListingAveragePrice(activeListingAveragePrice);
-  }
-
-  Future<EbayResponse> buildInitialEbayResponse(Future<List<Item>> completedListings, Future<List<Item>> activeListings) async {
-    searchService.updateCompletedAndActiveListings(completedListings, activeListings);
-    EbayResponse ebayResponse = new EbayResponse.build(await completedListings, await activeListings,
+  Future<EbayResponse> buildInitialEbayResponse(
+      List<Item> completedListings, List<Item> activeListings) async {
+    searchService.setCompletedAndActiveListings(completedListings, activeListings);
+    EbayResponse ebayResponse = new EbayResponse.build(completedListings, activeListings,
         completedListingAveragePrice, completedListingPercentageSold, activeListingAveragePrice);
     return ebayResponse;
   }
 
-  Future<EbayResponse> buildSavedEbayResponse(List<Item> completedListings, List<Item> activeListings) async {
-    EbayResponse ebayResponse = new EbayResponse.build(searchService.completedListing, searchService.activeListing,
-        searchService.completedListingAveragePrice, searchService.completedListingPercentageSold,
+  Future<EbayResponse> buildSavedEbayResponse() async {
+    EbayResponse ebayResponse = new EbayResponse.build(
+        searchService.completedListing,
+        searchService.activeListing,
+        searchService.completedListingAveragePrice,
+        searchService.completedListingPercentageSold,
         searchService.activeListingAveragePrice);
     return ebayResponse;
   }
@@ -100,10 +108,35 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
   @override
   Future<EbayResponse> futureToRun() async {
     if (checkIfSavedApiCall()) {
-      return await buildSavedEbayResponse(searchService.completedListing, searchService.activeListing);
+      return await buildSavedEbayResponse();
     } else {
-      Future<List<Item>> completedItemsResponse = _apiService.searchForCompletedItems(searchService.condition, searchService.searchKeyword);
-      Future<List<Item>> activeItemsResponse = _apiService.searchForActiveItems(searchService.condition, searchService.searchKeyword);
+//      if (searchService.condition == newValue) {
+//        // Completed Items
+//        Future<List<Item>> newCompletedItemsResponse = _apiService.searchForCompletedItems(newValue, searchService.searchKeyword);
+//        Future<List<Item>> newOrOtherCompletedItemsResponse = _apiService.searchForCompletedItems(newOrOtherValue, searchService.searchKeyword);
+//        // Active Items
+//        Future<List<Item>> newActiveItemsResponse = _apiService.searchForActiveItems(newValue, searchService.searchKeyword);
+//        Future<List<Item>> newOrOtherActiveItemsResponse = _apiService.searchForActiveItems(newOrOtherValue, searchService.searchKeyword);
+//        // Calculate Sales Through Rate
+//        // build Initial Response
+//      } else {
+//        // Completed Items
+//        Future<List<Item>> usedCompletedItemsResponse = _apiService.searchForCompletedItems(usedValue, searchService.searchKeyword);
+//        Future<List<Item>> veryGoodCompletedItemsResponse = _apiService.searchForCompletedItems(veryGoodValue, searchService.searchKeyword);
+//        Future<List<Item>> goodCompletedItemsResponse = _apiService.searchForCompletedItems(goodValue, searchService.searchKeyword);
+//        Future<List<Item>> acceptableCompletedItemsResponse = _apiService.searchForCompletedItems(acceptableValue, searchService.searchKeyword);
+//        // Active Items
+//        Future<List<Item>> usedActiveItemsResponse = _apiService.searchForActiveItems(usedValue, searchService.searchKeyword);
+//        Future<List<Item>> veryGoodActiveItemsResponse = _apiService.searchForActiveItems(veryGoodValue, searchService.searchKeyword);
+//        Future<List<Item>> goodActiveItemsResponse = _apiService.searchForActiveItems(goodValue, searchService.searchKeyword);
+//        Future<List<Item>> acceptableActiveItemsResponse = _apiService.searchForActiveItems(acceptableValue, searchService.searchKeyword);
+//        // Calculate Sales Through Rate
+//        // build Initial Response
+//      }
+      List<Item> completedItemsResponse = await _apiService.searchForCompletedItems(
+          searchService.condition, searchService.searchKeyword);
+      List<Item> activeItemsResponse = await _apiService.searchForActiveItems(
+          searchService.condition, searchService.searchKeyword);
       calculateSaleThroughRateAndAveragePrice(completedItemsResponse, activeItemsResponse);
       return await buildInitialEbayResponse(completedItemsResponse, activeItemsResponse);
     }

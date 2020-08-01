@@ -1,0 +1,18 @@
+{
+  "keywords": "iphone 6",
+  "itemFilter": [
+    {
+      "name": "Condition",
+      "value": "1000"
+    },
+    {
+      "name": "SoldItemsOnly",
+      "value": "true"
+    }
+  ],
+  "sortOrder": "BestMatch",
+  "paginationInput": {
+    "entriesPerPage": "25",
+    "pageNumber": "1"
+  }
+}
