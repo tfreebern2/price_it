@@ -1,11 +1,13 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:mockito/mockito.dart';
+import 'package:priceit/app/router.gr.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/listing/completed/completed_listing_viewmodel.dart';
 
 import '../../../../setup/test_helpers.dart';
 
 void main() {
-  group('Initial Load CompletedListingViewModelTest -', () {
+  group('CompletedListingViewModelTest -', () {
     setUp(() => registerInitialServices());
     tearDown(() => unregisterServices());
 
@@ -25,6 +27,22 @@ void main() {
       var model = CompletedListingViewModel();
       await model.initialise();
       expect(model.completedListingPercentageSold, 0.00);
+    });
+
+    test('When user taps search button, clear stack and show Selection View', () async {
+      var navigationService = getAndRegisterNavigationServiceMock();
+      var model = CompletedListingViewModel();
+      await model.initialise();
+      model.navigateToSelectionView();
+      verify(navigationService.clearStackAndShow(Routes.selectionView));
+    });
+
+    test('When user taps search button, show Active View Listing', () async {
+      var navigationService = getAndRegisterNavigationServiceMock();
+      var model = CompletedListingViewModel();
+      await model.initialise();
+      model.navigateToActiveListingView();
+      verify(navigationService.navigateTo(Routes.activeListingView));
     });
 
     test('When initially loading Completed View Model, return false on checkIfSavedApiCall & '

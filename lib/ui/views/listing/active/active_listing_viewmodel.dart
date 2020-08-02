@@ -17,12 +17,12 @@ class ActiveListingViewModel extends BaseViewModel {
     }
   }
 
-  void navigateToHome() {
+  void navigateToSelectionView() {
     searchService.resetSearchResultState();
     _navigationService.clearStackAndShow(Routes.selectionView);
   }
 
-  void navigateToComplete() {
+  void navigateToCompletedListingView() {
     _navigationService.navigateTo(Routes.completedListingView);
   }
 }

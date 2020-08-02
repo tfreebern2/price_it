@@ -19,8 +19,8 @@ class Item {
     id = data.containsKey(itemId) ? data[itemId][0] : notAvailable;
     title = data.containsKey(titleKey) ? data[titleKey][0] : notAvailable;
     globalId = data.containsKey(globalIdKey) ? data[globalIdKey][0] : notAvailable;
-    galleryUrl = data.containsKey(galleryUrlKey) ? data[galleryUrlKey][0] : notAvailable;
-    viewItemUrl = data.containsKey(viewItemUrlKey) ? data[viewItemUrlKey][0] : notAvailable;
+    galleryUrl = data.containsKey(galleryUrlKey) ? data[galleryUrlKey][0] : '';
+    viewItemUrl = data.containsKey(viewItemUrlKey) ? data[viewItemUrlKey][0] : null;
     location = data.containsKey(locationKey) ? data[locationKey][0] : notAvailable;
     country = data.containsKey(countryKey) ? data[countryKey][0] : notAvailable;
     _setCurrentPrice(data);

@@ -6,7 +6,6 @@ import 'package:priceit/app/locator.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
 import 'package:priceit/services/search_service.dart';
-import 'package:priceit/util/constants.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:http/http.dart' as http;
 

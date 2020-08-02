@@ -17,7 +17,7 @@ Widget listingSearchButton(context, model) {
       style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
     ),
     color: Theme.of(context).accentColor,
-    onPressed: () => model.navigateToHome(),
+    onPressed: () => model.navigateToSelectionView(),
     highlightElevation: 2,
     height: 40,
     minWidth: 150,

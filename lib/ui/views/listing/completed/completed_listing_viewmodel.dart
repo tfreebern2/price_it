@@ -18,12 +18,12 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
   double activeListingAveragePrice = 0.00;
   int totalEntries = 0;
 
-  void navigateToHome() {
+  void navigateToSelectionView() {
     searchService.resetSearchResultState();
     _navigationService.clearStackAndShow(Routes.selectionView);
   }
 
-  void navigateToActive() {
+  void navigateToActiveListingView() {
     _navigationService.navigateTo(Routes.activeListingView);
   }
 

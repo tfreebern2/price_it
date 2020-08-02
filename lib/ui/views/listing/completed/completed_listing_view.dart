@@ -69,7 +69,7 @@ Widget _buttonBar(context, model) {
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
         ),
         color: Theme.of(context).accentColor,
-        onPressed: () => model.navigateToActive(),
+        onPressed: () => model.navigateToActiveListingView(),
         highlightElevation: 2,
         height: 40,
         minWidth: 150,
@@ -130,13 +130,15 @@ Widget _itemListViewBuilder(context, model) {
               shadowColor: Theme.of(context).accentColor,
               child: ListTile(
                 contentPadding: EdgeInsets.all(12.0),
-                leading: Image.network(item.galleryUrl),
+                leading: item.galleryUrl.isNotEmpty ? Image.network(item.galleryUrl) :
+                Text('Image Not' + '\n' + 'Available'),
                 title: Text(item.title),
                 trailing: Text(
                   item.currentPrice,
                   style: TextStyle(color: Colors.lightGreen, fontWeight: FontWeight.bold),
                 ),
-                onTap: () => model.launchUrl(item.viewItemUrl),
+                // TODO: Bring up Dialog Box to notify user can't load Ebay Auction
+                onTap: () => item.viewItemUrl.isNotEmpty ? model.launchUrl(item.viewItemUrl) : print('No ViewItemUrl'),
               ),
             ),
           );
