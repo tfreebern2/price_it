@@ -103,6 +103,7 @@ const String underscoreValueKey = "__value__";
 const String notAvailable = "N/A";
 const String ended = "Ended";
 const String endedWithSales = "EndedWithSales";
+const String active = "Active";
 
 // Selector Constants
 const String usedValue = "Used";
