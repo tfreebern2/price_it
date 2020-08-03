@@ -45,6 +45,15 @@ void main() {
       verify(navigationService.navigateTo(Routes.activeListingView));
     });
 
+    test('Verify Search For Completed And Active Items is called when loading Completed View Listing', () async {
+      getAndRegisterInitialSearchServiceMock();
+      var api = await getAndRegisterApiMock();
+      var model = CompletedListingViewModel();
+      await model.initialise();
+      verify(api.searchForCompletedItems('New', 'iPhone 6'));
+      verify(api.searchForActiveItems('New', 'iPhone 6'));
+    });
+
     test('When initially loading Completed View Model, return false on checkIfSavedApiCall & '
         'empty Search Service Completed & Active Listing Lists', () async {
       var searchService = getAndRegisterInitialSearchServiceMock();

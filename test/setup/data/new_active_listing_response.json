@@ -1,5 +1,5 @@
 {
-  "findCompletedItemsResponse": [
+  "findItemsByKeywordsResponse": [
     {
       "ack": [
         "Success"
@@ -8,7 +8,7 @@
         "1.13.0"
       ],
       "timestamp": [
-        "2020-07-13T23:09:19.029Z"
+        "2020-08-03T00:35:19.857Z"
       ],
       "searchResult": [
         {
@@ -16,10 +16,10 @@
           "item": [
             {
               "itemId": [
-                "353122689932"
+                "164313213241"
               ],
               "title": [
-                "[Antibacterial Case] for iPhone 11 SE 2020 7 8 6 6s [Built-in Screen Protector]"
+                "MIB UNUSED! Apple iPhone 6 64GB Space Gray A1549"
               ],
               "globalId": [
                 "EBAY-US"
@@ -27,568 +27,18 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs1.ebaystatic.com/m/mjbKLiVTzSO_uhV9875XguA/140.jpg"
+                "https://thumbs2.ebaystatic.com/m/mbME0GKvi3NN-HAOPo0ONSw/140.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Antibacterial-Case-iPhone-11-SE-2020-7-8-6-6s-Built-in-Screen-Protector-/353122689932"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "true"
-              ],
-              "postalCode": [
-                "197**"
-              ],
-              "location": [
-                "Newark,DE,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "0.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "Free"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "16.99"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "16.99"
-                    }
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "true"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2020-06-29T03:37:58.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T23:02:55.000Z"
-                  ],
-                  "listingType": [
-                    "StoreInventory"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "false"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "224064740226"
-              ],
-              "title": [
-                "5X HD clear screen protector iphone 6PLUS 5.5\" 6 Plus 6S + film Protecteur 6s+ b"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "58540"
-                  ],
-                  "categoryName": [
-                    "Screen Protectors"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs3.ebaystatic.com/m/m76WDAILgewjqsjvQK8ijxA/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/5X-HD-clear-screen-protector-iphone-6PLUS-5-5-6-Plus-6S-film-Protecteur-6s-b-/224064740226"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "true"
-              ],
-              "postalCode": [
-                "J5R6K1"
-              ],
-              "location": [
-                "Canada"
-              ],
-              "country": [
-                "CA"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "1.29"
-                    }
-                  ],
-                  "shippingType": [
-                    "Flat"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "0"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.25"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.25"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "true"
-                  ],
-                  "buyItNowPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.23"
-                    }
-                  ],
-                  "convertedBuyItNowPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.23"
-                    }
-                  ],
-                  "startTime": [
-                    "2020-07-08T23:00:58.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T23:00:58.000Z"
-                  ],
-                  "listingType": [
-                    "AuctionWithBIN"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "224064740185"
-              ],
-              "title": [
-                "10X HD clear screen protector iphone 6PLUS 5.5\" 6 Plus 6S + film Protecteur 6s+b"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "58540"
-                  ],
-                  "categoryName": [
-                    "Screen Protectors"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs2.ebaystatic.com/m/my3qdqMEAsqIQKi6BZs4y-w/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/10X-HD-clear-screen-protector-iphone-6PLUS-5-5-6-Plus-6S-film-Protecteur-6s-b-/224064740185"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "true"
-              ],
-              "postalCode": [
-                "J5R6K1"
-              ],
-              "location": [
-                "Canada"
-              ],
-              "country": [
-                "CA"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "1.95"
-                    }
-                  ],
-                  "shippingType": [
-                    "Flat"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "0"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.75"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.75"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "true"
-                  ],
-                  "buyItNowPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.88"
-                    }
-                  ],
-                  "convertedBuyItNowPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.88"
-                    }
-                  ],
-                  "startTime": [
-                    "2020-07-08T23:00:51.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T23:00:51.000Z"
-                  ],
-                  "listingType": [
-                    "AuctionWithBIN"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "224064740207"
-              ],
-              "title": [
-                "2.5D 9H HD Tempered Glass Screen Protector for Apple iphone 8 7 6 4.7\" Vitre b"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "58540"
-                  ],
-                  "categoryName": [
-                    "Screen Protectors"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs4.ebaystatic.com/m/mOmBFFhshC5BRshU_KSgtaQ/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/2-5D-9H-HD-Tempered-Glass-Screen-Protector-Apple-iphone-8-7-6-4-7-Vitre-b-/224064740207"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "true"
-              ],
-              "location": [
-                "China"
-              ],
-              "country": [
-                "CN"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "0.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "Free"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "1"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "2.49"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "2.49"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "true"
-                  ],
-                  "buyItNowPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.25"
-                    }
-                  ],
-                  "convertedBuyItNowPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.25"
-                    }
-                  ],
-                  "startTime": [
-                    "2020-07-08T23:00:02.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T23:00:02.000Z"
-                  ],
-                  "listingType": [
-                    "AuctionWithBIN"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "112021634150"
-              ],
-              "title": [
-                "Ladie's Convertible Paisley Smartphone Wallet Cover & Wristlet Clutch ESMLP2-5"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs3.ebaystatic.com/pict/1120216341504040_3.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Ladies-Convertible-Paisley-Smartphone-Wallet-Cover-Wristlet-Clutch-ESMLP2-5-/112021634150?var="
+                "https://www.ebay.com/itm/MIB-UNUSED-Apple-iPhone-6-64GB-Space-Gray-A1549-/164313213241"
               ],
               "paymentMethod": [
                 "PayPal"
@@ -597,391 +47,10 @@
                 "false"
               ],
               "postalCode": [
-                "917**"
+                "980**"
               ],
               "location": [
-                "Rowland Heights,CA,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "0.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "FlatDomesticCalculatedInternational"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "true"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "1"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "12.49"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "12.49"
-                    }
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2016-06-08T18:23:46.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:58:57.000Z"
-                  ],
-                  "listingType": [
-                    "FixedPrice"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "true"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "122009985245"
-              ],
-              "title": [
-                "Ladie's Convertible Paisley Smartphone Wallet Cover & Wristlet Clutch ESMLP2-7"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs2.ebaystatic.com/pict/1220099852454040_3.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Ladies-Convertible-Paisley-Smartphone-Wallet-Cover-Wristlet-Clutch-ESMLP2-7-/122009985245?var="
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "postalCode": [
-                "917**"
-              ],
-              "location": [
-                "Rowland Heights,CA,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "0.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "FlatDomesticCalculatedInternational"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "true"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "1"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "12.49"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "12.49"
-                    }
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2016-06-08T18:24:01.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:58:57.000Z"
-                  ],
-                  "listingType": [
-                    "FixedPrice"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "true"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "112021639252"
-              ],
-              "title": [
-                "Ladie's Convertible Paisley Smartphone Wallet Cover & Wristlet Clutch ESMLP2-18"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs1.ebaystatic.com/pict/1120216392524040_3.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Ladies-Convertible-Paisley-Smartphone-Wallet-Cover-Wristlet-Clutch-ESMLP2-18-/112021639252?var="
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "postalCode": [
-                "917**"
-              ],
-              "location": [
-                "Rowland Heights,CA,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "0.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "FlatDomesticCalculatedInternational"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "true"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "1"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "12.49"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "12.49"
-                    }
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2016-06-08T18:31:14.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:58:56.000Z"
-                  ],
-                  "listingType": [
-                    "FixedPrice"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "true"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "153997305146"
-              ],
-              "title": [
-                "NIP Battery Case For iPhone 8/7/6 Plus And Screen Protector. Brand New."
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs3.ebaystatic.com/m/mnzliLoCoUzaskTu_Vr1o_Q/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/NIP-Battery-Case-iPhone-8-7-6-Plus-And-Screen-Protector-Brand-New-/153997305146"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "postalCode": [
-                "799**"
-              ],
-              "location": [
-                "El Paso,TX,USA"
+                "Bellevue,WA,USA"
               ],
               "country": [
                 "US"
@@ -995,7 +64,7 @@
                     "Worldwide"
                   ],
                   "expeditedShipping": [
-                    "false"
+                    "true"
                   ],
                   "oneDayShippingAvailable": [
                     "false"
@@ -1010,47 +79,53 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "49.99"
+                      "__value__": "80.0"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "49.99"
+                      "__value__": "80.0"
                     }
                   ],
                   "bidCount": [
-                    "0"
+                    "2"
                   ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT23H15M50S"
                   ]
                 }
               ],
               "listingInfo": [
                 {
                   "bestOfferEnabled": [
-                    "true"
+                    "false"
                   ],
                   "buyItNowAvailable": [
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-06T22:58:51.000Z"
+                    "2020-07-29T23:51:09.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:58:51.000Z"
+                    "2020-08-05T23:51:09.000Z"
                   ],
                   "listingType": [
                     "Auction"
                   ],
                   "gift": [
                     "false"
+                  ],
+                  "watchCount": [
+                    "20"
                   ]
                 }
               ],
               "returnsAccepted": [
-                "true"
+                "false"
               ],
               "condition": [
                 {
@@ -1071,10 +146,10 @@
             },
             {
               "itemId": [
-                "192623364441"
+                "174347271784"
               ],
               "title": [
-                "Rainbow Bear 3D Cartoon Silicone Phone Case For iPhone 11 Pro Max XR 6s/7/8/Plus"
+                "Foxconn Replacement Apple iPhone 6 - 16 GB Silver (Unlocked) A1549 (CDMA + GSM)"
               ],
               "globalId": [
                 "EBAY-US"
@@ -1082,18 +157,24 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs2.ebaystatic.com/pict/1926233644414040_1.jpg"
+                "https://thumbs1.ebaystatic.com/m/mchIvkVc7qAmwJTB4EIz9-w/140.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Rainbow-Bear-3D-Cartoon-Silicone-Phone-Case-iPhone-11-Pro-Max-XR-6s-7-8-Plus-/192623364441?var="
+                "https://www.ebay.com/itm/Foxconn-Replacement-Apple-iPhone-6-16-GB-Silver-Unlocked-A1549-CDMA-GSM-/174347271784"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "240530883"
+                }
               ],
               "paymentMethod": [
                 "PayPal"
@@ -1102,36 +183,36 @@
                 "true"
               ],
               "postalCode": [
-                "******"
+                "481**"
               ],
               "location": [
-                "China"
+                "Ann Arbor,MI,USA"
               ],
               "country": [
-                "CN"
+                "US"
               ],
               "shippingInfo": [
                 {
                   "shippingServiceCost": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "2.69"
+                      "__value__": "0.0"
                     }
                   ],
                   "shippingType": [
-                    "Flat"
+                    "Free"
                   ],
                   "shipToLocations": [
                     "Worldwide"
                   ],
                   "expeditedShipping": [
-                    "false"
+                    "true"
                   ],
                   "oneDayShippingAvailable": [
                     "false"
                   ],
                   "handlingTime": [
-                    "10"
+                    "1"
                   ]
                 }
               ],
@@ -1140,33 +221,36 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "4.69"
+                      "__value__": "130.0"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "4.69"
+                      "__value__": "130.0"
                     }
                   ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P10DT2H55M1S"
                   ]
                 }
               ],
               "listingInfo": [
                 {
                   "bestOfferEnabled": [
-                    "false"
+                    "true"
                   ],
                   "buyItNowAvailable": [
                     "false"
                   ],
                   "startTime": [
-                    "2018-08-10T18:01:45.000Z"
+                    "2020-07-13T03:30:20.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:53:05.000Z"
+                    "2020-08-13T03:30:20.000Z"
                   ],
                   "listingType": [
                     "FixedPrice"
@@ -1175,12 +259,12 @@
                     "false"
                   ],
                   "watchCount": [
-                    "9"
+                    "13"
                   ]
                 }
               ],
               "returnsAccepted": [
-                "true"
+                "false"
               ],
               "condition": [
                 {
@@ -1193,7 +277,7 @@
                 }
               ],
               "isMultiVariationListing": [
-                "true"
+                "false"
               ],
               "topRatedListing": [
                 "false"
@@ -1201,10 +285,10 @@
             },
             {
               "itemId": [
-                "192703633172"
+                "133449009883"
               ],
               "title": [
-                "Cute Cartoon Embroidery Bare Bears Card Phone Case For iPhone 11 PRO MAX 6/7/8+"
+                "Brand New Apple iPhone 6 32GB Gray/Gold Straight Talk"
               ],
               "globalId": [
                 "EBAY-US"
@@ -1212,18 +296,18 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs1.ebaystatic.com/pict/1927036331724040_2.jpg"
+                "https://thumbs4.ebaystatic.com/pict/1334490098834040_1.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Cute-Cartoon-Embroidery-Bare-Bears-Card-Phone-Case-iPhone-11-PRO-MAX-6-7-8-/192703633172?var="
+                "https://www.ebay.com/itm/Brand-New-Apple-iPhone-6-32GB-Gray-Gold-Straight-Talk-/133449009883?var="
               ],
               "paymentMethod": [
                 "PayPal"
@@ -1232,148 +316,24 @@
                 "true"
               ],
               "postalCode": [
-                "******"
+                "115**"
               ],
               "location": [
-                "China"
+                "Valley Stream,NY,USA"
               ],
               "country": [
-                "CN"
+                "US"
               ],
               "shippingInfo": [
                 {
                   "shippingServiceCost": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "2.69"
+                      "__value__": "0.0"
                     }
                   ],
                   "shippingType": [
-                    "Flat"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "10"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.99"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.99"
-                    }
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2018-10-27T16:32:47.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:53:01.000Z"
-                  ],
-                  "listingType": [
-                    "FixedPrice"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "true"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "283936516812"
-              ],
-              "title": [
-                "myCat iPhone 6/6s 4.7” TPU Cover Case Card Pocket Hanger Design KOREA - Sky Blue"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "363"
-                  ],
-                  "categoryName": [
-                    "Other Animated Characters"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs1.ebaystatic.com/m/mKOnOiSMBOCL7AfAVg7VyZA/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/myCat-iPhone-6-6s-4-7-TPU-Cover-Case-Card-Pocket-Hanger-Design-KOREA-Sky-Blue-/283936516812"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "location": [
-                "Korea, South"
-              ],
-              "country": [
-                "KR"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "8.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "Flat"
+                    "Free"
                   ],
                   "shipToLocations": [
                     "Worldwide"
@@ -1394,20 +354,20 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "19.99"
+                      "__value__": "129.99"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "19.99"
+                      "__value__": "129.99"
                     }
                   ],
-                  "bidCount": [
-                    "0"
-                  ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P23DT6H32M36S"
                   ]
                 }
               ],
@@ -1420,24 +380,157 @@
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-03T22:52:04.000Z"
+                    "2020-06-26T07:07:55.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:52:04.000Z"
+                    "2020-08-26T07:07:55.000Z"
                   ],
                   "listingType": [
-                    "Auction"
+                    "FixedPrice"
                   ],
                   "gift": [
                     "false"
+                  ],
+                  "watchCount": [
+                    "6"
                   ]
                 }
               ],
               "returnsAccepted": [
                 "true"
               ],
-              "galleryPlusPictureURL": [
-                "https://galleryplus.ebayimg.com/ws/web/283936516812_1_0_1.jpg"
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124072103327"
+              ],
+              "title": [
+                "New Apple iPhone XS Max - 64 GB - Space Gray - GSM+CDMA Unlocked"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mJJL_bO1SAF1UiQFDjCTpLg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/New-Apple-iPhone-XS-Max-64-GB-Space-Gray-GSM-CDMA-Unlocked-/124072103327"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "752**"
+              ],
+              "location": [
+                "Dallas,TX,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "true"
+                  ],
+                  "handlingTime": [
+                    "2"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "686.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "686.95"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P1DT20H16M4S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-02-04T20:51:23.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-04T20:51:23.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "169"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
               ],
               "condition": [
                 {
@@ -1458,10 +551,288 @@
             },
             {
               "itemId": [
-                "143651165042"
+                "202953213481"
               ],
               "title": [
-                "Homer Simpson iPhone 6/6s Plus Clear Case"
+                "NEW UNUSED FACTORY UNLOCKED iPHONE 6S 64GB GOLD AT&T VERIZON T-MOBILE SPRINT"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "✔LIK3 N3W ✔Charger ✔Cable ✔3 Day Mail ✔Warranty ✔"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2029532134814040_3.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/NEW-UNUSED-FACTORY-UNLOCKED-iPHONE-6S-64GB-GOLD-AT-T-VERIZON-T-MOBILE-SPRINT-/202953213481?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "918**"
+              ],
+              "location": [
+                "Alhambra,CA,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "225.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "225.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT16H10M10S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-04-01T16:45:29.000Z"
+                  ],
+                  "endTime": [
+                    "2020-09-01T16:45:29.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "40"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "123647612320"
+              ],
+              "title": [
+                "New Apple iPhone 6s - 32GB - Space Gray (Boost Mobile) A1688 (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "GIFT ITEM GIFT ITEM !!!!!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mv3-ESnAIfNFhzh3jLAqpNA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/New-Apple-iPhone-6s-32GB-Space-Gray-Boost-Mobile-A1688-CDMA-GSM-/123647612320"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228577609"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "110**"
+              ],
+              "location": [
+                "Floral Park,NY,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "149.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "149.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P12DT15H59M15S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-02-15T16:34:34.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-15T16:34:34.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "80"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "202999852152"
+              ],
+              "title": [
+                "NEW UNUSED FACTORY UNLOCKED iPHONE 6S PLUS 64GB AT&T VERIZON T-MOBILE SPRINT"
               ],
               "globalId": [
                 "EBAY-US"
@@ -1469,38 +840,180 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs3.ebaystatic.com/m/mZN4wtb3K3ocgjZNA5DP5ig/140.jpg"
+                "https://thumbs1.ebaystatic.com/pict/2029998521524040_1.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Homer-Simpson-iPhone-6-6s-Plus-Clear-Case-/143651165042"
+                "https://www.ebay.com/itm/NEW-UNUSED-FACTORY-UNLOCKED-iPHONE-6S-PLUS-64GB-AT-T-VERIZON-T-MOBILE-SPRINT-/202999852152?var="
               ],
               "paymentMethod": [
                 "PayPal"
               ],
               "autoPay": [
-                "false"
+                "true"
               ],
               "postalCode": [
-                "210**"
+                "918**"
               ],
               "location": [
-                "Ellicott City,MD,USA"
+                "Alhambra,CA,USA"
               ],
               "country": [
                 "US"
               ],
               "shippingInfo": [
                 {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
                   "shippingType": [
-                    "Calculated"
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "290.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "290.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT16H28M27S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-05-23T17:03:46.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-23T17:03:46.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "33"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "184386203139"
+              ],
+              "title": [
+                "BRAND NEW Apple iPhone 6 - 16GB - Space Gray (Unlocked) A1586 (CDMA   GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mhreDwFneRACEbt9qcp0BeQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/BRAND-NEW-Apple-iPhone-6-16GB-Space-Gray-Unlocked-A1586-CDMA-GSM-/184386203139"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "233752960"
+                }
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "351**"
+              ],
+              "location": [
+                "Pelham,AL,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
                   ],
                   "shipToLocations": [
                     "Worldwide"
@@ -1512,7 +1025,7 @@
                     "false"
                   ],
                   "handlingTime": [
-                    "3"
+                    "1"
                   ]
                 }
               ],
@@ -1521,20 +1034,23 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "1.5"
+                      "__value__": "99.0"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "1.5"
+                      "__value__": "99.0"
                     }
                   ],
                   "bidCount": [
                     "0"
                   ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT18H26M2S"
                   ]
                 }
               ],
@@ -1547,21 +1063,24 @@
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-06T22:50:43.000Z"
+                    "2020-08-02T19:01:21.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:50:43.000Z"
+                    "2020-08-09T19:01:21.000Z"
                   ],
                   "listingType": [
                     "Auction"
                   ],
                   "gift": [
                     "false"
+                  ],
+                  "watchCount": [
+                    "4"
                   ]
                 }
               ],
               "returnsAccepted": [
-                "false"
+                "true"
               ],
               "condition": [
                 {
@@ -1577,15 +1096,157 @@
                 "false"
               ],
               "topRatedListing": [
-                "false"
+                "true"
               ]
             },
             {
               "itemId": [
-                "264787646852"
+                "153977491292"
               ],
               "title": [
-                "Brand New Iphone 6 Case Tribal Design "
+                "Apple iPhone 6s - 32GB - Space Gray (Unlocked) -Verizon -T-mobile -AT&T- Sprint"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "APPLE WARRANTY INCLUDED!!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mj24x-pqRuZHgSXRGTrVxWA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Apple-iPhone-6s-32GB-Space-Gray-Unlocked-Verizon-T-mobile-AT-T-Sprint-/153977491292"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228580046"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "774**"
+              ],
+              "location": [
+                "Sugar Land,TX,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "209.98"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "209.98"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT4H16M12S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-06-20T04:51:31.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-20T04:51:31.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "42"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "313169000381"
+              ],
+              "title": [
+                "APPLE iPhone 6s -32GB- Space Gray (Simple Mobile) A1688 (CDMA+GSM) FREE SHIPPING"
               ],
               "globalId": [
                 "EBAY-US"
@@ -1593,38 +1254,50 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs1.ebaystatic.com/m/mj70XtAI59GjKDoyPMMShSw/140.jpg"
+                "https://thumbs2.ebaystatic.com/m/mzzNuwq8R5tTya1c7nU78VQ/140.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Brand-New-Iphone-6-Case-Tribal-Design-/264787646852"
+                "https://www.ebay.com/itm/APPLE-iPhone-6s-32GB-Space-Gray-Simple-Mobile-A1688-CDMA-GSM-FREE-SHIPPING-/313169000381"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "26024918957"
+                }
               ],
               "paymentMethod": [
                 "PayPal"
               ],
               "autoPay": [
-                "false"
+                "true"
               ],
               "postalCode": [
-                "198**"
+                "950**"
               ],
               "location": [
-                "Wilmington,DE,USA"
+                "Gilroy,CA,USA"
               ],
               "country": [
                 "US"
               ],
               "shippingInfo": [
                 {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
                   "shippingType": [
-                    "Calculated"
+                    "Free"
                   ],
                   "shipToLocations": [
                     "Worldwide"
@@ -1645,42 +1318,45 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "3.99"
+                      "__value__": "139.94"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "3.99"
+                      "__value__": "139.94"
                     }
                   ],
-                  "bidCount": [
-                    "0"
-                  ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT23H18M19S"
                   ]
                 }
               ],
               "listingInfo": [
                 {
                   "bestOfferEnabled": [
-                    "true"
+                    "false"
                   ],
                   "buyItNowAvailable": [
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-06T22:50:30.000Z"
+                    "2020-08-01T23:53:38.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:50:30.000Z"
+                    "2020-09-01T23:53:38.000Z"
                   ],
                   "listingType": [
-                    "Auction"
+                    "StoreInventory"
                   ],
                   "gift": [
                     "false"
+                  ],
+                  "watchCount": [
+                    "3"
                   ]
                 }
               ],
@@ -1706,10 +1382,971 @@
             },
             {
               "itemId": [
-                "164289170859"
+                "233645992590"
               ],
               "title": [
-                "Apple iPhone 6 - 32GB - Space Gray (Verizon) A1549 (CDMA + GSM)"
+                "Apple iPhone 6s - 32GB - Space Gray (Boost Mobile) A1688 (CDMA   GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/myiDIQyUCev6ejod8xHfCuw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Apple-iPhone-6s-32GB-Space-Gray-Boost-Mobile-A1688-CDMA-GSM-/233645992590"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228577609"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "140.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "140.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P7DT21H6M59S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-10T21:42:18.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-10T21:42:18.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "11"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "false"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "192859399121"
+              ],
+              "title": [
+                "New Apple iPhone XS MAX 64GB 256GB 512GB Factory Unlocked T-Mobile AT&T Verizon "
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1928593991214040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/New-Apple-iPhone-XS-MAX-64GB-256GB-512GB-Factory-Unlocked-T-Mobile-AT-T-Verizon-/192859399121?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "914**"
+              ],
+              "location": [
+                "Van Nuys,CA,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "true"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "714.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "714.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P13DT3H34M9S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-03-16T04:09:28.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-16T04:09:28.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "233652983206"
+              ],
+              "title": [
+                "Verizon Prepaid iPhone 6s - 32GB - Space Gray  A1633 (CDMA + GSM) "
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mGEIqGBetcgA8_xkMe1Sn5Q/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Verizon-Prepaid-iPhone-6s-32GB-Space-Gray-A1633-CDMA-GSM-/233652983206"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "157.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "157.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT21H21M39S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-17T21:56:58.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-17T21:56:58.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "12"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "false"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "162156857200"
+              ],
+              "title": [
+                "NEW Apple iPhone 6S PLUS 16/32/64/128GB Space Gray Silver Rose Gold Gold"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "🔥BEST DEAL🔥FAST🚀SHIP✅AT&T✅Verizon✅T-Mobile 3K+ SOLD"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1621568572004040_8.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/NEW-Apple-iPhone-6S-PLUS-16-32-64-128GB-Space-Gray-Silver-Rose-Gold-Gold-/162156857200?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "604**"
+              ],
+              "location": [
+                "Oak Lawn,IL,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "true"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "299.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "299.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P30DT23H24M52S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2016-08-03T00:00:11.000Z"
+                  ],
+                  "endTime": [
+                    "2020-09-03T00:00:11.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "643"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "254674845182"
+              ],
+              "title": [
+                "Apple iPhone 6s Plus - 32GB - Rose Gold (Straight Talk) A1687 (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mX2ClWZAHhM7el5Z4_fztEg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Apple-iPhone-6s-Plus-32GB-Rose-Gold-Straight-Talk-A1687-CDMA-GSM-/254674845182"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "241827271"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "310**"
+              ],
+              "location": [
+                "Milledgeville,GA,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "3"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "85.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "85.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT21H39M42S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "true"
+                  ],
+                  "buyItNowPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "190.0"
+                    }
+                  ],
+                  "convertedBuyItNowPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "190.0"
+                    }
+                  ],
+                  "startTime": [
+                    "2020-08-02T22:15:01.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-09T22:15:01.000Z"
+                  ],
+                  "listingType": [
+                    "AuctionWithBIN"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "false"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "303001489086"
+              ],
+              "title": [
+                "Brand New Apple iPhone 6 32GB Space Gray AT&T  "
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mA-2TtAYO8E2PkmAuSBYqPQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Brand-New-Apple-iPhone-6-32GB-Space-Gray-AT-T-/303001489086"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "237834160"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "208**"
+              ],
+              "location": [
+                "Derwood,MD,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "164.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "164.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P15DT14H16M31S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-12-18T14:51:50.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-18T14:51:50.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "15"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "293500815524"
+              ],
+              "title": [
+                "at&t iphone 10 8 7 plus 6s 6 pro max xs xr x se apple Factory Unlock Service att"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/m73zZAZOjVx6L4dVm3bNr_Q/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/at-t-iphone-10-8-7-plus-6s-6-pro-max-xs-xr-x-se-apple-Factory-Unlock-Service-att-/293500815524"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "339**"
+              ],
+              "location": [
+                "Fort Myers,FL,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "false"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "0"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "6.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "6.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P1DT23H10M8S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-03-04T23:45:27.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-04T23:45:27.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "251"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "false"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "123656195375"
+              ],
+              "title": [
+                "Apple iPhone 6 - 32GB - Space Gray (Boost Mobile) A1586 (CDMA + GSM) New Sealed"
               ],
               "globalId": [
                 "EBAY-US"
@@ -1728,33 +2365,39 @@
                 "https://thumbs4.ebaystatic.com/m/mwly0mn4nbZNUognSZBr6Fg/140.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Apple-iPhone-6-32GB-Space-Gray-Verizon-A1549-CDMA-GSM-/164289170859"
+                "https://www.ebay.com/itm/Apple-iPhone-6-32GB-Space-Gray-Boost-Mobile-A1586-CDMA-GSM-New-Sealed-/123656195375"
               ],
               "productId": [
                 {
                   "@type": "ReferenceID",
-                  "__value__": "242544567"
+                  "__value__": "242525596"
                 }
               ],
               "paymentMethod": [
                 "PayPal"
               ],
               "autoPay": [
-                "false"
+                "true"
               ],
               "postalCode": [
-                "483**"
+                "110**"
               ],
               "location": [
-                "West Bloomfield,MI,USA"
+                "Floral Park,NY,USA"
               ],
               "country": [
                 "US"
               ],
               "shippingInfo": [
                 {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
                   "shippingType": [
-                    "Calculated"
+                    "Free"
                   ],
                   "shipToLocations": [
                     "Worldwide"
@@ -1766,7 +2409,7 @@
                     "false"
                   ],
                   "handlingTime": [
-                    "3"
+                    "1"
                   ]
                 }
               ],
@@ -1775,20 +2418,20 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "63.0"
+                      "__value__": "169.0"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "63.0"
+                      "__value__": "169.0"
                     }
                   ],
-                  "bidCount": [
-                    "1"
-                  ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT17H29M28S"
                   ]
                 }
               ],
@@ -1801,21 +2444,163 @@
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-13T22:10:34.000Z"
+                    "2019-02-20T18:04:47.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:49:16.000Z"
+                    "2020-08-20T18:04:47.000Z"
                   ],
                   "listingType": [
-                    "Auction"
+                    "StoreInventory"
                   ],
                   "gift": [
                     "false"
+                  ],
+                  "watchCount": [
+                    "16"
                   ]
                 }
               ],
               "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
                 "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "183854181380"
+              ],
+              "title": [
+                "Apple iPhone 6 - 32GB - Space Gray (Straight Talk) A1549 (CDMA + GSM) SmartPhone"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mwly0mn4nbZNUognSZBr6Fg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Apple-iPhone-6-32GB-Space-Gray-Straight-Talk-A1549-CDMA-GSM-SmartPhone-/183854181380"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "242455402"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "907**"
+              ],
+              "location": [
+                "Lakewood,CA,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "148.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "148.95"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT5H56M37S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-06-20T06:31:56.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-20T06:31:56.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
               ],
               "condition": [
                 {
@@ -1836,10 +2621,10 @@
             },
             {
               "itemId": [
-                "303616227463"
+                "203005546274"
               ],
               "title": [
-                "Evutec Ebony Sleek Snap Case For iPhone 6/6s Dark Wood Grain S-Series Thin DEALS"
+                "New Apple iPhone 6 16GB 32GB 64GB 128GB Factory Unlocked T-Mobile AT&T Verizon "
               ],
               "globalId": [
                 "EBAY-US"
@@ -1847,30 +2632,30 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs4.ebaystatic.com/m/mKEIuJuwtPg4RboEcSapAGw/140.jpg"
+                "https://thumbs3.ebaystatic.com/pict/2030055462744040_1.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Evutec-Ebony-Sleek-Snap-Case-iPhone-6-6s-Dark-Wood-Grain-S-Series-Thin-DEALS-/303616227463"
+                "https://www.ebay.com/itm/New-Apple-iPhone-6-16GB-32GB-64GB-128GB-Factory-Unlocked-T-Mobile-AT-T-Verizon-/203005546274?var="
               ],
               "paymentMethod": [
                 "PayPal"
               ],
               "autoPay": [
-                "false"
+                "true"
               ],
               "postalCode": [
-                "191**"
+                "914**"
               ],
               "location": [
-                "Philadelphia,PA,USA"
+                "Van Nuys,CA,USA"
               ],
               "country": [
                 "US"
@@ -1880,7 +2665,146 @@
                   "shippingServiceCost": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "4.84"
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "true"
+                  ],
+                  "handlingTime": [
+                    "1"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "281.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "281.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P25DT21H47M46S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-05-28T22:23:05.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-28T22:23:05.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "3"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "true"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "184153364725"
+              ],
+              "title": [
+                "New UNLOCKED Apple iPhone 6 Space Gray  64GB A1586 (CDMA GSM) Worldwide Shipping"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mXJER7fG7DUZwU0EDz2nSEg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/New-UNLOCKED-Apple-iPhone-6-Space-Gray-64GB-A1586-CDMA-GSM-Worldwide-Shipping-/184153364725"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "238487808"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "480**"
+              ],
+              "location": [
+                "Royal Oak,MI,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "10.0"
                     }
                   ],
                   "shippingType": [
@@ -1893,10 +2817,10 @@
                     "true"
                   ],
                   "oneDayShippingAvailable": [
-                    "true"
+                    "false"
                   ],
                   "handlingTime": [
-                    "2"
+                    "1"
                   ]
                 }
               ],
@@ -1905,47 +2829,50 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "8.49"
+                      "__value__": "299.0"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "8.49"
+                      "__value__": "299.0"
                     }
                   ],
-                  "bidCount": [
-                    "0"
-                  ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT16H54M4S"
                   ]
                 }
               ],
               "listingInfo": [
                 {
                   "bestOfferEnabled": [
-                    "false"
+                    "true"
                   ],
                   "buyItNowAvailable": [
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-06T22:49:06.000Z"
+                    "2020-01-30T17:29:23.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:49:06.000Z"
+                    "2020-08-30T17:29:23.000Z"
                   ],
                   "listingType": [
-                    "Auction"
+                    "StoreInventory"
                   ],
                   "gift": [
                     "false"
+                  ],
+                  "watchCount": [
+                    "3"
                   ]
                 }
               ],
               "returnsAccepted": [
-                "true"
+                "false"
               ],
               "condition": [
                 {
@@ -1966,10 +2893,10 @@
             },
             {
               "itemId": [
-                "392590393783"
+                "193608811518"
               ],
               "title": [
-                "iPhone Case - Peacock Design"
+                "New Apple iPhone 6s - 16GB - Space Gray (Unlocked) A1688 (CDMA + GSM)"
               ],
               "globalId": [
                 "EBAY-US"
@@ -1977,24 +2904,175 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs4.ebaystatic.com/pict/3925903937834040_1.jpg"
+                "https://thumbs3.ebaystatic.com/m/mhtUpRer-TBOEoOgVmFJfsA/140.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/iPhone-Case-Peacock-Design-/392590393783?var="
+                "https://www.ebay.com/itm/New-Apple-iPhone-6s-16GB-Space-Gray-Unlocked-A1688-CDMA-GSM-/193608811518"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "240420050"
+                }
               ],
               "paymentMethod": [
                 "PayPal"
               ],
               "autoPay": [
                 "true"
+              ],
+              "postalCode": [
+                "600**"
+              ],
+              "location": [
+                "Des Plaines,IL,USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ],
+                  "expeditedShipping": [
+                    "true"
+                  ],
+                  "oneDayShippingAvailable": [
+                    "false"
+                  ],
+                  "handlingTime": [
+                    "3"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "70.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "70.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT18H27M21S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "true"
+                  ],
+                  "buyItNowPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "500.0"
+                    }
+                  ],
+                  "convertedBuyItNowPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "500.0"
+                    }
+                  ],
+                  "startTime": [
+                    "2020-08-02T19:02:40.000Z"
+                  ],
+                  "endTime": [
+                    "2020-08-09T19:02:40.000Z"
+                  ],
+                  "listingType": [
+                    "AuctionWithBIN"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "returnsAccepted": [
+                "false"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "222148603230"
+              ],
+              "title": [
+                "Apple iPhone 6 16GB Silver LTE Cellular International Unlocked"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/muB6BzKALgD2psf_FYQcfjg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com/itm/Apple-iPhone-6-16GB-Silver-LTE-Cellular-International-Unlocked-/222148603230"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
               ],
               "location": [
                 "USA"
@@ -2023,7 +3101,7 @@
                     "false"
                   ],
                   "handlingTime": [
-                    "5"
+                    "1"
                   ]
                 }
               ],
@@ -2032,17 +3110,20 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "15.99"
+                      "__value__": "648.89"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "15.99"
+                      "__value__": "648.89"
                     }
                   ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P7DT16H36M48S"
                   ]
                 }
               ],
@@ -2055,10 +3136,10 @@
                     "false"
                   ],
                   "startTime": [
-                    "2019-12-16T00:20:39.000Z"
+                    "2016-06-10T17:12:07.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:47:20.000Z"
+                    "2020-08-10T17:12:07.000Z"
                   ],
                   "listingType": [
                     "FixedPrice"
@@ -2082,7 +3163,7 @@
                 }
               ],
               "isMultiVariationListing": [
-                "true"
+                "false"
               ],
               "topRatedListing": [
                 "false"
@@ -2090,10 +3171,10 @@
             },
             {
               "itemId": [
-                "114292012689"
+                "253671432153"
               ],
               "title": [
-                "Octopus UV Glue - 3ml LOCA for IPhone 5, 6, Samsung S4, S5, S6 LCD screen glass"
+                "Apple iPhone 6 - 64GB - Gold (Unlocked) A1549 (GSM) (CA)"
               ],
               "globalId": [
                 "EBAY-US"
@@ -2101,50 +3182,62 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "43304"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cell Phone & Smartphone Parts"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs2.ebaystatic.com/m/m_dTNsFIzMJuWrfu2iFfBKA/140.jpg"
+                "https://thumbs2.ebaystatic.com/m/mEmj3NodD3r0Z0xuDhILf_Q/140.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Octopus-UV-Glue-3ml-LOCA-IPhone-5-6-Samsung-S4-S5-S6-LCD-screen-glass-/114292012689"
+                "https://www.ebay.com/itm/Apple-iPhone-6-64GB-Gold-Unlocked-A1549-GSM-CA-/253671432153"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "237849594"
+                }
               ],
               "paymentMethod": [
                 "PayPal"
               ],
               "autoPay": [
-                "false"
+                "true"
               ],
               "postalCode": [
-                "080**"
+                "100**"
               ],
               "location": [
-                "Glassboro,NJ,USA"
+                "New York,NY,USA"
               ],
               "country": [
                 "US"
               ],
               "shippingInfo": [
                 {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "0.0"
+                    }
+                  ],
                   "shippingType": [
-                    "Calculated"
+                    "Free"
                   ],
                   "shipToLocations": [
                     "Worldwide"
                   ],
                   "expeditedShipping": [
-                    "false"
+                    "true"
                   ],
                   "oneDayShippingAvailable": [
                     "false"
                   ],
                   "handlingTime": [
-                    "3"
+                    "1"
                   ]
                 }
               ],
@@ -2153,20 +3246,20 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "3.8"
+                      "__value__": "699.99"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "3.8"
+                      "__value__": "699.99"
                     }
                   ],
-                  "bidCount": [
-                    "0"
-                  ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT19H31M7S"
                   ]
                 }
               ],
@@ -2179,13 +3272,13 @@
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-06T22:41:01.000Z"
+                    "2018-06-05T20:06:26.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:41:01.000Z"
+                    "2020-08-05T20:06:26.000Z"
                   ],
                   "listingType": [
-                    "Auction"
+                    "StoreInventory"
                   ],
                   "gift": [
                     "false"
@@ -2196,7 +3289,7 @@
                 }
               ],
               "returnsAccepted": [
-                "false"
+                "true"
               ],
               "condition": [
                 {
@@ -2212,15 +3305,15 @@
                 "false"
               ],
               "topRatedListing": [
-                "false"
+                "true"
               ]
             },
             {
               "itemId": [
-                "274420268215"
+                "183854171283"
               ],
               "title": [
-                "Trianium Protective Slim Case Designed for Apple iPhone 11 (2019 6.1 Inch)"
+                "Apple iPhone 6 - 32GB - Space Gray (Boost Mobile) A1586 (CDMA + GSM)"
               ],
               "globalId": [
                 "EBAY-US"
@@ -2228,151 +3321,36 @@
               "primaryCategory": [
                 {
                   "categoryId": [
-                    "20349"
+                    "9355"
                   ],
                   "categoryName": [
-                    "Cases, Covers & Skins"
+                    "Cell Phones & Smartphones"
                   ]
                 }
               ],
               "galleryURL": [
-                "https://thumbs4.ebaystatic.com/m/mRX6moxbbaQd3PaiW0nkoAg/140.jpg"
+                "https://thumbs4.ebaystatic.com/m/mwly0mn4nbZNUognSZBr6Fg/140.jpg"
               ],
               "viewItemURL": [
-                "https://www.ebay.com/itm/Trianium-Protective-Slim-Case-Designed-Apple-iPhone-11-2019-6-1-Inch-/274420268215"
+                "https://www.ebay.com/itm/Apple-iPhone-6-32GB-Space-Gray-Boost-Mobile-A1586-CDMA-GSM-/183854171283"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "242525596"
+                }
               ],
               "paymentMethod": [
                 "PayPal"
               ],
               "autoPay": [
-                "false"
+                "true"
               ],
               "postalCode": [
-                "077**"
+                "907**"
               ],
               "location": [
-                "Farmingdale,NJ,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingType": [
-                    "Calculated"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.3"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "4.3"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "true"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2020-07-06T22:40:49.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:40:49.000Z"
-                  ],
-                  "listingType": [
-                    "Auction"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "false"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "303616025812"
-              ],
-              "title": [
-                "FLYLINKTECH for iPhone 6/6s/7/8 Battery Case, 6500mAh Portable Protective"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs1.ebaystatic.com/m/mGmpzugHoPR-UAca16cbQ7w/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/FLYLINKTECH-iPhone-6-6s-7-8-Battery-Case-6500mAh-Portable-Protective-/303616025812"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "location": [
-                "USA"
+                "Lakewood,CA,USA"
               ],
               "country": [
                 "US"
@@ -2398,7 +3376,7 @@
                     "false"
                   ],
                   "handlingTime": [
-                    "2"
+                    "1"
                   ]
                 }
               ],
@@ -2407,17 +3385,20 @@
                   "currentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "52.85"
+                      "__value__": "197.95"
                     }
                   ],
                   "convertedCurrentPrice": [
                     {
                       "@currencyId": "USD",
-                      "__value__": "52.85"
+                      "__value__": "197.95"
                     }
                   ],
                   "sellingState": [
-                    "Ended"
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT5H46M23S"
                   ]
                 }
               ],
@@ -2430,633 +3411,13 @@
                     "false"
                   ],
                   "startTime": [
-                    "2020-07-06T17:51:04.000Z"
+                    "2019-06-20T06:21:42.000Z"
                   ],
                   "endTime": [
-                    "2020-07-13T22:40:37.000Z"
+                    "2020-08-20T06:21:42.000Z"
                   ],
                   "listingType": [
                     "FixedPrice"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "254646212636"
-              ],
-              "title": [
-                "Speck Case for Apple iPhone 8 Plus Also  Fits 7 Plus 6 Plus "
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs1.ebaystatic.com/m/mMXJ7Hjln8jCjhLtsYgjSmg/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Speck-Case-Apple-iPhone-8-Plus-Also-Fits-7-Plus-6-Plus-/254646212636"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "postalCode": [
-                "088**"
-              ],
-              "location": [
-                "Somerset,NJ,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingType": [
-                    "Calculated"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "5.5"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "5.5"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "true"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2020-07-06T22:40:17.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:40:17.000Z"
-                  ],
-                  "listingType": [
-                    "Auction"
-                  ],
-                  "gift": [
-                    "false"
-                  ],
-                  "watchCount": [
-                    "2"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "false"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "303613823470"
-              ],
-              "title": [
-                "Belkin Stereo Cable for iPod/iPhone/iPad. 6'. 3.5mm mini-stereo to two RCA plugs"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "56172"
-                  ],
-                  "categoryName": [
-                    "Cables & Adapters"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs3.ebaystatic.com/m/mRduZyLLUpkP4FfdXP2hNYg/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Belkin-Stereo-Cable-iPod-iPhone-iPad-6-3-5mm-mini-stereo-two-RCA-plugs-/303613823470"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "postalCode": [
-                "193**"
-              ],
-              "location": [
-                "West Chester,PA,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "0.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "Free"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "true"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "9.98"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "9.98"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "true"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2020-07-03T22:39:15.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:39:15.000Z"
-                  ],
-                  "listingType": [
-                    "Auction"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "true"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "323591275068"
-              ],
-              "title": [
-                "Luxury Matte phone case, Soft, slim, Black ,pink ,blue ,White! Fits all iPhones!"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs1.ebaystatic.com/pict/3235912750684040_1.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Luxury-Matte-phone-case-Soft-slim-Black-pink-blue-White-Fits-all-iPhones-/323591275068?var="
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "true"
-              ],
-              "postalCode": [
-                "912**"
-              ],
-              "location": [
-                "Glendale,CA,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingType": [
-                    "Calculated"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.5"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "3.5"
-                    }
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "false"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2018-12-09T23:04:51.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:38:57.000Z"
-                  ],
-                  "listingType": [
-                    "FixedPrice"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "false"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "true"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "283946968480"
-              ],
-              "title": [
-                "Apple Silicone Case for iPhone 6 6s 7 8 x xs xr 11 pro max any models, we got it"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Apple-Silicone-Case-iPhone-6-6s-7-8-x-xs-xr-11-pro-max-any-models-we-got-/283946968480"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "true"
-              ],
-              "postalCode": [
-                "077**"
-              ],
-              "location": [
-                "Long Branch,NJ,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingType": [
-                    "Calculated"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "5.99"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "5.99"
-                    }
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "true"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2020-07-13T22:04:15.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:38:45.000Z"
-                  ],
-                  "listingType": [
-                    "FixedPrice"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "false"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "254646210988"
-              ],
-              "title": [
-                "Speck Case for Apple iPhone 8 Plus Also  Fits 7 Plus 6 Plus  CandyShell Inked"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "20349"
-                  ],
-                  "categoryName": [
-                    "Cases, Covers & Skins"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs1.ebaystatic.com/m/mMXJ7Hjln8jCjhLtsYgjSmg/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Speck-Case-Apple-iPhone-8-Plus-Also-Fits-7-Plus-6-Plus-CandyShell-Inked-/254646210988"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "postalCode": [
-                "088**"
-              ],
-              "location": [
-                "Somerset,NJ,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingType": [
-                    "Calculated"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "5.8"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "5.8"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "true"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2020-07-06T22:36:56.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:36:56.000Z"
-                  ],
-                  "listingType": [
-                    "Auction"
                   ],
                   "gift": [
                     "false"
@@ -3067,137 +3428,7 @@
                 }
               ],
               "returnsAccepted": [
-                "false"
-              ],
-              "condition": [
-                {
-                  "conditionId": [
-                    "1000"
-                  ],
-                  "conditionDisplayName": [
-                    "New"
-                  ]
-                }
-              ],
-              "isMultiVariationListing": [
-                "false"
-              ],
-              "topRatedListing": [
-                "false"
-              ]
-            },
-            {
-              "itemId": [
-                "133458717910"
-              ],
-              "title": [
-                "Power Support anti glare film screen protector iPhone 6 or 7   PYC-02AJ"
-              ],
-              "globalId": [
-                "EBAY-US"
-              ],
-              "primaryCategory": [
-                {
-                  "categoryId": [
-                    "58540"
-                  ],
-                  "categoryName": [
-                    "Screen Protectors"
-                  ]
-                }
-              ],
-              "galleryURL": [
-                "https://thumbs3.ebaystatic.com/m/mWoQFPvqvqpsutIGzIJekcQ/140.jpg"
-              ],
-              "viewItemURL": [
-                "https://www.ebay.com/itm/Power-Support-anti-glare-film-screen-protector-iPhone-6-7-PYC-02AJ-/133458717910"
-              ],
-              "paymentMethod": [
-                "PayPal"
-              ],
-              "autoPay": [
-                "false"
-              ],
-              "postalCode": [
-                "913**"
-              ],
-              "location": [
-                "Agoura Hills,CA,USA"
-              ],
-              "country": [
-                "US"
-              ],
-              "shippingInfo": [
-                {
-                  "shippingServiceCost": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "0.0"
-                    }
-                  ],
-                  "shippingType": [
-                    "Free"
-                  ],
-                  "shipToLocations": [
-                    "Worldwide"
-                  ],
-                  "expeditedShipping": [
-                    "false"
-                  ],
-                  "oneDayShippingAvailable": [
-                    "false"
-                  ],
-                  "handlingTime": [
-                    "3"
-                  ]
-                }
-              ],
-              "sellingStatus": [
-                {
-                  "currentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "9.99"
-                    }
-                  ],
-                  "convertedCurrentPrice": [
-                    {
-                      "@currencyId": "USD",
-                      "__value__": "9.99"
-                    }
-                  ],
-                  "bidCount": [
-                    "0"
-                  ],
-                  "sellingState": [
-                    "Ended"
-                  ]
-                }
-              ],
-              "listingInfo": [
-                {
-                  "bestOfferEnabled": [
-                    "true"
-                  ],
-                  "buyItNowAvailable": [
-                    "false"
-                  ],
-                  "startTime": [
-                    "2020-07-06T22:32:20.000Z"
-                  ],
-                  "endTime": [
-                    "2020-07-13T22:32:20.000Z"
-                  ],
-                  "listingType": [
-                    "Auction"
-                  ],
-                  "gift": [
-                    "false"
-                  ]
-                }
-              ],
-              "returnsAccepted": [
-                "false"
+                "true"
               ],
               "condition": [
                 {
@@ -3228,12 +3459,15 @@
             "25"
           ],
           "totalPages": [
-            "15624"
+            "207434"
           ],
           "totalEntries": [
-            "390585"
+            "5185831"
           ]
         }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.com/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
       ]
     }
   ]

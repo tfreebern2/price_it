@@ -15,19 +15,19 @@ class Api {
   Future<List<Item>> searchForCompletedItems(String selectorValue, String searchKeyword) async {
     String requestBody = buildCompletedItemSearchRequest(selectorValue, searchKeyword);
     http.Response response = await findingCompletedItemApiCall(requestBody);
-    List decodedItemList = decodeResponse(response);
-    return getItemList(decodedItemList, response);
+    List decodedItemList = decodeResponse(response.body);
+    List totalEntriesList = findTotalEntries(response.body);
+    String totalEntries = totalEntriesList[0];
+    return getItemList(decodedItemList, totalEntries);
   }
 
   Future<List<Item>> searchForActiveItems(String selectorValue, String searchKeyword) async {
     String requestBody = buildActiveItemSearchRequest(selectorValue, searchKeyword);
     http.Response response = await _findingActiveItemApiCall(requestBody);
-    List decodedItemList = decodeResponse(response);
-    return getItemList(decodedItemList, response);
-  }
-
-  void test() {
-    print('jlajk');
+    List decodedItemList = decodeResponse(response.body);
+    List totalEntriesList = findTotalEntries(response.body);
+    String totalEntries = totalEntriesList[0];
+    return getItemList(decodedItemList, totalEntries);
   }
 
   String buildCompletedItemSearchRequest(String selectorValue, String searchKeyword) {
@@ -86,8 +86,8 @@ class Api {
     return response;
   }
 
-  List decodeResponse(http.Response response) {
-    var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
+  List decodeResponse(String responseBody) {
+    var decodedResponse = jsonDecode(responseBody) as Map<String, dynamic>;
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
       return decodedResponse[findCompletedItemsResponse][0][searchResult][0][item] as List;
     } else {
@@ -95,14 +95,16 @@ class Api {
     }
   }
 
-  List<Item> getItemList(List decodedItemList, http.Response response) {
-    // TODO: Check if JSON is empty
+  List<Item> getItemList(List decodedItemList, String totalEntries) {
+    if (decodedItemList.isEmpty) {
+      return new List<Item>();
+    }
+
     List<Item> itemList = List<Item>();
     decodedItemList.forEach((json) {
       if (itemList.isEmpty) {
         Item item = Item.fromMap(json);
-        List totalEntries = findTotalEntries(response);
-        item.totalEntries = totalEntries[0];
+        item.totalEntries = totalEntries;
         itemList.add(item);
       } else {
         if (itemList.length >= 25) {
@@ -115,8 +117,8 @@ class Api {
     return itemList;
   }
 
-  List findTotalEntries(http.Response response) {
-    var decodedResponse = jsonDecode(response.body) as Map<String, dynamic>;
+  List findTotalEntries(String responseBody) {
+    var decodedResponse = jsonDecode(responseBody) as Map<String, dynamic>;
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
       return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries]
           as List;

@@ -31,12 +31,16 @@ Future<ApiMock> getAndRegisterApiMock() async {
   Item item1 =
       new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "1.00", "SOLD");
   newCompletedListing.add(item1);
+  var futureCompletedListing = Future.value(newCompletedListing);
 
   // stubbing futures
   final futureRequest1 = Future.value(requestFile.readAsString());
   final futureResponse1 = Future.value(responseFile.readAsString());
+
   when(api.findingCompletedItemApiCall(futureRequest1))
       .thenAnswer((_) async => http.Response(await futureResponse1, 200));
+  when(api.searchForCompletedItems('New', 'iPhone 6 ')).thenAnswer((_) async => futureCompletedListing);
+  when(api.searchForActiveItems('New', 'iPhone 6 ')).thenAnswer((_) async => futureCompletedListing);
 
   locator.registerSingleton<Api>(api);
   return api;
@@ -75,6 +79,8 @@ SearchServiceMock getAndRegisterInitialSearchServiceMock() {
   when(service.completedListing).thenReturn(List());
   when(service.activeListing).thenReturn(List());
   when(service.completedListingAveragePrice).thenReturn(100.0);
+  when(service.condition).thenReturn('New');
+  when(service.searchKeyword).thenReturn('iPhone 6');
 
   locator.registerSingleton<SearchService>(service);
   return service;
