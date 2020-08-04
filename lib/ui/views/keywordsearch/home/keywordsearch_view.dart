@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_home_viewmodel.dart';
+import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 
-class KeywordSearchHomeView extends StatelessWidget {
-  const KeywordSearchHomeView({Key key}) : super(key: key);
+class KeywordSearchView extends StatelessWidget {
+  const KeywordSearchView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final _searchController = TextEditingController();
     final _formKey = GlobalKey<FormState>();
-    return ViewModelBuilder<KeywordSearchHomeViewModel>.reactive(
+    return ViewModelBuilder<KeywordSearchViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
             appBar: customAppbar(),
             body: SafeArea(
@@ -30,7 +30,7 @@ class KeywordSearchHomeView extends StatelessWidget {
                 ],
               ),
             )),
-        viewModelBuilder: () => KeywordSearchHomeViewModel());
+        viewModelBuilder: () => KeywordSearchViewModel());
   }
 }
 

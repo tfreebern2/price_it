@@ -7,7 +7,7 @@ class SelectionViewModel extends BaseViewModel {
   final _navigationService = locator<NavigationService>();
 
   void navigateToKeyword() {
-    _navigationService.navigateTo(Routes.keywordSearchHomeView);
+    _navigationService.navigateTo(Routes.keywordSearchView);
   }
 
   void navigateToProduct() {
