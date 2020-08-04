@@ -81,6 +81,7 @@ SearchServiceMock getAndRegisterInitialSearchServiceMock() {
   when(service.completedListingAveragePrice).thenReturn(100.0);
   when(service.condition).thenReturn('New');
   when(service.searchKeyword).thenReturn('iPhone 6');
+  when(service.imagePath).thenReturn('/file/path');
 
   locator.registerSingleton<SearchService>(service);
   return service;

@@ -17,16 +17,6 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
   String get condition => _searchService.condition;
   String get searchKeyword => _searchService.searchKeyword;
 
-  void updateCondition(String newValue) {
-    _searchService.setCondition(newValue);
-    notifyListeners();
-  }
-
-  void updateImagePath(String newValue) {
-    _searchService.setImagePath(newValue);
-    notifyListeners();
-  }
-
   void navigateToPhotoDetail() {
     camera.cameraController.dispose();
     _navigationService.navigateTo(Routes.productSearchPhotoDetailView);
@@ -36,6 +26,16 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
     camera.cameraController.dispose();
     _searchService.resetSearchResultState();
     _navigationService.clearStackAndShow(Routes.selectionView);
+  }
+
+  void updateCondition(String newValue) {
+    _searchService.setCondition(newValue);
+    notifyListeners();
+  }
+
+  void updateImagePath(String newValue) {
+    _searchService.setImagePath(newValue);
+    notifyListeners();
   }
 
   @override

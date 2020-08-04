@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:priceit/ui/views/home/selection_view.dart';
-import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_home_view.dart';
+import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_view.dart';
 import 'package:priceit/ui/views/productsearch/home/productsearch_home_view.dart';
 import 'package:priceit/ui/views/productsearch/photodetail/productsearch_photodetail_view.dart';
 import 'package:priceit/ui/views/listing/completed/completed_listing_view.dart';
@@ -16,7 +16,7 @@ import 'package:priceit/ui/views/listing/active/active_listing_view.dart';
 
 abstract class Routes {
   static const selectionView = '/';
-  static const keywordSearchHomeView = '/keyword-search-home-view';
+  static const keywordSearchView = '/keyword-search-view';
   static const productSearchHomeView = '/product-search-home-view';
   static const productSearchPhotoDetailView =
       '/product-search-photo-detail-view';
@@ -24,7 +24,7 @@ abstract class Routes {
   static const activeListingView = '/active-listing-view';
   static const all = {
     selectionView,
-    keywordSearchHomeView,
+    keywordSearchView,
     productSearchHomeView,
     productSearchPhotoDetailView,
     completedListingView,
@@ -54,14 +54,14 @@ class Router extends RouterBase {
           builder: (context) => SelectionView(key: typedArgs.key),
           settings: settings,
         );
-      case Routes.keywordSearchHomeView:
-        if (hasInvalidArgs<KeywordSearchHomeViewArguments>(args)) {
-          return misTypedArgsRoute<KeywordSearchHomeViewArguments>(args);
+      case Routes.keywordSearchView:
+        if (hasInvalidArgs<KeywordSearchViewArguments>(args)) {
+          return misTypedArgsRoute<KeywordSearchViewArguments>(args);
         }
-        final typedArgs = args as KeywordSearchHomeViewArguments ??
-            KeywordSearchHomeViewArguments();
+        final typedArgs =
+            args as KeywordSearchViewArguments ?? KeywordSearchViewArguments();
         return MaterialPageRoute<dynamic>(
-          builder: (context) => KeywordSearchHomeView(key: typedArgs.key),
+          builder: (context) => KeywordSearchView(key: typedArgs.key),
           settings: settings,
         );
       case Routes.productSearchHomeView:
@@ -115,10 +115,10 @@ class SelectionViewArguments {
   SelectionViewArguments({this.key});
 }
 
-//KeywordSearchHomeView arguments holder class
-class KeywordSearchHomeViewArguments {
+//KeywordSearchView arguments holder class
+class KeywordSearchViewArguments {
   final Key key;
-  KeywordSearchHomeViewArguments({this.key});
+  KeywordSearchViewArguments({this.key});
 }
 
 //ProductSearchHomeView arguments holder class

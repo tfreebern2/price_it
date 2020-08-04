@@ -21,7 +21,7 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
   List<TextElement> elements = [];
 
   void setImageFile(String path) {
-    imageFile = File(searchService.imagePath);
+    imageFile = File(path);
   }
 
   void setImageSize(Size newSize) {
@@ -53,6 +53,11 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
     BarcodeDetector barcodeDetector = FirebaseVision.instance.barcodeDetector();
     List barCodes = await barcodeDetector.detectInImage(visionImage);
 
+    getBarcodeValue(barCodes);
+    barcodeDetector.close();
+  }
+
+  void getBarcodeValue(List barCodes) {
     for (Barcode readableCode in barCodes) {
       switch (readableCode.valueType) {
         case BarcodeValueType.product:
@@ -69,7 +74,6 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
           break;
       }
     }
-    barcodeDetector.close();
   }
 
   Future<Size> _getImageSize(File imageFile) async {
