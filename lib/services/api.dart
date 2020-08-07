@@ -19,7 +19,6 @@ class Api {
     resetApiServiceCalls();
     String requestBody = buildCompletedItemSearchRequest(selectorValue, searchKeyword);
     http.Response response = await findingCompletedItemApiCall(requestBody);
-    searchService.setApiCalled(true);
     List decodedItemList = decodeResponse(response.body);
     List totalEntriesList = findTotalEntries(response.body);
     String totalEntries = totalEntriesList[0];
@@ -142,7 +141,6 @@ class Api {
     } else if (decodedResponse.containsKey(findItemsByKeywordsResponse)) {
       return decodedResponse[findItemsByKeywordsResponse][0][searchResult][0][item] as List;
     } else {
-      searchService.setApiCalled(true);
       throw Exception("Error decoding response from eBay: " + responseBody);
     }
   }

@@ -43,7 +43,7 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
   }
 
   bool checkIfSavedApiCall() {
-    if (searchService.apiCalled && searchService.apiError != true) {
+    if (searchService.apiCalled == true && searchService.apiError == false) {
       return true;
     } else if (searchService.apiError) {
       throw Exception("Api Error from original request");
@@ -113,11 +113,13 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
       if (searchService.condition == newValue) {
         List<Item> completedListings = await _apiService.searchForCompletedItems(newValue, searchService.searchKeyword);
         List<Item> activeListings = await _apiService.searchForActiveItems(newValue, searchService.searchKeyword);
+        searchService.setApiCalled(true);
         calculateSaleThroughRateAndAveragePrice(completedListings, activeListings);
         return await buildInitialEbayResponse(completedListings, activeListings);
       } else {
         List<Item> completedListings = await _apiService.searchForCompletedItems(usedValue, searchService.searchKeyword);
         List<Item> activeListings = await _apiService.searchForActiveItems(usedValue, searchService.searchKeyword);
+        searchService.setApiCalled(true);
         calculateSaleThroughRateAndAveragePrice(completedListings, activeListings);
         return await buildInitialEbayResponse(completedListings, activeListings);
       }
