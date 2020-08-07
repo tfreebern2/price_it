@@ -91,57 +91,68 @@ Widget _titleText(context) {
 }
 
 Widget _pricingText(context, model) {
-  return Padding(
-    padding: const EdgeInsets.all(10.0),
-    child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: <Widget>[
-        Text(
-          '\$ ' + model.data.completedListingAveragePrice.toStringAsFixed(2),
-          style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-        ),
-        Text(
-          ' avg (sold only) ',
-          style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
-        ),
-        Text(
-          model.data.completedListingPercentageSold.toStringAsFixed(2),
-          style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
-        ),
-        Text(' % sold', style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
-      ],
-    ),
-  );
+  return model.hasError
+      ? Container()
+      : Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                '\$ ' + model.data.completedListingAveragePrice.toStringAsFixed(2),
+                style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                ' avg (sold only) ',
+                style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
+              ),
+              Text(
+                model.data.completedListingPercentageSold.toStringAsFixed(2),
+                style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+              ),
+              Text(' % sold',
+                  style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
+            ],
+          ),
+        );
 }
 
 Widget _itemListViewBuilder(context, model) {
-  return Expanded(
-    child: ListView.builder(
-        itemCount: model.data.completedListing.length,
-        scrollDirection: Axis.vertical,
-        shrinkWrap: true,
-        itemBuilder: (context, index) {
-          Item item = model.data.completedListing[index];
-          return Padding(
-            padding: const EdgeInsets.all(2.0),
-            child: Card(
-              elevation: 6.00,
-              shadowColor: Theme.of(context).accentColor,
-              child: ListTile(
-                contentPadding: EdgeInsets.all(12.0),
-                leading: item.galleryUrl.isNotEmpty ? Image.network(item.galleryUrl) :
-                Text('Image Not' + '\n' + 'Available'),
-                title: Text(item.title),
-                trailing: Text(
-                  item.currentPrice,
-                  style: TextStyle(color: Colors.lightGreen, fontWeight: FontWeight.bold),
-                ),
-                // TODO: Bring up Dialog Box to notify user can't load Ebay Auction
-                onTap: () => item.viewItemUrl.isNotEmpty ? model.launchUrl(item.viewItemUrl) : print('No ViewItemUrl'),
-              ),
-            ),
-          );
-        }),
-  );
+  return model.hasError
+      ? Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Text('Something went wrong!', style: TextStyle(fontSize: 22.0)),
+        )
+      : Expanded(
+          child: ListView.builder(
+              itemCount: model.data.completedListing.length,
+              scrollDirection: Axis.vertical,
+              shrinkWrap: true,
+              itemBuilder: (context, index) {
+                Item item = model.data.completedListing[index];
+                return Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: Card(
+                    elevation: 6.00,
+                    shadowColor: Theme.of(context).accentColor,
+                    child: ListTile(
+                      contentPadding: EdgeInsets.all(12.0),
+                      leading: item.galleryUrl.isNotEmpty
+                          ? Image.network(item.galleryUrl)
+                          : Text('Image Not' + '\n' + 'Available'),
+                      title: Text(item.title),
+                      trailing: Text(
+                        item.currentPrice,
+                        style: TextStyle(color: Colors.lightGreen, fontWeight: FontWeight.bold),
+                      ),
+                      // TODO: Bring up Dialog Box to notify user can't load Ebay Auction
+                      onTap: () => item.viewItemUrl.isNotEmpty
+                          ? model.launchUrl(item.viewItemUrl)
+                          : print('No ViewItemUrl'),
+                    ),
+                  ),
+                );
+              }),
+        );
 }

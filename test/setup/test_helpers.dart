@@ -49,20 +49,20 @@ Future<ApiMock> getAndRegisterApiMock() async {
 SearchServiceMock getAndRegisterSavedSearchServiceMock() {
   _removeRegistrationIfExists<SearchService>();
   var service = SearchServiceMock();
-  List<Item> completedListing = new List();
-  List<Item> activeListing = new List();
+  List<Item> completedListings = new List();
+  List<Item> activeListings = new List();
   Item item1 =
       new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "1.00", "SOLD");
   item1.totalEntries = "1";
-  completedListing.add(item1);
-  activeListing.add(item1);
-  service.setCompletedListing(completedListing);
-  service.setActiveListing(activeListing);
+  completedListings.add(item1);
+  activeListings.add(item1);
+  service.setCompletedAndActiveListings(completedListings, activeListings);
 
   // stubbing
-
-  when(service.completedListing).thenReturn(completedListing);
-  when(service.activeListing).thenReturn(activeListing);
+  when(service.apiCalled).thenReturn(true);
+  when(service.apiError).thenReturn(false);
+  when(service.completedListing).thenReturn(completedListings);
+  when(service.activeListing).thenReturn(activeListings);
   when(service.completedListingAveragePrice).thenReturn(1.00);
   when(service.completedListingPercentageSold).thenReturn(100.00);
   when(service.activeListingAveragePrice).thenReturn(1.00);
@@ -76,6 +76,8 @@ SearchServiceMock getAndRegisterInitialSearchServiceMock() {
   var service = SearchServiceMock();
 
   // stubbing
+  when(service.apiCalled).thenReturn(false);
+  when(service.apiError).thenReturn(false);
   when(service.completedListing).thenReturn(List());
   when(service.activeListing).thenReturn(List());
   when(service.completedListingAveragePrice).thenReturn(100.0);

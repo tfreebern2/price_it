@@ -5,6 +5,8 @@ import 'package:stacked/stacked.dart';
 
 @lazySingleton
 class SearchService with ReactiveServiceMixin {
+  RxValue<bool> _apiCalled = RxValue<bool>(initial: false);
+  RxValue<bool> _apiError = RxValue<bool>(initial: false);
   RxValue<String> _condition = RxValue<String>(initial: 'Used');
   RxValue<String> _searchKeyword = RxValue<String>(initial: '');
   RxValue<List<Item>> _completedListing = RxValue<List<Item>>(initial: List<Item>());
@@ -17,8 +19,12 @@ class SearchService with ReactiveServiceMixin {
 
   SearchService() {
     listenToReactiveValues(
-        [_condition, _searchKeyword, _completedListing, _activeListing, _productType, _imagePath]);
+        [_apiCalled, _apiError, _condition, _searchKeyword, _completedListing, _activeListing, _productType, _imagePath]);
   }
+
+  bool get apiCalled => _apiCalled.value;
+
+  bool get apiError => _apiError.value;
 
   String get condition => _condition.value;
 
@@ -37,6 +43,14 @@ class SearchService with ReactiveServiceMixin {
   String get productType => _productType.value;
 
   String get imagePath => _imagePath.value;
+
+  void setApiCalled(bool newValue) {
+    _apiCalled.value = newValue;
+  }
+
+  void setApiError(bool newValue) {
+    _apiError.value = newValue;
+  }
 
   void setCondition(String newValue) {
     _condition.value = newValue;
@@ -66,30 +80,14 @@ class SearchService with ReactiveServiceMixin {
     _imagePath.value = newValue;
   }
 
-  void setCompletedListing(List<Item> completedListing) {
-    completedListing.forEach((element) {
-      _completedListing.value.add(element);
-    });
-  }
-
-  void setActiveListing(List<Item> activeListing) {
-    activeListing.forEach((element) {
-      _activeListing.value.add(element);
-    });
-  }
-
-  void setCompletedAndActiveListings(
-      List<Item> completedListings, List<Item> activeListings) async {
-    completedListings.forEach((element) {
-      _completedListing.value.add(element);
-    });
-
-    activeListings.forEach((element) {
-      _activeListing.value.add(element);
-    });
+  void setCompletedAndActiveListings(List<Item> completedListings, List<Item> activeListings) {
+    _completedListing.value = completedListings;
+    _activeListing.value = activeListings;
   }
 
   void resetSearchResultState() {
+    _apiCalled.value = false;
+    _apiError.value = false;
     _completedListing.value = new List<Item>();
     _activeListing.value = new List<Item>();
     _condition.value = 'Used';
