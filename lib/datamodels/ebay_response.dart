@@ -1,8 +1,8 @@
 import 'item.dart';
 
 class EbayResponse {
-  List<Item> _completedListing = List();
-  List<Item> _activeListing = List();
+  List<Item> _completedListing = List<Item>();
+  List<Item> _activeListing = List<Item>();
   double _completedListingAveragePrice = 0.00;
   double _completedListingPercentageSold = 0.00;
   double _activeListingAveragePrice = 0.00;

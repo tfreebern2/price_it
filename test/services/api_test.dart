@@ -64,6 +64,34 @@ void main() {
       expect(decodedRequestBody[sortOrder], 'BestMatch');
     });
 
+    test('validate condition values for New Condition on Completed List Request', () {
+      var api = Api();
+      String requestBody = api.buildCompletedItemSearchRequest('New', 'iphone 6');
+      var decodedRequestBody = jsonDecode(requestBody);
+      expect(decodedRequestBody["itemFilter"][0]["value"], [newValue, "1500"]);
+    });
+
+    test('validate condition values for Used condition on Completed List Request', () {
+      var api = Api();
+      String requestBody = api.buildCompletedItemSearchRequest('Old', 'iphone 6');
+      var decodedRequestBody = jsonDecode(requestBody);
+      expect(decodedRequestBody["itemFilter"][0]["value"], [usedValue, "4000", "5000", "6000"]);
+    });
+
+    test('validate condition values for New condition on Active List Request', () {
+      var api = Api();
+      String requestBody = api.buildActiveItemSearchRequest('New', 'iphone 6');
+      var decodedRequestBody = jsonDecode(requestBody);
+      expect(decodedRequestBody["itemFilter"][0]["value"], [newValue, "1500"]);
+    });
+
+    test('validate condition values for Used condition on Active List Request', () {
+      var api = Api();
+      String requestBody = api.buildActiveItemSearchRequest('Old', 'iphone 6');
+      var decodedRequestBody = jsonDecode(requestBody);
+      expect(decodedRequestBody["itemFilter"][0]["value"], [usedValue, "4000", "5000", "6000"]);
+    });
+
     test('Search for completed listings and successfully parse for completed items from response body', () async {
       var api = Api();
       final responseFile = new File('test/setup/data/new_completed_listing_response.json');

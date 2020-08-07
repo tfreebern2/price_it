@@ -2,17 +2,21 @@ import 'dart:convert';
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
+import 'package:priceit/app/locator.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:injectable/injectable.dart';
 import 'package:http/http.dart' as http;
+import 'package:priceit/services/search_service.dart';
 
 import 'package:priceit/util/constants.dart';
 
 @lazySingleton
 class Api {
   var client = new http.Client();
+  final searchService = locator<SearchService>();
 
   Future<List<Item>> searchForCompletedItems(String selectorValue, String searchKeyword) async {
+    resetApiServiceCalls();
     String requestBody = buildCompletedItemSearchRequest(selectorValue, searchKeyword);
     http.Response response = await findingCompletedItemApiCall(requestBody);
     List decodedItemList = decodeResponse(response.body);
@@ -31,37 +35,71 @@ class Api {
   }
 
   String buildCompletedItemSearchRequest(String selectorValue, String searchKeyword) {
-    String intValue = '3000';
-    intValue = setConditionIntValue(selectorValue, intValue);
-
-    var requestBody = jsonEncode({
-      keywords: searchKeyword,
-      itemFilter: [
-        {nameKey: condition, valueKey: intValue},
-        {nameKey: soldItemsOnly, valueKey: trueString}
-      ],
-      sortOrder: bestMatch,
-      paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
-    });
-
-    return requestBody;
+    if (selectorValue == newValue) {
+        var requestBody = jsonEncode({
+          keywords: searchKeyword,
+          itemFilter: [
+            {
+              nameKey: condition,
+              valueKey: [newValue, "1500"]
+            },
+            {nameKey: soldItemsOnly, valueKey: trueString}
+          ],
+          sortOrder: bestMatch,
+          paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
+        });
+        debugPrint(requestBody);
+        return requestBody;
+    } else {
+      var requestBody = jsonEncode({
+        keywords: searchKeyword,
+        itemFilter: [
+          {
+            nameKey: condition,
+            valueKey: [usedValue, "4000", "5000", "6000"]
+          },
+          {nameKey: soldItemsOnly, valueKey: trueString}
+        ],
+        sortOrder: bestMatch,
+        paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
+      });
+      debugPrint(requestBody);
+      return requestBody;
+    }
   }
 
   String buildActiveItemSearchRequest(String selectorValue, String searchKeyword) {
-    String intValue = '3000';
-    intValue = setConditionIntValue(selectorValue, intValue);
-
-    var requestBody = jsonEncode({
-      keywords: searchKeyword,
-      itemFilter: [
-        {nameKey: condition, valueKey: intValue},
-        {nameKey: hideDuplicateItems, valueKey: trueString}
-      ],
-      sortOrder: bestMatch,
-      paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
-    });
-
-    return requestBody;
+    if (selectorValue == newValue) {
+      var requestBody = jsonEncode({
+        keywords: searchKeyword,
+        itemFilter: [
+          {
+            nameKey: condition,
+            valueKey: [newValue, "1500"]
+          },
+          {nameKey: hideDuplicateItems, valueKey: trueString}
+        ],
+        sortOrder: bestMatch,
+        paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
+      });
+      debugPrint(requestBody);
+      return requestBody;
+    } else {
+      var requestBody = jsonEncode({
+        keywords: searchKeyword,
+        itemFilter: [
+          {
+            nameKey: condition,
+            valueKey: [usedValue, "4000", "5000", "6000"]
+          },
+          {nameKey: hideDuplicateItems, valueKey: trueString}
+        ],
+        sortOrder: bestMatch,
+        paginationInput: {entriesPerPage: oneHundred, pageNumber: one}
+      });
+      debugPrint(requestBody);
+      return requestBody;
+    }
   }
 
   String setConditionIntValue(String selectorValue, String intValue) {
@@ -74,24 +112,36 @@ class Api {
   }
 
   Future<http.Response> findingCompletedItemApiCall(var body) async {
-    final response =
-        await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
-    debugPrint("Search Completed Listings - Response Code: " + response.statusCode.toString());
-    return response;
+    try {
+      final response =
+          await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
+      debugPrint("Search Completed Listings - Response Code: " + response.statusCode.toString());
+      return response;
+    } on Exception catch (e) {
+      throw Exception(
+          "Error making API request to eBay: " + e.toString());
+    }
   }
 
   Future<http.Response> _findingActiveItemApiCall(var body) async {
-    final response = await client.post(findingServiceUrl, headers: activeItemsHeaders, body: body);
-    debugPrint("Search Active Listings - Response Code: " + response.statusCode.toString());
-    return response;
+    try {
+      final response =
+          await client.post(findingServiceUrl, headers: activeItemsHeaders, body: body);
+      debugPrint("Search Active Listings - Response Code: " + response.statusCode.toString());
+      return response;
+    } on Exception catch (e) {
+      throw Exception("Error making API request to eBay: " + e.toString());
+    }
   }
 
   List decodeResponse(String responseBody) {
     var decodedResponse = jsonDecode(responseBody) as Map<String, dynamic>;
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
       return decodedResponse[findCompletedItemsResponse][0][searchResult][0][item] as List;
-    } else {
+    } else if (decodedResponse.containsKey(findItemsByKeywordsResponse)) {
       return decodedResponse[findItemsByKeywordsResponse][0][searchResult][0][item] as List;
+    } else {
+      throw Exception("Error decoding response from eBay: " + responseBody);
     }
   }
 
@@ -126,5 +176,10 @@ class Api {
       return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries]
           as List;
     }
+  }
+
+  void resetApiServiceCalls() {
+    searchService.setApiError(false);
+    searchService.setApiCalled(false);
   }
 }
