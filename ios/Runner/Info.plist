@@ -42,8 +42,10 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSCameraUsageDescription</key>
-    <string>Can I use the camera please?</string>
+    <string>Can Price It! access your camera?</string>
     <key>NSMicrophoneUsageDescription</key>
-    <string>Can I use the mic please?</string>
+    <string>Can Price It! access your microphone?</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Can Price It! access your photo library?</string>
 </dict>
 </plist>
