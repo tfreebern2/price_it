@@ -1,7 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:priceit/app/router.gr.dart';
-import 'package:priceit/services/search_service.dart';
 import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_viewmodel.dart';
 
 import '../../../setup/test_helpers.dart';

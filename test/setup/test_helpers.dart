@@ -2,10 +2,12 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:mockito/mockito.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:priceit/app/locator.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
 import 'package:priceit/services/search_service.dart';
+import 'package:priceit/ui/views/productsearch/home/productsearch_home_viewmodel.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:http/http.dart' as http;
 
@@ -18,6 +20,8 @@ class SearchServiceMock extends Mock implements SearchService {}
 class NavigationServiceMock extends Mock implements NavigationService {}
 
 class DialogServiceMock extends Mock implements DialogService {}
+
+class ProductSearchHomeViewModelMock extends Mock implements ProductSearchHomeViewModel {}
 
 Future<ApiMock> getAndRegisterApiMock() async {
   _removeRegistrationIfExists<Api>();
@@ -117,6 +121,29 @@ DialogService getAndRegisterDialogServiceMock() {
   var service = DialogServiceMock();
   locator.registerSingleton<DialogService>(service);
   return service;
+}
+
+
+ProductSearchHomeViewModelMock getProductSearchHomeViewModelMockDeniedPermissions() {
+  var model = ProductSearchHomeViewModelMock();
+
+  // stubbing
+  when(model.checkCameraPermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.denied));
+  when(model.checkMicrophonePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.denied));
+  when(model.checkStoragePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.denied));
+
+  return model;
+}
+
+ProductSearchHomeViewModelMock getProductSearchHomeViewModelMockUndeterminedPermissions() {
+  var model = ProductSearchHomeViewModelMock();
+
+  // stubbing
+  when(model.checkCameraPermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.undetermined));
+  when(model.checkMicrophonePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.undetermined));
+  when(model.checkStoragePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.undetermined));
+
+  return model;
 }
 
 void registerSavedServices() {
