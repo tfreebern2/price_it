@@ -87,6 +87,9 @@ const String searchResult = 'searchResult';
 const String item = 'item';
 const String paginationOutput = 'paginationOutput';
 const String totalEntries = 'totalEntries';
+const String errorMessage = 'errorMessage';
+const String error = 'error';
+const String message = 'message';
 
 // Item Class - Constants
 const String itemId = "itemId";

@@ -21,6 +21,7 @@ class Item {
     globalId = data.containsKey(globalIdKey) ? data[globalIdKey][0] : notAvailable;
     galleryUrl = data.containsKey(galleryUrlKey) ? data[galleryUrlKey][0] : '';
     viewItemUrl = data.containsKey(viewItemUrlKey) ? data[viewItemUrlKey][0] : null;
+    if (viewItemUrl == null) print("view item url null");
     location = data.containsKey(locationKey) ? data[locationKey][0] : notAvailable;
     country = data.containsKey(countryKey) ? data[countryKey][0] : notAvailable;
     _setCurrentPrice(data);

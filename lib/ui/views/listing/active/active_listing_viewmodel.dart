@@ -6,7 +6,8 @@ import 'package:stacked_services/stacked_services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ActiveListingViewModel extends BaseViewModel {
-  final _navigationService = locator<NavigationService>();
+  final navigationService = locator<NavigationService>();
+  final dialogService = locator<DialogService>();
   final searchService = locator<SearchService>();
 
   void launchUrl(String viewItemURL) async {
@@ -19,10 +20,10 @@ class ActiveListingViewModel extends BaseViewModel {
 
   void navigateToSelectionView() {
     searchService.resetSearchResultState();
-    _navigationService.clearStackAndShow(Routes.selectionView);
+    navigationService.clearStackAndShow(Routes.selectionView);
   }
 
   void navigateToCompletedListingView() {
-    _navigationService.navigateTo(Routes.completedListingView);
+    navigationService.navigateTo(Routes.completedListingView);
   }
 }

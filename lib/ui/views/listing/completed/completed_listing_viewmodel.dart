@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:priceit/app/locator.dart';
 import 'package:priceit/app/router.gr.dart';
 import 'package:priceit/datamodels/ebay_response.dart';
@@ -10,8 +12,9 @@ import 'package:stacked_services/stacked_services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
-  final _navigationService = locator<NavigationService>();
+  final navigationService = locator<NavigationService>();
   final _apiService = locator<Api>();
+  final _dialogService = locator<DialogService>();
   final searchService = locator<SearchService>();
 
   double completedListingAveragePrice = 0.00;
@@ -27,11 +30,11 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
 
   void navigateToSelectionView() {
     searchService.resetSearchResultState();
-    _navigationService.clearStackAndShow(Routes.selectionView);
+    navigationService.clearStackAndShow(Routes.selectionView);
   }
 
   void navigateToActiveListingView() {
-    _navigationService.navigateTo(Routes.activeListingView);
+    navigationService.navigateTo(Routes.activeListingView);
   }
 
   void launchUrl(String viewItemURL) async {
@@ -99,10 +102,19 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
     return ebayResponse;
   }
 
+  Future showDialog() async {
+    await _dialogService.showDialog(
+        title: 'Something went wrong!',
+        description: 'Please try searching again.',
+        buttonTitle: 'Ok',
+        dialogPlatform: Platform.isIOS ? DialogPlatform.Cupertino : DialogPlatform.Material);
+  }
+
   @override
   void onError(error) {
     // TODO: Revisit this to display Dialog Pop-Up
     searchService.setApiError(true);
+    showDialog();
   }
 
   @override
