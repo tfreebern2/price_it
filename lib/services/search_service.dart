@@ -23,25 +23,15 @@ class SearchService with ReactiveServiceMixin {
   }
 
   bool get apiCalled => _apiCalled.value;
-
   bool get apiError => _apiError.value;
-
   String get condition => _condition.value;
-
   String get searchKeyword => _searchKeyword.value;
-
   List<Item> get completedListing => _completedListing.value;
-
   List<Item> get activeListing => _activeListing.value;
-
   double get completedListingAveragePrice => _completedListingAveragePrice.value;
-
   double get completedListingPercentageSold => _completedListingPercentageSold.value;
-
   double get activeListingAveragePrice => _activeListingAveragePrice.value;
-
   String get productType => _productType.value;
-
   String get imagePath => _imagePath.value;
 
   void setApiCalled(bool newValue) {

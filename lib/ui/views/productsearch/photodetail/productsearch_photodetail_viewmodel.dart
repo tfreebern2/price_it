@@ -14,6 +14,7 @@ import 'package:stacked_services/stacked_services.dart';
 
 class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
   final _navigationService = locator<NavigationService>();
+  final _dialogService = locator<DialogService>();
   final searchService = locator<SearchService>();
 
   File imageFile;
@@ -98,6 +99,19 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
     ImageResponse imageResponse =
         new ImageResponse.build(imageFile, imageSize, searchKeyword, productType);
     return imageResponse;
+  }
+
+  Future showDialog() async {
+    await _dialogService.showDialog(
+        title: 'Something went wrong!',
+        description: 'Please try taking another photo.',
+        buttonTitle: 'Ok',
+        dialogPlatform: Platform.isIOS ? DialogPlatform.Cupertino : DialogPlatform.Material);
+  }
+
+  @override
+  void onError(error) {
+    showDialog();
   }
 
   @override

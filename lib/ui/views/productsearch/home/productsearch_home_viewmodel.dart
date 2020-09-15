@@ -93,6 +93,19 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
         dialogPlatform: Platform.isIOS ? DialogPlatform.Cupertino : DialogPlatform.Material);
   }
 
+  Future showDialog() async {
+    await _dialogService.showDialog(
+        title: 'Something went wrong!',
+        description: 'Please try again.',
+        buttonTitle: 'Ok',
+        dialogPlatform: Platform.isIOS ? DialogPlatform.Cupertino : DialogPlatform.Material);
+  }
+
+  @override
+  void onError(error) {
+    showDialog();
+  }
+
   @override
   Future<Camera> futureToRun() async {
     cameraStatus = await checkCameraPermissionStatus();

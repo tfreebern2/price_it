@@ -30,7 +30,7 @@ class Api {
     http.Response response = await _findingActiveItemApiCall(requestBody);
     List decodedItemList = decodeResponse(response.body);
     List totalEntriesList = findTotalEntries(response.body);
-    String totalEntries = totalEntriesList[0];
+    String totalEntries = totalEntriesList.isNotEmpty ? totalEntriesList[0] : "0";
     return getItemList(decodedItemList, totalEntries);
   }
 
@@ -137,14 +137,6 @@ class Api {
   List decodeResponse(String responseBody) {
     var decodedResponse = jsonDecode(responseBody) as Map<String, dynamic>;
 
-    if (decodedResponse[findCompletedItemsResponse][0].containsKey(errorMessage)) {
-      debugPrint(decodedResponse.toString());
-      return List();
-    } else if (decodedResponse[findItemsByKeywordsResponse][0].containsKey(errorMessage)) {
-      debugPrint(decodedResponse.toString());
-      return List();
-    }
-
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
       return decodedResponse[findCompletedItemsResponse][0][searchResult][0][item] as List;
     } else if (decodedResponse.containsKey(findItemsByKeywordsResponse)) {
@@ -178,14 +170,6 @@ class Api {
 
   List findTotalEntries(String responseBody) {
     var decodedResponse = jsonDecode(responseBody) as Map<String, dynamic>;
-
-    if (decodedResponse[findCompletedItemsResponse][0].containsKey(errorMessage)) {
-      debugPrint(decodedResponse.toString());
-      return List();
-    } else if (decodedResponse[findItemsByKeywordsResponse][0].containsKey(errorMessage)) {
-      debugPrint(decodedResponse.toString());
-      return List();
-    }
 
     if (decodedResponse.containsKey(findCompletedItemsResponse)) {
       return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries]

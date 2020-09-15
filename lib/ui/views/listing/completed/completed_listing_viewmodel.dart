@@ -17,6 +17,7 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
   final _dialogService = locator<DialogService>();
   final searchService = locator<SearchService>();
 
+  // TODO: Turn into Private Variables
   double completedListingAveragePrice = 0.00;
   double completedListingPercentageSold = 0.00;
   double activeListingAveragePrice = 0.00;
@@ -112,7 +113,6 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
 
   @override
   void onError(error) {
-    // TODO: Revisit this to display Dialog Pop-Up
     searchService.setApiError(true);
     showDialog();
   }

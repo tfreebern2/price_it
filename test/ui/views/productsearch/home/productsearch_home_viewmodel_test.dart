@@ -35,7 +35,6 @@ void main() {
       var model = ProductSearchHomeViewModel();
       model.initialise();
       model.cameraStatus = PermissionStatus.undetermined;
-      await model.requestPermissions();
     });
   });
 }
