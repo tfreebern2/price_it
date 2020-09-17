@@ -49,6 +49,7 @@ Future<bool> onBack(model) async {
 }
 
 Widget _buttonBar(context, model) {
+  final deviceWidth = MediaQuery.of(context).size.width;
   return ButtonBar(
     mainAxisSize: MainAxisSize.max,
     alignment: MainAxisAlignment.center,
@@ -63,7 +64,7 @@ Widget _buttonBar(context, model) {
         onPressed: () => null,
         highlightElevation: 2,
         height: 40,
-        minWidth: 150,
+        minWidth: (deviceWidth < 360) ? 140 : 150,
         shape: UnderlineInputBorder(),
       ),
       MaterialButton(
@@ -75,7 +76,7 @@ Widget _buttonBar(context, model) {
         onPressed: () => model.navigateToActiveListingView(),
         highlightElevation: 2,
         height: 40,
-        minWidth: 150,
+        minWidth: (deviceWidth < 360) ? 140 : 150,
         shape: UnderlineInputBorder(),
       ),
     ],
@@ -83,17 +84,21 @@ Widget _buttonBar(context, model) {
 }
 
 Widget _titleText(context) {
+  final deviceWidth = MediaQuery.of(context).size.width;
   return Padding(
     padding: const EdgeInsets.all(10.0),
     child: Text(
       'Completed Listings',
       style: TextStyle(
-          fontSize: 24.0, color: Theme.of(context).accentColor, fontWeight: FontWeight.w600),
+          fontSize: (deviceWidth < 360) ? 22.0 : 24.0,
+          color: Theme.of(context).accentColor,
+          fontWeight: FontWeight.w600),
     ),
   );
 }
 
 Widget _pricingText(context, model) {
+  final deviceWidth = MediaQuery.of(context).size.width;
   return model.hasError
       ? Container()
       : Padding(
@@ -104,18 +109,28 @@ Widget _pricingText(context, model) {
             children: <Widget>[
               Text(
                 '\$ ' + model.data.completedListingAveragePrice.toStringAsFixed(2),
-                style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
+                    fontWeight: FontWeight.bold),
               ),
               Text(
                 ' avg (sold only) ',
-                style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
+                style: TextStyle(
+                    color: Theme.of(context).accentColor,
+                    fontSize: (deviceWidth < 360) ? 16.0 : 18.0),
               ),
               Text(
                 model.data.completedListingPercentageSold.toStringAsFixed(2),
-                style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
+                    fontWeight: FontWeight.bold),
               ),
               Text(' % sold',
-                  style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
+                  style: TextStyle(
+                      color: Theme.of(context).accentColor,
+                      fontSize: (deviceWidth < 360) ? 16.0 : 18.0)),
             ],
           ),
         );
