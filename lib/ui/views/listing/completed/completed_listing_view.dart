@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/listing/completed/completed_listing_viewmodel.dart';
@@ -46,6 +49,7 @@ Future<bool> onBack(model) async {
 }
 
 Widget _buttonBar(context, model) {
+  final deviceWidth = MediaQuery.of(context).size.width;
   return ButtonBar(
     mainAxisSize: MainAxisSize.max,
     alignment: MainAxisAlignment.center,
@@ -60,7 +64,7 @@ Widget _buttonBar(context, model) {
         onPressed: () => null,
         highlightElevation: 2,
         height: 40,
-        minWidth: 150,
+        minWidth: (deviceWidth < 360) ? 140 : 150,
         shape: UnderlineInputBorder(),
       ),
       MaterialButton(
@@ -72,7 +76,7 @@ Widget _buttonBar(context, model) {
         onPressed: () => model.navigateToActiveListingView(),
         highlightElevation: 2,
         height: 40,
-        minWidth: 150,
+        minWidth: (deviceWidth < 360) ? 140 : 150,
         shape: UnderlineInputBorder(),
       ),
     ],
@@ -80,17 +84,21 @@ Widget _buttonBar(context, model) {
 }
 
 Widget _titleText(context) {
+  final deviceWidth = MediaQuery.of(context).size.width;
   return Padding(
     padding: const EdgeInsets.all(10.0),
     child: Text(
       'Completed Listings',
       style: TextStyle(
-          fontSize: 24.0, color: Theme.of(context).accentColor, fontWeight: FontWeight.w600),
+          fontSize: (deviceWidth < 360) ? 22.0 : 24.0,
+          color: Theme.of(context).accentColor,
+          fontWeight: FontWeight.w600),
     ),
   );
 }
 
 Widget _pricingText(context, model) {
+  final deviceWidth = MediaQuery.of(context).size.width;
   return model.hasError
       ? Container()
       : Padding(
@@ -101,18 +109,28 @@ Widget _pricingText(context, model) {
             children: <Widget>[
               Text(
                 '\$ ' + model.data.completedListingAveragePrice.toStringAsFixed(2),
-                style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
+                    fontWeight: FontWeight.bold),
               ),
               Text(
                 ' avg (sold only) ',
-                style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0),
+                style: TextStyle(
+                    color: Theme.of(context).accentColor,
+                    fontSize: (deviceWidth < 360) ? 16.0 : 18.0),
               ),
               Text(
                 model.data.completedListingPercentageSold.toStringAsFixed(2),
-                style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
+                    fontWeight: FontWeight.bold),
               ),
               Text(' % sold',
-                  style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18.0)),
+                  style: TextStyle(
+                      color: Theme.of(context).accentColor,
+                      fontSize: (deviceWidth < 360) ? 16.0 : 18.0)),
             ],
           ),
         );
@@ -122,7 +140,7 @@ Widget _itemListViewBuilder(context, model) {
   return model.hasError
       ? Padding(
           padding: const EdgeInsets.all(20.0),
-          child: Text('Something went wrong!', style: TextStyle(fontSize: 22.0)),
+          child: Text('Nothing to see here...', style: TextStyle(fontSize: 22.0)),
         )
       : Expanded(
           child: ListView.builder(
@@ -146,13 +164,55 @@ Widget _itemListViewBuilder(context, model) {
                         item.currentPrice,
                         style: TextStyle(color: Colors.lightGreen, fontWeight: FontWeight.bold),
                       ),
-                      // TODO: Bring up Dialog Box to notify user can't load Ebay Auction
                       onTap: () => item.viewItemUrl.isNotEmpty
                           ? model.launchUrl(item.viewItemUrl)
-                          : print('No ViewItemUrl'),
+                          : showNoLaunchUrl(context, model),
                     ),
                   ),
                 );
               }),
         );
+}
+
+Future<void> showNoLaunchUrl(context, model) async {
+  return showDialog<void>(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        if (Platform.isAndroid) {
+          return AlertDialog(
+            title: Text('Something went wrong!'),
+            content: SingleChildScrollView(
+              child: ListBody(
+                children: [Text('Can not access this auction.')],
+              ),
+            ),
+            actions: [
+              FlatButton(
+                child: Text('Ok'),
+                onPressed: () {
+                  model.navigationService.popRepeated(0);
+                },
+              )
+            ],
+          );
+        } else {
+          return CupertinoAlertDialog(
+            title: Text('Something went wrong!'),
+            content: SingleChildScrollView(
+              child: ListBody(
+                children: [Text('Can not access this auction.')],
+              ),
+            ),
+            actions: [
+              CupertinoDialogAction(
+                child: Text('Ok'),
+                onPressed: () {
+                  model.navigationService.popRepeated(0);
+                },
+              )
+            ],
+          );
+        }
+      });
 }

@@ -11,6 +11,7 @@ Widget customAppbar() {
 }
 
 Widget listingSearchButton(context, model) {
+  final deviceWidth = MediaQuery.of(context).size.width;
   return MaterialButton(
     child: Text(
       'Search',
@@ -20,7 +21,7 @@ Widget listingSearchButton(context, model) {
     onPressed: () => model.navigateToSelectionView(),
     highlightElevation: 2,
     height: 40,
-    minWidth: 150,
+    minWidth: (deviceWidth < 360) ? 140 : 150,
     shape: StadiumBorder(),
   );
 }
