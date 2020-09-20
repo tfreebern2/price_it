@@ -15,7 +15,7 @@ class Item {
   Item(this.id, this.title, this.globalId, this.galleryUrl, this.viewItemUrl, this.location,
       this.country, this.currentPrice, this.sellingState);
 
-  Item.fromMap(Map<String, dynamic> data) {
+  Item.fromJson(Map<String, dynamic> data) {
     id = data.containsKey(itemId) ? data[itemId][0] : notAvailable;
     title = data.containsKey(titleKey) ? data[titleKey][0] : notAvailable;
     globalId = data.containsKey(globalIdKey) ? data[globalIdKey][0] : notAvailable;

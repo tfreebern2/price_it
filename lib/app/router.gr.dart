@@ -11,7 +11,6 @@ import 'package:priceit/ui/views/home/selection_view.dart';
 import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_view.dart';
 import 'package:priceit/ui/views/productsearch/home/productsearch_home_view.dart';
 import 'package:priceit/ui/views/productsearch/photodetail/productsearch_photodetail_view.dart';
-import 'package:priceit/ui/views/listing/completed/completed_listing_view.dart';
 import 'package:priceit/ui/views/listing/active/active_listing_view.dart';
 
 abstract class Routes {
@@ -20,14 +19,12 @@ abstract class Routes {
   static const productSearchHomeView = '/product-search-home-view';
   static const productSearchPhotoDetailView =
       '/product-search-photo-detail-view';
-  static const completedListingView = '/completed-listing-view';
   static const activeListingView = '/active-listing-view';
   static const all = {
     selectionView,
     keywordSearchView,
     productSearchHomeView,
     productSearchPhotoDetailView,
-    completedListingView,
     activeListingView,
   };
 }
@@ -79,16 +76,6 @@ class Router extends RouterBase {
           builder: (context) => ProductSearchPhotoDetailView(),
           settings: settings,
         );
-      case Routes.completedListingView:
-        if (hasInvalidArgs<CompletedListingViewArguments>(args)) {
-          return misTypedArgsRoute<CompletedListingViewArguments>(args);
-        }
-        final typedArgs = args as CompletedListingViewArguments ??
-            CompletedListingViewArguments();
-        return MaterialPageRoute<dynamic>(
-          builder: (context) => CompletedListingView(key: typedArgs.key),
-          settings: settings,
-        );
       case Routes.activeListingView:
         if (hasInvalidArgs<ActiveListingViewArguments>(args)) {
           return misTypedArgsRoute<ActiveListingViewArguments>(args);
@@ -125,12 +112,6 @@ class KeywordSearchViewArguments {
 class ProductSearchHomeViewArguments {
   final Key key;
   ProductSearchHomeViewArguments({this.key});
-}
-
-//CompletedListingView arguments holder class
-class CompletedListingViewArguments {
-  final Key key;
-  CompletedListingViewArguments({this.key});
 }
 
 //ActiveListingView arguments holder class

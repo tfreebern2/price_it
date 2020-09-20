@@ -96,7 +96,7 @@ Widget _searchButton(context, model, _searchController, _formKey) {
         if (_formKey.currentState.validate()) {
           model.updateSearchKeyword(_searchController.text.trim());
           _searchController.clear();
-          model.navigateToCompleted();
+          model.navigateToActiveListing();
         }
       },
       child: Text(

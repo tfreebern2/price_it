@@ -41,9 +41,6 @@ Future<ApiMock> getAndRegisterApiMock() async {
   final futureRequest1 = Future.value(requestFile.readAsString());
   final futureResponse1 = Future.value(responseFile.readAsString());
 
-  when(api.findingCompletedItemApiCall(futureRequest1))
-      .thenAnswer((_) async => http.Response(await futureResponse1, 200));
-  when(api.searchForCompletedItems('New', 'iPhone 6 ')).thenAnswer((_) async => futureCompletedListing);
   when(api.searchForActiveItems('New', 'iPhone 6 ')).thenAnswer((_) async => futureCompletedListing);
 
   locator.registerSingleton<Api>(api);
@@ -63,8 +60,6 @@ SearchServiceMock getAndRegisterSavedSearchServiceMock() {
   service.setCompletedAndActiveListings(completedListings, activeListings);
 
   // stubbing
-  when(service.apiCalled).thenReturn(true);
-  when(service.apiError).thenReturn(false);
   when(service.completedListing).thenReturn(completedListings);
   when(service.activeListing).thenReturn(activeListings);
   when(service.completedListingAveragePrice).thenReturn(1.00);
@@ -80,8 +75,6 @@ SearchServiceMock getAndRegisterInitialSearchServiceMock() {
   var service = SearchServiceMock();
 
   // stubbing
-  when(service.apiCalled).thenReturn(false);
-  when(service.apiError).thenReturn(false);
   when(service.completedListing).thenReturn(List());
   when(service.activeListing).thenReturn(List());
   when(service.completedListingAveragePrice).thenReturn(100.0);

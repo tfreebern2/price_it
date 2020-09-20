@@ -42,8 +42,8 @@ void main() {
       var navigationService = getAndRegisterNavigationServiceMock();
       var model = ProductSearchPhotoDetailViewModel();
       model.initialise();
-      model.navigateToCompleted();
-      verify(navigationService.navigateTo(Routes.completedListingView));
+      model.navigateToActive();
+      verify(navigationService.navigateTo(Routes.activeListingView));
     });
 
     test('When barcode type is ISBN set product type to isbn', () async {

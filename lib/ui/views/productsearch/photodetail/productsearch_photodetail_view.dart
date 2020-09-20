@@ -75,7 +75,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.all(12.0),
                             child: RaisedButton.icon(
-                              onPressed: () => model.navigateToCompleted(),
+                              onPressed: () => model.navigateToActive(),
                               icon: Icon(Icons.arrow_forward),
                               label: Text('Search'),
                               color: Theme.of(context).accentColor,

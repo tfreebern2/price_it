@@ -38,8 +38,8 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
     _navigationService.clearTillFirstAndShow(Routes.productSearchHomeView);
   }
 
-  void navigateToCompleted() {
-    _navigationService.navigateTo(Routes.completedListingView);
+  void navigateToActive() {
+    _navigationService.navigateTo(Routes.activeListingView);
   }
 
   Future<void> _initializeVision() async {

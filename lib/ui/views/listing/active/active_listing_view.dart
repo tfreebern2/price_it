@@ -12,58 +12,28 @@ class ActiveListingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ViewModelBuilder<ActiveListingViewModel>.nonReactive(
+    return ViewModelBuilder<ActiveListingViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
               appBar: customAppbar(),
               body: SafeArea(
                 child: Center(
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(
-                        height: 20.0,
-                      ),
-                      listingSearchButton(context, model),
-                      _buttonBar(context, model),
-                      _titleText(context),
-                      _pricingText(context, model),
-                      _itemListViewBuilder(context, model),
-                    ],
-                  ),
+                  child: model.isBusy
+                      ? CircularProgressIndicator()
+                      : Column(
+                          children: <Widget>[
+                            SizedBox(
+                              height: 30.0,
+                            ),
+                            _titleText(context),
+                            _pricingText(context, model),
+                            _itemListViewBuilder(context, model),
+                          ],
+                        ),
                 ),
               ),
             ),
         viewModelBuilder: () => ActiveListingViewModel());
   }
-}
-
-Widget _buttonBar(context, model) {
-  final deviceWidth = MediaQuery.of(context).size.width;
-  return ButtonBar(
-    mainAxisSize: MainAxisSize.max,
-    alignment: MainAxisAlignment.center,
-    buttonTextTheme: ButtonTextTheme.accent,
-    children: <Widget>[
-      MaterialButton(
-        child: Text('Completed Listings',
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
-        color: Theme.of(context).accentColor,
-        onPressed: () => model.navigateToCompletedListingView(),
-        highlightElevation: 2,
-        height: 40,
-        minWidth: (deviceWidth < 360) ? 140 : 150,
-        shape: UnderlineInputBorder(),
-      ),
-      MaterialButton(
-        child: Text('Active Listings', style: TextStyle(color: Colors.white)),
-        color: Theme.of(context).buttonColor,
-        onPressed: () => null,
-        highlightElevation: 2,
-        height: 40,
-        minWidth: (deviceWidth < 360) ? 140 : 150,
-        shape: UnderlineInputBorder(),
-      ),
-    ],
-  );
 }
 
 Widget _titleText(context) {
@@ -73,7 +43,7 @@ Widget _titleText(context) {
     child: Text(
       'Active Listings',
       style: TextStyle(
-          fontSize: (deviceWidth < 360) ? 22.0 : 24.0,
+          fontSize: (deviceWidth < 360) ? 22.0 : 28.0,
           color: Theme.of(context).accentColor,
           fontWeight: FontWeight.w600),
     ),
@@ -82,8 +52,8 @@ Widget _titleText(context) {
 
 Widget _pricingText(context, model) {
   final deviceWidth = MediaQuery.of(context).size.width;
-  return model.searchService.apiError
-      ? Container()
+  return model.hasError
+      ? Container(height: 100)
       : Padding(
           padding: const EdgeInsets.all(10.0),
           child: Row(
@@ -91,7 +61,7 @@ Widget _pricingText(context, model) {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Text(
-                '\$ ' + model.searchService.activeListingAveragePrice.toStringAsFixed(2),
+                '\$ ' + model.data.activeListingAveragePrice.toStringAsFixed(2),
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
@@ -109,18 +79,18 @@ Widget _pricingText(context, model) {
 }
 
 Widget _itemListViewBuilder(context, model) {
-  return model.searchService.apiError
+  return model.hasError
       ? Padding(
           padding: const EdgeInsets.all(20.0),
-          child: Text('Nothing to see here...', style: TextStyle(fontSize: 22.0)),
+          child: Text('Nothing to see here...', style: TextStyle(fontSize: 26.0)),
         )
       : Expanded(
           child: ListView.builder(
-              itemCount: model.searchService.activeListing.length,
+              itemCount: model.data.activeListing.length,
               scrollDirection: Axis.vertical,
               shrinkWrap: true,
               itemBuilder: (context, index) {
-                Item item = model.searchService.activeListing[index];
+                Item item = model.data.activeListing[index];
                 return Padding(
                   padding: const EdgeInsets.all(2.0),
                   child: Card(

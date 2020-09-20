@@ -5,8 +5,6 @@ import 'package:stacked/stacked.dart';
 
 @lazySingleton
 class SearchService with ReactiveServiceMixin {
-  RxValue<bool> _apiCalled = RxValue<bool>(initial: false);
-  RxValue<bool> _apiError = RxValue<bool>(initial: false);
   RxValue<String> _condition = RxValue<String>(initial: 'Used');
   RxValue<String> _searchKeyword = RxValue<String>(initial: '');
   RxValue<List<Item>> _completedListing = RxValue<List<Item>>(initial: List<Item>());
@@ -19,11 +17,9 @@ class SearchService with ReactiveServiceMixin {
 
   SearchService() {
     listenToReactiveValues(
-        [_apiCalled, _apiError, _condition, _searchKeyword, _completedListing, _activeListing, _productType, _imagePath]);
+        [_condition, _searchKeyword, _completedListing, _activeListing, _productType, _imagePath]);
   }
 
-  bool get apiCalled => _apiCalled.value;
-  bool get apiError => _apiError.value;
   String get condition => _condition.value;
   String get searchKeyword => _searchKeyword.value;
   List<Item> get completedListing => _completedListing.value;
@@ -33,14 +29,6 @@ class SearchService with ReactiveServiceMixin {
   double get activeListingAveragePrice => _activeListingAveragePrice.value;
   String get productType => _productType.value;
   String get imagePath => _imagePath.value;
-
-  void setApiCalled(bool newValue) {
-    _apiCalled.value = newValue;
-  }
-
-  void setApiError(bool newValue) {
-    _apiError.value = newValue;
-  }
 
   void setCondition(String newValue) {
     _condition.value = newValue;
@@ -76,8 +64,6 @@ class SearchService with ReactiveServiceMixin {
   }
 
   void resetSearchResultState() {
-    _apiCalled.value = false;
-    _apiError.value = false;
     _completedListing.value = new List<Item>();
     _activeListing.value = new List<Item>();
     _condition.value = 'Used';
