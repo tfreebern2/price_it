@@ -10,6 +10,12 @@ class KeywordSearchViewModel extends ReactiveViewModel {
 
   String get condition => _searchService.condition;
   String get searchKeyword => _searchService.searchKeyword;
+  String get region => _searchService.region;
+
+  void setRegion(String newValue) {
+    _searchService.setRegion(newValue);
+    notifyListeners();
+  }
 
   void navigateToCompleted() {
     _navigationService.navigateTo(Routes.completedListingView);

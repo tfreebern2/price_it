@@ -61,6 +61,32 @@ const Map<String, String> conditionsMap = {
   'For parts or not working': '7000'
 };
 
+// Ebay Regions
+const Map<String, String> regionsMap = {
+  'Austria' : 'EBAY-AT',
+  'Australia' : 'EBAY-AU',
+  'Switzerland' : 'EBAY-CH',
+  'Germany' : 'EBAY-DE',
+  'Canada (English)' : 'EBAY-ENCA',
+  'Spain' : 'EBAY-ES',
+  'France' : 'EBAY-FR',
+  'Belgium (French)' : 'EBAY-FRBE',
+  'Canada (French)' : 'EBAY-FRCA',
+  'UK' : 'EBAY-GB',
+  'Hong Kong' : 'EBAY-HK',
+  'Ireland' : 'EBAY-IE',
+  'India' : 'EBAY-IN',
+  'Italy' : 'EBAY-IT',
+  'Motors' : 'EBAY-MOTOR',
+  'Malaysia' : 'EBAY-MY',
+  'Netherlands' : 'EBAY-NL',
+  'Belgium (Dutch)' : 'EBAY-NLBE',
+  'Philippines' : 'EBAY-PH',
+  'Poland' : 'EBAY-PL',
+  'Singapore' : 'EBAY-SG',
+  'United States' : 'EBAY-US'
+};
+
 // Json Request Constants
 const String keywords = 'keywords';
 const String itemFilter = 'itemFilter';

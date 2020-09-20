@@ -9,6 +9,7 @@ class SearchService with ReactiveServiceMixin {
   RxValue<bool> _apiError = RxValue<bool>(initial: false);
   RxValue<String> _condition = RxValue<String>(initial: 'Used');
   RxValue<String> _searchKeyword = RxValue<String>(initial: '');
+  RxValue<String> _region = RxValue<String>(initial: 'United States');
   RxValue<List<Item>> _completedListing = RxValue<List<Item>>(initial: List<Item>());
   RxValue<List<Item>> _activeListing = RxValue<List<Item>>(initial: List<Item>());
   RxValue<double> _completedListingAveragePrice = RxValue<double>(initial: 0.00);
@@ -19,13 +20,14 @@ class SearchService with ReactiveServiceMixin {
 
   SearchService() {
     listenToReactiveValues(
-        [_apiCalled, _apiError, _condition, _searchKeyword, _completedListing, _activeListing, _productType, _imagePath]);
+        [_apiCalled, _apiError, _condition, _searchKeyword, _region, _completedListing, _activeListing, _productType, _imagePath]);
   }
 
   bool get apiCalled => _apiCalled.value;
   bool get apiError => _apiError.value;
   String get condition => _condition.value;
   String get searchKeyword => _searchKeyword.value;
+  String get region => _region.value;
   List<Item> get completedListing => _completedListing.value;
   List<Item> get activeListing => _activeListing.value;
   double get completedListingAveragePrice => _completedListingAveragePrice.value;
@@ -48,6 +50,10 @@ class SearchService with ReactiveServiceMixin {
 
   void setSearchKeyword(String newValue) {
     _searchKeyword.value = newValue;
+  }
+
+  void setRegion(String newValue) {
+    _region.value = newValue;
   }
 
   void setCompletedListingAveragePrice(double newValue) {
@@ -81,6 +87,7 @@ class SearchService with ReactiveServiceMixin {
     _completedListing.value = new List<Item>();
     _activeListing.value = new List<Item>();
     _condition.value = 'Used';
+    _region.value = 'United States';
     _completedListingAveragePrice.value = 0.0;
     _completedListingPercentageSold.value = 0.0;
     _activeListingAveragePrice.value = 0.0;

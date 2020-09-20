@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:priceit/app/locator.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:injectable/injectable.dart';
@@ -15,10 +17,10 @@ class Api {
   var client = new http.Client();
   final searchService = locator<SearchService>();
 
-  Future<List<Item>> searchForCompletedItems(String selectorValue, String searchKeyword) async {
+  Future<List<Item>> searchForCompletedItems(String selectorValue, String searchKeyword, String region) async {
     resetApiServiceCalls();
     String requestBody = buildCompletedItemSearchRequest(selectorValue, searchKeyword);
-    http.Response response = await findingCompletedItemApiCall(requestBody);
+    http.Response response = await findingCompletedItemApiCall(requestBody, region);
     List decodedItemList = decodeResponse(response.body);
     List totalEntriesList = findTotalEntries(response.body);
     String totalEntries = totalEntriesList.isNotEmpty ? totalEntriesList[0] : "0";
@@ -111,16 +113,40 @@ class Api {
     return intValue;
   }
 
-  Future<http.Response> findingCompletedItemApiCall(var body) async {
+  Future<http.Response> findingCompletedItemApiCall(var body, String region) async {
     try {
       final response =
-          await client.post(findingServiceUrl, headers: completedItemsHeaders, body: body);
+          await client.post(findingServiceUrl, headers: buildCompletedItemHeader(region), body: body);
       debugPrint("Search Completed Listings - Response Code: " + response.statusCode.toString());
       return response;
     } on Exception catch (e) {
       throw Exception(
           "Error making API request to eBay: " + e.toString());
     }
+  }
+
+  Map<String, String> buildCompletedItemHeader(String region) {
+    String globalId = _getGlobalId(region);
+    Map<String, String> completedItemsHeaders = {
+      HttpHeaders.contentTypeHeader: 'application/json',
+      appNameHeader: DotEnv().env['APP_ID'],
+      operationNameHeader: findCompletedItems,
+      serviceVersionHeader: serviceVersionHeaderValue,
+      globalIdHeader: globalId,
+      serviceNameHeader: serviceNameHeaderValue,
+      requestDataFormatHeader: json,
+      responseDataFormatHeader: json
+    };
+    return completedItemsHeaders;
+  }
+
+  String _getGlobalId(String region) {
+    regionsMap.forEach((key, value) {
+      if (key == region) {
+        return value;
+      }
+    });
+    return globalIdHeaderValue;
   }
 
   Future<http.Response> _findingActiveItemApiCall(var body) async {

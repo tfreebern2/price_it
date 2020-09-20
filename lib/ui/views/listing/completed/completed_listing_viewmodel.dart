@@ -4,6 +4,7 @@ import 'package:priceit/app/locator.dart';
 import 'package:priceit/app/router.gr.dart';
 import 'package:priceit/datamodels/ebay_response.dart';
 import 'package:priceit/datamodels/item.dart';
+import 'package:priceit/datamodels/search_criteria.dart';
 import 'package:priceit/services/api.dart';
 import 'package:priceit/services/search_service.dart';
 import 'package:priceit/util/constants.dart';
@@ -123,13 +124,13 @@ class CompletedListingViewModel extends FutureViewModel<EbayResponse> {
       return await buildSavedEbayResponse();
     } else {
       if (searchService.condition == newValue) {
-        List<Item> completedListings = await _apiService.searchForCompletedItems(newValue, searchService.searchKeyword);
+        List<Item> completedListings = await _apiService.searchForCompletedItems(newValue, searchService.searchKeyword, searchService.region);
         List<Item> activeListings = await _apiService.searchForActiveItems(newValue, searchService.searchKeyword);
         searchService.setApiCalled(true);
         calculateSaleThroughRateAndAveragePrice(completedListings, activeListings);
         return await buildInitialEbayResponse(completedListings, activeListings);
       } else {
-        List<Item> completedListings = await _apiService.searchForCompletedItems(usedValue, searchService.searchKeyword);
+        List<Item> completedListings = await _apiService.searchForCompletedItems(usedValue, searchService.searchKeyword, searchService.region);
         List<Item> activeListings = await _apiService.searchForActiveItems(usedValue, searchService.searchKeyword);
         searchService.setApiCalled(true);
         calculateSaleThroughRateAndAveragePrice(completedListings, activeListings);
