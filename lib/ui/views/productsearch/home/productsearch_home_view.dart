@@ -18,24 +18,8 @@ class ProductSearchHomeView extends StatelessWidget {
                 ? Stack(
                     children: <Widget>[
                       CameraPreview(model.data.cameraController),
-                      _RadioButtons(),
-                      Padding(
-                        padding: const EdgeInsets.all(20.0),
-                        child: Container(
-                          alignment: Alignment.bottomCenter,
-                          child: RaisedButton.icon(
-                            onPressed: () async {
-                              await model.data.takePicture().then((path) => {
-                                    if (path != null) {model.updateImagePath(path)}
-                                  });
-                              model.navigateToPhotoDetail();
-                            },
-                            icon: Icon(Icons.camera_alt),
-                            label: Text("Scan"),
-                            color: Theme.of(context).accentColor,
-                          ),
-                        ),
-                      )
+                      _selectionColumn(context, model),
+                      _cameraButton(context, model)
                     ],
                   )
                 : Container(
@@ -44,6 +28,52 @@ class ProductSearchHomeView extends StatelessWidget {
                     ),
                   )),
         viewModelBuilder: () => ProductSearchHomeViewModel());
+  }
+}
+
+Widget _selectionColumn(context, model) {
+  return Container(
+    alignment: Alignment.topCenter,
+    child: Column(
+      children: [
+        Text('Select Region: ',
+            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18)),
+        _RegionSelection(),
+        Text('Select Condition: ',
+            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18)),
+        _RadioButtons()
+      ],
+    ),
+  );
+}
+
+class _RegionSelection extends HookViewModelWidget<ProductSearchHomeViewModel> {
+  @override
+  Widget buildViewModelWidget(BuildContext context, ProductSearchHomeViewModel viewModel) {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: DropdownButton<String>(
+        value: viewModel.region,
+        icon: Icon(Icons.arrow_downward, color: Theme.of(context).accentColor),
+        iconSize: 18.0,
+        elevation: 16,
+        style: TextStyle(fontFamily: 'Oswald', color: Theme.of(context).accentColor, fontSize: 16),
+        underline: Container(
+          height: 1,
+          color: Theme.of(context).accentColor,
+        ),
+        onChanged: (String newValue) {
+          viewModel.updateRegion(newValue);
+          debugPrint(viewModel.region);
+        },
+        items: regionList.map<DropdownMenuItem<String>>((String value) {
+          return DropdownMenuItem<String>(
+            value: value,
+            child: Text(value),
+          );
+        }).toList(),
+      ),
+    );
   }
 }
 
@@ -63,7 +93,7 @@ class _RadioButtons extends HookViewModelWidget<ProductSearchHomeViewModel> {
               model.updateCondition(newValue);
             },
           ),
-          Text(usedValue, style: TextStyle(color: Colors.lightGreen, fontSize: 22.0)),
+          Text(usedValue, style: TextStyle(color: Colors.lightGreen, fontSize: 18.0)),
           Radio(
             value: newValue,
             groupValue: model.condition.toString(),
@@ -71,9 +101,29 @@ class _RadioButtons extends HookViewModelWidget<ProductSearchHomeViewModel> {
               model.updateCondition(newValue);
             },
           ),
-          Text(newValue, style: TextStyle(color: Colors.lightGreen, fontSize: 22.0))
+          Text(newValue, style: TextStyle(color: Colors.lightGreen, fontSize: 18.0))
         ],
       ),
     );
   }
+}
+
+Widget _cameraButton(context, model) {
+  return Padding(
+    padding: const EdgeInsets.all(20.0),
+    child: Container(
+      alignment: Alignment.bottomCenter,
+      child: RaisedButton.icon(
+        onPressed: () async {
+          await model.data.takePicture().then((path) => {
+                if (path != null) {model.updateImagePath(path)}
+              });
+          model.navigateToPhotoDetail();
+        },
+        icon: Icon(Icons.camera_alt),
+        label: Text("Scan"),
+        color: Theme.of(context).accentColor,
+      ),
+    ),
+  );
 }

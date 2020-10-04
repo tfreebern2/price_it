@@ -54,10 +54,10 @@ const Map<String, String> conditionsMap = {
   'New with defects': '1750',
   'Manufacturer refurbished': '2000',
   'Seller refurbished': '2500',
-  'Used' : '3000',
-  'Very Good' : '4000',
-  'Good' : '5000',
-  'Acceptable' : '6000',
+  'Used': '3000',
+  'Very Good': '4000',
+  'Good': '5000',
+  'Acceptable': '6000',
   'For parts or not working': '7000'
 };
 
@@ -120,3 +120,29 @@ const String newOrOtherValue = "New or other";
 // Product Type
 const String upc = "UPC";
 const String isbn = "ISBN";
+
+// Region List
+const List<String> regionList = [
+  'Austria',
+  'Australia',
+  'Switzerland',
+  'Germany',
+  'Canada (English)',
+  'Spain',
+  'France',
+  'Belgium (French)',
+  'Canada (French)',
+  'UK',
+  'Hong Kong',
+  'Ireland',
+  'India',
+  'Italy',
+  'Motors',
+  'Malaysia',
+  'Netherlands',
+  'Belgium (Dutch)',
+  'Philippines',
+  'Poland',
+  'Singapore',
+  'United States'
+];

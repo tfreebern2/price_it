@@ -57,13 +57,10 @@ SearchServiceMock getAndRegisterSavedSearchServiceMock() {
   item1.totalEntries = "1";
   completedListings.add(item1);
   activeListings.add(item1);
-  service.setCompletedAndActiveListings(completedListings, activeListings);
+  service.setActiveListing(activeListings);
 
   // stubbing
-  when(service.completedListing).thenReturn(completedListings);
   when(service.activeListing).thenReturn(activeListings);
-  when(service.completedListingAveragePrice).thenReturn(1.00);
-  when(service.completedListingPercentageSold).thenReturn(100.00);
   when(service.activeListingAveragePrice).thenReturn(1.00);
 
   locator.registerSingleton<SearchService>(service);
@@ -75,9 +72,7 @@ SearchServiceMock getAndRegisterInitialSearchServiceMock() {
   var service = SearchServiceMock();
 
   // stubbing
-  when(service.completedListing).thenReturn(List());
   when(service.activeListing).thenReturn(List());
-  when(service.completedListingAveragePrice).thenReturn(100.0);
   when(service.condition).thenReturn('New');
   when(service.searchKeyword).thenReturn('iPhone 6');
   when(service.imagePath).thenReturn('/file/path');
@@ -91,11 +86,8 @@ SearchServiceMock getAndRegisterInitialAfterApiSearchServiceMock() {
   var service = SearchServiceMock();
 
   // stubbing
-  when(service.completedListing).thenReturn(List());
-  when(service.completedListing.length).thenReturn(0);
   when(service.activeListing).thenReturn(List());
   when(service.activeListing.length).thenReturn(0);
-  when(service.completedListingAveragePrice).thenReturn(100.0);
 
   locator.registerSingleton<SearchService>(service);
   return service;
