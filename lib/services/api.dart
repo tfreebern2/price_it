@@ -1,23 +1,24 @@
 import 'dart:convert';
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
-import 'package:priceit/app/locator.dart';
+import 'package:priceit/datamodels/ebay_request.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:injectable/injectable.dart';
 import 'package:http/http.dart' as http;
-import 'package:priceit/services/search_service.dart';
 
 import 'package:priceit/util/constants.dart';
 
 @lazySingleton
 class Api {
   var client = new http.Client();
-  final searchService = locator<SearchService>();
 
-  Future<List<Item>> searchForActiveItems(String selectorValue, String searchKeyword) async {
-    String requestBody = buildActiveItemSearchRequest(selectorValue, searchKeyword);
-    http.Response response = await _findingActiveItemApiCall(requestBody);
+  Future<List<Item>> searchForActiveItems(EbayRequest request) async {
+    String requestBody = buildActiveItemSearchRequest(request.condition, request.keyword);
+    String ebayGlobalId = mapRegionToEbayGlobalId(request.region);
+    Map<String, String> requestHeaders = buildRequestHeaders(ebayGlobalId);
+    http.Response response = await _findingActiveItemApiCall(requestBody, requestHeaders);
     List decodedItemList = decodeResponse(response.body);
     List totalEntriesList = findTotalEntries(response.body);
     String totalEntries = totalEntriesList.isNotEmpty ? totalEntriesList[0] : "0";
@@ -58,13 +59,33 @@ class Api {
     }
   }
 
-  Future<http.Response> _findingActiveItemApiCall(var body) async {
+  Map<String, String> buildRequestHeaders(String ebayGlobalId) {
+    return {
+      HttpHeaders.contentTypeHeader: 'application/json',
+      appNameHeader: appId,
+      operationNameHeader: findItemsByKeywords,
+      serviceVersionHeader: serviceVersionHeaderValue,
+      globalIdHeader: ebayGlobalId,
+      serviceNameHeader: serviceNameHeaderValue,
+      requestDataFormatHeader: json,
+      responseDataFormatHeader: json
+    };
+  }
+
+  String mapRegionToEbayGlobalId(String region) {
+    return regionsMap[region];
+  }
+
+  Future<http.Response> _findingActiveItemApiCall(var body, Map<String, String> requestHeaders) async {
+    debugPrint("Body: " + body);
+    debugPrint("Request Headers: " + requestHeaders.toString());
     try {
       final response =
-          await client.post(findingServiceUrl, headers: activeItemsHeaders, body: body);
+          await client.post(findingServiceUrl, headers: requestHeaders, body: body);
       debugPrint("Search Active Listings - Response Code: " + response.statusCode.toString());
       return response;
     } on Exception catch (e) {
+      debugPrint(e.toString());
       throw Exception("Error making API request to eBay: " + e.toString());
     }
   }
@@ -72,9 +93,7 @@ class Api {
   List decodeResponse(String responseBody) {
     var decodedResponse = jsonDecode(responseBody) as Map<String, dynamic>;
 
-    if (decodedResponse.containsKey(findCompletedItemsResponse)) {
-      return decodedResponse[findCompletedItemsResponse][0][searchResult][0][item] as List;
-    } else if (decodedResponse.containsKey(findItemsByKeywordsResponse)) {
+    if (decodedResponse.containsKey(findItemsByKeywordsResponse)) {
       return decodedResponse[findItemsByKeywordsResponse][0][searchResult][0][item] as List;
     } else {
       throw Exception("Error decoding response from eBay: " + responseBody);
@@ -106,12 +125,7 @@ class Api {
   List findTotalEntries(String responseBody) {
     var decodedResponse = jsonDecode(responseBody) as Map<String, dynamic>;
 
-    if (decodedResponse.containsKey(findCompletedItemsResponse)) {
-      return decodedResponse[findCompletedItemsResponse][0][paginationOutput][0][totalEntries]
-          as List;
-    } else {
-      return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries]
-          as List;
-    }
+    return decodedResponse[findItemsByKeywordsResponse][0][paginationOutput][0][totalEntries]
+        as List;
   }
 }

@@ -28,6 +28,17 @@ void main() {
       expect(decodedRequestBody["itemFilter"][0]["value"], [usedValue, "4000", "5000", "6000"]);
     });
 
+    test('return EBAY-ENCA if Canada (English) is selected', () {
+      var api = Api();
+      String map = api.mapRegionToEbayGlobalId('Canada (English)');
+      expect(map, 'EBAY-ENCA');
+    });
+
+    test('return EBAY-PL if Poland is selected', () {
+      var api = Api();
+      String map = api.mapRegionToEbayGlobalId('Poland');
+      expect(map, 'EBAY-PL');
+    });
 
     test('Search for active listings and successfully parse for active items from response body', () async {
       var api = Api();
@@ -51,14 +62,14 @@ void main() {
 
     test('If response contains more than 25 total entries, only return 25 items', () async{
       var api = Api();
-      final responseFile = new File('test/setup/data/new_completed_listing_response.json');
+      final responseFile = new File('test/setup/data/new_active_listing_response.json');
       List list = api.decodeResponse(await responseFile.readAsString());
       expect(api.getItemList(list, "113751").length, 25);
     });
 
     test('Set total entries to first item of Item List', () async{
       var api = Api();
-      final responseFile = new File('test/setup/data/new_completed_listing_response.json');
+      final responseFile = new File('test/setup/data/new_active_listing_response.json');
       List list = api.decodeResponse(await responseFile.readAsString());
       expect(api.getItemList(list, "113751")[0].totalEntries, "113751");
       expect(api.getItemList(list, "113751")[1].totalEntries, null);

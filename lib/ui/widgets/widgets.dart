@@ -5,7 +5,7 @@ Widget customAppbar() {
     automaticallyImplyLeading: false,
     title: Text(
       'Price It!',
-      style: TextStyle(fontFamily: 'Oswald', color: Colors.black, fontSize: 22.0, fontWeight: FontWeight.bold),
+      style: TextStyle(fontFamily: 'Oswald', color: Colors.black, fontSize: 22.0),
     ),
   );
 }

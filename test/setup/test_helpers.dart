@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:mockito/mockito.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:priceit/app/locator.dart';
+import 'package:priceit/datamodels/ebay_request.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
 import 'package:priceit/services/search_service.dart';
@@ -32,6 +33,7 @@ Future<ApiMock> getAndRegisterApiMock() async {
 
   List<Item> newCompletedListing = List<Item>();
 
+  EbayRequest ebayRequest = new EbayRequest.build('New', 'iPhone 6', 'United States');
   Item item1 =
       new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "1.00", "SOLD");
   newCompletedListing.add(item1);
@@ -41,7 +43,7 @@ Future<ApiMock> getAndRegisterApiMock() async {
   final futureRequest1 = Future.value(requestFile.readAsString());
   final futureResponse1 = Future.value(responseFile.readAsString());
 
-  when(api.searchForActiveItems('New', 'iPhone 6 ')).thenAnswer((_) async => futureCompletedListing);
+  when(api.searchForActiveItems(ebayRequest)).thenAnswer((_) async => futureCompletedListing);
 
   locator.registerSingleton<Api>(api);
   return api;

@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:priceit/app/locator.dart';
 import 'package:priceit/app/router.gr.dart';
+import 'package:priceit/datamodels/ebay_request.dart';
 import 'package:priceit/datamodels/ebay_response.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
 import 'package:priceit/services/search_service.dart';
-import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -22,7 +22,9 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
   int _activeListLength = 0;
 
   double get activeListingAveragePrice => _activeListingAveragePrice;
+
   double get activeListingSoldAmount => _activeListingSoldAmount;
+
   int get activeListLength => _activeListLength;
 
   void launchUrl(String viewItemURL) async {
@@ -49,8 +51,7 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
   }
 
   Future<EbayResponse> buildEbayResponse(List<Item> activeListings, double activeListingAveragePrice) async {
-    EbayResponse ebayResponse = new EbayResponse.build(activeListings, activeListingAveragePrice);
-    return ebayResponse;
+    return new EbayResponse.build(activeListings, activeListingAveragePrice);
   }
 
   Future showDialog() async {
@@ -68,14 +69,9 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
 
   @override
   Future<EbayResponse> futureToRun() async {
-      if (searchService.condition == newValue) {
-        List<Item> activeListings = await _apiService.searchForActiveItems(newValue, searchService.searchKeyword);
-        calculateAveragePrice(activeListings);
-        return await buildEbayResponse(activeListings, activeListingAveragePrice);
-      } else {
-        List<Item> activeListings = await _apiService.searchForActiveItems(usedValue, searchService.searchKeyword);
-        calculateAveragePrice(activeListings);
-        return await buildEbayResponse(activeListings, activeListingAveragePrice);
-      }
+    EbayRequest ebayRequest = new EbayRequest.build(searchService.condition, searchService.searchKeyword, searchService.region);
+    List<Item> activeListings = await _apiService.searchForActiveItems(ebayRequest);
+    calculateAveragePrice(activeListings);
+    return await buildEbayResponse(activeListings, activeListingAveragePrice);
   }
 }

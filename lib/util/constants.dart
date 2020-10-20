@@ -23,19 +23,9 @@ const String globalIdHeaderValue = 'EBAY-US';
 const String serviceNameHeaderValue = 'FindingService';
 const String json = 'JSON';
 const String xml = 'XML';
+String appId = DotEnv().env['APP_ID'];
 
 // Request Headers
-Map<String, String> completedItemsHeaders = {
-  HttpHeaders.contentTypeHeader: 'application/json',
-  appNameHeader: DotEnv().env['APP_ID'],
-  operationNameHeader: findCompletedItems,
-  serviceVersionHeader: serviceVersionHeaderValue,
-  globalIdHeader: globalIdHeaderValue,
-  serviceNameHeader: serviceNameHeaderValue,
-  requestDataFormatHeader: json,
-  responseDataFormatHeader: json
-};
-
 Map<String, String> activeItemsHeaders = {
   HttpHeaders.contentTypeHeader: 'application/json',
   appNameHeader: DotEnv().env['APP_ID'],
@@ -146,3 +136,41 @@ const List<String> regionList = [
   'Singapore',
   'United States'
 ];
+
+const Map<String, String> regionsMap = {
+  'Austria' : 'EBAY-AT',
+  'Australia' : 'EBAY-AU',
+  'Switzerland' : 'EBAY-CH',
+  'Germany' : 'EBAY-DE',
+  'Canada (English)' : 'EBAY-ENCA',
+  'Spain' : 'EBAY-ES',
+  'France' : 'EBAY-FR',
+  'Belgium (French)' : 'EBAY-FRBE',
+  'Canada (French)' : 'EBAY-FRCA',
+  'UK' : 'EBAY-GB',
+  'Hong Kong' : 'EBAY-HK',
+  'Ireland' : 'EBAY-IE',
+  'India' : 'EBAY-IN',
+  'Italy' : 'EBAY-IT',
+  'Motors' : 'EBAY-MOTOR',
+  'Malaysia' : 'EBAY-MY',
+  'Netherlands' : 'EBAY-NL',
+  'Belgium (Dutch)' : 'EBAY-NLBE',
+  'Philippines' : 'EBAY-PH',
+  'Poland' : 'EBAY-PL',
+  'Singapore' : 'EBAY-SG',
+  'United States' : 'EBAY-US'
+};
+
+const Map<String, String> currencyMap = {
+  'EUR': '€',
+  'AU': 'AU\$',
+  'CHF': 'C\$',
+  'GBP': '£',
+  'HKD': 'HK \$',
+  'INR': '₹',
+  'MYR': 'RM',
+  'PHP': '₱',
+  'PLN': 'zł',
+  'SGD': 'S\$'
+};
