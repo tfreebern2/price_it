@@ -92,6 +92,8 @@ const String countryKey = "country";
 const String sellingStatusKey = "sellingStatus";
 const String sellingStateKey = "sellingState";
 const String currentPriceKey = "currentPrice";
+const String convertedCurrentPrice = "convertedCurrentPrice";
+const String currentIdValueKey = "@currencyId";
 const String underscoreValueKey = "__value__";
 const String notAvailable = "N/A";
 const String ended = "Ended";
@@ -115,14 +117,12 @@ const String isbn = "ISBN";
 const List<String> regionList = [
   'Austria',
   'Australia',
-  'Switzerland',
-  'Germany',
   'Canada (English)',
-  'Spain',
-  'France',
-  'Belgium (French)',
   'Canada (French)',
-  'UK',
+  'Belgium (Dutch)',
+  'Belgium (French)',
+  'France',
+  'Germany',
   'Hong Kong',
   'Ireland',
   'India',
@@ -130,24 +130,24 @@ const List<String> regionList = [
   'Motors',
   'Malaysia',
   'Netherlands',
-  'Belgium (Dutch)',
   'Philippines',
   'Poland',
   'Singapore',
+  'Spain',
+  'Switzerland',
+  'UK',
   'United States'
 ];
 
 const Map<String, String> regionsMap = {
   'Austria' : 'EBAY-AT',
   'Australia' : 'EBAY-AU',
-  'Switzerland' : 'EBAY-CH',
-  'Germany' : 'EBAY-DE',
-  'Canada (English)' : 'EBAY-ENCA',
-  'Spain' : 'EBAY-ES',
-  'France' : 'EBAY-FR',
+  'Belgium (Dutch)' : 'EBAY-NLBE',
   'Belgium (French)' : 'EBAY-FRBE',
+  'Canada (English)' : 'EBAY-ENCA',
   'Canada (French)' : 'EBAY-FRCA',
-  'UK' : 'EBAY-GB',
+  'France' : 'EBAY-FR',
+  'Germany' : 'EBAY-DE',
   'Hong Kong' : 'EBAY-HK',
   'Ireland' : 'EBAY-IE',
   'India' : 'EBAY-IN',
@@ -155,16 +155,19 @@ const Map<String, String> regionsMap = {
   'Motors' : 'EBAY-MOTOR',
   'Malaysia' : 'EBAY-MY',
   'Netherlands' : 'EBAY-NL',
-  'Belgium (Dutch)' : 'EBAY-NLBE',
   'Philippines' : 'EBAY-PH',
   'Poland' : 'EBAY-PL',
   'Singapore' : 'EBAY-SG',
+  'Spain' : 'EBAY-ES',
+  'Switzerland' : 'EBAY-CH',
+  'UK' : 'EBAY-GB',
   'United States' : 'EBAY-US'
 };
 
 const Map<String, String> currencyMap = {
   'EUR': '€',
   'AU': 'AU\$',
+  'AUD': 'A\S',
   'CHF': 'C\$',
   'GBP': '£',
   'HKD': 'HK \$',

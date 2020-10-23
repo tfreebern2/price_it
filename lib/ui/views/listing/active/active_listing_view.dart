@@ -61,7 +61,7 @@ Widget _pricingText(context, model) {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Text(
-                '\$ ' + model.data.activeListingAveragePrice.toStringAsFixed(2),
+                model.data.currencySymbol + " " + model.data.activeListingAveragePrice.toStringAsFixed(2),
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
@@ -103,7 +103,7 @@ Widget _itemListViewBuilder(context, model) {
                           : Text('Image Not' + '\n' + 'Available'),
                       title: Text(item.title),
                       trailing: Text(
-                        item.currentPrice,
+                        item.currencySymbol + " " + item.currentPrice,
                         style: TextStyle(
                             color: Theme.of(context).accentColor, fontWeight: FontWeight.bold),
                       ),

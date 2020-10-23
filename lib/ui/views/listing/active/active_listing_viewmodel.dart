@@ -20,6 +20,7 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
   double _activeListingAveragePrice = 0.00;
   double _activeListingSoldAmount = 0.00;
   int _activeListLength = 0;
+  String currencySymbol;
 
   double get activeListingAveragePrice => _activeListingAveragePrice;
 
@@ -42,6 +43,7 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
 
   void calculateAveragePrice(List<Item> activeListings) {
     if (activeListings.length > 0) {
+      currencySymbol = activeListings[0].currencySymbol;
       activeListings.forEach((item) {
         _activeListingSoldAmount += double.parse(item.currentPrice.replaceAll("\$", ""));
         _activeListLength += 1;
@@ -50,8 +52,8 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
     _activeListingAveragePrice = (_activeListingSoldAmount / _activeListLength);
   }
 
-  Future<EbayResponse> buildEbayResponse(List<Item> activeListings, double activeListingAveragePrice) async {
-    return new EbayResponse.build(activeListings, activeListingAveragePrice);
+  Future<EbayResponse> buildEbayResponse(List<Item> activeListings, double activeListingAveragePrice, String currencySymbol) async {
+    return new EbayResponse.build(activeListings, activeListingAveragePrice, currencySymbol);
   }
 
   Future showDialog() async {
@@ -72,6 +74,6 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
     EbayRequest ebayRequest = new EbayRequest.build(searchService.condition, searchService.searchKeyword, searchService.region);
     List<Item> activeListings = await _apiService.searchForActiveItems(ebayRequest);
     calculateAveragePrice(activeListings);
-    return await buildEbayResponse(activeListings, activeListingAveragePrice);
+    return await buildEbayResponse(activeListings, activeListingAveragePrice, currencySymbol);
   }
 }

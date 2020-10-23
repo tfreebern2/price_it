@@ -35,7 +35,7 @@ Future<ApiMock> getAndRegisterApiMock() async {
 
   EbayRequest ebayRequest = new EbayRequest.build('New', 'iPhone 6', 'United States');
   Item item1 =
-      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "1.00", "SOLD");
+      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "\$", "1.00", "SOLD");
   newCompletedListing.add(item1);
   var futureCompletedListing = Future.value(newCompletedListing);
 
@@ -55,7 +55,7 @@ SearchServiceMock getAndRegisterSavedSearchServiceMock() {
   List<Item> completedListings = new List();
   List<Item> activeListings = new List();
   Item item1 =
-      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "1.00", "SOLD");
+      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "\$", "1.00", "SOLD");
   item1.totalEntries = "1";
   completedListings.add(item1);
   activeListings.add(item1);

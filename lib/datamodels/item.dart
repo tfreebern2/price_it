@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:priceit/util/constants.dart';
 
 class Item {
@@ -8,12 +9,13 @@ class Item {
   String viewItemUrl;
   String location;
   String country;
+  String currencySymbol;
   String currentPrice;
   String sellingState;
   String totalEntries;
 
   Item(this.id, this.title, this.globalId, this.galleryUrl, this.viewItemUrl, this.location,
-      this.country, this.currentPrice, this.sellingState);
+      this.country, this.currencySymbol, this.currentPrice, this.sellingState);
 
   Item.fromJson(Map<String, dynamic> data) {
     id = data.containsKey(itemId) ? data[itemId][0] : notAvailable;
@@ -31,12 +33,23 @@ class Item {
     data.forEach((key, value) {
       if (key == sellingStatusKey) {
         var sellingStatusMap = value[0] as Map<String, dynamic>;
-        currentPrice = sellingStatusMap.containsKey(currentPriceKey)
-            ? "\$" + data[sellingStatusKey][0][currentPriceKey][0][underscoreValueKey]
+        String symbol = sellingStatusMap.containsKey(convertedCurrentPrice)
+            ? data[sellingStatusKey][0][convertedCurrentPrice][0][currentIdValueKey]
+            : "USD";
+        currencySymbol = _getCurrencySymbol(symbol);
+        currentPrice = sellingStatusMap.containsKey(convertedCurrentPrice)
+            ? data[sellingStatusKey][0][convertedCurrentPrice][0][underscoreValueKey]
             : notAvailable;
       }
     });
     _addDoubleDigitsAfterDecimal();
+  }
+
+  String _getCurrencySymbol(String symbol) {
+    String dollarSymbol = "\$";
+    dollarSymbol = currencyMap[symbol];
+    debugPrint("dollarSymbol: " + dollarSymbol);
+    return dollarSymbol;
   }
 
   void _addDoubleDigitsAfterDecimal() {
@@ -44,10 +57,15 @@ class Item {
     String decimal = ".";
     List<String> splitPrice = currentPrice.split(decimal);
     var afterDecimal = splitPrice[1];
-    if (afterDecimal == zero) {
-      currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
-    } else if (afterDecimal.length == 1 && afterDecimal != zero) {
-      currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
+    try {
+      if (afterDecimal == zero) {
+        currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
+      } else if (afterDecimal.length == 1 && afterDecimal != zero) {
+        currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
+      }
+    } on Exception catch (e) {
+      debugPrint(e.toString());
+      throw Exception("Error parsing price");
     }
   }
 }

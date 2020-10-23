@@ -2,6 +2,7 @@ import 'dart:collection';
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
@@ -88,6 +89,15 @@ void main() {
       expect(itemList[0].location, "Bellevue,WA,USA");
       expect(itemList[0].country, "US");
       expect(itemList[0].totalEntries, "5185831");
+    });
+
+    test('Get currency type', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      var sellingStatusMap = list[0] as Map<String, dynamic>;
+
+      debugPrint(sellingStatusMap.toString());
     });
   });
 }

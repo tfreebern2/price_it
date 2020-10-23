@@ -3,8 +3,9 @@ import 'item.dart';
 class EbayResponse {
   List<Item> _activeListing = List<Item>();
   double _activeListingAveragePrice = 0.00;
+  String currencySymbol;
 
-  EbayResponse(this._activeListing, this._activeListingAveragePrice);
+  EbayResponse(this._activeListing, this._activeListingAveragePrice, this.currencySymbol);
 
   double get activeListingAveragePrice => _activeListingAveragePrice;
 
@@ -22,10 +23,11 @@ class EbayResponse {
     });
   }
 
-  EbayResponse.build(List<Item> activeListings, double activeListingAveragePrice) {
+  EbayResponse.build(List<Item> activeListings, double activeListingAveragePrice, String symbol) {
     activeListings.forEach((element) {
       activeListing.add(element);
     });
     setActiveListingAveragePrice(activeListingAveragePrice);
+    currencySymbol = symbol;
   }
 }
