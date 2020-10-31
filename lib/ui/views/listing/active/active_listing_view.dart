@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/ui/views/listing/active/active_listing_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
+import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 
 class ActiveListingView extends StatelessWidget {
@@ -18,7 +19,8 @@ class ActiveListingView extends StatelessWidget {
               body: SafeArea(
                 child: Center(
                   child: model.isBusy
-                      ? CircularProgressIndicator()
+                      ? CircularProgressIndicator(
+                          valueColor: new AlwaysStoppedAnimation<Color>(standardPurple))
                       : Column(
                           children: <Widget>[
                             SizedBox(
@@ -44,7 +46,7 @@ Widget _titleText(context) {
       'Active Listings',
       style: TextStyle(
           fontSize: (deviceWidth < 360) ? 22.0 : 28.0,
-          color: Theme.of(context).accentColor,
+          color: Color.fromRGBO(141, 108, 159, 1),
           fontWeight: FontWeight.w600),
     ),
   );
@@ -61,17 +63,20 @@ Widget _pricingText(context, model) {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Text(
-                model.data.currencySymbol + " " + model.data.activeListingAveragePrice.toStringAsFixed(2),
+                model.data.currencySymbol +
+                    " " +
+                    model.data.activeListingAveragePrice.toStringAsFixed(2),
                 style: TextStyle(
-                    color: Colors.black,
+                    color: standardGreen,
                     fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
                     fontWeight: FontWeight.bold),
               ),
               Text(
                 ' avg',
                 style: TextStyle(
-                    color: Theme.of(context).accentColor,
-                    fontSize: (deviceWidth < 360) ? 16.0 : 18.0),
+                    color: Color.fromRGBO(141, 108, 159, 1),
+                    fontSize: (deviceWidth < 360) ? 16.0 : 18.0,
+                    fontWeight: FontWeight.bold),
               )
             ],
           ),
@@ -95,17 +100,16 @@ Widget _itemListViewBuilder(context, model) {
                   padding: const EdgeInsets.all(2.0),
                   child: Card(
                     elevation: 6.00,
-                    shadowColor: Theme.of(context).accentColor,
+                    shadowColor: standardPurple,
                     child: ListTile(
                       contentPadding: EdgeInsets.all(12.0),
                       leading: item.galleryUrl.isNotEmpty
                           ? Image.network(item.galleryUrl)
                           : Text('Image Not' + '\n' + 'Available'),
-                      title: Text(item.title),
+                      title: Text(item.title, style: TextStyle(color: standardPurple)),
                       trailing: Text(
                         item.currencySymbol + " " + item.currentPrice,
-                        style: TextStyle(
-                            color: Theme.of(context).accentColor, fontWeight: FontWeight.bold),
+                        style: TextStyle(color: standardGreen, fontWeight: FontWeight.bold),
                       ),
                       onTap: () => item.viewItemUrl.isNotEmpty
                           ? model.launchUrl(item.viewItemUrl)

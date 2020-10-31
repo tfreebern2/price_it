@@ -48,7 +48,6 @@ class Item {
   String _getCurrencySymbol(String symbol) {
     String dollarSymbol = "\$";
     dollarSymbol = currencyMap[symbol];
-    debugPrint("dollarSymbol: " + dollarSymbol);
     return dollarSymbol;
   }
 

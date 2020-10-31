@@ -5,7 +5,7 @@ import 'package:priceit/ui/views/home/selection_view.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import 'app/locator.dart';
-import 'app/router.gr.dart';
+import 'app/router.gr.dart' as auto_router;
 
 void main() async {
   await DotEnv().load('.env');
@@ -25,11 +25,12 @@ class MyApp extends StatelessWidget {
       title: 'Price It',
       theme: ThemeData(
         fontFamily: 'Oswald',
-        primarySwatch: Colors.lightGreen,
+        // primarySwatch: Colors.green,
+        canvasColor: Colors.purple[50],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: SelectionView(),
-      onGenerateRoute: Router().onGenerateRoute,
+      onGenerateRoute: auto_router.Router().onGenerateRoute,
       navigatorKey: locator<NavigationService>().navigatorKey,
     );
   }

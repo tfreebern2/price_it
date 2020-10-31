@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:ui';
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
@@ -175,5 +176,9 @@ const Map<String, String> currencyMap = {
   'MYR': 'RM',
   'PHP': '₱',
   'PLN': 'zł',
-  'SGD': 'S\$'
+  'SGD': 'S\$',
+  'USD': '\$'
 };
+
+const Color standardGreen = Color.fromRGBO(93, 188, 157, 1);
+const Color standardPurple = Color.fromRGBO(141, 108, 159, 1);

@@ -36,11 +36,12 @@ Widget _selectionColumn(context, model) {
     alignment: Alignment.topCenter,
     child: Column(
       children: [
+        SizedBox(height: 10.0),
         Text('Select Region: ',
-            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18)),
+            style: TextStyle(color: Colors.white, fontSize: 16.0)),
         _RegionSelection(),
         Text('Select Condition: ',
-            style: TextStyle(color: Theme.of(context).accentColor, fontSize: 18)),
+            style: TextStyle(color: Colors.white, fontSize: 16.0)),
         _RadioButtons()
       ],
     ),
@@ -54,13 +55,14 @@ class _RegionSelection extends HookViewModelWidget<ProductSearchHomeViewModel> {
       padding: const EdgeInsets.all(10.0),
       child: DropdownButton<String>(
         value: viewModel.region,
-        icon: Icon(Icons.arrow_downward, color: Theme.of(context).accentColor),
+        dropdownColor: standardPurple,
+        icon: Icon(Icons.arrow_downward, color: standardPurple),
         iconSize: 18.0,
         elevation: 16,
-        style: TextStyle(fontFamily: 'Oswald', color: Theme.of(context).accentColor, fontSize: 16),
+        style: TextStyle(fontFamily: 'Oswald', color: Colors.white, fontSize: 16),
         underline: Container(
           height: 1,
-          color: Theme.of(context).accentColor,
+          color: Colors.white,
         ),
         onChanged: (String newValue) {
           viewModel.updateRegion(newValue);
@@ -87,21 +89,23 @@ class _RadioButtons extends HookViewModelWidget<ProductSearchHomeViewModel> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Radio(
+            activeColor: standardPurple,
             value: usedValue,
             groupValue: model.condition.toString(),
             onChanged: (String newValue) {
               model.updateCondition(newValue);
             },
           ),
-          Text(usedValue, style: TextStyle(color: Colors.lightGreen, fontSize: 18.0)),
+          Text(usedValue, style: TextStyle(color: Colors.white, fontSize: 18.0)),
           Radio(
+            activeColor: standardPurple,
             value: newValue,
             groupValue: model.condition.toString(),
             onChanged: (String newValue) {
               model.updateCondition(newValue);
             },
           ),
-          Text(newValue, style: TextStyle(color: Colors.lightGreen, fontSize: 18.0))
+          Text(newValue, style: TextStyle(color: Colors.white, fontSize: 18.0))
         ],
       ),
     );
@@ -120,9 +124,9 @@ Widget _cameraButton(context, model) {
               });
           model.navigateToPhotoDetail();
         },
-        icon: Icon(Icons.camera_alt),
-        label: Text("Scan"),
-        color: Theme.of(context).accentColor,
+        icon: Icon(Icons.camera_alt, color: Colors.white),
+        label: Text("Scan", style: TextStyle(color: Colors.white)),
+        color: standardGreen,
       ),
     ),
   );
