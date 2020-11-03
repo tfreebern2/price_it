@@ -140,6 +140,7 @@ const List<String> regionList = [
   'United States'
 ];
 
+// Regions Map
 const Map<String, String> regionsMap = {
   'Austria' : 'EBAY-AT',
   'Australia' : 'EBAY-AU',
@@ -165,11 +166,12 @@ const Map<String, String> regionsMap = {
   'United States' : 'EBAY-US'
 };
 
+// Currency Map
 const Map<String, String> currencyMap = {
   'EUR': '€',
-  'AU': 'AU\$',
-  'AUD': 'A\S',
-  'CHF': 'C\$',
+  'AUD': '\$',
+  'CAD': '\$',
+  'CHF': 'CHF',
   'GBP': '£',
   'HKD': 'HK \$',
   'INR': '₹',

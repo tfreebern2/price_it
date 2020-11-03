@@ -2,7 +2,6 @@ import 'dart:collection';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
@@ -88,16 +87,96 @@ void main() {
       expect(itemList[0].viewItemUrl, "https://www.ebay.com/itm/MIB-UNUSED-Apple-iPhone-6-64GB-Space-Gray-A1549-/164313213241");
       expect(itemList[0].location, "Bellevue,WA,USA");
       expect(itemList[0].country, "US");
+      expect(itemList[0].currencySymbol, "\$");
       expect(itemList[0].totalEntries, "5185831");
     });
 
-    test('Get currency type', () async {
+    test('Validate currency symbol mapping - English Canada', () async {
       var api = Api();
-      final responseFile = new File('test/setup/data/new_active_listing_response.json');
+      final responseFile = new File('test/setup/data/new_active_listing_response_english_canada.json');
       List list = api.decodeResponse(await responseFile.readAsString());
-      var sellingStatusMap = list[0] as Map<String, dynamic>;
+      List<Item> itemList = api.getItemList(list, "2501888");
+      expect(itemList[0].currencySymbol, "\$");
+    });
 
-      debugPrint(sellingStatusMap.toString());
+    test('Validate currency symbol mapping - Italy', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_italy.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "2313086");
+      expect(itemList[0].currencySymbol, "\€");
+    });
+
+    test('Validate currency symbol mapping - Australia', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_australia.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "\$");
+    });
+
+    test('Validate currency symbol mapping - Switzerland', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_switzerland.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "CHF");
+    });
+
+    test('Validate currency symbol mapping - United Kingdom', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_united_kingdom.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "£");
+    });
+
+    test('Validate currency symbol mapping - Hong Kong', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_hong_kong.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "HK \$");
+    });
+
+    test('Validate currency symbol mapping - India', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_india.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "₹");
+    });
+
+    test('Validate currency symbol mapping - Malaysia', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_malaysia.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "RM");
+    });
+
+    test('Validate currency symbol mapping - Philippines', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_philippines.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "₱");
+    });
+
+    test('Validate currency symbol mapping - Poland', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_poland.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "zł");
+    });
+
+    test('Validate currency symbol mapping - Singapore', () async {
+      var api = Api();
+      final responseFile = new File('test/setup/data/new_active_listing_response_singapore.json');
+      List list = api.decodeResponse(await responseFile.readAsString());
+      List<Item> itemList = api.getItemList(list, "1511548");
+      expect(itemList[0].currencySymbol, "S\$");
     });
   });
 }

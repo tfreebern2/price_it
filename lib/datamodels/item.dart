@@ -46,9 +46,7 @@ class Item {
   }
 
   String _getCurrencySymbol(String symbol) {
-    String dollarSymbol = "\$";
-    dollarSymbol = currencyMap[symbol];
-    return dollarSymbol;
+    return currencyMap[symbol];
   }
 
   void _addDoubleDigitsAfterDecimal() {

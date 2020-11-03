@@ -1,0 +1,3135 @@
+{
+  "findItemsByKeywordsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-11-03T03:30:06.226Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "224217954602"
+              ],
+              "title": [
+                "Apple iPhone 6 A1586 64GB – Unlocked (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mja-wLVjAk4tPEOLPrv9VJA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6-A1586-64GB-Unlocked-CDMA-GSM-/224217954602"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "26021592601"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "GU151HX"
+              ],
+              "location": [
+                "Camberley,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "9.5"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "50.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "50.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "1"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P1DT16H52M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-01T20:22:31.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-04T20:22:31.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "13"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "383598442620"
+              ],
+              "title": [
+                "NEW Apple iPhone 6s 64GB 32GB 16GB Unlocked Smartphone Mobile Plus Gift UK"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "✔UK Local Despatch ✔12 month Warranty  ✔Top UK Seller"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/3835984426204040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/NEW-Apple-iPhone-6s-64GB-32GB-16GB-Unlocked-Smartphone-Mobile-Plus-Gift-UK-/383598442620?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "France"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "144.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "144.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT4H32M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-06-20T08:02:31.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T08:02:31.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "35"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "203161333884"
+              ],
+              "title": [
+                "Apple iPhone 6s - 32GB - Gold (Unlocked) Brand new"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mr4_1-FKMeg3SqSN2J8I5pA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6s-32GB-Gold-Unlocked-Brand-new-/203161333884"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228662423"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "HG58JH"
+              ],
+              "location": [
+                "Knaresborough,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "4.5"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "150.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "150.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT7H43M52S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-31T11:13:58.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T11:13:58.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "6"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "224216823293"
+              ],
+              "title": [
+                "Apple iPhone 6 - 16GB - Silver (iD Mobile) A1586 (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mSmaR4Xb0VBulkgHg0SIfoQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6-16GB-Silver-iD-Mobile-A1586-CDMA-GSM-/224216823293"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "26021592601"
+                }
+              ],
+              "paymentMethod": [
+                "CashOnPickup",
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "BS65NP"
+              ],
+              "location": [
+                "Bristol,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "3.7"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "60.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "60.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT20H11M57S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-31T23:42:03.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-07T23:42:03.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "363052800338"
+              ],
+              "title": [
+                "Brand New Apple iPhone 6 16GB/64GB Unlocked Sim Free Smartphone - All Colors"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "2 Years Warranty! ! NEW SEALED IN GIFT BOX ！！"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/3630528003384040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Brand-New-Apple-iPhone-6-16GB-64GB-Unlocked-Sim-Free-Smartphone-All-Colors-/363052800338?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "125.32"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "125.32"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT6H8M7S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-21T21:38:14.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T09:38:13.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "313065789112"
+              ],
+              "title": [
+                "Apple iPhone 6 16GB /64GB Unlocked SIM Smartphone Various Grade 12M Warranty "
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/3130657891124040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6-16GB-64GB-Unlocked-SIM-Smartphone-Various-Grade-12M-Warranty-/313065789112?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "E179PP"
+              ],
+              "location": [
+                "London,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "129.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "129.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P24DT9H22M46S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-04-27T12:52:52.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-27T12:52:52.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "8"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "124331755235"
+              ],
+              "title": [
+                "BOXED SEALED APPLE IPHONE 6 16GB (BLACK) UNLOCKED"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mYMLF9sLXT1jW3De21wJ8uA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/BOXED-SEALED-APPLE-IPHONE-6-16GB-BLACK-UNLOCKED-/124331755235"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "N168TL"
+              ],
+              "location": [
+                "London,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "250.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "250.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT16H5M5S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-10T19:35:14.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T19:35:11.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "10"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124331755239"
+              ],
+              "title": [
+                "BOXED SEALED APPLE IPHONE 6 PLUS 16GB (BLACK) UNLOCKED"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mzR8kVs8DnlBzupy-vrzYyw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/BOXED-SEALED-APPLE-IPHONE-6-PLUS-16GB-BLACK-UNLOCKED-/124331755239"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "N168TL"
+              ],
+              "location": [
+                "London,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "265.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "265.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT16H5M5S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-10T19:35:21.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T19:35:11.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "31"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "264568715354"
+              ],
+              "title": [
+                "For iPhone 6 6S 7 8 Plus Screen Replacement LCD Digitizer Touch Display Camera"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "✅A++ Quality ✅Tested 100% ✅Royal Mail ✅UK Stock"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Mobile Phone Parts"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/2645687153544040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/iPhone-6-6S-7-8-Plus-Screen-Replacement-LCD-Digitizer-Touch-Display-Camera-/264568715354?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "LE671LD"
+              ],
+              "location": [
+                "Coalville,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "22.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "22.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P13DT5H28M7S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-12-16T08:58:13.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-16T08:58:13.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "45"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "324355853092"
+              ],
+              "title": [
+                "LCD For iPhone 6 Plus Replacement LCD Display Touch Screen"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Mobile Phone Parts"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/3243558530924040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/LCD-iPhone-6-Plus-Replacement-LCD-Display-Touch-Screen-/324355853092?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "UB24EX"
+              ],
+              "location": [
+                "Southall,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "19.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "19.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT13H12M43S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-31T16:42:49.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T16:42:49.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "184508836461"
+              ],
+              "title": [
+                "Apple iPhone 6S Plus 5.5 inch 32GB 2GB RAM (Unlocked) Smartphone - Space Grey"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mRo8tzXM7LZpmH9Lx073iBw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6S-Plus-5-5-inch-32GB-2GB-RAM-Unlocked-Smartphone-Space-Grey-/184508836461"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228662433"
+                }
+              ],
+              "paymentMethod": [
+                "CashOnPickup",
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "BB72LY"
+              ],
+              "location": [
+                "Clitheroe,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "5.57"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "206.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "206.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "15"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P1DT6H6M52S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-28T09:36:58.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-04T09:36:58.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "10"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "153866767761"
+              ],
+              "title": [
+                "GENUINE ORIGINAL DEJI® REPLACEMENT BATTERY FOR APPLE iPHONE 6S 1715mAh + TOOLS "
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "OFFICIAL DEJI® UK DISTRIBUTOR - 12 MONTHS WARRANTY"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/m330Hp4aVTgTC53U8F5yLuQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/GENUINE-ORIGINAL-DEJI-REPLACEMENT-BATTERY-APPLE-iPHONE-6S-1715mAh-TOOLS-/153866767761"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "LE52HU"
+              ],
+              "location": [
+                "Leicester,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "14.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "14.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P13DT7H47M32S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-03-16T11:17:38.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-16T11:17:38.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "528"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "174503055525"
+              ],
+              "title": [
+                "Apple IPhone 6S 64GB Space Grey - A1688 - Unlocked - Sim Free. Read Description"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mjyE7lJY3p1std5gxwjUsDA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-IPhone-6S-64GB-Space-Grey-A1688-Unlocked-Sim-Free-Read-Description-/174503055525"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "150.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "150.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT17H57M54S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T21:28:00.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T21:28:00.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "203148263896"
+              ],
+              "title": [
+                "Apple iPhone 6s - 32GB - Rose Gold (Unlocked) - Please See Description"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mO6icTN0Hkgj5jVBebCh6Lg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6s-32GB-Rose-Gold-Unlocked-Please-See-Description-/203148263896"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228434861"
+                }
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "E14**"
+              ],
+              "location": [
+                "London,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "169.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "169.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P18DT13H53M50S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-21T17:23:56.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T17:23:56.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "17"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "351877205505"
+              ],
+              "title": [
+                "For Apple iPhone 6S & 6 Tempered Glass Screen Protector  - 100% Genuine"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "Same day Dispatch✔ 99.7% Positive feedback✔ Twin Pack✔"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "58540"
+                  ],
+                  "categoryName": [
+                    "Screen Protectors"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mD8nfPhveL1lu-XueKZ4ZXQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6S-6-Tempered-Glass-Screen-Protector-100-Genuine-/351877205505"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "CH48NX"
+              ],
+              "location": [
+                "Chester,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "1.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "1.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P10DT12H22M13S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2016-10-13T15:52:19.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-13T15:52:19.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "897"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "303745181581"
+              ],
+              "title": [
+                "CP) Apple A1688 iPhone 6s 32GB Silver **MK COLLECTION ONLY**"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/m4VjcHiJ3j48UuBcoqWDCbg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/CP-Apple-A1688-iPhone-6s-32GB-Silver-MK-COLLECTION-ONLY-/303745181581"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "MK92DS"
+              ],
+              "location": [
+                "Milton Keynes,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "FreePickup"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "111.01"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "111.01"
+                    }
+                  ],
+                  "bidCount": [
+                    "29"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT9H19M27S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-29T12:49:33.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-05T12:49:33.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "38"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "254488429551"
+              ],
+              "title": [
+                "Genuine Original Replacement Battery for iPhone 6S Full Capacity 1715 mAh uk"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "FOR IPHONE 6S ✔ FAST SHIPPING ✔ UK SELLER ✔ZERO CYCLE"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mZB0b4xkjH9eGyly29ECNbQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Genuine-Original-Replacement-Battery-iPhone-6S-Full-Capacity-1715-mAh-uk-/254488429551"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "HA96HD"
+              ],
+              "location": [
+                "Wembley,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "9.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "9.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P18DT7H17M51S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-01-21T10:47:57.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T10:47:57.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "669"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "202661938569"
+              ],
+              "title": [
+                "White For iPhone 6 Screen Replacement LCD Display Touch Digitizer Button Camera"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "✅Royal Mail✅Pre-Installed Camera✅Home Button✅Test 100%"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Mobile Phone Parts"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mKpvPlLAvJwwXbvU27OHOzg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/White-iPhone-6-Screen-Replacement-LCD-Display-Touch-Digitizer-Button-Camera-/202661938569"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "LE671LD"
+              ],
+              "location": [
+                "Coalville,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "16.93"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "16.93"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT11H15M8S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-04-25T14:45:14.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T14:45:14.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "504"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "284065330692"
+              ],
+              "title": [
+                "Apple iPhone 6s 32GB 4.7 inch (Unlocked) Smartphone - Space Grey"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mNZ8jv_nEg-xJ1xzbtHu_nQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6s-32GB-4-7-inch-Unlocked-Smartphone-Space-Grey-/284065330692"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "237862186"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "SL50HW"
+              ],
+              "location": [
+                "Ascot,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "5.5"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "89.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "89.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "1"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT10H0M22S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T13:30:28.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T13:30:28.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "224208379502"
+              ],
+              "title": [
+                "iPHONE 11 (6.1”) REAR BACK CHASSIS HOUSING BEZEL REPLACEMENT UK"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mWbC-y2ZViLJap7EgFiRuoA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/iPHONE-11-6-1-REAR-BACK-CHASSIS-HOUSING-BEZEL-REPLACEMENT-UK-/224208379502"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "IG11YD"
+              ],
+              "location": [
+                "Ilford,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "49.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "49.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT11H57M50S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-25T15:27:56.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T15:27:56.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "202797764285"
+              ],
+              "title": [
+                "Quality Replacement Battery For Apple iPhone 6s High Capacity 2200mAh + KIT"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mwQfQoNEJAFob4xyyANWfRw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Quality-Replacement-Battery-Apple-iPhone-6s-High-Capacity-2200mAh-KIT-/202797764285"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "11.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "11.95"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P8DT6H53M59S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-10-11T10:24:05.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-11T10:24:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "294"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "224134082163"
+              ],
+              "title": [
+                "Apple iPhone 6 / Apple iPhone 6s Official Smart Battery Phone Case - White/Grey"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/2241340821634040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Apple-iPhone-6-Apple-iPhone-6s-Official-Smart-Battery-Phone-Case-White-Grey-/224134082163?var="
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "CW81BE"
+              ],
+              "location": [
+                "Northwich,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "49.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "49.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P23DT6H30M4S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-08-26T10:00:10.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-26T10:00:10.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "13"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "224216376653"
+              ],
+              "title": [
+                " iPhone 8 64GB silver Unlocked 12 Months Apple Warranty new "
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mupdSE96lYHEh2WFd_OMZSQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/iPhone-8-64GB-silver-Unlocked-12-Months-Apple-Warranty-new-/224216376653"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "239009722"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "DD109DZ"
+              ],
+              "location": [
+                "Montrose,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "7.99"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "205.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "205.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "41"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT11H27M46S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-31T14:57:52.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-07T14:57:52.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "37"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "222887242140"
+              ],
+              "title": [
+                "New Apple iPhone 8 64GB Silver 4.7\" 12MP Unlocked Smartphone 2 Years Warranty"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/macvC7-k-mqGKpNAFJZiKUQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/New-Apple-iPhone-8-64GB-Silver-4-7-12MP-Unlocked-Smartphone-2-Years-Warranty-/222887242140"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "LE50PF"
+              ],
+              "location": [
+                "Leicester,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "289.98"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "289.98"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT13H12M10S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-03-17T16:42:16.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-17T16:42:16.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "217"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "254537558456"
+              ],
+              "title": [
+                "Genuine Core iPhone 11 X 6 5 7 8 Plus iPad Lightning USB Data Charger Lead Cable"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "123422"
+                  ],
+                  "categoryName": [
+                    "Cables & Adapters"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/m41TqXPRlMoADyFXp4P1Gug/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.co.uk/itm/Genuine-Core-iPhone-11-X-6-5-7-8-Plus-iPad-Lightning-USB-Data-Charger-Lead-Cable-/254537558456"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "18033165089"
+                }
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "GU124QW"
+              ],
+              "location": [
+                "Aldershot,United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "2.97"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "2.97"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P8DT9H0M17S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-03-11T12:30:23.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-11T12:30:23.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1150"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "discountPriceInfo": [
+                {
+                  "originalRetailPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "4.99"
+                    }
+                  ],
+                  "pricingTreatment": [
+                    "STP"
+                  ],
+                  "soldOnEbay": [
+                    "true"
+                  ],
+                  "soldOffEbay": [
+                    "false"
+                  ]
+                }
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "114197"
+          ],
+          "totalEntries": [
+            "2854912"
+          ]
+        }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.co.uk/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+      ]
+    }
+  ]
+}

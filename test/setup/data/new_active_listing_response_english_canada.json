@@ -1,0 +1,3138 @@
+{
+  "findItemsByKeywordsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-11-03T00:25:37.707Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "203125711597"
+              ],
+              "title": [
+                "iPHONE 6S 128GB Original BOX WORLDWIDE UNLOCKED AT&T T-Mobile Verizon Cricket"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "✔LIK3 N3W ✔Charger ✔Cable ✔3 Day Mail ✔Warranty ✔"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2031257115974040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/iPHONE-6S-128GB-Original-BOX-WORLDWIDE-UNLOCKED-AT-T-T-Mobile-Verizon-Cricket-/203125711597?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "918**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "19.84"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "195.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "260.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT15H57M36S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-02T16:23:13.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T16:23:13.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "10"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "202999852152"
+              ],
+              "title": [
+                "FACTORY UNLOCKED iPHONE 6S PLUS 64GB T-Mobile Verizon Metroc PCS Original Box"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "✔LIK3 N3W ✔Charger ✔Cable ✔3 Day Mail ✔Warranty ✔"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/2029998521524040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/FACTORY-UNLOCKED-iPHONE-6S-PLUS-64GB-T-Mobile-Verizon-Metroc-PCS-Original-Box-/202999852152?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "918**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "20.45"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "220.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "293.34"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT16H38M9S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-05-23T17:03:46.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T17:03:46.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "324356983650"
+              ],
+              "title": [
+                "SEALED Apple iPhone XS - 64GB - Space Gray (Unlocked) A1920 (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mpAUgfudr-qsIOoKGkwSeGA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/SEALED-Apple-iPhone-XS-64GB-Space-Gray-Unlocked-A1920-CDMA-GSM-/324356983650"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "25023700375"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "341**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "44.51"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "436.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "581.34"
+                    }
+                  ],
+                  "bidCount": [
+                    "15"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P5DT17H34M47S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-01T18:00:24.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-08T18:00:24.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "30"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "184063212333"
+              ],
+              "title": [
+                "Ecran LCD /Complet iPhone 6 6s 7 8 /Plus SE Noir Blanc Vitre Tactile sur Châssis"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1840632123334040_14.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Ecran-LCD-Complet-iPhone-6-6s-7-8-Plus-SE-Noir-Blanc-Vitre-Tactile-sur-Chassis-/184063212333?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "670**"
+              ],
+              "location": [
+                "France"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "9.15"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "35.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "55.76"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT23H28M13S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-11-30T23:53:50.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T23:53:50.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "30"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/184063212333_1_2951_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "184005020996"
+              ],
+              "title": [
+                "ECRAN LCD /COMPLET VITRE TACTILE IPHONE 6 6S 7 8 PLUS SE NOIR BLANC SUR CHÂSSIS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1840050209964040_23.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/ECRAN-LCD-COMPLET-VITRE-TACTILE-IPHONE-6-6S-7-8-PLUS-SE-NOIR-BLANC-SUR-CHASSIS-/184005020996?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "678**"
+              ],
+              "location": [
+                "France"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "9.15"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "35.45"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "55.06"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT20H36M14S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-10-22T21:01:51.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T21:01:51.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "38"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/184005020996_1_2162_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "293492247184"
+              ],
+              "title": [
+                "Apple iPhone 6 - 32GB - Space Gray (Unlocked) A1549 (GSM) (CA)"
+              ],
+              "globalId": [
+                "EBAY-ENCA"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/m3KC7PnEFWv12tJCtRQIJ_A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6-32GB-Space-Gray-Unlocked-A1549-GSM-CA-/293492247184"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "240174860"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "L5L1R3"
+              ],
+              "location": [
+                "Mississauga,Ontario,Canada"
+              ],
+              "country": [
+                "CA"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "15.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "325.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "325.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT22H59M36S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-02-25T23:25:13.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T23:25:13.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "3"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "293668108543"
+              ],
+              "title": [
+                "Apple iPhone 6 - 64GB - Gold (Unlocked) A1549 (GSM) (CA)"
+              ],
+              "globalId": [
+                "EBAY-ENCA"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mJEY2ysWLLbwvE7KfoxncrQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6-64GB-Gold-Unlocked-A1549-GSM-CA-/293668108543"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "237849594"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "L5L1R3"
+              ],
+              "location": [
+                "Mississauga,Ontario,Canada"
+              ],
+              "country": [
+                "CA"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "15.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "325.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "325.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P25DT19H20M59S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-28T19:46:36.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-28T19:46:36.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "333769349319"
+              ],
+              "title": [
+                "Apple iPhone 6s 128Go - Argent (Désimlocké) A1688"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/moXT3EYTsRqrE4MfDNAsA7Q/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6s-128Go-Argent-Desimlocke-A1688-/333769349319"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "953**"
+              ],
+              "location": [
+                "France"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "153.76"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "197.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "305.97"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT20H35M55S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-29T09:01:33.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-07T21:01:32.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/333769349319_1_0_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "392900086605"
+              ],
+              "title": [
+                "Iphone 6 32go NEUF "
+              ],
+              "globalId": [
+                "EBAY-FRBE"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mDABOBVijTgBQ-8h9wkaPTg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Iphone-6-32go-NEUF-/392900086605"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "****"
+              ],
+              "location": [
+                "Belgium"
+              ],
+              "country": [
+                "BE"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "23.3"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "179.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "278.01"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P3DT19H46M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-08-07T08:12:07.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-06T20:12:02.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "8"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/392900086605_1_5_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "183942886299"
+              ],
+              "title": [
+                "ECRAN LCD VITRE TACTILE SUR CHASSIS POUR IPHONE 6 6S 7 8 PLUS + OUTILS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "LIVRAISON GRATUITE -- EXPEDIÉE SOUS 24H !!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/1839428862994040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/ECRAN-LCD-VITRE-TACTILE-SUR-CHASSIS-POUR-IPHONE-6-6S-7-8-PLUS-OUTILS-/183942886299?var="
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CIPInCheckoutEnabled",
+                "PersonalCheck",
+                "PayPal",
+                "VisaMC",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "410**"
+              ],
+              "location": [
+                "France"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "9.16"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "24.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "38.67"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P3DT13H34M30S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-09-06T14:00:07.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-06T14:00:07.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "56"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/183942886299_1_8_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "283963563533"
+              ],
+              "title": [
+                "NEW APPLE iPHONE 6S 32GB SPACE GRAY SMARTPHONE UNLOCKED > 1 YEAR WARRANTY <"
+              ],
+              "globalId": [
+                "EBAY-ENCA"
+              ],
+              "subtitle": [
+                "✅100% SATISFACTION OR YOUR MONEY BACK ✅ 30 DAYS RETURN"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2839635635334040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/NEW-APPLE-iPHONE-6S-32GB-SPACE-GRAY-SMARTPHONE-UNLOCKED-1-YEAR-WARRANTY-/283963563533?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "L6R0T5"
+              ],
+              "location": [
+                "Brampton,Ontario,Canada"
+              ],
+              "country": [
+                "CA"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "10.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "297.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "297.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT12H5M1S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-30T12:30:38.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T12:30:38.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "233766524361"
+              ],
+              "title": [
+                "Apple iPhone 6S (32GB, Space Gray, Verizon Sim, MRPR2LL/A, Model: A1633, 2018)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mH77b3t7naiK2_mP8e6ZFpQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6S-32GB-Space-Gray-Verizon-Sim-MRPR2LL-A-Model-A1633-2018-/233766524361"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "303**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "20.69"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "189.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "253.32"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT18H31M36S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T18:57:13.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T18:57:13.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "222664671654"
+              ],
+              "title": [
+                "Apple Iphone 6 32gb straight talk"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mTj-S83I1KAN61UOVP0W__A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-Iphone-6-32gb-straight-talk-/222664671654"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "278**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "24.87"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "252.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "336.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT16H49M51S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-10-02T17:15:28.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T17:15:28.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "6"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "392691300748"
+              ],
+              "title": [
+                "Apple iPhone 6 Plus - 16GB - Silver (Sprint) Ting Boost Mobile A1524 Sealed"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mLCV9DUuaU23H_ICNTtLGdA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6-Plus-16GB-Silver-Sprint-Ting-Boost-Mobile-A1524-Sealed-/392691300748"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "203712856"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "109**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "20.96"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "241.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "321.34"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT20H55M29S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-02-17T21:21:06.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-17T21:21:06.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "203161267179"
+              ],
+              "title": [
+                "Apple iPhone 6S 32GB Unlocked Smartphone - Rose Gold (A1633)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mXaTvoNXILQq6ydpoaz2_MA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6S-32GB-Unlocked-Smartphone-Rose-Gold-A1633-/203161267179"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228434691"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "****"
+              ],
+              "location": [
+                "Bulgaria"
+              ],
+              "country": [
+                "BG"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "270.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "360.0"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT9H33M0S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-31T09:58:37.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-07T09:58:37.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "152461258601"
+              ],
+              "title": [
+                "NEW Apple iPhone 6S 16/32/64/128GB (A1633, GSM Factory Unlocked) All Colors"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "🔥 BEST DEAL🔥 FAST🚀 2D-SHIP ✅AT&T ✅Verizon✅T-Mobile"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1524612586014040_8.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/NEW-Apple-iPhone-6S-16-32-64-128GB-A1633-GSM-Factory-Unlocked-All-Colors-/152461258601?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "604**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "73.33"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "199.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "266.66"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT17H56M29S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-03-05T18:22:06.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-05T18:22:06.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "105"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "362975091053"
+              ],
+              "title": [
+                "Apple iPhone 6 - 64GB - Gold (Straight Talk) A1549 (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/m9EllXLjKZbQ3mLEE1peUDg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6-64GB-Gold-Straight-Talk-A1549-CDMA-GSM-/362975091053"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "242053713"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "317**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "160.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "213.34"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT4H57M2S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-04-20T05:22:39.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T05:22:39.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "15"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "154000858919"
+              ],
+              "title": [
+                "VITRE TACTILE + ECRAN LCD RETINA TOUT ASSEMBLÉ BLOC COMPLET POUR IPHONE 6 7 8 SE"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "LCD RETINA ORIGINAL - OUTILS ET VERRE TREMPÉ OFFERT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/1540008589194040_3.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/VITRE-TACTILE-ECRAN-LCD-RETINA-TOUT-ASSEMBLE-BLOC-COMPLET-POUR-IPHONE-6-7-8-SE-/154000858919?var="
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PersonalCheck",
+                "PayPal",
+                "VisaMC",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "410**"
+              ],
+              "location": [
+                "France"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "9.63"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "29.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "46.58"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT10H39M9S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-09T11:04:46.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T11:04:46.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/154000858919_1_45_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "392282938003"
+              ],
+              "title": [
+                "Apple iPhone 6 - 32GB - Space Gray (Straight Talk) A1549 (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mhJlq-g7r_Cn5WRN2hNM20w/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6-32GB-Space-Gray-Straight-Talk-A1549-CDMA-GSM-/392282938003"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "242455402"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "531**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "169.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "226.66"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT21H39M29S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-04-23T22:05:06.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T22:05:06.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "202953213481"
+              ],
+              "title": [
+                "FACTORY UNLOCKED iPHONE 6S 128GB T-Mobile Verizon Metroc PCS Original Box"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "✔LIK3 N3W ✔Charger ✔Cable ✔3 Day Mail ✔Warranty ✔"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2029532134814040_4.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/FACTORY-UNLOCKED-iPHONE-6S-128GB-T-Mobile-Verizon-Metroc-PCS-Original-Box-/202953213481?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "918**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "21.43"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "220.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "293.34"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P28DT16H19M52S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-04-01T16:45:29.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-01T16:45:29.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "62"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "284047543352"
+              ],
+              "title": [
+                "WORLDWIDE 🔥🔥 iPhone 12 Pro 128GB Pacific Blue November 6-13 Preorder UNLOCKED"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mlhrMrHsUB6NzLSwG_GhkhA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/WORLDWIDE-iPhone-12-Pro-128GB-Pacific-Blue-November-6-13-Preorder-UNLOCKED-/284047543352"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "17041715648"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "787**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "1075.3"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "1433.75"
+                    }
+                  ],
+                  "bidCount": [
+                    "47"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT0H20M11S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-31T00:45:48.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-07T00:45:48.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "15"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "203125716973"
+              ],
+              "title": [
+                "iPHONE 6S PLUS Original BOX WORLDWIDE UNLOCKED 16GB 32GB AT&T T-Mobile Verizon"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "subtitle": [
+                "✔LIK3 N3W ✔Charger ✔Cable ✔3 Day Mail ✔Warranty ✔"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2031257169734040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/iPHONE-6S-PLUS-Original-BOX-WORLDWIDE-UNLOCKED-16GB-32GB-AT-T-T-Mobile-Verizon-/203125716973?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "918**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "21.17"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "250.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "333.34"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT15H59M55S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-02T16:25:32.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T16:25:32.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "123556251453"
+              ],
+              "title": [
+                "Apple iPhone 6 - 64GB - Space Grey (Unlocked) A1586 (CDMA + GSM)"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "Trusted Seller | Free Delivery | Express Delivery"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/maCptMFFjXxL9Q_Ko0ZnSpw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6-64GB-Space-Grey-Unlocked-A1586-CDMA-GSM-/123556251453"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "203711866"
+                }
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "DD114UJ"
+              ],
+              "location": [
+                "United Kingdom"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "25.86"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "177.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "305.15"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P18DT6H0M48S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-12-21T06:26:25.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T06:26:25.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "65"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "224186338833"
+              ],
+              "title": [
+                "⭐Fully Unlocked⭐ Apple iPhone 6s (CDMA+GSM) AT&T T-Mobile Verizon NEW UNUSED"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2241863388334040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Fully-Unlocked-Apple-iPhone-6s-CDMA-GSM-AT-T-T-Mobile-Verizon-NEW-UNUSED-/224186338833?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "917**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "19.71"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "189.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "252.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT3H25M45S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-09T03:51:22.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T03:51:22.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "224195686406"
+              ],
+              "title": [
+                "Apple iPhone 6S Plus 32GB Space Gray Unlocked - MN2V2LE/A - GSM ONLY"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/2241956864064040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ca/itm/Apple-iPhone-6S-Plus-32GB-Space-Gray-Unlocked-MN2V2LE-A-GSM-ONLY-/224195686406"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228517002"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "234**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "21.43"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "220.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "293.34"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P12DT19H36M23S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-15T20:02:00.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-15T20:02:00.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "14"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "100076"
+          ],
+          "totalEntries": [
+            "2501888"
+          ]
+        }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.ca/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+      ]
+    }
+  ]
+}

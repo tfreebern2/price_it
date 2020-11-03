@@ -110,10 +110,10 @@ Widget _searchBar(context, _searchController, formKey) {
                 borderSide: BorderSide(color: standardPurple)),
             focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                borderSide: BorderSide(color: standardPurple)),
+                borderSide: BorderSide(color: Colors.black)),
             hintText: "Search By Keyword",
             filled: true,
-            fillColor: standardGreen),
+            fillColor: standardPurple),
       ),
     ),
   );
@@ -134,7 +134,7 @@ Widget _searchButton(context, model, _searchController, _formKey) {
         'Search',
         style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
       ),
-      color: standardPurple,
+      color: standardGreen,
       highlightElevation: 2,
       height: 40,
       minWidth: 150,

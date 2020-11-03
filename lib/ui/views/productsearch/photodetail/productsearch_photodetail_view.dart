@@ -80,19 +80,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Align(
-                          alignment: Alignment.bottomRight,
-                          child: Padding(
-                            padding: const EdgeInsets.all(12.0),
-                            child: RaisedButton.icon(
-                              onPressed: () => model.navigateToActive(),
-                              icon: Icon(Icons.arrow_forward, color: Colors.white),
-                              label: Text('Search', style: TextStyle(color: Colors.white)),
-                              color: standardPurple,
-                              shape: OutlineInputBorder(),
-                            ),
-                          ),
-                        )
+                        searchButton(context, model)
                       ],
                     ),
             )),
@@ -104,4 +92,24 @@ Future<bool> onBack(model) async {
   model.searchService.resetSearchResultState();
   model.navigateBack();
   return true;
+}
+
+Widget searchButton(context, model) {
+  if (model.searchService.searchKeyword == notAvailable) {
+    return Container();
+  } else {
+    return Align(
+      alignment: Alignment.bottomRight,
+      child: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: RaisedButton.icon(
+          onPressed: () => model.navigateToActive(),
+          icon: Icon(Icons.search, color: Colors.white),
+          label: Text('Search', style: TextStyle(color: Colors.white)),
+          color: standardGreen,
+          shape: OutlineInputBorder(),
+        ),
+      ),
+    );
+  }
 }

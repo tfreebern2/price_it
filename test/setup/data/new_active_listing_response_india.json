@@ -1,0 +1,3018 @@
+{
+    "findItemsByKeywordsResponse": [
+        {
+            "ack": [
+                "Success"
+            ],
+            "version": [
+                "1.13.0"
+            ],
+            "timestamp": [
+                "2020-11-03T03:35:36.582Z"
+            ],
+            "searchResult": [
+                {
+                    "@count": "25",
+                    "item": [
+                        {
+                            "itemId": [
+                                "383792453916"
+                            ],
+                            "title": [
+                                "Apple iPhone 6 - 64GB - Gold (Unlocked) A1549 (GSM)"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "9355"
+                                    ],
+                                    "categoryName": [
+                                        "Cell Phones & Smartphones"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs1.ebaystatic.com/m/mEnXz1dCkCxuRwxl5_8CtnA/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Apple-iPhone-6-64GB-Gold-Unlocked-A1549-GSM-/383792453916"
+                            ],
+                            "productId": [
+                                {
+                                    "@type": "ReferenceID",
+                                    "__value__": "241082234"
+                                }
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "480**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1556.25"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "100.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "7410.7"
+                                        }
+                                    ],
+                                    "bidCount": [
+                                        "0"
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P6DT22H9M34S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "true"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-11-03T01:45:10.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-10T01:45:10.000Z"
+                                    ],
+                                    "listingType": [
+                                        "Auction"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "1"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "124421433922"
+                            ],
+                            "title": [
+                                "Iphone 6s plus case IG Trendy Blush Pink Wood Print Silicone Jelly Gel Cover 6\""
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs3.ebaystatic.com/m/mEnRHJ8sYNysfXmpUgIGqgA/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Iphone-6s-plus-case-IG-Trendy-Blush-Pink-Wood-Print-Silicone-Jelly-Gel-Cover-6-/124421433922"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "334**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "3886.91"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "4.97"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "368.31"
+                                        }
+                                    ],
+                                    "bidCount": [
+                                        "0"
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P9DT22H29M17S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "true"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-11-03T02:04:53.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-13T02:04:53.000Z"
+                                    ],
+                                    "listingType": [
+                                        "Auction"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "303750394183"
+                            ],
+                            "title": [
+                                "Griffin Survivor Slim IPHONE 6 PLUS/6S PLUS Case"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/m/m2LsevepIjakHHsAYG9YQlg/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Griffin-Survivor-Slim-IPHONE-6-PLUS-6S-PLUS-Case-/303750394183"
+                            ],
+                            "charityId": [
+                                "77309"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "900**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "963.39"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "6.75"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "500.22"
+                                        }
+                                    ],
+                                    "bidCount": [
+                                        "0"
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P6DT15H1M36S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "true"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-11-02T18:37:12.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-09T18:37:12.000Z"
+                                    ],
+                                    "listingType": [
+                                        "Auction"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "400786237525"
+                            ],
+                            "title": [
+                                "iPhone 6 4.7\" Hybrid T Armor Case Skin Cover Morning Petunias White"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/m/m77d11A6bkkrDxda-6XwG9w/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-4-7-Hybrid-T-Armor-Case-Skin-Cover-Morning-Petunias-White-/400786237525"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "917**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1204.24"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "FlatDomesticCalculatedInternational"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "9.5"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "704.02"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P6DT7H51M40S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2014-10-09T11:27:16.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-09T11:27:16.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "1"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "202796911429"
+                            ],
+                            "title": [
+                                "For iPhone 6 7 8 iPhone XS XR 5 Lightning Charger Cable Heavy Duty Charging Cord"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "subtitle": [
+                                "Lightning Fast Shipping! Heavy Duty! Returns Accepted"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "123422"
+                                    ],
+                                    "categoryName": [
+                                        "Cables & Adapters"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/pict/2027969114298080_1.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-7-8-iPhone-XS-XR-5-Lightning-Charger-Cable-Heavy-Duty-Charging-Cord-/202796911429?var="
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "441**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1111.61"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "7.24"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "536.53"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P7DT1H48M10S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2019-10-10T05:23:46.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-10T05:23:46.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "1"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "264707469770"
+                            ],
+                            "title": [
+                                "iPhone 6 Premium Genuine Leather Case"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs3.ebaystatic.com/pict/2647074697708080_1.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-Premium-Genuine-Leather-Case-/264707469770?var="
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "919**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2223.21"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "26.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2000.15"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P18DT16H18M44S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-04-21T19:54:20.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-21T19:54:20.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "264707503551"
+                            ],
+                            "title": [
+                                "iPhone 6 Plus Bling Case- Rock Diamond "
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/pict/2647075035518080_1.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-Plus-Bling-Case-Rock-Diamond-/264707503551?var="
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "919**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2223.21"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "22.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1703.72"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P18DT16H47M40S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-04-21T20:23:16.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-21T20:23:16.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "264707504768"
+                            ],
+                            "title": [
+                                "iPhone 6 Plus Premium Genuine Leather Case"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs1.ebaystatic.com/pict/2647075047688080_1.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-Plus-Premium-Genuine-Leather-Case-/264707504768?var="
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "919**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2223.21"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "29.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2222.47"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P18DT16H48M35S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-04-21T20:24:11.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-21T20:24:11.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "254575983345"
+                            ],
+                            "title": [
+                                "iPhone 6/6s Bling Case- Rock Diamond"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/pict/2545759833458080_1.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-6s-Bling-Case-Rock-Diamond-/254575983345?var="
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "919**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2223.21"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "19.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1481.4"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P18DT19H0M27S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-04-21T22:36:03.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-21T22:36:03.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "313283492545"
+                            ],
+                            "title": [
+                                "Lot of 10 Assorted iPhone 6 Plus Silicone Bumper Cases Various Themes Images Mix"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/m/m-8mAU7ZbxDnvmvzlI3_nCg/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Lot-10-Assorted-iPhone-6-Plus-Silicone-Bumper-Cases-Various-Themes-Images-Mix-/313283492545"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "303**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2037.94"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "8.52"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "631.39"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P29DT15H3M25S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-11-02T18:39:01.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-12-02T18:39:01.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "313283506211"
+                            ],
+                            "title": [
+                                "Lot of 12 Assorted Iphone 6  6s Silicone Bumper Cases Various Themes Images Mix"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/m/munLwCtXGMsbbvSribC-aSw/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Lot-12-Assorted-Iphone-6-6s-Silicone-Bumper-Cases-Various-Themes-Images-Mix-/313283506211"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "303**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2037.94"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "8.5"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "629.91"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P29DT15H17M38S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-11-02T18:53:14.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-12-02T18:53:14.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "174001212498"
+                            ],
+                            "title": [
+                                "Blue Marbles iPhone 6 Case"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "42425"
+                                    ],
+                                    "categoryName": [
+                                        "Other Cell Phone Accessories"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs3.ebaystatic.com/m/mjyfspyvW_OcIUraRMAXC3Q/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Blue-Marbles-iPhone-6-Case-/174001212498"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "078**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1130.13"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "1.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "147.47"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P15DT11H36M1S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "true"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2019-08-18T15:11:37.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-18T15:11:37.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "254576006425"
+                            ],
+                            "title": [
+                                "iPhone 6/7/8 Plus Privacy Screen Protector"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "58540"
+                                    ],
+                                    "categoryName": [
+                                        "Screen Protectors"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/pict/2545760064258080_1.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-7-8-Plus-Privacy-Screen-Protector-/254576006425?var="
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "919**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "2223.21"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "19.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1481.4"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P18DT19H38M40S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-04-21T23:14:16.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-21T23:14:16.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "124419633332"
+                            ],
+                            "title": [
+                                "Cellairis Rapture Case for Apple iPhone 6/6S Plus - Rapture Navy"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs1.ebaystatic.com/m/m-wk5cSuUniYyIs67pKUFdQ/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Cellairis-Rapture-Case-Apple-iPhone-6-6S-Plus-Rapture-Navy-/124419633332"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "333**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "963.39"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "5.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "370.54"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P28DT17H10M13S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-11-01T20:45:49.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-12-01T20:45:49.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "283118851101"
+                            ],
+                            "title": [
+                                "For iPhone 6 7 8 Plus Xs XR 11 Pro Max Glitter Shockproof Hard Case W/ Belt Clip"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/pict/2831188511018080_1.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-7-8-Plus-Xs-XR-11-Pro-Max-Glitter-Shockproof-Hard-Case-W-Belt-Clip-/283118851101?var="
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "113**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1130.13"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "12.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "962.65"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P19DT16H56M0S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-08-22T20:31:36.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-22T20:31:36.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "1"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "233343157397"
+                            ],
+                            "title": [
+                                "IPhone 6 Case "
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/m/mUFdKwtlnqzPu3cbpRq0G2Q/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/IPhone-6-Case-/233343157397"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "191**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "3886.91"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "5.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "443.9"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P13DT8H42M19S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2019-09-16T12:17:55.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-16T12:17:55.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "353145423836"
+                            ],
+                            "title": [
+                                "iPhone 6SP fingerprint Flex -00459-01"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "43304"
+                                    ],
+                                    "categoryName": [
+                                        "Cell Phone & Smartphone Parts"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs1.ebaystatic.com/m/mrELRUUwbIfzPCEFWtm9R7w/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6SP-fingerprint-Flex-00459-01-/353145423836"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "432**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1130.13"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "FlatDomesticCalculatedInternational"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "21.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1556.25"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P17DT13H3M21S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-07-20T16:38:57.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-20T16:38:57.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "400778087019"
+                            ],
+                            "title": [
+                                "iPhone 6 (4.7\") Tempered Glass Screen Protector 0.4mm"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "58540"
+                                    ],
+                                    "categoryName": [
+                                        "Screen Protectors"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/m/m-XP0I-N3bpbK9DDoozO9Yw/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-4-7-Tempered-Glass-Screen-Protector-0-4mm-/400778087019"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "917**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1204.24"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "FlatDomesticCalculatedInternational"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "8.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "666.22"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P20DT18H43M30S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2014-09-23T22:19:06.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-23T22:19:06.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "114291028383"
+                            ],
+                            "title": [
+                                "GEMS+ iPhone 6 Lightweight Durable Outer Shell "
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/m/mSswn-b6seV5P0Xqejh9fXQ/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/GEMS-iPhone-6-Lightweight-Durable-Outer-Shell-/114291028383"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "354**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1073.81"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "FlatDomesticCalculatedInternational"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "4.9"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "363.12"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P2DT16H57M18S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-07-05T20:32:54.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-05T20:32:54.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "161413416785"
+                            ],
+                            "title": [
+                                "Crosses Sihlouette For Iphone 6 Case Cover"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs2.ebaystatic.com/m/m0hTzQQvELSAG9Y3ULN2LfA/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Crosses-Sihlouette-Iphone-6-Case-Cover-/161413416785"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "787**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1204.24"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "FlatDomesticCalculatedInternational"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "11.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "888.54"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P1DT17H39M44S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2014-09-04T21:15:20.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-04T21:15:20.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "1"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "400778719402"
+                            ],
+                            "title": [
+                                "For Apple iPhone 6 Plus 5.5 Screen Protector Guard with Cleaning Cloth Accessory"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "58540"
+                                    ],
+                                    "categoryName": [
+                                        "Screen Protectors"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs3.ebaystatic.com/pict/4007787194028080_2.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/Apple-iPhone-6-Plus-5-5-Screen-Protector-Guard-Cleaning-Cloth-Accessory-/400778719402?var="
+                            ],
+                            "autoPay": [
+                                "false"
+                            ],
+                            "postalCode": [
+                                "917**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1110.86"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "4.95"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "366.83"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P21DT21H11M42S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2014-09-25T00:47:18.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-25T00:47:18.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "7"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "true"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "251727105611"
+                            ],
+                            "title": [
+                                "2 sets iPhone 6 4.7\" Ultra Thin Slim Soft TPU Clear Case & PET screen protector"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/m/mmK-mp4St5vrlP1iv54wcmg/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/2-sets-iPhone-6-4-7-Ultra-Thin-Slim-Soft-TPU-Clear-Case-PET-screen-protector-/251727105611"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "910**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "4257.45"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "FlatDomesticCalculatedInternational"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "4.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "369.79"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P18DT11H52M12S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2014-11-21T15:27:48.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-21T15:27:48.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "2"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "183389533375"
+                            ],
+                            "title": [
+                                "iPhone 6/6S Plus - Sweet Summer Watermelon"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/m/mRvfO0YL7N7ZFHG1-PvYMHg/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-6S-Plus-Sweet-Summer-Watermelon-/183389533375"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "024**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1130.13"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "4.5"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "333.48"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P17DT11H27M2S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-08-20T15:02:38.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-20T15:02:38.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "163644453584"
+                            ],
+                            "title": [
+                                "iPhone 6 Plus Black Floral Glitter Bling Luxury GLOSSY Case Pink Flowers NICE !!"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "20349"
+                                    ],
+                                    "categoryName": [
+                                        "Cases, Covers & Skins"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs1.ebaystatic.com/m/m_UEeq8mq7htDNT-2UeDR5w/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-Plus-Black-Floral-Glitter-Bling-Luxury-GLOSSY-Case-Pink-Flowers-NICE-/163644453584"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "914**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "1482.14"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Flat"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "10.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "741.07"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P8DT1H41M54S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "true"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2019-04-11T05:17:30.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-11T05:17:30.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ],
+                                    "watchCount": [
+                                        "1"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        },
+                        {
+                            "itemId": [
+                                "323293932390"
+                            ],
+                            "title": [
+                                "iPhone 6/6s 9H Tempered Glass"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "58540"
+                                    ],
+                                    "categoryName": [
+                                        "Screen Protectors"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs3.ebaystatic.com/m/mmQ9SZZYCLZqh5CdU7Wa3fA/80.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.in/itm/iPhone-6-6s-9H-Tempered-Glass-/323293932390"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "923**"
+                            ],
+                            "location": [
+                                "USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "3886.91"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Calculated"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "10.99"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "INR",
+                                            "__value__": "814.44"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P5DT22H31M4S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2018-06-09T02:06:40.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-11-09T02:06:40.000Z"
+                                    ],
+                                    "listingType": [
+                                        "FixedPrice"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "1000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "New"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "paginationOutput": [
+                {
+                    "pageNumber": [
+                        "1"
+                    ],
+                    "entriesPerPage": [
+                        "25"
+                    ],
+                    "totalPages": [
+                        "19922"
+                    ],
+                    "totalEntries": [
+                        "498037"
+                    ]
+                }
+            ],
+            "itemSearchURL": [
+                "https://www.ebay.in/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3202 @@
+{
+  "findItemsByKeywordsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-11-03T03:25:31.622Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "112931382542"
+              ],
+              "title": [
+                "BLOC COMPLET VITRE TACTILE ECRAN LCD IPHONE 6/6 plus/6s/6s+/7/7+/8/8+ NOIR/BLANC"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "ECRAN IPHONE DE QUALITÉ AAA✔ Satisfait ou Remboursé"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1129313825424040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/BLOC-COMPLET-VITRE-TACTILE-ECRAN-LCD-IPHONE-6-6-plus-6s-6s-7-7-8-8-NOIR-BLANC-/112931382542?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "2.55"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "39.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "42.6"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P8DT10H37M43S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-04-11T14:03:14.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-11T14:03:14.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "48"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/112931382542_1_1191_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "184005020996"
+              ],
+              "title": [
+                "ECRAN LCD /COMPLET VITRE TACTILE IPHONE 6 6S 7 8 PLUS SE NOIR BLANC SUR CHÂSSIS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1840050209964040_23.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/ECRAN-LCD-COMPLET-VITRE-TACTILE-IPHONE-6-6S-7-8-PLUS-SE-NOIR-BLANC-SUR-CHASSIS-/184005020996?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "678**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "6.29"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "35.45"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "37.85"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT17H36M20S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-10-22T21:01:51.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T21:01:51.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "38"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/184005020996_1_2162_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "184063212333"
+              ],
+              "title": [
+                "Ecran LCD /Complet iPhone 6 6s 7 8 /Plus SE Noir Blanc Vitre Tactile sur Châssis"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1840632123334040_14.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Ecran-LCD-Complet-iPhone-6-6s-7-8-Plus-SE-Noir-Blanc-Vitre-Tactile-sur-Chassis-/184063212333?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "670**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "6.29"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "35.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "38.33"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT20H28M19S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-11-30T23:53:50.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T23:53:50.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "30"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/184063212333_1_2951_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "183942886299"
+              ],
+              "title": [
+                "ECRAN LCD VITRE TACTILE SUR CHASSIS POUR IPHONE 6 6S 7 8 PLUS + OUTILS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "LIVRAISON GRATUITE -- EXPEDIÉE SOUS 24H !!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/1839428862994040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/ECRAN-LCD-VITRE-TACTILE-SUR-CHASSIS-POUR-IPHONE-6-6S-7-8-PLUS-OUTILS-/183942886299?var="
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CIPInCheckoutEnabled",
+                "PersonalCheck",
+                "PayPal",
+                "VisaMC",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "410**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "6.3"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "33.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "36.19"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P3DT10H34M36S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-09-06T14:00:07.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-06T14:00:07.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "26"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/183942886299_1_8_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "383792453916"
+              ],
+              "title": [
+                "Apple iPhone 6 - 64GB - Gold (Unlocked) A1549 (GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mEnXz1dCkCxuRwxl5_8CtnA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Apple-iPhone-6-64GB-Gold-Unlocked-A1549-GSM-/383792453916"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "241082234"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "480**"
+              ],
+              "location": [
+                "Vereinigte Staaten von Amerika"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "19.25"
+                    }
+                  ],
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "100.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "91.65"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT22H19M39S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-03T01:45:10.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-10T01:45:10.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124357106926"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S / 7 / 8  / PLUS NEUVE ORIGINAL + Adhésif "
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1243571069264040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/BATTERIE-IPHONE-6-6S-7-8-PLUS-NEUVE-ORIGINAL-Adhesif-/124357106926?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "931**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "5.34"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "13.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "13.88"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P25DT20H30M14S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-28T23:56:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-28T23:55:45.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124357106926_1_6_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "303750394183"
+              ],
+              "title": [
+                "Griffin Survivor Slim IPHONE 6 PLUS/6S PLUS Case"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/m2LsevepIjakHHsAYG9YQlg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Griffin-Survivor-Slim-IPHONE-6-PLUS-6S-PLUS-Case-/303750394183"
+              ],
+              "charityId": [
+                "77309"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "900**"
+              ],
+              "location": [
+                "Vereinigte Staaten von Amerika"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "11.92"
+                    }
+                  ],
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "6.75"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "6.19"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT15H11M41S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T18:37:12.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T18:37:12.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124421433922"
+              ],
+              "title": [
+                "Iphone 6s plus case IG Trendy Blush Pink Wood Print Silicone Jelly Gel Cover 6\""
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mEnRHJ8sYNysfXmpUgIGqgA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Iphone-6s-plus-case-IG-Trendy-Blush-Pink-Wood-Print-Silicone-Jelly-Gel-Cover-6-/124421433922"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "334**"
+              ],
+              "location": [
+                "Vereinigte Staaten von Amerika"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "46.65"
+                    }
+                  ],
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "4.97"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "4.56"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P9DT22H39M22S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-03T02:04:53.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-13T02:04:53.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124280407056"
+              ],
+              "title": [
+                "ECRAN POUR IPHONE 6 / 6S / 7 / 8 / PLUS NOIR / BLANC (ORIGINAL RECONDITIONNE)"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "Prix Choc Ecran D'Origine Reconditionne Avec Logo Apple"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Etuis, housses, coques"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1242804070564040_4.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/ECRAN-POUR-IPHONE-6-6S-7-8-PLUS-NOIR-BLANC-ORIGINAL-RECONDITIONNE-/124280407056?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "931**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "4.8"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "14.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "14.95"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT8H29M39S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-31T14:55:11.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T11:55:10.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "88"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124280407056_1_24_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "273541747671"
+              ],
+              "title": [
+                "ECRAN LCD IPHONE 6 / 6 Plus / 6S / 6S Plus NOIR/BLANC+VITRE TACTILE SUR CHASSIS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "Qualité premium AAA+ , satisfait ou remboursé 30 jours"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Etuis, housses, coques"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/2735417476714040_16.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/ECRAN-LCD-IPHONE-6-6-Plus-6S-6S-Plus-NOIR-BLANC-VITRE-TACTILE-SUR-CHASSIS-/273541747671?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "511**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "5.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "23.5"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "25.09"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P0DT15H43M43S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-11-03T19:09:14.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-03T19:09:14.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "18"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/273541747671_1_324_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "264922641060"
+              ],
+              "title": [
+                "cell phone case for iPhone 6/6s silver and black sparkle"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mNYJmxnlgSWsYoQpayh5_hg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/cell-phone-case-for-iPhone-6-6s-silver-and-black-sparkle-/264922641060"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "860**"
+              ],
+              "location": [
+                "Vereinigte Staaten von Amerika"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "13.71"
+                    }
+                  ],
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "10.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "9.17"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT17H25M18S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T20:50:49.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T20:50:49.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "183754316238"
+              ],
+              "title": [
+                "CAMERA ARRIÈRE / VITRE LENTILLE + ADHÉSIF IPHONE 6 6S 7 8 PLUS X XR XS MAX 5S SE"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1837543162384040_6.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/CAMERA-ARRIERE-VITRE-LENTILLE-ADHESIF-IPHONE-6-6S-7-8-PLUS-X-XR-XS-MAX-5S-SE-/183754316238?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "678**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "6.4"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "23.89"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "25.51"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT10H49M50S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-03-30T14:15:21.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T14:15:21.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/183754316238_1_470_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124421021867"
+              ],
+              "title": [
+                "iPhone 6s 32GB rosegold- Brandneu -  originale Verpackung -  Apple Garantie"
+              ],
+              "globalId": [
+                "EBAY-DE"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Handys & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/meaIcLeHl_BgC_aZ-69RPOQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/iPhone-6s-32GB-rosegold-Brandneu-originale-Verpackung-Apple-Garantie-/124421021867"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "681**"
+              ],
+              "location": [
+                "Deutschland"
+              ],
+              "country": [
+                "DE"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "14.95"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "299.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "319.23"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT16H11M17S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T19:36:48.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T19:36:48.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124421021867_1_8_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "264922639062"
+              ],
+              "title": [
+                "basic cell phone case for iPhone 6/6s purple and black "
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/m-lL8iTTTASNpu2Mc2seVyw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/basic-cell-phone-case-for-iPhone-6-6s-purple-and-black-/264922639062"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "860**"
+              ],
+              "location": [
+                "Vereinigte Staaten von Amerika"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "13.71"
+                    }
+                  ],
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "10.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "9.17"
+                    }
+                  ],
+                  "bidCount": [
+                    "0"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT17H22M47S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T20:48:18.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T20:48:18.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "203165034067"
+              ],
+              "title": [
+                "Brand New Sealed Silver IPhone 6S Plus 32GB - Unlocked."
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mCd5vhz2htyiMpYZGADRk_A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Brand-New-Sealed-Silver-IPhone-6S-Plus-32GB-Unlocked-/203165034067"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228434851"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "BB101AB"
+              ],
+              "location": [
+                "Großbritannien"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "71.11"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "339.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "401.75"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT20H13M11S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T23:38:42.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T23:38:42.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "114484109077"
+              ],
+              "title": [
+                "APPLE Iphone 6 16 Go Noir Or Argent (Désimlocké) Reconditionné  16go"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1144841090774040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/APPLE-Iphone-6-16-Go-Noir-Or-Argent-Desimlocke-Reconditionne-16go-/114484109077?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "2.55"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "79.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "85.3"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P23DT14H52M57S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-26T18:18:28.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-26T18:18:28.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/114484109077_1_7_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "203164621600"
+              ],
+              "title": [
+                "BRAND NEW SEALED GOLD IPHONE 6S 32GB - UNLOCKED - SIM FREE."
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mEg8bg6VkFRlzWNsK83XfAw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/BRAND-NEW-SEALED-GOLD-IPHONE-6S-32GB-UNLOCKED-SIM-FREE-/203164621600"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228662423"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "BB101AB"
+              ],
+              "location": [
+                "Großbritannien"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "71.11"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "239.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "283.24"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT14H14M29S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T17:40:00.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T17:40:00.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "164165737016"
+              ],
+              "title": [
+                "*Sealed* Apple iPhone 6S - 64GB - Space Grey Factory Unlocked A1688"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mrEMyRtSEGpBi7QgqGjc1RA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Sealed-Apple-iPhone-6S-64GB-Space-Grey-Factory-Unlocked-A1688-/164165737016"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "Großbritannien"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "16.44"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "199.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "237.01"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P15DT14H49M33S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-04-18T18:15:04.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-18T18:15:04.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "23"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "252953917868"
+              ],
+              "title": [
+                "NEW Sealed APPLE iPhone 6s 32GB STRAIGHT TALK 4G LTE SPACE GRAY verizon towers"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mzbCAjjKtUaAT7nVrAYWa_A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/NEW-Sealed-APPLE-iPhone-6s-32GB-STRAIGHT-TALK-4G-LTE-SPACE-GRAY-verizon-towers-/252953917868"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "245472344"
+                }
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "301**"
+              ],
+              "location": [
+                "Vereinigte Staaten von Amerika"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "19.13"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "199.88"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "183.2"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT10H35M56S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-05-23T14:01:27.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T14:01:27.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "202"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "233209684804"
+              ],
+              "title": [
+                "Châssis/coque assemblé iPhone 6/6S/7/8/8+/X/XR/XS Or/Argent/Rose/Gris/rouge/noir"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/2332096848044040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Chassis-coque-assemble-iPhone-6-6S-7-8-8-X-XR-XS-Or-Argent-Rose-Gris-rouge-noir-/233209684804?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "430**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "12.81"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "55.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "58.72"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P23DT13H43M22S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-04-26T17:08:53.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-26T17:08:53.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/233209684804_1_40_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "112732910164"
+              ],
+              "title": [
+                "Batterie iPhone 6 / 6S Interne Neuve 0 Cycle + Outil Original"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "ENVOI AVEC NUMERO DE SUIVI -SATISFAITS OU REMBOURSER -"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1127329101644040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Batterie-iPhone-6-6S-Interne-Neuve-0-Cycle-Outil-Original-/112732910164?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "2.55"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "9.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "10.57"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P1DT9H29M53S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-01-04T12:55:24.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-04T12:55:24.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "159"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/112732910164_1_798_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "132229242662"
+              ],
+              "title": [
+                "chassis coque arriére iphone 5/5c/5s/6/6splus iphone 7/8/8plus/iphone X/xr/xsmax"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1322292426624040_8.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/chassis-coque-arriere-iphone-5-5c-5s-6-6splus-iphone-7-8-8plus-iphone-X-xr-xsmax-/132229242662?var="
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PersonalCheck",
+                "PayPal",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "315**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "5.33"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "45.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "49.1"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P13DT11H47M4S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-06-16T15:12:35.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-16T15:12:35.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/132229242662_1_68_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "143792780586"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S INTERNE NEUVE 0 CYCLE ORIGINAL + Adhésif"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1437927805864040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/BATTERIE-IPHONE-6-6S-INTERNE-NEUVE-0-CYCLE-ORIGINAL-Adhesif-/143792780586?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "932**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "5.34"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "9.8"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "10.46"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT17H22M32S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-17T20:48:03.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-17T20:48:03.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "57"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/143792780586_1_11_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "283825122576"
+              ],
+              "title": [
+                "Ecran iPhone 6/6S BLANC/NOIR LCD Vitre Tactile Sur Châssis avec Outils+Verre"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "31569"
+                  ],
+                  "categoryName": [
+                    "Ecrans/panneaux LCD portable"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/2838251225764040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/Ecran-iPhone-6-6S-BLANC-NOIR-LCD-Vitre-Tactile-Sur-Chassis-avec-Outils-Verre-/283825122576?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "Frankreich"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "16.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "18.04"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT17H4M34S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-03-23T20:30:05.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T20:30:05.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "40"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/283825122576_1_44_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "114413786098"
+              ],
+              "title": [
+                "IPHONE 6S PLUS FOTOCAMERA CAMERA POSTERIORE RETRO A1634 A1687 A1699"
+              ],
+              "globalId": [
+                "EBAY-IT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Cellulari: componenti"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mvcMhRsIrIN01nd4G_5ZlNQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ch/itm/IPHONE-6S-PLUS-FOTOCAMERA-CAMERA-POSTERIORE-RETRO-A1634-A1687-A1699-/114413786098"
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PayPal",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "090**"
+              ],
+              "location": [
+                "Italien"
+              ],
+              "country": [
+                "IT"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "11.73"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "16.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "CHF",
+                      "__value__": "18.14"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT8H45M15S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-17T12:10:46.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-17T12:10:46.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/114413786098_1_1_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Neu"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "96896"
+          ],
+          "totalEntries": [
+            "2422391"
+          ]
+        }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.ch/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+      ]
+    }
+  ]
+}
