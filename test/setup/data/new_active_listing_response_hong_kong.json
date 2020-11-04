@@ -1,0 +1,3235 @@
+{
+  "findItemsByKeywordsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-11-03T03:33:38.526Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "143792780586"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S INTERNE NEUVE 0 CYCLE ORIGINAL + Adhésif"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1437927805864040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/BATTERIE-IPHONE-6-6S-INTERNE-NEUVE-0-CYCLE-ORIGINAL-Adhesif-/143792780586?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "932**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "45.17"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "9.8"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "88.53"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT17H14M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-17T20:48:03.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-17T20:48:03.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "57"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/143792780586_1_11_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "164257317265"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S INTERNE 0 CYLCE 100% Neuve Haute Qualité + Outils+adhesif"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "QUALITÉ PREMIUM AAA+ , SATISFAIT OU REMBOURSÉ 30 JOURS"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1642573172654040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/BATTERIE-IPHONE-6-6S-INTERNE-0-CYLCE-100-Neuve-Haute-Qualite-Outils-adhesif-/164257317265?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "17.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "7.88"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "71.18"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT6H11M53S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-06-22T09:45:31.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T09:45:31.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "75"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/164257317265_1_6_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "184005020996"
+              ],
+              "title": [
+                "ECRAN LCD /COMPLET VITRE TACTILE IPHONE 6 6S 7 8 PLUS SE NOIR BLANC SUR CHÂSSIS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1840050209964040_23.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/ECRAN-LCD-COMPLET-VITRE-TACTILE-IPHONE-6-6S-7-8-PLUS-SE-NOIR-BLANC-SUR-CHASSIS-/184005020996?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "678**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "53.21"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "19.45"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "175.7"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT17H28M13S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-10-22T21:01:51.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T21:01:51.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "47"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/184005020996_1_2162_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "283825122576"
+              ],
+              "title": [
+                "Ecran iPhone 6/6S BLANC/NOIR LCD Vitre Tactile Sur Châssis avec Outils+Verre"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "31569"
+                  ],
+                  "categoryName": [
+                    "Ecrans/panneaux LCD portable"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/2838251225764040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/Ecran-iPhone-6-6S-BLANC-NOIR-LCD-Vitre-Tactile-Sur-Chassis-avec-Outils-Verre-/283825122576?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "14.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "134.59"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT16H56M27S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-03-23T20:30:05.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T20:30:05.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "37"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/283825122576_1_44_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "182830683293"
+              ],
+              "title": [
+                "COVER CUSTODIA TRASPARENTE PER IPHONE 5 5C 5S SE 6 6S 7 PLUS  + PELLICOLA VETRO "
+              ],
+              "globalId": [
+                "EBAY-IT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cover e custodie"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "58540"
+                  ],
+                  "categoryName": [
+                    "Proteggi schermo"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1828306832934040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/COVER-CUSTODIA-TRASPARENTE-PER-IPHONE-5-5C-5S-SE-6-6S-7-PLUS-PELLICOLA-VETRO-/182830683293?var="
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PayPal",
+                "VisaMC",
+                "AmEx",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "801**"
+              ],
+              "location": [
+                "義大利"
+              ],
+              "country": [
+                "IT"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "36.13"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "4.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "45.08"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT9H16M11S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-10-14T12:49:49.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T12:49:49.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "50"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/182830683293_1_8_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "112826590873"
+              ],
+              "title": [
+                "Batterie iPhone 5/5c/5s/5 SE/6/6s/6+/6s+/7/7+/8/8 plus Neuve 0 Cycle + adhésif"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "BATTERIE HAUT DE GAMME UNIQUEMENT SUR CETTE ANNONCE"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1128265908734040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/Batterie-iPhone-5-5c-5s-5-SE-6-6s-6-6s-7-7-8-8-plus-Neuve-0-Cycle-adhesif-/112826590873?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "17.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "8.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "80.4"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT13H0M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-02-20T16:34:03.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T16:34:03.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "53"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/112826590873_1_1252_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "283752417593"
+              ],
+              "title": [
+                "BLOC ECRAN LCD COMPLET+VITRE TACTILE IPHONE 6/6S NOIR/BLANC SUR CHASSIS+OUTILS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "TOP ECRAN COMPLET AVEC CAMERA / ECOUTEUR / PLAQUE METAL"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2837524175934040_4.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/BLOC-ECRAN-LCD-COMPLET-VITRE-TACTILE-IPHONE-6-6S-NOIR-BLANC-SUR-CHASSIS-OUTILS-/283752417593?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "21.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "198.64"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P18DT18H26M59S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-01-21T22:00:37.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T22:00:37.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "11"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/283752417593_1_34_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "183872061947"
+              ],
+              "title": [
+                "JOINT ÉTANCHÉITÉ AUTOCOLLANT STICKER ADHÉSIF IPHONE 6 /6S /7 /8 /PLUS /X /XS /SE"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/1838720619474040_11.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/JOINT-ETANCHEITE-AUTOCOLLANT-STICKER-ADHESIF-IPHONE-6-6S-7-8-PLUS-X-XS-SE-/183872061947?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "678**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "49.68"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "3.49"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "31.53"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT13H54M47S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-07-05T17:28:25.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-05T17:28:25.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "6"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/183872061947_1_174_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "112945814732"
+              ],
+              "title": [
+                "New Apple iPhone 6 6s 7 8 X Plus Smart View Mirror Leather Flip Stand Case Cover"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "subtitle": [
+                "Smart View/Sleep IC Chip✔️Movie Stand✔️1 Yr Warranty✔️"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1129458147324040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/New-Apple-iPhone-6-6s-7-8-X-Plus-Smart-View-Mirror-Leather-Flip-Stand-Case-Cover-/112945814732?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "B64**"
+              ],
+              "location": [
+                "大英聯合王國"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "3.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "39.61"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT13H39M59S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-04-17T17:13:37.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-17T17:13:37.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "216"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "184143319329"
+              ],
+              "title": [
+                "COVER PER IPHONE 11 XS XR X 8 7 6S 6 CUSTODIA ELECTRO SILICONE + VETRO TEMPERATO"
+              ],
+              "globalId": [
+                "EBAY-IT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cover e custodie"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1841433193294040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/COVER-PER-IPHONE-11-XS-XR-X-8-7-6S-6-CUSTODIA-ELECTRO-SILICONE-VETRO-TEMPERATO-/184143319329?var="
+              ],
+              "paymentMethod": [
+                "PayPal",
+                "COD",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "478**"
+              ],
+              "location": [
+                "義大利"
+              ],
+              "country": [
+                "IT"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "45.17"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "7.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "71.36"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P21DT6H19M4S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-01-24T09:52:42.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-24T09:52:42.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "53"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/184143319329_1_9_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "262744242034"
+              ],
+              "title": [
+                "iPhone 6 WLAN Antenne 2er Set inkl GPS Cover WiFi Bluetooth Kabel Verstärker  "
+              ],
+              "globalId": [
+                "EBAY-DE"
+              ],
+              "subtitle": [
+                "Kein Empfang mehr? Dieses Set behebt das Problem."
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Handy-Komponenten & -Teile"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/ml_sKzNFw4EkiGxeQRm9RKg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/iPhone-6-WLAN-Antenne-2er-Set-inkl-GPS-Cover-WiFi-Bluetooth-Kabel-Verstarker-/262744242034"
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PayPal",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "880**"
+              ],
+              "location": [
+                "德國"
+              ],
+              "country": [
+                "DE"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "17.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "4.79"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "43.27"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P28DT20H11M26S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2016-12-01T23:45:04.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-01T23:45:04.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "115"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "182382006760"
+              ],
+              "title": [
+                "COVER per Iphone 6 6s 7 8 CUSTODIA in TPU SILICONE OPACA ULTRA SLIM "
+              ],
+              "globalId": [
+                "EBAY-IT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cover e custodie"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1823820067604040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/COVER-per-Iphone-6-6s-7-8-CUSTODIA-in-TPU-SILICONE-OPACA-ULTRA-SLIM-/182382006760?var="
+              ],
+              "paymentMethod": [
+                "PayPal",
+                "COD",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "478**"
+              ],
+              "location": [
+                "義大利"
+              ],
+              "country": [
+                "IT"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "54.2"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "5.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "53.3"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P5DT9H51M42S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2016-12-08T13:25:20.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-08T13:25:20.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "88"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/182382006760_1_12_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "113327448131"
+              ],
+              "title": [
+                "KIT OUTILS TOURNEVIS IPHONE 4 5 6 7 IPAD IPOD SAMSUNG WIKO REPARATION TELEPHONE"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "180235"
+                  ],
+                  "categoryName": [
+                    "Tablettes: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/1133274481314040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/KIT-OUTILS-TOURNEVIS-IPHONE-4-5-6-7-IPAD-IPOD-SAMSUNG-WIKO-REPARATION-TELEPHONE-/113327448131?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "17.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "2.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "26.2"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P21DT9H22M18S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-10-24T12:55:56.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-24T12:55:56.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "15"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/113327448131_1_1931_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323726174373"
+              ],
+              "title": [
+                "FLAT FOTOCAMERA ANTERIORE IPHONE 6S CAMERA FRONTALE SENSORE PROSSIMITÀ PER APPLE"
+              ],
+              "globalId": [
+                "EBAY-IT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Cellulari: componenti"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mbRFJbxH6Yel16WCwiGkLcA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/FLAT-FOTOCAMERA-ANTERIORE-IPHONE-6S-CAMERA-FRONTALE-SENSORE-PROSSIMITA-PER-APPLE-/323726174373"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "840**"
+              ],
+              "location": [
+                "義大利"
+              ],
+              "country": [
+                "IT"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "31.62"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "6.5"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "58.72"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT14H7M52S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-03-07T17:41:30.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-07T17:41:30.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/323726174373_1_44_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "113709182340"
+              ],
+              "title": [
+                "iPhone 8/7/6/X/S/PLUS/5/C/XR Vitre protection VERRE trempé Film protecteur écran"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "58540"
+                  ],
+                  "categoryName": [
+                    "Films protecteurs d'écran"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1137091823404040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/iPhone-8-7-6-X-S-PLUS-5-C-XR-Vitre-protection-VERRE-trempe-Film-protecteur-ecran-/113709182340?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "718**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "2.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "27.01"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT11H4M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-04-05T14:38:03.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-05T14:38:03.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/113709182340_1_137_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "183872188709"
+              ],
+              "title": [
+                "KIT OUTILS TOURNEVIS TRIWING IPHONE 5S SE 6 6S 7 8 /PLUS X XR XS 11 /PRO /MAX"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1838721887094040_6.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/KIT-OUTILS-TOURNEVIS-TRIWING-IPHONE-5S-SE-6-6S-7-8-PLUS-X-XR-XS-11-PRO-MAX-/183872188709?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "678**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "89.43"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "15.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "143.63"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT16H1M40S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-07-05T19:35:18.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-05T19:35:18.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "8"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/183872188709_1_298_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "174419138470"
+              ],
+              "title": [
+                "Coque Etui Carte Portefeuille Housse Cuir iPhone 5 6 7 8 Plus X XS SE 2020"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Etuis, housses, coques"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1744191384704040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/Coque-Etui-Carte-Portefeuille-Housse-Cuir-iPhone-5-6-7-8-Plus-X-XS-SE-2020-/174419138470?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "260**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "9.03"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "9.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "89.88"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT12H35M52S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-02T16:09:30.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T16:09:30.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/174419138470_1_11_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "254193007602"
+              ],
+              "title": [
+                "Urcover® Apple iPhone 6 Plus / 6s Plus Schutz Hülle Back Case Bumper Cover Etui"
+              ],
+              "globalId": [
+                "EBAY-DE"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Taschen & Schutzhüllen"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/2541930076024040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/Urcover-Apple-iPhone-6-Plus-6s-Plus-Schutz-Hulle-Back-Case-Bumper-Cover-Etui-/254193007602?var="
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "CashOnPickup",
+                "PayPal",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "535**"
+              ],
+              "location": [
+                "德國"
+              ],
+              "country": [
+                "DE"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "3.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "36.04"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P5DT7H25M30S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-04-08T10:59:08.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-08T10:59:08.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "133214343869"
+              ],
+              "title": [
+                "Genuine Apple iPhone 6S 6 Plus SE 5S 5C 5 EarPods Headphones EarPhones Handsfree"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "80077"
+                  ],
+                  "categoryName": [
+                    "Headsets"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mdSU2sBoi-QHj6DzHN07MXA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/Genuine-Apple-iPhone-6S-6-Plus-SE-5S-5C-5-EarPods-Headphones-EarPhones-Handsfree-/133214343869"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "219605078"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal",
+                "CCAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "BB17EY"
+              ],
+              "location": [
+                "大英聯合王國"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "29.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "9.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "99.77"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P21DT7H13M19S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-10-24T10:46:57.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-24T10:46:57.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "381"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "372621822182"
+              ],
+              "title": [
+                "New Earphones Headphone For iPhone 6s 6 5c 5 5S 5SE iPad Handsfree iPod UK Stock"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "80077"
+                  ],
+                  "categoryName": [
+                    "Headsets"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/m_h-nETRjQd1BzlytsTDSOg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/New-Earphones-Headphone-For-iPhone-6s-6-5c-5-5S-5SE-iPad-Handsfree-iPod-UK-Stock-/372621822182"
+              ],
+              "paymentMethod": [
+                "PayPal",
+                "CCAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "RM82QB"
+              ],
+              "location": [
+                "大英聯合王國"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "19.95"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "2.59"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "25.97"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P5DT5H23M49S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-03-08T20:57:27.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-08T08:57:27.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "309"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "252552619299"
+              ],
+              "title": [
+                "COQUE ETUI HOUSSE PORTEFEUILLE FLOWER LUXE CUIR NEUF POUR IPHONE 5 SE 6 6S 7 8 X"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "EXPEDITION -24H DE FRANCE POUR IPHONE X PLUS XR XS Max"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Etuis, housses, coques"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/2525526192994040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/COQUE-ETUI-HOUSSE-PORTEFEUILLE-FLOWER-LUXE-CUIR-NEUF-POUR-IPHONE-5-SE-6-6S-7-8-X-/252552619299?var="
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CIPInCheckoutEnabled",
+                "PersonalCheck",
+                "PayPal",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "413**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "27.1"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "6.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "63.14"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT16H41M29S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2016-09-22T20:15:07.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T20:15:07.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "37"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/252552619299_1_73_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "143797653955"
+              ],
+              "title": [
+                "CABLE CHARGEUR ORIGINAL APPLE USB 1M IPHONE 5 6 7 8 X PLUS 2 ACHAT + 1 OFFERT"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "LIVRASION RAPIDE 24H CABLE APPLE 2 ACHAT + 1 OFFERT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "123422"
+                  ],
+                  "categoryName": [
+                    "Câbles, adaptateurs"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "176974"
+                  ],
+                  "categoryName": [
+                    "Chargeurs, câbles sync"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mJSfC-dfEhSKxZ0dftiVXRg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/CABLE-CHARGEUR-ORIGINAL-APPLE-USB-1M-IPHONE-5-6-7-8-X-PLUS-2-ACHAT-1-OFFERT-/143797653955"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "932**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "45.17"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "5.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "54.11"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT17H1M9S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-20T20:34:47.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T20:34:47.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/143797653955_1_13_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "164347389376"
+              ],
+              "title": [
+                "Ersatz Akku mAh für Original Apple iPhone 6/ 6s Batterie Battery Accu"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "PREMIUM AAA + QUALITÄT, 30 TAGE ZUFRIEDEN ODER RÜCKERST"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1643473893764040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/Ersatz-Akku-mAh-fur-Original-Apple-iPhone-6-6s-Batterie-Battery-Accu-/164347389376?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "17.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "8.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "81.21"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P18DT8H29M41S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-08-21T12:03:19.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T12:03:19.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "6"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/164347389376_1_3_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "332876863433"
+              ],
+              "title": [
+                "COQUE POUR IPHONE 6/6S/7/8/X/XS PLUS ANTI CHOC HOUSSE ,CONTOUR COULEUR BUMPER "
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Etuis, housses, coques"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/3328768634334040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/COQUE-POUR-IPHONE-6-6S-7-8-X-XS-PLUS-ANTI-CHOC-HOUSSE-CONTOUR-COULEUR-BUMPER-/332876863433?var="
+              ],
+              "paymentMethod": [
+                "PayPal",
+                "VisaMC",
+                "AmEx"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "430**"
+              ],
+              "location": [
+                "法國"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "36.13"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "3.49"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "31.53"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P8DT2H5M13S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-11-11T05:38:51.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-11T05:38:51.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/332876863433_1_2_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "172473250413"
+              ],
+              "title": [
+                "iPhone 5 6 7 8 Plus XR XS Max Transparent Soft Case with Jewels Metallic Bumper"
+              ],
+              "globalId": [
+                "EBAY-ENCA"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1724732504134040_4.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.hk/itm/iPhone-5-6-7-8-Plus-XR-XS-Max-Transparent-Soft-Case-with-Jewels-Metallic-Bumper-/172473250413?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "M9M2E9"
+              ],
+              "location": [
+                "加拿大"
+              ],
+              "country": [
+                "CA"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "40.65"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "CAD",
+                      "__value__": "4.49"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "HKD",
+                      "__value__": "26.11"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P1DT19H19M34S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-01-04T22:53:12.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-04T22:53:12.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "15"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "全新"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "51813"
+          ],
+          "totalEntries": [
+            "1295320"
+          ]
+        }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.com.hk/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+      ]
+    }
+  ]
+}

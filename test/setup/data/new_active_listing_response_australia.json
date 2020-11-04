@@ -1,0 +1,3141 @@
+{
+  "findItemsByKeywordsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-11-03T03:13:08.929Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "324095784658"
+              ],
+              "title": [
+                "iPhone 6 PLUS 7 8 6S 5S LCD Touch Screen Replacement Digitizer Display Assembly "
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "WARRANTY FOR LIFE!!! FREE AU POST"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "42425"
+                  ],
+                  "categoryName": [
+                    "Other Mobile Accessories"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/3240957846584040_4.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/iPhone-6-PLUS-7-8-6S-5S-LCD-Touch-Screen-Replacement-Digitizer-Display-Assembly-/324095784658?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2000"
+              ],
+              "location": [
+                "Sydney,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "76.89"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "76.89"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P3DT21H28M37S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-03-07T00:41:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-07T00:41:45.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "25"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/324095784658_1_78_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "324068439918"
+              ],
+              "title": [
+                "iPhone 6S Plus 8 7 6 + 5 FULL ASSEMBLY LCD Touch Screen Replacement Display"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "LIFETIME WARRANTY&GUARANTEE&FREE POST FROM SYDNEY"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "42425"
+                  ],
+                  "categoryName": [
+                    "Other Mobile Accessories"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/3240684399184040_3.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/iPhone-6S-Plus-8-7-6-5-FULL-ASSEMBLY-LCD-Touch-Screen-Replacement-Display-/324068439918?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2000"
+              ],
+              "location": [
+                "Sydney,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "75.89"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "75.89"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P7DT2H33M27S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-02-10T05:46:35.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-10T05:46:35.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "26"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/324068439918_1_90_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "193464839745"
+              ],
+              "title": [
+                "iPhone 6S Plus 8 7 6 + 5 5s FULL ASSEMBLY LCD Touch Screen Replacement Display"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "Ready To Ship TODAY ! With Aussie Warranty !"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "42425"
+                  ],
+                  "categoryName": [
+                    "Other Mobile Accessories"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1934648397454040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/iPhone-6S-Plus-8-7-6-5-5s-FULL-ASSEMBLY-LCD-Touch-Screen-Replacement-Display-/193464839745?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2147"
+              ],
+              "location": [
+                "Seven Hills,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "74.85"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "74.85"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT5H24M44S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-05-14T08:37:52.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T08:37:52.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/193464839745_1_12_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "284052501945"
+              ],
+              "title": [
+                "iPhone 12 /12 Pro (6.1\") LIFEPROOF Next Series Rugged Case - Clear Lake"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/m39GCrpa4Iy0ZC3Ts84lf_w/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/iPhone-12-12-Pro-6-1-LIFEPROOF-Next-Series-Rugged-Case-Clear-Lake-/284052501945"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2154"
+              ],
+              "location": [
+                "Castle Hill,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "84.45"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "84.45"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P18DT5H15M50S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-21T08:28:58.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T08:28:58.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "13"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/284052501945_1_1_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "162783093664"
+              ],
+              "title": [
+                "iPhone 6 Plus 6s 7 8 + 5 LCD Touch Screen Replacement Digitizer Display Assembly"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "LIFETIME WARRANTY - A++++ Quality - Dispatched TODAY"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "42425"
+                  ],
+                  "categoryName": [
+                    "Other Mobile Accessories"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1627830936644040_6.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/iPhone-6-Plus-6s-7-8-5-LCD-Touch-Screen-Replacement-Digitizer-Display-Assembly-/162783093664?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2000"
+              ],
+              "location": [
+                "Sydney,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "38.73"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "38.73"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P28DT5H27M37S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-12-01T08:40:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-01T08:40:45.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "164"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/162783093664_1_80_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "133526331381"
+              ],
+              "title": [
+                "iPhone 6 s plus 7 8 plus 5 LCD Basic Full Assembly Screen Replacement Digitizer "
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Mobile Phone Parts"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1335263313814040_6.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/iPhone-6-s-plus-7-8-plus-5-LCD-Basic-Full-Assembly-Screen-Replacement-Digitizer-/133526331381?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "4214"
+              ],
+              "location": [
+                "Ashmore,QLD,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "74.89"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "74.89"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT6H39M28S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-22T09:52:36.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T09:52:36.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/133526331381_1_63_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "292410991397"
+              ],
+              "title": [
+                "iPhone 7 6s 6 8 Plus LCD Screen Replacement Touch Full 5S 5C SE Display Assembly"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "🚀 FREE EXPRESS POST 👌TOP QUALITY 👍LIFETIME WARRANTY"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "42425"
+                  ],
+                  "categoryName": [
+                    "Other Mobile Accessories"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2924109913974040_25.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/iPhone-7-6s-6-8-Plus-LCD-Screen-Replacement-Touch-Full-5S-5C-SE-Display-Assembly-/292410991397?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2000"
+              ],
+              "location": [
+                "Sydney,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "78.85"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "78.85"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P13DT10H19M21S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-01-16T13:32:29.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-16T13:32:29.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/292410991397_1_80_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "313277776078"
+              ],
+              "title": [
+                "Apple iPhone 6s"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mJ30W3aniiY1vMcMLm2IYHQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Apple-iPhone-6s-/313277776078"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "299.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "299.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P26DT4H42M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-29T07:55:33.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-29T07:55:33.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/313277776078_1_5_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124299199169"
+              ],
+              "title": [
+                "IPhone 6 32gb unopened. Silver. "
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/m21LzhYDK1Ym2yutPEwja3g/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/IPhone-6-32gb-unopened-Silver-/124299199169"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "3018"
+              ],
+              "location": [
+                "Altona,VIC,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "8.95"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "440.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "440.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT19H56M34S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-08-14T23:09:42.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T23:09:42.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124299199169_1_2_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "322814866459"
+              ],
+              "title": [
+                "BRAND NEW APPLE IPHONE 8 [64GB / 256GB] Gold Grey Silver Unlocked [AU Seller]"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/BRAND-NEW-APPLE-IPHONE-8-64GB-256GB-Gold-Grey-Silver-Unlocked-AU-Seller-/322814866459?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2196"
+              ],
+              "location": [
+                "Punchbowl,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "465.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "465.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P5DT22H44M51S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-10-09T01:57:59.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T01:57:59.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "74"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "203139008459"
+              ],
+              "title": [
+                "UNLOCKED❖Apple iPhone 6 ❖32 GB A1586❖Gold❖Brand New❖AU Stock❖1 Year AU Warranty❖"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mRrkgiZ73bZMY8B1j1qfqcQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/UNLOCKED-Apple-iPhone-6-32-GB-A1586-Gold-Brand-New-AU-Stock-1-Year-AU-Warranty-/203139008459"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2083"
+              ],
+              "location": [
+                "Brooklyn,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "379.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "379.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P10DT14H53M33S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-13T18:06:41.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-13T18:06:41.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/203139008459_1_2_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "302937672409"
+              ],
+              "title": [
+                "Apple iPhone 6 - 32GB - Gold (Unlocked) A1586  (AU Stock)"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mPPQ-9fC2QbovgXlgnM4gwA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Apple-iPhone-6-32GB-Gold-Unlocked-A1586-AU-Stock-/302937672409"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228678978"
+                }
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "2000"
+              ],
+              "location": [
+                "Sydney,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "FlatDomesticCalculatedInternational"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "459.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "459.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P25DT20H13M53S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-10-28T23:27:01.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-28T23:27:01.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "3"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/302937672409_1_10_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "264472604776"
+              ],
+              "title": [
+                "Brand New Apple iPhone 6s Plus 32gb (Space Grey) Unopened "
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mn_gyg9GueRNfRLqRb_JpDA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Brand-New-Apple-iPhone-6s-Plus-32gb-Space-Grey-Unopened-/264472604776"
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "CashOnPickup",
+                "PayPal",
+                "COD",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "2099"
+              ],
+              "location": [
+                "Dee Why,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "19.99"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "620.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "620.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT18H49M11S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-09-20T22:02:19.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T22:02:19.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "9"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/264472604776_1_2_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "322814866320"
+              ],
+              "title": [
+                "Apple iPhone 6 32GB Space Grey UNLOCKED Smart Mobile phone AU Stock"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mQesONB2aFdun374no5DmNg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Apple-iPhone-6-32GB-Space-Grey-UNLOCKED-Smart-Mobile-phone-AU-Stock-/322814866320"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "245227640"
+                }
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2196"
+              ],
+              "location": [
+                "Punchbowl,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "FlatDomesticCalculatedInternational"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "589.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "589.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P5DT22H44M48S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-10-09T01:57:56.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-09T01:57:56.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/322814866320_1_16_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "392791101164"
+              ],
+              "title": [
+                "Brand New in Sealed Box Apple iPhone 6s Unlocked Smartphone"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "NO-RUSH 14 DAYS SHIPPING ONLY!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/3927911011644040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Brand-New-Sealed-Box-Apple-iPhone-6s-Unlocked-Smartphone-/392791101164?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Hong Kong"
+              ],
+              "country": [
+                "HK"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "289.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "289.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT23H15M28S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-05-08T02:28:36.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-08T02:28:36.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/392791101164_1_7_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "324345200166"
+              ],
+              "title": [
+                "Apple iPhone 12 - 64/128/256GB - [6.1\"] 5G Unlocked Latest  AUSTRALIAN STOCK"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/3243452001664040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Apple-iPhone-12-64-128-256GB-6-1-5G-Unlocked-Latest-AUSTRALIAN-STOCK-/324345200166?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2200"
+              ],
+              "location": [
+                "Bankstown,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "1419.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "1419.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT20H47M58S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-23T00:01:06.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T00:01:06.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/324345200166_1_2_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "264898646007"
+              ],
+              "title": [
+                "Apple iPhone 12 Pro 6.1\" A2407 - 128GB - Pacific Blue - Unlocked"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/m7VXYnG6eCsqYOYIyDnhdEg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Apple-iPhone-12-Pro-6-1-A2407-128GB-Pacific-Blue-Unlocked-/264898646007"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2067"
+              ],
+              "location": [
+                "Chatswood,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "1999.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "1999.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P10DT23H27M1S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-14T02:40:09.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T02:40:09.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "27"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/264898646007_1_0_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "313277776600"
+              ],
+              "title": [
+                "Unlocked iPhone 6"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/m1RmDR37h3q34Pjdkm60URg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Unlocked-iPhone-6-/313277776600"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "599.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "599.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P26DT4H43M3S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-29T07:56:11.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-29T07:56:11.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/313277776600_1_6_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "392791107742"
+              ],
+              "title": [
+                "New *UNOPENDED* Apple iPhone 6s Unlocked Smartphone / Silver / 64GB"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "NO-RUSH 14 DAYS SHIPPING ONLY!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/msPk-p5mssYSe_S1XwGS9Rw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/New-UNOPENDED-Apple-iPhone-6s-Unlocked-Smartphone-Silver-64GB-/392791107742"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "216175845"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Hong Kong"
+              ],
+              "country": [
+                "HK"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "331.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "331.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT23H28M57S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-05-08T02:42:05.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-08T02:42:05.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/392791107742_1_7_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "114473037780"
+              ],
+              "title": [
+                "Apple iPhone 12 - 64/128/256GB - [6.1\"] 5G Unlocked Latest  AUSTRALIAN STOCK"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1144730377804040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Apple-iPhone-12-64-128-256GB-6-1-5G-Unlocked-Latest-AUSTRALIAN-STOCK-/114473037780?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2200"
+              ],
+              "location": [
+                "Bankstown,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "1570.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "1570.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT3H27M21S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-20T06:40:29.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T06:40:29.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/114473037780_1_5_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "392791107818"
+              ],
+              "title": [
+                "New *UNOPENDED* Apple iPhone 6s Unlocked Smartphone / Silver / 128GB"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "NO-RUSH 14 DAYS SHIPPING ONLY!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/msPk-p5mssYSe_S1XwGS9Rw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/New-UNOPENDED-Apple-iPhone-6s-Unlocked-Smartphone-Silver-128GB-/392791107818"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "216111811"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Hong Kong"
+              ],
+              "country": [
+                "HK"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "346.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "346.99"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P4DT23H29M8S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-05-08T02:42:16.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-08T02:42:16.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/392791107818_1_7_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "303398895338"
+              ],
+              "title": [
+                "New Apple iPhone 6 16GB 64GB Unlocked Smartphone Sealed Box 2 Years Wty AU"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "subtitle": [
+                "✔2 Yr Warranty ✔100% Positive Feedback ✔Fast Ship"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/3033988953384040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/New-Apple-iPhone-6-16GB-64GB-Unlocked-Smartphone-Sealed-Box-2-Years-Wty-AU-/303398895338?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "****"
+              ],
+              "location": [
+                "Hong Kong"
+              ],
+              "country": [
+                "HK"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "299.95"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "299.95"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P8DT4H49M29S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-12-11T08:02:37.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-11T08:02:37.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/303398895338_1_17_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "123219337679"
+              ],
+              "title": [
+                "BRAND NEW APPLE IPHONE 8 64GB Space Grey UNLOCKED Sealed Smartphone [AU Seller]"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mZ7uRhDfpttw0Z-zTXnggNA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/BRAND-NEW-APPLE-IPHONE-8-64GB-Space-Grey-UNLOCKED-Sealed-Smartphone-AU-Seller-/123219337679"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2200"
+              ],
+              "location": [
+                "Bankstown,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "629.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "629.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P26DT0H2M0S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-06-29T03:15:08.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-29T03:15:08.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "22"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/123219337679_1_23_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "193646972019"
+              ],
+              "title": [
+                "2X For iPhone 12 11 Pro XR XS Max 7 8 6S Plus SE Tempered Glass Screen Protector"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "58540"
+                  ],
+                  "categoryName": [
+                    "Screen Protectors"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/1936469720194040_3.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/2X-iPhone-12-11-Pro-XR-XS-Max-7-8-6S-Plus-SE-Tempered-Glass-Screen-Protector-/193646972019?var="
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PayPal",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "2195"
+              ],
+              "location": [
+                "Lakemba,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "6.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "6.9"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P0DT1H42M1S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-03T04:55:09.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-03T04:55:09.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "70"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/193646972019_1_180_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            },
+            {
+              "itemId": [
+                "254170873517"
+              ],
+              "title": [
+                "Tempered Glass Screen Protector For Apple iPhone 12 11 Pro 8 7 6s PLUS XR XS Max"
+              ],
+              "globalId": [
+                "EBAY-AU"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "58540"
+                  ],
+                  "categoryName": [
+                    "Screen Protectors"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/2541708735174040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.com.au/itm/Tempered-Glass-Screen-Protector-Apple-iPhone-12-11-Pro-8-7-6s-PLUS-XR-XS-Max-/254170873517?var="
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "2000"
+              ],
+              "location": [
+                "Sydney,NSW,Australia"
+              ],
+              "country": [
+                "AU"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "4.79"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "AUD",
+                      "__value__": "4.79"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT5H54M2S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-03-20T09:07:10.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T09:07:10.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "352"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/254170873517_1_54916_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Brand New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "true"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "60462"
+          ],
+          "totalEntries": [
+            "1511548"
+          ]
+        }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.com.au/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+      ]
+    }
+  ]
+}

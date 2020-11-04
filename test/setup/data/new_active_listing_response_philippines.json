@@ -1,0 +1,2998 @@
+{
+  "findItemsByKeywordsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-11-03T03:44:34.488Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "363149190016"
+              ],
+              "title": [
+                "64GB 12 iPhone 6.1inch 2020 janjanman120"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mjPQLemtAoKQNuMAaBF9RYA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/64GB-12-iPhone-6-1inch-2020-janjanman120-/363149190016"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "49800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "49800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT22H22M5S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-21T02:06:39.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T02:06:39.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "363150506143"
+              ],
+              "title": [
+                "128GB 12 Pro iPhone 6.1inch 2020 janjanman120"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mkWACVAYIAGPIVe8u6_aHSg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/128GB-12-Pro-iPhone-6-1inch-2020-janjanman120-/363150506143"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "72800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "72800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT3H40M25S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-22T07:24:59.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T07:24:59.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "5"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "303726405387"
+              ],
+              "title": [
+                "iPhone XII 12 Pro 128gb 6.1\" Brand New Jeptall (PREORDER)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mkxHdE1oya6ggVm5ykFZMZg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/iPhone-XII-12-Pro-128gb-6-1-Brand-New-Jeptall-PREORDER-/303726405387"
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CashOnPickup",
+                "PersonalCheck",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "300.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "68000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "68000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT16H5M36S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-14T19:50:10.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T19:50:10.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "11"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "313241692452"
+              ],
+              "title": [
+                "IPHONE 6 PLUS BELOW SRP"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mUuIp86hkOg9PafpEMYaryw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/IPHONE-6-PLUS-BELOW-SRP-/313241692452"
+              ],
+              "paymentMethod": [
+                "COD"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "300.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "15500.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "15500.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT3H49M53S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-02T07:34:27.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T07:34:27.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "293370192036"
+              ],
+              "title": [
+                "Apple IPHONE 6S gold 32gb"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mkTg--n-n5aInNa4EQ6HGLg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Apple-IPHONE-6S-gold-32gb-/293370192036"
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "25000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "25000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P7DT3H52M41S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-12-10T07:37:15.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-10T07:37:15.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "373274123638"
+              ],
+              "title": [
+                "iPhone XII 12 Pro Max 512gb 6.7\" Brand New Jeptall (PREORDER)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mkxHdE1oya6ggVm5ykFZMZg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/iPhone-XII-12-Pro-Max-512gb-6-7-Brand-New-Jeptall-PREORDER-/373274123638"
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CashOnPickup",
+                "PersonalCheck",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "300.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "92000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "92000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT16H8M39S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-14T19:53:13.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T19:53:13.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "11"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "373270610302"
+              ],
+              "title": [
+                "128GB iPhone 6.1inch janjanman120"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mEfssen1jExfVLOJU_ldRkw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/128GB-iPhone-6-1inch-janjanman120-/373270610302"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "37800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "37800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P9DT21H50M59S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-13T01:35:33.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-13T01:35:33.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "363149191221"
+              ],
+              "title": [
+                "128GB 12 iPhone 2020 6.1inch janjanman120"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mjPQLemtAoKQNuMAaBF9RYA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/128GB-12-iPhone-2020-6-1inch-janjanman120-/363149191221"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "54800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "54800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT22H25M2S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-21T02:09:36.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T02:09:36.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "373274122132"
+              ],
+              "title": [
+                "iPhone XII 12 Pro 256gb 6.1\" Brand New Jeptall (PREORDER)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mkxHdE1oya6ggVm5ykFZMZg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/iPhone-XII-12-Pro-256gb-6-1-Brand-New-Jeptall-PREORDER-/373274122132"
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CashOnPickup",
+                "PersonalCheck",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "300.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "75000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "75000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT16H6M5S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-14T19:50:39.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T19:50:39.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "363150506815"
+              ],
+              "title": [
+                "256GB 12 Pro iPhone 6.1inch 2020 janjanman120"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mriNc0eO92Zw8FAjL2YyG_Q/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/256GB-12-Pro-iPhone-6-1inch-2020-janjanman120-/363150506815"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "77800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "77800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT3H41M16S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-22T07:25:50.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T07:25:50.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "372823221902"
+              ],
+              "title": [
+                "64GB iPhone 11 6.1inch janjanman120"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mEfssen1jExfVLOJU_ldRkw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/64GB-iPhone-11-6-1inch-janjanman120-/372823221902"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "41800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "41800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT6H27M36S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-10-31T10:12:10.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T10:12:10.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "20"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "373289656664"
+              ],
+              "title": [
+                "512GB 12 Pro iPhone 6.1inch 2020 janjanman120"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mSNTGH7R3V8uxGfpPHCKAwA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/512GB-12-Pro-iPhone-6-1inch-2020-janjanman120-/373289656664"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "85800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "85800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT3H42M3S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-22T07:26:37.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T07:26:37.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "353237897867"
+              ],
+              "title": [
+                "iPhone 12 128gb 2020 6.1\" Brand New Jeptall (PREORDER)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mEEA0FYIbaJU4RXi4qrQ80A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/iPhone-12-128gb-2020-6-1-Brand-New-Jeptall-PREORDER-/353237897867"
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CashOnPickup",
+                "PersonalCheck",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "300.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "56000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "56000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT15H55M31S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-14T19:40:05.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T19:40:05.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "353237906589"
+              ],
+              "title": [
+                "iPhone XII 12 Pro Max 256gb 6.7\" Brand New Jeptall (PREORDER)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mkxHdE1oya6ggVm5ykFZMZg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/iPhone-XII-12-Pro-Max-256gb-6-7-Brand-New-Jeptall-PREORDER-/353237906589"
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CashOnPickup",
+                "PersonalCheck",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "300.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "82000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "82000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT16H8M10S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-14T19:52:44.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T19:52:44.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "4"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "373274116996"
+              ],
+              "title": [
+                "iPhone 12 256gb 2020 6.1\" Brand New Jeptall (PREORDER)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mEEA0FYIbaJU4RXi4qrQ80A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/iPhone-12-256gb-2020-6-1-Brand-New-Jeptall-PREORDER-/373274116996"
+              ],
+              "paymentMethod": [
+                "MOCC",
+                "CashOnPickup",
+                "PersonalCheck",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "300.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "61500.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "61500.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT15H56M6S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-14T19:40:40.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T19:40:40.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "263333656860"
+              ],
+              "title": [
+                "Viking Skull case"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/2633336568604040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Viking-Skull-case-/263333656860?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "662**"
+              ],
+              "location": [
+                "USA"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1998.16"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "28.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1355.34"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P16DT17H41M57S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-11-19T21:26:31.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-19T21:26:31.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323668061687"
+              ],
+              "title": [
+                "CLEARANCE: NWT Coach Legacy Stripe Wristlet - fits iPhone 6/ 6+"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "312"
+                  ],
+                  "categoryName": [
+                    "Other Clothing, Shoes & Accessories"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mdAJ9IaWNDX8tZw_gMPb7uw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/CLEARANCE-NWT-Coach-Legacy-Stripe-Wristlet-fits-iPhone-6-6-/323668061687"
+              ],
+              "paymentMethod": [
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "70.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2980.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2980.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P24DT3H28M59S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-01-27T07:13:33.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-27T07:13:33.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "3"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New with tags"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323665326543"
+              ],
+              "title": [
+                "Spigen iPhone XS Max (6.5\") Case Hybrid NX Gunmetal"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mtqwG2iFPfV2iuvoot5W6aA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Spigen-iPhone-XS-Max-6-5-Case-Hybrid-NX-Gunmetal-/323665326543"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1700.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1700.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT3H4M48S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-01-25T06:49:22.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T06:49:22.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "222177327334"
+              ],
+              "title": [
+                "White black LCD touch screen display for IPhone 6 4.7\" inch replacement parts"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "42425"
+                  ],
+                  "categoryName": [
+                    "Other Cell Phone Accessories"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Cell Phone & Smartphone Parts"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mU3bAHWefqikslKoU-qlamQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/White-black-LCD-touch-screen-display-IPhone-6-4-7-inch-replacement-parts-/222177327334"
+              ],
+              "paymentMethod": [
+                "PersonalCheck",
+                "PaymentSeeDescription",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2999.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2999.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P2DT8H10M37S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2016-07-05T11:55:11.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-05T11:55:11.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "3"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323665340879"
+              ],
+              "title": [
+                "Spigen iPhone XS Max (6.5\") Case Slim Armor Rose Gold"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mxZIJORNW0BVBbCTC-3yl5A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Spigen-iPhone-XS-Max-6-5-Case-Slim-Armor-Rose-Gold-/323665340879"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1800.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1800.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT3H22M24S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-01-25T07:06:58.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T07:06:58.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323665316097"
+              ],
+              "title": [
+                "Spigen iPhone XS Max (6.5\") Case La Manon câlin Oatmeal Beige (Leather Case)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mj1lcy4QkM9HbXu2yzSFSmQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Spigen-iPhone-XS-Max-6-5-Case-Manon-calin-Oatmeal-Beige-Leather-Case-/323665316097"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1850.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1850.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT2H50M2S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-01-25T06:34:36.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T06:34:36.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "191828032784"
+              ],
+              "title": [
+                "iPhone 6s 29,000PHP Only Brandnew Original Sealed Box Factory Unlocked"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "259701"
+                  ],
+                  "categoryName": [
+                    "Mixed Lots"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mpeuNVVI9X6MI0Qphc-fchw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/iPhone-6s-29-000PHP-Only-Brandnew-Original-Sealed-Box-Factory-Unlocked-/191828032784"
+              ],
+              "paymentMethod": [
+                "MOCC"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "29000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "29000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P13DT8H30M45S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2016-03-16T12:15:19.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-16T12:15:19.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323665456177"
+              ],
+              "title": [
+                "Spigen iPhone XR (6.1\") Case Thin Fit 360 Black (Glass Screen Protector)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mY31auTHnF4_HgPgzGDv_Gw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Spigen-iPhone-XR-6-1-Case-Thin-Fit-360-Black-Glass-Screen-Protector-/323665456177"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2250.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2250.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT4H53M4S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-01-25T08:37:38.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T08:37:38.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323665460246"
+              ],
+              "title": [
+                "Spigen iPhone XR (6.1\") Case Thin Fit 360 Red (Glass Screen Protector)"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mnyc7wVv_cyM9l3JO2sN_XQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Spigen-iPhone-XR-6-1-Case-Thin-Fit-360-Red-Glass-Screen-Protector-/323665460246"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2250.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "2250.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT4H57M14S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-01-25T08:41:48.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T08:41:48.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "323665507304"
+              ],
+              "title": [
+                "Spigen iPhone XR (6.1\") Case La Manon étui Gold Black"
+              ],
+              "globalId": [
+                "EBAY-PH"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Cases, Covers & Skins"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mX4tXEHLhe516Eyzh5BwOrw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.ph/itm/Spigen-iPhone-XR-6-1-Case-Manon-etui-Gold-Black-/323665507304"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "location": [
+                "Philippines"
+              ],
+              "country": [
+                "PH"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1850.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PHP",
+                      "__value__": "1850.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT5H40M8S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-01-25T09:24:42.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T09:24:42.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "New"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "20"
+          ],
+          "totalEntries": [
+            "485"
+          ]
+        }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.ph/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+      ]
+    }
+  ]
+}

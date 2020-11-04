@@ -1,0 +1,3206 @@
+{
+  "findItemsByKeywordsResponse": [
+    {
+      "ack": [
+        "Success"
+      ],
+      "version": [
+        "1.13.0"
+      ],
+      "timestamp": [
+        "2020-11-03T03:47:07.776Z"
+      ],
+      "searchResult": [
+        {
+          "@count": "25",
+          "item": [
+            {
+              "itemId": [
+                "112931382542"
+              ],
+              "title": [
+                "BLOC COMPLET VITRE TACTILE ECRAN LCD IPHONE 6/6 plus/6s/6s+/7/7+/8/8+ NOIR/BLANC"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "ECRAN IPHONE DE QUALITÉ AAA✔ Satisfait ou Remboursé"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1129313825424040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/BLOC-COMPLET-VITRE-TACTILE-ECRAN-LCD-IPHONE-6-6-plus-6s-6s-7-7-8-8-NOIR-BLANC-/112931382542?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "11.02"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "39.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "183.91"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P8DT10H16M7S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-04-11T14:03:14.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-11T14:03:14.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "48"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/112931382542_1_1191_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "184005020996"
+              ],
+              "title": [
+                "ECRAN LCD /COMPLET VITRE TACTILE IPHONE 6 6S 7 8 PLUS SE NOIR BLANC SUR CHÂSSIS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1840050209964040_23.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/ECRAN-LCD-COMPLET-VITRE-TACTILE-IPHONE-6-6S-7-8-PLUS-SE-NOIR-BLANC-SUR-CHASSIS-/184005020996?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "678**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "27.15"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "35.45"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "163.4"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT17H14M44S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-10-22T21:01:51.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T21:01:51.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "38"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/184005020996_1_2162_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "312737488244"
+              ],
+              "title": [
+                "Ecran LCD /Complet iPhone 6 6s 6+ 6S+ /Plus Noir Blanc Vitre Tactile sur Châssis"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "EXPEDITION SOUS 24H GRATUITE!! SATISFAIT OU REMBOURSE!!"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/3127374882444040_4.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Ecran-LCD-Complet-iPhone-6-6s-6-6S-Plus-Noir-Blanc-Vitre-Tactile-sur-Chassis-/312737488244?var="
+              ],
+              "paymentMethod": [
+                "PayPal",
+                "VisaMC"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "775**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "27.66"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "21.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "100.94"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT11H49M18S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-08-20T15:36:25.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-20T15:36:25.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "12"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/312737488244_1_119_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124280407056"
+              ],
+              "title": [
+                "ECRAN POUR IPHONE 6 / 6S / 7 / 8 / PLUS NOIR / BLANC (ORIGINAL RECONDITIONNE)"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "Prix Choc Ecran D'Origine Reconditionne Avec Logo Apple"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Etuis, housses, coques"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1242804070564040_4.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/ECRAN-POUR-IPHONE-6-6S-7-8-PLUS-NOIR-BLANC-ORIGINAL-RECONDITIONNE-/124280407056?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "931**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "20.74"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "14.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "64.53"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P27DT8H8M3S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-07-31T14:55:11.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-30T11:55:10.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "88"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124280407056_1_24_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124357106926"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S / 7 / 8  / PLUS NEUVE ORIGINAL + Adhésif "
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1243571069264040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/BATTERIE-IPHONE-6-6S-7-8-PLUS-NEUVE-ORIGINAL-Adhesif-/124357106926?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "931**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "23.05"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "13.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "59.92"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P25DT20H8M38S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-09-28T23:56:45.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-28T23:55:45.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "7"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124357106926_1_6_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "233209684804"
+              ],
+              "title": [
+                "Châssis/coque assemblé iPhone 6/6S/7/8/8+/X/XR/XS Or/Argent/Rose/Gris/rouge/noir"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/2332096848044040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Chassis-coque-assemble-iPhone-6-6S-7-8-8-X-XR-XS-Or-Argent-Rose-Gris-rouge-noir-/233209684804?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "430**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "55.31"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "55.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "253.51"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P23DT13H21M46S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-04-26T17:08:53.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-26T17:08:53.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "2"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/233209684804_1_40_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "164357565270"
+              ],
+              "title": [
+                "DISPLAY LCD VETRO TOUCH Per Apple iPhone 6S SCHERMO ORIGINALE TIANMA"
+              ],
+              "globalId": [
+                "EBAY-IT"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Cellulari: componenti"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1643575652704040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/DISPLAY-LCD-VETRO-TOUCH-Per-Apple-iPhone-6S-SCHERMO-ORIGINALE-TIANMA-/164357565270?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "660**"
+              ],
+              "location": [
+                "Włochy"
+              ],
+              "country": [
+                "IT"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "68.68"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "23.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "110.16"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P25DT7H44M15S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-08-28T11:31:22.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-28T11:31:22.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "12"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/164357565270_1_7_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "383792453916"
+              ],
+              "title": [
+                "Apple iPhone 6 - 64GB - Gold (Unlocked) A1549 (GSM)"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mEnXz1dCkCxuRwxl5_8CtnA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Apple-iPhone-6-64GB-Gold-Unlocked-A1549-GSM-/383792453916"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "241082234"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "480**"
+              ],
+              "location": [
+                "Stany Zjednoczone"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "83.09"
+                    }
+                  ],
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "100.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "395.69"
+                    }
+                  ],
+                  "bidCount": [
+                    "1"
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P6DT21H58M3S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-03T01:45:10.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-10T01:45:10.000Z"
+                  ],
+                  "listingType": [
+                    "Auction"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "223018017967"
+              ],
+              "title": [
+                "Iphone 6 Plus"
+              ],
+              "globalId": [
+                "EBAY-PL"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Telefony komórkowe i smartfony"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mqsZWdj1wyTR3Xpvcb9fuAg/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Iphone-6-Plus-/223018017967"
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PayPal",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "*****"
+              ],
+              "location": [
+                "Pila,Polska"
+              ],
+              "country": [
+                "PL"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "25.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "2000.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "2000.0"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P11DT10H59M48S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-06-14T14:46:55.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-14T14:46:55.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/223018017967_1_2_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124421021867"
+              ],
+              "title": [
+                "iPhone 6s 32GB rosegold- Brandneu -  originale Verpackung -  Apple Garantie"
+              ],
+              "globalId": [
+                "EBAY-DE"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Handys & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/meaIcLeHl_BgC_aZ-69RPOQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/iPhone-6s-32GB-rosegold-Brandneu-originale-Verpackung-Apple-Garantie-/124421021867"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "681**"
+              ],
+              "location": [
+                "Niemcy"
+              ],
+              "country": [
+                "DE"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "64.53"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "299.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "1378.15"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT15H49M41S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T19:36:48.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T19:36:48.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124421021867_1_8_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "203165034067"
+              ],
+              "title": [
+                "Brand New Sealed Silver IPhone 6S Plus 32GB - Unlocked."
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mCd5vhz2htyiMpYZGADRk_A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Brand-New-Sealed-Silver-IPhone-6S-Plus-32GB-Unlocked-/203165034067"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228434851"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "BB101AB"
+              ],
+              "location": [
+                "Wielka Brytania"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "306.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "339.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "1734.42"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT19H51M35S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T23:38:42.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T23:38:42.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "114484109077"
+              ],
+              "title": [
+                "APPLE Iphone 6 16 Go Noir Or Argent (Désimlocké) Reconditionné  16go"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1144841090774040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/APPLE-Iphone-6-16-Noir-Or-Argent-Desimlocke-Reconditionne-16go-/114484109077?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "11.02"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "79.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "368.27"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P23DT14H31M21S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-26T18:18:28.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-26T18:18:28.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/114484109077_1_7_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "203164621600"
+              ],
+              "title": [
+                "BRAND NEW SEALED GOLD IPHONE 6S 32GB - UNLOCKED - SIM FREE."
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mEg8bg6VkFRlzWNsK83XfAw/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/BRAND-NEW-SEALED-GOLD-IPHONE-6S-32GB-UNLOCKED-SIM-FREE-/203164621600"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "228662423"
+                }
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "BB101AB"
+              ],
+              "location": [
+                "Wielka Brytania"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "306.98"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "239.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "1222.79"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P29DT13H52M53S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-11-02T17:40:00.000Z"
+                  ],
+                  "endTime": [
+                    "2020-12-02T17:40:00.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "164165737016"
+              ],
+              "title": [
+                "*Sealed* Apple iPhone 6S - 64GB - Space Grey Factory Unlocked A1688"
+              ],
+              "globalId": [
+                "EBAY-GB"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Mobile & Smart Phones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mrEMyRtSEGpBi7QgqGjc1RA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Sealed-Apple-iPhone-6S-64GB-Space-Grey-Factory-Unlocked-A1688-/164165737016"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "location": [
+                "Wielka Brytania"
+              ],
+              "country": [
+                "GB"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "53.62"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "GBP",
+                      "__value__": "199.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "1023.2"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P15DT14H27M57S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-04-18T18:15:04.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-18T18:15:04.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "23"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "252953917868"
+              ],
+              "title": [
+                "NEW Sealed APPLE iPhone 6s 32GB STRAIGHT TALK 4G LTE SPACE GRAY verizon towers"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/m/mzbCAjjKtUaAT7nVrAYWa_A/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/NEW-Sealed-APPLE-iPhone-6s-32GB-STRAIGHT-TALK-4G-LTE-SPACE-GRAY-verizon-towers-/252953917868"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "245472344"
+                }
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "301**"
+              ],
+              "location": [
+                "Stany Zjednoczone"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "83.85"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "199.88"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "790.91"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT10H14M20S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "true"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-05-23T14:01:27.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T14:01:27.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "202"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "401822207621"
+              ],
+              "title": [
+                "Iphone 6s 32gb"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/m/mPtTaFqJlvnYU5XYVmlLsMA/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Iphone-6s-32gb-/401822207621"
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "302**"
+              ],
+              "location": [
+                "Stany Zjednoczone"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "141.5"
+                    }
+                  ],
+                  "shippingType": [
+                    "Calculated"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "400.0"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "1582.76"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P17DT21H16M51S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2019-07-21T01:03:58.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-21T01:03:58.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "273541747671"
+              ],
+              "title": [
+                "ECRAN LCD IPHONE 6 / 6 Plus / 6S / 6S Plus NOIR/BLANC+VITRE TACTILE SUR CHASSIS"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "Qualité premium AAA+ , satisfait ou remboursé 30 jours"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "20349"
+                  ],
+                  "categoryName": [
+                    "Etuis, housses, coques"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/2735417476714040_16.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/ECRAN-LCD-IPHONE-6-6-Plus-6S-6S-Plus-NOIR-BLANC-VITRE-TACTILE-SUR-CHASSIS-/273541747671?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "511**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "25.81"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "17.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "82.5"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P0DT15H22M7S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-11-03T19:09:14.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-03T19:09:14.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "50"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/273541747671_1_324_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "112732910164"
+              ],
+              "title": [
+                "Batterie iPhone 6 / 6S Interne Neuve 0 Cycle + Outil Original"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "ENVOI AVEC NUMERO DE SUIVI -SATISFAITS OU REMBOURSER -"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1127329101644040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Batterie-iPhone-6-6S-Interne-Neuve-0-Cycle-Outil-Original-/112732910164?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "314**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "11.02"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "9.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "45.63"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P1DT9H8M17S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-01-04T12:55:24.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-04T12:55:24.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "159"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/112732910164_1_798_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "273582872743"
+              ],
+              "title": [
+                "Apple iPhone 6s - 16GB - Rose Gold (Sprint) Smartphone"
+              ],
+              "globalId": [
+                "EBAY-US"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "9355"
+                  ],
+                  "categoryName": [
+                    "Cell Phones & Smartphones"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/m/mx7d9Ku-TCHioJC0xkwkhrQ/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Apple-iPhone-6s-16GB-Rose-Gold-Sprint-Smartphone-/273582872743"
+              ],
+              "productId": [
+                {
+                  "@type": "ReferenceID",
+                  "__value__": "216131071"
+                }
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "109**"
+              ],
+              "location": [
+                "Stany Zjednoczone"
+              ],
+              "country": [
+                "US"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "97.46"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "USD",
+                      "__value__": "389.98"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "1543.11"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P24DT16H29M20S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-11-27T20:16:27.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-27T20:16:27.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "1"
+                  ]
+                }
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "283825122576"
+              ],
+              "title": [
+                "Ecran iPhone 6/6S BLANC/NOIR LCD Vitre Tactile Sur Châssis avec Outils+Verre"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "31569"
+                  ],
+                  "categoryName": [
+                    "Ecrans/panneaux LCD portable"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/2838251225764040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/Ecran-iPhone-6-6S-BLANC-NOIR-LCD-Vitre-Tactile-Sur-Chassis-avec-Outils-Verre-/283825122576?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "0.0"
+                    }
+                  ],
+                  "shippingType": [
+                    "Free"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "16.9"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "77.9"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P20DT16H42M58S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-03-23T20:30:05.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-23T20:30:05.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "40"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/283825122576_1_44_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "143792780586"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S INTERNE NEUVE 0 CYCLE ORIGINAL + Adhésif"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "secondaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/pict/1437927805864040_2.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/BATTERIE-IPHONE-6-6S-INTERNE-NEUVE-0-CYCLE-ORIGINAL-Adhesif-/143792780586?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "932**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "23.05"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "9.8"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "45.17"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P14DT17H0M56S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-10-17T20:48:03.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-17T20:48:03.000Z"
+                  ],
+                  "listingType": [
+                    "FixedPrice"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "57"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/143792780586_1_11_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "273558119143"
+              ],
+              "title": [
+                "BLOC COMPLET ASSEMBLÉE CHASSIS VITRE TACTILE ECRAN LCD IPHONE 6 NOIR / BLANC"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "QUALITÉ PREMIUM AAA+ , SATISFAIT OU REMBOURSÉ 30 JOURS"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Téléphones mobiles: pièces"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs4.ebaystatic.com/pict/2735581191434040_11.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/BLOC-COMPLET-ASSEMBLEE-CHASSIS-VITRE-TACTILE-ECRAN-LCD-IPHONE-6-NOIR-BLANC-/273558119143?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "511**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "25.81"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "19.49"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "89.83"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P10DT9H34M35S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2018-11-13T13:21:42.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-13T13:21:42.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "70"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/273558119143_1_184_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "201843878666"
+              ],
+              "title": [
+                "DISPLAY SCHERMO IPHONE 6S PLUS BIANCO PER APPLE TOUCH SCREEN LCD RETINA VETRO "
+              ],
+              "globalId": [
+                "EBAY-IT"
+              ],
+              "subtitle": [
+                "SPEDIZIONE CORRIERE EXPRESS 48H | GARANZIA | GRADO A+++"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "43304"
+                  ],
+                  "categoryName": [
+                    "Cellulari: componenti"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs3.ebaystatic.com/m/mf-SbBKOpqGChmzgU2VK01Q/140.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/DISPLAY-SCHERMO-IPHONE-6S-PLUS-BIANCO-PER-APPLE-TOUCH-SCREEN-LCD-RETINA-VETRO-/201843878666"
+              ],
+              "paymentMethod": [
+                "CIPInCheckoutEnabled",
+                "PayPal",
+                "COD",
+                "MoneyXferAccepted"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "Włochy"
+              ],
+              "country": [
+                "IT"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "69.09"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "26.49"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "122.1"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P3DT7H1M53S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2017-03-06T10:49:00.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-06T10:49:00.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "89"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/201843878666_1_60_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "false"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "124311702420"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S ORIGINAL INTERNE NEUVE + Adhésif"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs1.ebaystatic.com/pict/1243117024204040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/BATTERIE-IPHONE-6-6S-ORIGINAL-INTERNE-NEUVE-Adhesif-/124311702420?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "true"
+              ],
+              "postalCode": [
+                "931**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "20.74"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "9.99"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "46.05"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P22DT8H45M3S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-08-25T12:33:10.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-25T12:32:10.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "30"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/124311702420_1_11_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            },
+            {
+              "itemId": [
+                "164257317265"
+              ],
+              "title": [
+                "BATTERIE IPHONE 6 / 6S INTERNE 0 CYLCE 100% Neuve Haute Qualité + Outils+adhesif"
+              ],
+              "globalId": [
+                "EBAY-FR"
+              ],
+              "subtitle": [
+                "QUALITÉ PREMIUM AAA+ , SATISFAIT OU REMBOURSÉ 30 JOURS"
+              ],
+              "primaryCategory": [
+                {
+                  "categoryId": [
+                    "20357"
+                  ],
+                  "categoryName": [
+                    "Batteries"
+                  ]
+                }
+              ],
+              "galleryURL": [
+                "https://thumbs2.ebaystatic.com/pict/1642573172654040_1.jpg"
+              ],
+              "viewItemURL": [
+                "https://www.ebay.pl/itm/BATTERIE-IPHONE-6-6S-INTERNE-0-CYLCE-100-Neuve-Haute-Qualite-Outils-adhesif-/164257317265?var="
+              ],
+              "paymentMethod": [
+                "PayPal"
+              ],
+              "autoPay": [
+                "false"
+              ],
+              "postalCode": [
+                "951**"
+              ],
+              "location": [
+                "Francja"
+              ],
+              "country": [
+                "FR"
+              ],
+              "shippingInfo": [
+                {
+                  "shippingServiceCost": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "9.17"
+                    }
+                  ],
+                  "shippingType": [
+                    "Flat"
+                  ],
+                  "shipToLocations": [
+                    "Worldwide"
+                  ]
+                }
+              ],
+              "sellingStatus": [
+                {
+                  "currentPrice": [
+                    {
+                      "@currencyId": "EUR",
+                      "__value__": "7.88"
+                    }
+                  ],
+                  "convertedCurrentPrice": [
+                    {
+                      "@currencyId": "PLN",
+                      "__value__": "36.32"
+                    }
+                  ],
+                  "sellingState": [
+                    "Active"
+                  ],
+                  "timeLeft": [
+                    "P19DT5H58M24S"
+                  ]
+                }
+              ],
+              "listingInfo": [
+                {
+                  "bestOfferEnabled": [
+                    "false"
+                  ],
+                  "buyItNowAvailable": [
+                    "false"
+                  ],
+                  "startTime": [
+                    "2020-06-22T09:45:31.000Z"
+                  ],
+                  "endTime": [
+                    "2020-11-22T09:45:31.000Z"
+                  ],
+                  "listingType": [
+                    "StoreInventory"
+                  ],
+                  "gift": [
+                    "false"
+                  ],
+                  "watchCount": [
+                    "75"
+                  ]
+                }
+              ],
+              "galleryPlusPictureURL": [
+                "https://galleryplus.ebayimg.com/ws/web/164257317265_1_6_1.jpg"
+              ],
+              "condition": [
+                {
+                  "conditionId": [
+                    "1000"
+                  ],
+                  "conditionDisplayName": [
+                    "Nowy"
+                  ]
+                }
+              ],
+              "isMultiVariationListing": [
+                "true"
+              ],
+              "topRatedListing": [
+                "false"
+              ]
+            }
+          ]
+        }
+      ],
+      "paginationOutput": [
+        {
+          "pageNumber": [
+            "1"
+          ],
+          "entriesPerPage": [
+            "25"
+          ],
+          "totalPages": [
+            "97623"
+          ],
+          "totalEntries": [
+            "2440571"
+          ]
+        }
+      ],
+      "itemSearchURL": [
+        "https://www.ebay.pl/sch/i.html?LH_ItemCondition=1000&_nkw=iphone+6&_ipg=25&_pgn=1&_sop=12"
+      ]
+    }
+  ]
+}

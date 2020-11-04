@@ -10,11 +10,11 @@ void main() {
     setUp(() => registerInitialServices());
     tearDown(() => unregisterServices());
 
-    test('When search button (from search bar) is tapped, navigate to Completed List View', () async {
+    test('When search button (from search bar) is tapped, navigate to Active List View', () async {
       var navigationService = getAndRegisterNavigationServiceMock();
       var model = KeywordSearchViewModel();
-      model.navigateToCompleted();
-      verify(navigationService.navigateTo(Routes.completedListingView));
+      model.navigateToActiveListing();
+      verify(navigationService.navigateTo(Routes.activeListingView));
     });
   });
 }

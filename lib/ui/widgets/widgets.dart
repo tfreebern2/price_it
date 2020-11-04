@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:priceit/util/constants.dart';
 
 Widget customAppbar() {
   return AppBar(
     automaticallyImplyLeading: false,
+    backgroundColor: standardGreen,
     title: Text(
-      'PriceIt',
-      style: TextStyle(fontFamily: 'Oswald', color: Colors.black, fontSize: 22.0, fontWeight: FontWeight.bold),
+      'Price It!',
+      style: TextStyle(fontFamily: 'Oswald', color: Colors.white, fontSize: 22.0, fontWeight: FontWeight.w600),
     ),
   );
 }
@@ -17,7 +19,7 @@ Widget listingSearchButton(context, model) {
       'Search',
       style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
     ),
-    color: Theme.of(context).accentColor,
+    color: standardGreen,
     onPressed: () => model.navigateToSelectionView(),
     highlightElevation: 2,
     height: 40,
@@ -30,14 +32,16 @@ Widget searchByKeywordButton(context, model) {
   return MaterialButton(
     child: Text(
       'Search By Keyword',
-      style: TextStyle(color: Colors.black, fontSize: 22.0, fontWeight: FontWeight.w600),
+      style: TextStyle(fontFamily: 'Oswald', color: Colors.white, fontSize: 22.0, fontWeight: FontWeight.w600),
     ),
-    color: Theme.of(context).accentColor,
+    color: standardPurple,
     onPressed: () => model.navigateToKeyword(),
     highlightElevation: 2,
     height: 100,
     minWidth: 250,
-    shape: OutlineInputBorder(),
+    shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10)
+    ),
   );
 }
 
@@ -45,13 +49,15 @@ Widget searchByProductButton(context, model) {
   return MaterialButton(
     child: Text(
       'Scan Product',
-      style: TextStyle(color: Colors.black, fontSize: 22.0, fontWeight: FontWeight.w600),
+      style: TextStyle(color: Colors.white, fontSize: 22.0, fontWeight: FontWeight.w600),
     ),
-    color: Theme.of(context).accentColor,
+    color: standardPurple,
     onPressed: () => model.navigateToProduct(),
     highlightElevation: 2,
     height: 100,
     minWidth: 250,
-    shape: OutlineInputBorder(),
+    shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10)
+    ),
   );
 }

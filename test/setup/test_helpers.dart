@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:mockito/mockito.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:priceit/app/locator.dart';
+import 'package:priceit/datamodels/ebay_request.dart';
 import 'package:priceit/datamodels/item.dart';
 import 'package:priceit/services/api.dart';
 import 'package:priceit/services/search_service.dart';
@@ -32,8 +33,9 @@ Future<ApiMock> getAndRegisterApiMock() async {
 
   List<Item> newCompletedListing = List<Item>();
 
+  EbayRequest ebayRequest = new EbayRequest.build('New', 'iPhone 6', 'United States');
   Item item1 =
-      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "1.00", "SOLD");
+      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "\$", "1.00", "SOLD");
   newCompletedListing.add(item1);
   var futureCompletedListing = Future.value(newCompletedListing);
 
@@ -41,10 +43,7 @@ Future<ApiMock> getAndRegisterApiMock() async {
   final futureRequest1 = Future.value(requestFile.readAsString());
   final futureResponse1 = Future.value(responseFile.readAsString());
 
-  when(api.findingCompletedItemApiCall(futureRequest1))
-      .thenAnswer((_) async => http.Response(await futureResponse1, 200));
-  when(api.searchForCompletedItems('New', 'iPhone 6 ')).thenAnswer((_) async => futureCompletedListing);
-  when(api.searchForActiveItems('New', 'iPhone 6 ')).thenAnswer((_) async => futureCompletedListing);
+  when(api.searchForActiveItems(ebayRequest)).thenAnswer((_) async => futureCompletedListing);
 
   locator.registerSingleton<Api>(api);
   return api;
@@ -56,19 +55,14 @@ SearchServiceMock getAndRegisterSavedSearchServiceMock() {
   List<Item> completedListings = new List();
   List<Item> activeListings = new List();
   Item item1 =
-      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "1.00", "SOLD");
+      new Item("1", "title", "1234", "ebay.com", "ebay.com", "United States", "US", "\$", "1.00", "SOLD");
   item1.totalEntries = "1";
   completedListings.add(item1);
   activeListings.add(item1);
-  service.setCompletedAndActiveListings(completedListings, activeListings);
+  service.setActiveListing(activeListings);
 
   // stubbing
-  when(service.apiCalled).thenReturn(true);
-  when(service.apiError).thenReturn(false);
-  when(service.completedListing).thenReturn(completedListings);
   when(service.activeListing).thenReturn(activeListings);
-  when(service.completedListingAveragePrice).thenReturn(1.00);
-  when(service.completedListingPercentageSold).thenReturn(100.00);
   when(service.activeListingAveragePrice).thenReturn(1.00);
 
   locator.registerSingleton<SearchService>(service);
@@ -80,11 +74,7 @@ SearchServiceMock getAndRegisterInitialSearchServiceMock() {
   var service = SearchServiceMock();
 
   // stubbing
-  when(service.apiCalled).thenReturn(false);
-  when(service.apiError).thenReturn(false);
-  when(service.completedListing).thenReturn(List());
   when(service.activeListing).thenReturn(List());
-  when(service.completedListingAveragePrice).thenReturn(100.0);
   when(service.condition).thenReturn('New');
   when(service.searchKeyword).thenReturn('iPhone 6');
   when(service.imagePath).thenReturn('/file/path');
@@ -98,11 +88,8 @@ SearchServiceMock getAndRegisterInitialAfterApiSearchServiceMock() {
   var service = SearchServiceMock();
 
   // stubbing
-  when(service.completedListing).thenReturn(List());
-  when(service.completedListing.length).thenReturn(0);
   when(service.activeListing).thenReturn(List());
   when(service.activeListing.length).thenReturn(0);
-  when(service.completedListingAveragePrice).thenReturn(100.0);
 
   locator.registerSingleton<SearchService>(service);
   return service;

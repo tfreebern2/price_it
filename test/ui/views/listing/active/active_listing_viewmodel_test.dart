@@ -16,12 +16,5 @@ void main() {
       model.navigateToSelectionView();
       verify(navigationService.clearStackAndShow(Routes.selectionView));
     });
-
-    test('When completed view listing button is tapped, replace view with Completed View Listing', () async {
-      var navigationService = getAndRegisterNavigationServiceMock();
-      var model = ActiveListingViewModel();
-      model.navigateToCompletedListingView();
-      verify(navigationService.navigateTo(Routes.completedListingView));
-    });
   });
 }

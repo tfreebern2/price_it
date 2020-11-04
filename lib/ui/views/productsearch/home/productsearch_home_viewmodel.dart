@@ -20,6 +20,7 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
 
   String get condition => _searchService.condition;
   String get searchKeyword => _searchService.searchKeyword;
+  String get region => _searchService.region;
 
   PermissionStatus cameraStatus;
   PermissionStatus microphoneStatus;
@@ -43,6 +44,11 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
 
   void updateCondition(String newValue) {
     _searchService.setCondition(newValue);
+    notifyListeners();
+  }
+
+  void updateRegion(String newValue) {
+    _searchService.setRegion(newValue);
     notifyListeners();
   }
 

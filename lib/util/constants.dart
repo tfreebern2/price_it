@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:ui';
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
@@ -23,19 +24,9 @@ const String globalIdHeaderValue = 'EBAY-US';
 const String serviceNameHeaderValue = 'FindingService';
 const String json = 'JSON';
 const String xml = 'XML';
+String appId = DotEnv().env['APP_ID'];
 
 // Request Headers
-Map<String, String> completedItemsHeaders = {
-  HttpHeaders.contentTypeHeader: 'application/json',
-  appNameHeader: DotEnv().env['APP_ID'],
-  operationNameHeader: findCompletedItems,
-  serviceVersionHeader: serviceVersionHeaderValue,
-  globalIdHeader: globalIdHeaderValue,
-  serviceNameHeader: serviceNameHeaderValue,
-  requestDataFormatHeader: json,
-  responseDataFormatHeader: json
-};
-
 Map<String, String> activeItemsHeaders = {
   HttpHeaders.contentTypeHeader: 'application/json',
   appNameHeader: DotEnv().env['APP_ID'],
@@ -54,10 +45,10 @@ const Map<String, String> conditionsMap = {
   'New with defects': '1750',
   'Manufacturer refurbished': '2000',
   'Seller refurbished': '2500',
-  'Used' : '3000',
-  'Very Good' : '4000',
-  'Good' : '5000',
-  'Acceptable' : '6000',
+  'Used': '3000',
+  'Very Good': '4000',
+  'Good': '5000',
+  'Acceptable': '6000',
   'For parts or not working': '7000'
 };
 
@@ -102,6 +93,8 @@ const String countryKey = "country";
 const String sellingStatusKey = "sellingStatus";
 const String sellingStateKey = "sellingState";
 const String currentPriceKey = "currentPrice";
+const String convertedCurrentPrice = "convertedCurrentPrice";
+const String currentIdValueKey = "@currencyId";
 const String underscoreValueKey = "__value__";
 const String notAvailable = "N/A";
 const String ended = "Ended";
@@ -120,3 +113,74 @@ const String newOrOtherValue = "New or other";
 // Product Type
 const String upc = "UPC";
 const String isbn = "ISBN";
+
+// Region List
+const List<String> regionList = [
+  'Austria',
+  'Australia',
+  'Canada (English)',
+  'Canada (French)',
+  'Belgium (Dutch)',
+  'Belgium (French)',
+  'France',
+  'Germany',
+  'Hong Kong',
+  'Ireland',
+  'India',
+  'Italy',
+  'Motors',
+  'Malaysia',
+  'Netherlands',
+  'Philippines',
+  'Poland',
+  'Singapore',
+  'Spain',
+  'Switzerland',
+  'UK',
+  'United States'
+];
+
+// Regions Map
+const Map<String, String> regionsMap = {
+  'Austria' : 'EBAY-AT',
+  'Australia' : 'EBAY-AU',
+  'Belgium (Dutch)' : 'EBAY-NLBE',
+  'Belgium (French)' : 'EBAY-FRBE',
+  'Canada (English)' : 'EBAY-ENCA',
+  'Canada (French)' : 'EBAY-FRCA',
+  'France' : 'EBAY-FR',
+  'Germany' : 'EBAY-DE',
+  'Hong Kong' : 'EBAY-HK',
+  'Ireland' : 'EBAY-IE',
+  'India' : 'EBAY-IN',
+  'Italy' : 'EBAY-IT',
+  'Motors' : 'EBAY-MOTOR',
+  'Malaysia' : 'EBAY-MY',
+  'Netherlands' : 'EBAY-NL',
+  'Philippines' : 'EBAY-PH',
+  'Poland' : 'EBAY-PL',
+  'Singapore' : 'EBAY-SG',
+  'Spain' : 'EBAY-ES',
+  'Switzerland' : 'EBAY-CH',
+  'UK' : 'EBAY-GB',
+  'United States' : 'EBAY-US'
+};
+
+// Currency Map
+const Map<String, String> currencyMap = {
+  'EUR': '€',
+  'AUD': '\$',
+  'CAD': '\$',
+  'CHF': 'CHF',
+  'GBP': '£',
+  'HKD': 'HK \$',
+  'INR': '₹',
+  'MYR': 'RM',
+  'PHP': '₱',
+  'PLN': 'zł',
+  'SGD': 'S\$',
+  'USD': '\$'
+};
+
+const Color standardGreen = Color.fromRGBO(93, 188, 157, 1);
+const Color standardPurple = Color.fromRGBO(141, 108, 159, 1);
