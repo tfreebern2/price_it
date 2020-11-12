@@ -69,19 +69,6 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                             ),
                           ),
                         ),
-                        // Align(
-                        //   alignment: Alignment.bottomLeft,
-                        //   child: Padding(
-                        //     padding: const EdgeInsets.all(12.0),
-                        //     child: RaisedButton.icon(
-                        //       onPressed: () => onBack(model),
-                        //       icon: Icon(Icons.arrow_back, color: Colors.white),
-                        //       label: Text('Back', style: TextStyle(color: Colors.white)),
-                        //       color: standardPurple,
-                        //       shape: OutlineInputBorder(),
-                        //     ),
-                        //   ),
-                        // ),
                         searchButton(context, model)
                       ],
                     ),
