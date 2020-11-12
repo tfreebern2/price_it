@@ -41,6 +41,10 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
     navigationService.clearStackAndShow(Routes.selectionView);
   }
 
+  void navigateToKeywordSearch() {
+    navigationService.back();
+  }
+
   void calculateAveragePrice(List<Item> activeListings) {
     if (activeListings.length > 0) {
       currencySymbol = activeListings[0].currencySymbol;

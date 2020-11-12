@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
@@ -13,7 +16,7 @@ class KeywordSearchView extends StatelessWidget {
     final _formKey = GlobalKey<FormState>();
     return ViewModelBuilder<KeywordSearchViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
-            appBar: customAppbar(),
+            appBar: _appBar(context, model),
             body: SafeArea(
               child: ListView(
                 children: <Widget>[
@@ -37,6 +40,34 @@ class KeywordSearchView extends StatelessWidget {
             )),
         viewModelBuilder: () => KeywordSearchViewModel());
   }
+}
+
+Widget _appBar(context, model) {
+  return Platform.isIOS
+      ? CupertinoNavigationBar(
+          actionsForegroundColor: Colors.white,
+          backgroundColor: standardGreen,
+          middle: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        )
+      : AppBar(
+          automaticallyImplyLeading: false,
+          backgroundColor: standardGreen,
+          title: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        );
 }
 
 Widget _regionSelector(context, model) {

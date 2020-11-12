@@ -15,7 +15,7 @@ class ActiveListingView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<ActiveListingViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
-              appBar: customAppbar(),
+              appBar: _appBar(context, model),
               body: SafeArea(
                 child: Center(
                   child: model.isBusy
@@ -36,6 +36,34 @@ class ActiveListingView extends StatelessWidget {
             ),
         viewModelBuilder: () => ActiveListingViewModel());
   }
+}
+
+Widget _appBar(context, model) {
+  return Platform.isIOS
+      ? CupertinoNavigationBar(
+    actionsForegroundColor: Colors.white,
+    backgroundColor: standardGreen,
+    middle: Text(
+      'Price It!',
+      style: TextStyle(
+          fontFamily: 'Oswald',
+          color: Colors.white,
+          fontSize: 22.0,
+          fontWeight: FontWeight.w600),
+    ),
+  )
+      : AppBar(
+    automaticallyImplyLeading: false,
+    backgroundColor: standardGreen,
+    title: Text(
+      'Price It!',
+      style: TextStyle(
+          fontFamily: 'Oswald',
+          color: Colors.white,
+          fontSize: 22.0,
+          fontWeight: FontWeight.w600),
+    ),
+  );
 }
 
 Widget _titleText(context) {
