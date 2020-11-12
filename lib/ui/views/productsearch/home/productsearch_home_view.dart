@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:camera/camera.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:priceit/ui/views/productsearch/home/productsearch_home_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
@@ -13,7 +16,7 @@ class ProductSearchHomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<ProductSearchHomeViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
-            appBar: customAppbar(),
+            appBar: _appBar(context, model),
             body: model.dataReady
                 ? Stack(
                     children: <Widget>[
@@ -31,17 +34,43 @@ class ProductSearchHomeView extends StatelessWidget {
   }
 }
 
+Widget _appBar(context, model) {
+  return Platform.isIOS
+      ? CupertinoNavigationBar(
+          actionsForegroundColor: Colors.white,
+          backgroundColor: standardGreen,
+          middle: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        )
+      : AppBar(
+          automaticallyImplyLeading: false,
+          backgroundColor: standardGreen,
+          title: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        );
+}
+
 Widget _selectionColumn(context, model) {
   return Container(
     alignment: Alignment.topCenter,
     child: Column(
       children: [
         SizedBox(height: 10.0),
-        Text('Select Region: ',
-            style: TextStyle(color: Colors.white, fontSize: 16.0)),
+        Text('Select Region: ', style: TextStyle(color: Colors.white, fontSize: 16.0)),
         _RegionSelection(),
-        Text('Select Condition: ',
-            style: TextStyle(color: Colors.white, fontSize: 16.0)),
+        Text('Select Condition: ', style: TextStyle(color: Colors.white, fontSize: 16.0)),
         _RadioButtons()
       ],
     ),

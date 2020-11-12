@@ -15,6 +15,9 @@ class KeywordSearchViewModel extends ReactiveViewModel {
   void navigateToActiveListing() {
     _navigationService.navigateTo(Routes.activeListingView);
   }
+  void navigateToSelectionView() {
+    _navigationService.clearStackAndShow(Routes.selectionView);
+  }
 
   void updateCondition(String newValue) {
     _searchService.setCondition(newValue);

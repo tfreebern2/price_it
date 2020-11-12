@@ -1,6 +1,8 @@
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:priceit/ui/views/productsearch/photodetail/productsearch_photodetail_viewmodel.dart';
-import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 import 'dart:ui';
@@ -10,7 +12,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<ProductSearchPhotoDetailViewModel>.reactive(
         builder: (context, model, child) => Scaffold(
-            appBar: customAppbar(),
+            appBar: _appBar(context, model),
             body: WillPopScope(
               onWillPop: () => onBack(model),
               child: model.isBusy
@@ -67,19 +69,19 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Align(
-                          alignment: Alignment.bottomLeft,
-                          child: Padding(
-                            padding: const EdgeInsets.all(12.0),
-                            child: RaisedButton.icon(
-                              onPressed: () => onBack(model),
-                              icon: Icon(Icons.arrow_back, color: Colors.white),
-                              label: Text('Back', style: TextStyle(color: Colors.white)),
-                              color: standardPurple,
-                              shape: OutlineInputBorder(),
-                            ),
-                          ),
-                        ),
+                        // Align(
+                        //   alignment: Alignment.bottomLeft,
+                        //   child: Padding(
+                        //     padding: const EdgeInsets.all(12.0),
+                        //     child: RaisedButton.icon(
+                        //       onPressed: () => onBack(model),
+                        //       icon: Icon(Icons.arrow_back, color: Colors.white),
+                        //       label: Text('Back', style: TextStyle(color: Colors.white)),
+                        //       color: standardPurple,
+                        //       shape: OutlineInputBorder(),
+                        //     ),
+                        //   ),
+                        // ),
                         searchButton(context, model)
                       ],
                     ),
@@ -94,12 +96,40 @@ Future<bool> onBack(model) async {
   return true;
 }
 
+Widget _appBar(context, model) {
+  return Platform.isIOS
+      ? CupertinoNavigationBar(
+    actionsForegroundColor: Colors.white,
+    backgroundColor: standardGreen,
+    middle: Text(
+      'Price It!',
+      style: TextStyle(
+          fontFamily: 'Oswald',
+          color: Colors.white,
+          fontSize: 22.0,
+          fontWeight: FontWeight.w600),
+    ),
+  )
+      : AppBar(
+    automaticallyImplyLeading: false,
+    backgroundColor: standardGreen,
+    title: Text(
+      'Price It!',
+      style: TextStyle(
+          fontFamily: 'Oswald',
+          color: Colors.white,
+          fontSize: 22.0,
+          fontWeight: FontWeight.w600),
+    ),
+  );
+}
+
 Widget searchButton(context, model) {
   if (model.searchService.searchKeyword == notAvailable) {
     return Container();
   } else {
     return Align(
-      alignment: Alignment.bottomRight,
+      alignment: Alignment.bottomCenter,
       child: Padding(
         padding: const EdgeInsets.all(12.0),
         child: RaisedButton.icon(
