@@ -14,7 +14,6 @@ class SelectionView extends StatelessWidget {
               body: SafeArea(
                 child: Center(
                   child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       searchByKeywordButton(context, model),

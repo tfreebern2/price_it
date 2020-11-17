@@ -10,7 +10,8 @@ class Item {
   String location;
   String country;
   String currencySymbol;
-  String currentPrice;
+  double currentPrice;
+  String currentPriceString;
   String sellingState;
   String totalEntries;
 
@@ -37,9 +38,10 @@ class Item {
             ? data[sellingStatusKey][0][convertedCurrentPrice][0][currentIdValueKey]
             : "USD";
         currencySymbol = _getCurrencySymbol(symbol);
-        currentPrice = sellingStatusMap.containsKey(convertedCurrentPrice)
+        currentPriceString = sellingStatusMap.containsKey(convertedCurrentPrice)
             ? data[sellingStatusKey][0][convertedCurrentPrice][0][underscoreValueKey]
             : notAvailable;
+        currentPrice = double.parse(currentPriceString);
       }
     });
     _addDoubleDigitsAfterDecimal();
@@ -52,17 +54,12 @@ class Item {
   void _addDoubleDigitsAfterDecimal() {
     String zero = "0";
     String decimal = ".";
-    List<String> splitPrice = currentPrice.split(decimal);
+    List<String> splitPrice = currentPriceString.split(decimal);
     var afterDecimal = splitPrice[1];
-    try {
-      if (afterDecimal == zero) {
-        currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
-      } else if (afterDecimal.length == 1 && afterDecimal != zero) {
-        currentPrice = splitPrice[0] + decimal + splitPrice[1] + zero;
-      }
-    } on Exception catch (e) {
-      debugPrint(e.toString());
-      throw Exception("Error parsing price");
+    if (afterDecimal == zero) {
+      currentPriceString = splitPrice[0] + decimal + splitPrice[1] + zero;
+    } else if (afterDecimal.length == 1 && afterDecimal != zero) {
+      currentPriceString = splitPrice[0] + decimal + splitPrice[1] + zero;
     }
   }
 }

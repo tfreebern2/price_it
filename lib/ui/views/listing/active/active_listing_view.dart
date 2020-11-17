@@ -7,6 +7,7 @@ import 'package:priceit/ui/views/listing/active/active_listing_viewmodel.dart';
 import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
+import 'package:stacked_hooks/stacked_hooks.dart';
 
 class ActiveListingView extends StatelessWidget {
   const ActiveListingView({Key key}) : super(key: key);
@@ -20,7 +21,7 @@ class ActiveListingView extends StatelessWidget {
                 child: Center(
                   child: model.isBusy
                       ? CircularProgressIndicator(
-                          valueColor: new AlwaysStoppedAnimation<Color>(standardPurple))
+                          valueColor: new AlwaysStoppedAnimation<Color>(standardGreen))
                       : Column(
                           children: <Widget>[
                             SizedBox(
@@ -28,7 +29,8 @@ class ActiveListingView extends StatelessWidget {
                             ),
                             _titleText(context),
                             _pricingText(context, model),
-                            _itemListViewBuilder(context, model),
+                            _SortSelection(),
+                            _ItemListViewBuilder(),
                           ],
                         ),
                 ),
@@ -41,29 +43,29 @@ class ActiveListingView extends StatelessWidget {
 Widget _appBar(context, model) {
   return Platform.isIOS
       ? CupertinoNavigationBar(
-    actionsForegroundColor: Colors.white,
-    backgroundColor: standardGreen,
-    middle: Text(
-      'Price It!',
-      style: TextStyle(
-          fontFamily: 'Oswald',
-          color: Colors.white,
-          fontSize: 22.0,
-          fontWeight: FontWeight.w600),
-    ),
-  )
+          actionsForegroundColor: Colors.white,
+          backgroundColor: standardGreen,
+          middle: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        )
       : AppBar(
-    automaticallyImplyLeading: false,
-    backgroundColor: standardGreen,
-    title: Text(
-      'Price It!',
-      style: TextStyle(
-          fontFamily: 'Oswald',
-          color: Colors.white,
-          fontSize: 22.0,
-          fontWeight: FontWeight.w600),
-    ),
-  );
+          automaticallyImplyLeading: false,
+          backgroundColor: standardGreen,
+          title: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        );
 }
 
 Widget _titleText(context) {
@@ -73,8 +75,8 @@ Widget _titleText(context) {
     child: Text(
       'Active Listings',
       style: TextStyle(
-          fontSize: (deviceWidth < 360) ? 22.0 : 28.0,
-          color: Color.fromRGBO(141, 108, 159, 1),
+          fontSize: (deviceWidth < 380) ? 24.0 : 28.0,
+          color: standardGreen,
           fontWeight: FontWeight.w600),
     ),
   );
@@ -95,15 +97,15 @@ Widget _pricingText(context, model) {
                     " " +
                     model.data.activeListingAveragePrice.toStringAsFixed(2),
                 style: TextStyle(
-                    color: standardGreen,
-                    fontSize: (deviceWidth < 360) ? 18.0 : 20.0,
+                    color: Colors.black45,
+                    fontSize: (deviceWidth < 380) ? 18.0 : 20.0,
                     fontWeight: FontWeight.bold),
               ),
               Text(
                 ' avg',
                 style: TextStyle(
-                    color: Color.fromRGBO(141, 108, 159, 1),
-                    fontSize: (deviceWidth < 360) ? 16.0 : 18.0,
+                    color: standardGreen,
+                    fontSize: (deviceWidth < 380) ? 16.0 : 18.0,
                     fontWeight: FontWeight.bold),
               )
             ],
@@ -111,42 +113,110 @@ Widget _pricingText(context, model) {
         );
 }
 
-Widget _itemListViewBuilder(context, model) {
-  return model.hasError
-      ? Padding(
-          padding: const EdgeInsets.all(20.0),
-          child: Text('Nothing to see here...', style: TextStyle(fontSize: 26.0)),
-        )
-      : Expanded(
-          child: ListView.builder(
-              itemCount: model.data.activeListing.length,
-              scrollDirection: Axis.vertical,
-              shrinkWrap: true,
-              itemBuilder: (context, index) {
-                Item item = model.data.activeListing[index];
-                return Padding(
-                  padding: const EdgeInsets.all(2.0),
-                  child: Card(
-                    elevation: 6.00,
-                    shadowColor: standardPurple,
-                    child: ListTile(
-                      contentPadding: EdgeInsets.all(12.0),
-                      leading: item.galleryUrl.isNotEmpty
-                          ? Image.network(item.galleryUrl)
-                          : Text('Image Not' + '\n' + 'Available'),
-                      title: Text(item.title, style: TextStyle(color: standardPurple)),
-                      trailing: Text(
-                        item.currencySymbol + " " + item.currentPrice,
-                        style: TextStyle(color: standardGreen, fontWeight: FontWeight.bold),
-                      ),
-                      onTap: () => item.viewItemUrl.isNotEmpty
-                          ? model.launchUrl(item.viewItemUrl)
-                          : showNoLaunchUrl(context, model),
-                    ),
+class _SortSelection extends HookViewModelWidget<ActiveListingViewModel> {
+  @override
+  Widget buildViewModelWidget(BuildContext context, ActiveListingViewModel viewModel) {
+    return viewModel.hasError
+        ? Container()
+        : Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Text('Sort by:  ',
+                    style: TextStyle(
+                        fontFamily: 'Oswald',
+                        color: Colors.black45,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600)),
+                DropdownButton<String>(
+                  value: viewModel.sortOrder,
+                  icon: Icon(Icons.arrow_downward, color: Colors.black45),
+                  iconSize: 18.0,
+                  elevation: 16,
+                  style: TextStyle(fontFamily: 'Oswald', color: standardGreen, fontSize: 16),
+                  underline: Container(
+                    height: 1,
+                    color: Colors.black45,
                   ),
-                );
-              }),
-        );
+                  onChanged: (String newValue) {
+                    viewModel.updateSortOrder(newValue);
+                    debugPrint(viewModel.sortOrder);
+                  },
+                  items: sortList.map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
+                )
+              ],
+            ),
+          );
+  }
+}
+
+class _ItemListViewBuilder extends HookViewModelWidget<ActiveListingViewModel> {
+  _ItemListViewBuilder({Key key}) : super(key: key, reactive: true);
+  @override
+  Widget buildViewModelWidget(BuildContext context, ActiveListingViewModel viewModel) {
+    return viewModel.hasError
+        ? Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Text('Nothing to see here...', style: TextStyle(fontSize: 26.0)),
+          )
+        : Expanded(
+            child: ListView.builder(
+                itemCount: viewModel.data.activeListing.length,
+                scrollDirection: Axis.vertical,
+                shrinkWrap: true,
+                itemBuilder: (context, index) {
+                  if (viewModel.sortOrder == bestMatchSelection) {
+                    List<Item> bestMatchList = viewModel.data.activeListing;
+                    bestMatchList.sort((a, b) => b.title.compareTo(a.title));
+                    viewModel.searchService.setBestMatchList(bestMatchList);
+                    Item item = viewModel.searchService.bestMatchList[index];
+                    return cardItem(context, viewModel, item);
+                  } else if (viewModel.sortOrder == highestPrice) {
+                    List<Item> highPriceList = viewModel.data.activeListing;
+                    highPriceList.sort((a, b) => b.currentPrice.compareTo(a.currentPrice));
+                    viewModel.searchService.setHighPriceList(highPriceList);
+                    Item item = viewModel.searchService.highPriceList[index];
+                    return cardItem(context, viewModel, item);
+                  } else {
+                    List<Item> lowPriceList = viewModel.data.activeListing;
+                    lowPriceList.sort((a, b) => a.currentPrice.compareTo(b.currentPrice));
+                    viewModel.searchService.setLowPriceList(lowPriceList);
+                    Item item = viewModel.searchService.lowPriceList[index];
+                    return cardItem(context, viewModel, item);
+                  }
+                }),
+          );
+  }
+}
+
+Widget cardItem(BuildContext context, ActiveListingViewModel viewModel, Item item) {
+  return Padding(
+    padding: const EdgeInsets.all(2.0),
+    child: Card(
+      elevation: 6.00,
+      shadowColor: Colors.black,
+      child: ListTile(
+        contentPadding: EdgeInsets.all(12.0),
+        leading: item.galleryUrl.isNotEmpty
+            ? Image.network(item.galleryUrl)
+            : Text('Image Not' + '\n' + 'Available', textAlign: TextAlign.center),
+        title: Text(item.title, style: TextStyle(color: standardGreen)),
+        trailing: Text(
+          item.currencySymbol + " " + item.currentPriceString,
+          style: TextStyle(color: Colors.black45, fontWeight: FontWeight.bold),
+        ),
+        onTap: () => item.viewItemUrl.isNotEmpty
+            ? viewModel.launchUrl(item.viewItemUrl)
+            : showNoLaunchUrl(context, viewModel),
+      ),
+    ),
+  );
 }
 
 Future<void> showNoLaunchUrl(context, model) async {

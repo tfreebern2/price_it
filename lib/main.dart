@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Oswald',
         // primarySwatch: Colors.green,
-        canvasColor: Colors.purple[50],
+        canvasColor: Colors.green[50],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: SelectionView(),

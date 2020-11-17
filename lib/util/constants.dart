@@ -62,6 +62,9 @@ const String hideDuplicateItems = 'HideDuplicateItems';
 const String valueKey = 'value';
 const String sortOrder = 'sortOrder';
 const String bestMatch = 'BestMatch';
+const String bestMatchSelection = 'Best Match';
+const String highestPrice = 'Highest Price';
+const String lowestPrice = 'Lowest Price';
 const String trueString = 'true';
 const String falseString = 'false';
 const String paginationInput = 'paginationInput';
@@ -113,6 +116,13 @@ const String newOrOtherValue = "New or other";
 // Product Type
 const String upc = "UPC";
 const String isbn = "ISBN";
+
+// Sort List
+const List<String> sortList = [
+  'Best Match',
+  'Highest Price',
+  'Lowest Price'
+];
 
 // Region List
 const List<String> regionList = [

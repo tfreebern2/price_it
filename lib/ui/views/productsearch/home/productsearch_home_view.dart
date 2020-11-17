@@ -84,8 +84,8 @@ class _RegionSelection extends HookViewModelWidget<ProductSearchHomeViewModel> {
       padding: const EdgeInsets.all(10.0),
       child: DropdownButton<String>(
         value: viewModel.region,
-        dropdownColor: standardPurple,
-        icon: Icon(Icons.arrow_downward, color: standardPurple),
+        dropdownColor: standardGreen,
+        icon: Icon(Icons.arrow_downward, color: standardGreen),
         iconSize: 18.0,
         elevation: 16,
         style: TextStyle(fontFamily: 'Oswald', color: Colors.white, fontSize: 16),
@@ -118,7 +118,7 @@ class _RadioButtons extends HookViewModelWidget<ProductSearchHomeViewModel> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Radio(
-            activeColor: standardPurple,
+            activeColor: standardGreen,
             value: usedValue,
             groupValue: model.condition.toString(),
             onChanged: (String newValue) {
@@ -127,7 +127,7 @@ class _RadioButtons extends HookViewModelWidget<ProductSearchHomeViewModel> {
           ),
           Text(usedValue, style: TextStyle(color: Colors.white, fontSize: 18.0)),
           Radio(
-            activeColor: standardPurple,
+            activeColor: standardGreen,
             value: newValue,
             groupValue: model.condition.toString(),
             onChanged: (String newValue) {
