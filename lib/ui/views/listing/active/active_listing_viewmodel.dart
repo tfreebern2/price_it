@@ -28,6 +28,8 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
 
   int get activeListLength => _activeListLength;
 
+  String get sortOrder => searchService.sortOrder;
+
   void launchUrl(String viewItemURL) async {
     if (await canLaunch(viewItemURL)) {
       await launch(viewItemURL);
@@ -45,11 +47,16 @@ class ActiveListingViewModel extends FutureViewModel<EbayResponse> {
     navigationService.back();
   }
 
+  void updateSortOrder(String newValue) {
+    searchService.setSortOrder(newValue);
+    notifyListeners();
+  }
+
   void calculateAveragePrice(List<Item> activeListings) {
     if (activeListings.length > 0) {
       currencySymbol = activeListings[0].currencySymbol;
       activeListings.forEach((item) {
-        _activeListingSoldAmount += double.parse(item.currentPrice.replaceAll("\$", ""));
+        _activeListingSoldAmount += item.currentPrice;
         _activeListLength += 1;
       });
     }

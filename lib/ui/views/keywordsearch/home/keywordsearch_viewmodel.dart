@@ -31,6 +31,7 @@ class KeywordSearchViewModel extends ReactiveViewModel {
 
   void updateSearchKeyword(String newValue) {
     _searchService.setSearchKeyword(newValue);
+    _searchService.setSortOrder('Best Match');
   }
 
   @override

@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:priceit/ui/views/keywordsearch/home/keywordsearch_viewmodel.dart';
-import 'package:priceit/ui/widgets/widgets.dart';
 import 'package:priceit/util/constants.dart';
 import 'package:stacked/stacked.dart';
 
@@ -21,13 +20,12 @@ class KeywordSearchView extends StatelessWidget {
               child: ListView(
                 children: <Widget>[
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      SizedBox(height: 20.0),
+                      SizedBox(height: 50.0),
                       Text('Select Region: '),
                       _regionSelector(context, model),
-                      SizedBox(height: 20.0),
+                      SizedBox(height: 30.0),
                       Text('Select Condition: '),
                       _radioButtons(context, model),
                       SizedBox(height: 10),
@@ -73,10 +71,10 @@ Widget _appBar(context, model) {
 Widget _regionSelector(context, model) {
   return DropdownButton<String>(
     value: model.region,
-    icon: Icon(Icons.arrow_downward, color: standardPurple),
+    icon: Icon(Icons.arrow_downward, color: standardGreen),
     iconSize: 18.0,
     elevation: 16,
-    style: TextStyle(fontFamily: 'Oswald', color: standardPurple, fontSize: 16),
+    style: TextStyle(fontFamily: 'Oswald', color: standardGreen, fontSize: 16),
     underline: Container(
       height: 1,
       color: Colors.black45,
@@ -102,7 +100,7 @@ Widget _radioButtons(context, model) {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         Radio(
-          activeColor: standardPurple,
+          activeColor: standardGreen,
           value: usedValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
@@ -111,7 +109,7 @@ Widget _radioButtons(context, model) {
         ),
         Text(usedValue),
         Radio(
-          activeColor: standardPurple,
+          activeColor: standardGreen,
           value: newValue,
           groupValue: model.condition.toString(),
           onChanged: (String newValue) {
@@ -138,13 +136,13 @@ Widget _searchBar(context, _searchController, formKey) {
             border: InputBorder.none,
             enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                borderSide: BorderSide(color: standardPurple)),
+                borderSide: BorderSide(color: standardGreen)),
             focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(10.0)),
                 borderSide: BorderSide(color: Colors.black)),
             hintText: "Search By Keyword",
             filled: true,
-            fillColor: standardPurple),
+            fillColor: standardGreen),
       ),
     ),
   );

@@ -19,7 +19,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                   ? Container(
                       child: Center(
                           child: CircularProgressIndicator(
-                              valueColor: new AlwaysStoppedAnimation<Color>(standardPurple))))
+                              valueColor: new AlwaysStoppedAnimation<Color>(standardGreen))))
                   : Stack(
                       children: <Widget>[
                         Center(
@@ -35,8 +35,8 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.all(10.0),
                             child: Card(
-                              elevation: 8,
-                              color: standardPurple,
+                              elevation: 10,
+                              color: Colors.white,
                               child: Padding(
                                 padding: const EdgeInsets.all(16.0),
                                 child: Column(
@@ -47,9 +47,11 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                                     Padding(
                                       padding: const EdgeInsets.only(bottom: 8.0),
                                       child: Text(
-                                        "Identified " + model.data.productType,
+                                        (model.data.productType == notAvailable)
+                                            ? 'Could Not Capture Barcode'
+                                            : ("Identified " + model.data.productType),
                                         style: TextStyle(
-                                            color: Colors.white,
+                                            color: Colors.black,
                                             fontSize: 22,
                                             fontWeight: FontWeight.bold),
                                       ),
@@ -58,8 +60,10 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                                       height: 60,
                                       child: SingleChildScrollView(
                                         child: Text(
-                                          model.data.searchKeyword,
-                                          style: TextStyle(color: Colors.white, fontSize: 26.0),
+                                          model.data.searchKeyword == notAvailable
+                                              ? 'Please Try Again...'
+                                              : model.data.searchKeyword,
+                                          style: TextStyle(color: standardGreen, fontSize: 26.0),
                                         ),
                                       ),
                                     ),
@@ -86,29 +90,29 @@ Future<bool> onBack(model) async {
 Widget _appBar(context, model) {
   return Platform.isIOS
       ? CupertinoNavigationBar(
-    actionsForegroundColor: Colors.white,
-    backgroundColor: standardGreen,
-    middle: Text(
-      'Price It!',
-      style: TextStyle(
-          fontFamily: 'Oswald',
-          color: Colors.white,
-          fontSize: 22.0,
-          fontWeight: FontWeight.w600),
-    ),
-  )
+          actionsForegroundColor: Colors.white,
+          backgroundColor: standardGreen,
+          middle: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        )
       : AppBar(
-    automaticallyImplyLeading: false,
-    backgroundColor: standardGreen,
-    title: Text(
-      'Price It!',
-      style: TextStyle(
-          fontFamily: 'Oswald',
-          color: Colors.white,
-          fontSize: 22.0,
-          fontWeight: FontWeight.w600),
-    ),
-  );
+          automaticallyImplyLeading: false,
+          backgroundColor: standardGreen,
+          title: Text(
+            'Price It!',
+            style: TextStyle(
+                fontFamily: 'Oswald',
+                color: Colors.white,
+                fontSize: 22.0,
+                fontWeight: FontWeight.w600),
+          ),
+        );
 }
 
 Widget searchButton(context, model) {

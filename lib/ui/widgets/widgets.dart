@@ -31,10 +31,11 @@ Widget listingSearchButton(context, model) {
 Widget searchByKeywordButton(context, model) {
   return MaterialButton(
     child: Text(
-      'Search By Keyword',
+      'Search By Keyword \n on eBay',
       style: TextStyle(fontFamily: 'Oswald', color: Colors.white, fontSize: 22.0, fontWeight: FontWeight.w600),
+      textAlign: TextAlign.center,
     ),
-    color: standardPurple,
+    color: standardGreen,
     onPressed: () => model.navigateToKeyword(),
     highlightElevation: 2,
     height: 100,
@@ -48,10 +49,11 @@ Widget searchByKeywordButton(context, model) {
 Widget searchByProductButton(context, model) {
   return MaterialButton(
     child: Text(
-      'Scan Product',
+      'Scan for Product \n on eBay',
       style: TextStyle(color: Colors.white, fontSize: 22.0, fontWeight: FontWeight.w600),
+      textAlign: TextAlign.center,
     ),
-    color: standardPurple,
+    color: standardGreen,
     onPressed: () => model.navigateToProduct(),
     highlightElevation: 2,
     height: 100,

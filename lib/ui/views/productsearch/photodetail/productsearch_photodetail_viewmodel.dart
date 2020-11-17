@@ -32,13 +32,16 @@ class ProductSearchPhotoDetailViewModel extends FutureViewModel<ImageResponse> {
   void resetSearchService() {
     searchService.setSearchKeyword(notAvailable);
     searchService.setProductType(notAvailable);
+    searchService.setSortOrder(bestMatchSelection);
   }
 
   void navigateBack() {
+    searchService.setSortOrder(bestMatchSelection);
     _navigationService.clearTillFirstAndShow(Routes.productSearchHomeView);
   }
 
   void navigateToActive() {
+    searchService.setSortOrder(bestMatchSelection);
     _navigationService.navigateTo(Routes.activeListingView);
   }
 
