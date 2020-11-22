@@ -116,7 +116,6 @@ ProductSearchHomeViewModelMock getProductSearchHomeViewModelMockDeniedPermission
 
   // stubbing
   when(model.checkCameraPermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.denied));
-  when(model.checkMicrophonePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.denied));
   when(model.checkStoragePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.denied));
 
   return model;
@@ -127,7 +126,6 @@ ProductSearchHomeViewModelMock getProductSearchHomeViewModelMockUndeterminedPerm
 
   // stubbing
   when(model.checkCameraPermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.undetermined));
-  when(model.checkMicrophonePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.undetermined));
   when(model.checkStoragePermissionStatus()).thenAnswer((_) => Future<PermissionStatus>.value(PermissionStatus.undetermined));
 
   return model;
