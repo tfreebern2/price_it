@@ -147,7 +147,7 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
       print(e);
     }
 
-    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.ultraHigh));
+    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.ultraHigh, enableAudio: false));
     await camera.cameraController.initialize();
     // check if you need to mount camera
     return camera;
