@@ -4,6 +4,8 @@
 <dict>
 	<key>NSCameraUsageDescription</key>
     <string>This allows us to use your camera which provides us the ability to scan barcodes from a photo you have taken.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This allows us to analyze a photo you have taken in the Scan Product feature for barcodes.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
