@@ -23,10 +23,8 @@ void main() {
       var model = getProductSearchHomeViewModelMockDeniedPermissions();
       model.initialise();
       var cameraPermission = await model.checkCameraPermissionStatus();
-      var microphonePermission = await model.checkMicrophonePermissionStatus();
       var storagePermission = await model.checkStoragePermissionStatus();
       expect(cameraPermission, PermissionStatus.denied);
-      expect(microphonePermission, PermissionStatus.denied);
       expect(storagePermission, PermissionStatus.denied);
     });
 

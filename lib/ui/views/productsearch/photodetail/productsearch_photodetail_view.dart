@@ -36,7 +36,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                             padding: const EdgeInsets.all(10.0),
                             child: Card(
                               elevation: 10,
-                              color: Colors.white,
+                              color: standardGreen,
                               child: Padding(
                                 padding: const EdgeInsets.all(16.0),
                                 child: Column(
@@ -51,7 +51,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                                             ? 'Could Not Capture Barcode'
                                             : ("Identified " + model.data.productType),
                                         style: TextStyle(
-                                            color: Colors.black,
+                                            color: Colors.white,
                                             fontSize: 22,
                                             fontWeight: FontWeight.bold),
                                       ),
@@ -63,7 +63,7 @@ class ProductSearchPhotoDetailView extends StatelessWidget {
                                           model.data.searchKeyword == notAvailable
                                               ? 'Please Try Again...'
                                               : model.data.searchKeyword,
-                                          style: TextStyle(color: standardGreen, fontSize: 26.0),
+                                          style: TextStyle(color: Colors.white, fontSize: 26.0),
                                         ),
                                       ),
                                     ),

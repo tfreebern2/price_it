@@ -23,7 +23,6 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
   String get region => _searchService.region;
 
   PermissionStatus cameraStatus;
-  PermissionStatus microphoneStatus;
   PermissionStatus storageStatus;
 
   void navigateToPhotoDetail() {
@@ -61,10 +60,6 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
     return await Permission.camera.status;
   }
 
-  Future checkMicrophonePermissionStatus() async {
-    return await Permission.microphone.status;
-  }
-
   Future checkStoragePermissionStatus() async {
     return await Permission.storage.status;
   }
@@ -72,10 +67,6 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
   Future requestPermissions() async {
     if (cameraStatus.isUndetermined) {
       await Permission.camera.request();
-    }
-
-    if (microphoneStatus.isUndetermined) {
-      await Permission.microphone.request();
     }
 
     if (storageStatus.isUndetermined) {
@@ -86,7 +77,7 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
   Future showIOSPermissionDialog() async {
     await _dialogService.showDialog(
         title: 'Insufficient Privileges',
-        description: 'In order to use the scan feature, please allow camera and microphone access.',
+        description: 'In order to use the scan feature, please allow camera access.',
         buttonTitle: 'Ok',
         dialogPlatform: Platform.isIOS ? DialogPlatform.Cupertino : DialogPlatform.Material);
   }
@@ -94,7 +85,7 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
   Future showAndroidPermissionDialog() async {
     await _dialogService.showDialog(
         title: 'Insufficient Privileges',
-        description: 'In order to use the scan feature, please allow camera, microphone and storage access.',
+        description: 'In order to use the scan feature, please allow camera and storage access.',
         buttonTitle: 'Ok',
         dialogPlatform: Platform.isIOS ? DialogPlatform.Cupertino : DialogPlatform.Material);
   }
@@ -115,19 +106,15 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
   @override
   Future<Camera> futureToRun() async {
     cameraStatus = await checkCameraPermissionStatus();
-    microphoneStatus = await checkMicrophonePermissionStatus();
     storageStatus = await checkStoragePermissionStatus();
 
     await requestPermissions();
 
     cameraStatus = await checkCameraPermissionStatus();
-    microphoneStatus = await checkMicrophonePermissionStatus();
     storageStatus = await checkStoragePermissionStatus();
 
     if (cameraStatus.isDenied ||
         cameraStatus.isPermanentlyDenied ||
-        microphoneStatus.isDenied ||
-        microphoneStatus.isPermanentlyDenied ||
         storageStatus.isDenied ||
         storageStatus.isPermanentlyDenied) {
       if (Platform.isIOS) {
@@ -147,7 +134,7 @@ class ProductSearchHomeViewModel extends FutureViewModel<Camera> {
       print(e);
     }
 
-    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.ultraHigh));
+    camera = new Camera.build(CameraController(cameras[0], ResolutionPreset.ultraHigh, enableAudio: false));
     await camera.cameraController.initialize();
     // check if you need to mount camera
     return camera;
