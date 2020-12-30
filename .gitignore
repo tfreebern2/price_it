@@ -48,3 +48,5 @@ assets/.env*
 android/key.properties
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
+
+codemagic.yaml
